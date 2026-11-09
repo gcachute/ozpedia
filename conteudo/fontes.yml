@@ -1,0 +1,29 @@
+# Fontes usadas nas páginas escritas à mão. Cada fonte tem um identificador, citado no texto como [@identificador].
+# As fontes dos dados do TSE de cada eleição (candidaturas e resultados) são montadas sozinhas pelo site.
+#
+# Campos: titulo, autor (órgão ou pessoa), url, data (da publicação, se houver), consultado (quando foi lida), nota.
+
+ibge-historico-osasco:
+  titulo: "Osasco, São Paulo: histórico e formação administrativa"
+  autor: "IBGE, Biblioteca"
+  url: "https://biblioteca.ibge.gov.br/visualizacao/dtb/saopaulo/osasco.pdf"
+  consultado: "2026-11-09"
+
+alesp-pl-262-2004:
+  titulo: "Projeto de Lei nº 262, de 2004, que dá denominação ao trevo que especifica (justificativa)"
+  autor: "Assembleia Legislativa do Estado de São Paulo; autor do projeto: deputado Waldir Agnello"
+  url: "https://www.al.sp.gov.br/spl/2004/04/Propositura/3827572_509631_propositura_Projetodelei_509631.doc"
+  data: "2004-04-20"
+  consultado: "2026-11-09"
+
+tse-partidos:
+  titulo: "Partidos políticos registrados no TSE; fusões, incorporações e mudanças de nomenclatura, sigla e número de legenda"
+  autor: "Tribunal Superior Eleitoral"
+  url: "https://www.tse.jus.br/partidos/partidos-registrados-no-tse"
+  consultado: "2026-11-09"
+
+cf-1988-art-29:
+  titulo: "Constituição da República Federativa do Brasil de 1988, art. 29, incisos I e III (mandato de quatro anos; posse em 1º de janeiro do ano seguinte ao da eleição)"
+  autor: "Presidência da República"
+  url: "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  consultado: "2026-11-09"

@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-texto), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-titulo), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* As mesmas cores do De Olho em OZ: verde da bandeira de Osasco (suavizado) para links e destaques,
+   azul-marinho do logo OZ para o texto. */
+@theme {
+  --color-tinta: #22304f;
+  --color-tinta-suave: #5f6876;
+  --color-fio: #dde2df;
+  --color-fundo-suave: #f4f6f5;
+  --color-cidade: #367d55;
+  --color-cidade-escura: #275c3e;
+  --color-cidade-clara: #eef5f0;
+  --radius-md: 0.25rem;
+}
+
+@layer base {
+  html {
+    color: var(--color-tinta);
+    background: #ffffff;
+  }
+  body {
+    overflow-wrap: break-word;
+  }
+  ::selection {
+    background: var(--color-cidade-clara);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-cidade);
+    outline-offset: 2px;
+  }
+}
+
+/* Títulos em Archivo estreita, como no De Olho em OZ. */
+.titulo {
+  font-family: var(--font-titulo), ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 80;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+/* Texto corrido das páginas. */
+.prosa {
+  line-height: 1.65;
+}
+.prosa p {
+  margin: 0 0 1em;
+}
+.prosa h2 {
+  font-family: var(--font-titulo), ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 80;
+  font-weight: 800;
+  font-size: 1.35rem;
+  margin: 1.6em 0 0.5em;
+  padding-top: 0.4em;
+  border-top: 1px solid var(--color-fio);
+}
+.prosa ul,
+.prosa ol {
+  margin: 0 0 1em 1.25em;
+}
+.prosa ul {
+  list-style: disc;
+}
+.prosa ol {
+  list-style: decimal;
+}
+.prosa li {
+  margin: 0.2em 0;
+}
+.prosa a,
+a.link {
+  color: var(--color-cidade);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.prosa a:hover,
+a.link:hover {
+  color: var(--color-cidade-escura);
+}
+.prosa blockquote {
+  border-left: 3px solid var(--color-fio);
+  padding-left: 1em;
+  color: var(--color-tinta-suave);
+}
+
+/* Chamada de fonte: [1], [2]... */
+sup.ref {
+  font-size: 0.72em;
+  line-height: 0;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+sup.ref a {
+  color: var(--color-cidade);
+  text-decoration: none;
+}
+sup.ref a:hover {
+  text-decoration: underline;
+}
+:target {
+  scroll-margin-top: 1rem;
+}
+li:target {
+  background: var(--color-cidade-clara);
+}
+
+/* Tabelas de dados. */
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.925rem;
+}
+.tabela th {
+  text-align: left;
+  font-weight: 700;
+  border-bottom: 2px solid var(--color-tinta);
+  padding: 0.35rem 0.5rem 0.35rem 0;
+  vertical-align: bottom;
+}
+.tabela td {
+  border-bottom: 1px solid var(--color-fio);
+  padding: 0.35rem 0.5rem 0.35rem 0;
+  vertical-align: top;
+}
+.tabela .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
