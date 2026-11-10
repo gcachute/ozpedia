@@ -1,6 +1,6 @@
 # OZpédia
 
-Arquivo, no estilo enciclopédia, da política de Osasco (SP) desde a emancipação (1962): pessoas, partidos, eleições, legislaturas, mandatos, leis e fatos, ligados entre si e com a fonte de cada informação. Vai morar em `deolhoemoz.com.br/arquivo`, como parte do De Olho em OZ.
+Arquivo, no estilo enciclopédia, da política de Osasco (SP) desde a emancipação (1962): pessoas, partidos, eleições, legislaturas, mandatos, leis e fatos, ligados entre si e com a fonte de cada informação. Projeto independente; o endereço próprio do site ainda vai ser definido.
 
 ## Rodar na máquina
 

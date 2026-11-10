@@ -45,9 +45,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
         <footer className="mt-12 border-t border-fio">
           <div className="mx-auto flex max-w-6xl flex-wrap gap-x-6 gap-y-2 px-4 py-6 text-sm text-tinta-suave">
-            <span>
-              Parte do <a className="link" href="https://deolhoemoz.com.br/">De Olho em OZ</a>
-            </span>
             <Link href="/sobre/" className="link">
               Como o arquivo é feito
             </Link>
