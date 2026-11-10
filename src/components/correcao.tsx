@@ -1,19 +1,16 @@
 "use client";
-// "Sugerir uma correção": janela com o pedido, enviado para o mesmo serviço do De Olho em OZ (deolhoemoz.com.br/api/correcao,
-// a função functions/api/correcao.js do repositório avalia-osasco), que registra o pedido na lista pública do projeto.
-// O endereço é absoluto (sem o prefixo /arquivo) porque a OZpédia mora dentro do mesmo domínio.
-// Na máquina, sem esse serviço, o envio falha e a janela oferece a lista pública de pedidos.
+// "Sugerir uma correção": janela com o pedido. Ao enviar, abre em outra aba a lista pública de pedidos da OZpédia
+// (issues do repositório gcachute/ozpedia), com o título e o texto já preenchidos; quem envia faz um cadastro gratuito lá.
+// A OZpédia é separada do De Olho em OZ desde 10/11/2026 e não tem serviço próprio de envio.
 // Os textos da janela não usam termos de programação.
 import { useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
-const ENVIO = "/api/correcao";
-const LISTA_PUBLICA = "https://github.com/gcachute/avalia-osasco/issues/new";
-type Estado = { tipo: "editando" } | { tipo: "enviando" } | { tipo: "ok"; numero: number; url: string } | { tipo: "erro"; mensagem: string };
+const LISTA_PUBLICA = "https://github.com/gcachute/ozpedia/issues/new";
+type Estado = { tipo: "editando" } | { tipo: "aberto"; url: string };
 
 export function SugerirCorrecao({ pagina }: { pagina: string }) {
   const janela = useRef<HTMLDialogElement>(null);
-  const aberto = useRef(0);
   const origem = useRef("");
   const [estado, setEstado] = useState<Estado>({ tipo: "editando" });
   const [campos, setCampos] = useState({ titulo: "", descricao: "", fonte: "" });
@@ -24,7 +21,6 @@ export function SugerirCorrecao({ pagina }: { pagina: string }) {
   const nomePagina = `OZpédia: ${pagina}`.slice(0, 300);
 
   const abrir = () => {
-    aberto.current = Date.now();
     origem.current = window.location.href.split("#")[0];
     if (estado.tipo !== "editando") setEstado({ tipo: "editando" });
     janela.current?.showModal();
@@ -32,37 +28,16 @@ export function SugerirCorrecao({ pagina }: { pagina: string }) {
 
   const linkLista = () =>
     `${LISTA_PUBLICA}?${new URLSearchParams({
-      title: `[OZpédia] ${campos.titulo}`,
+      title: campos.titulo.slice(0, 120),
       body: [`**Página:** ${nomePagina}`, `**Onde conferir:** ${campos.fonte || "não informado"}`, `**Enviado de:** ${origem.current}`, "", campos.descricao].join("\n"),
       labels: "correção",
     })}`;
 
-  const enviar = async (e: React.FormEvent<HTMLFormElement>) => {
+  const enviar = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setEstado({ tipo: "enviando" });
-    try {
-      const site = (e.currentTarget.elements.namedItem("site") as HTMLInputElement | null)?.value ?? "";
-      const r = await fetch(ENVIO, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          titulo: `[OZpédia] ${campos.titulo}`.slice(0, 120),
-          descricao: campos.descricao,
-          fonte: campos.fonte,
-          pagina: nomePagina,
-          origem: origem.current.slice(0, 300),
-          site,
-          aberto: aberto.current,
-        }),
-      });
-      const d = await r.json().catch(() => ({}));
-      if (r.ok && d.url) {
-        setEstado({ tipo: "ok", numero: d.numero, url: d.url });
-        setCampos({ titulo: "", descricao: "", fonte: "" });
-      } else setEstado({ tipo: "erro", mensagem: d.erro ?? "Não foi possível enviar agora." });
-    } catch {
-      setEstado({ tipo: "erro", mensagem: "Não foi possível enviar agora. Confira sua internet e tente de novo." });
-    }
+    const url = linkLista();
+    window.open(url, "_blank", "noopener");
+    setEstado({ tipo: "aberto", url });
   };
 
   const rotulo = "block text-sm font-bold";
@@ -95,17 +70,18 @@ export function SugerirCorrecao({ pagina }: { pagina: string }) {
               </div>
               <p className="mt-1 text-sm text-tinta-suave">Página: {pagina}</p>
 
-              {estado.tipo === "ok" ? (
+              {estado.tipo === "aberto" ? (
                 <div className="mt-4 space-y-4">
                   <p className="bg-cidade-clara p-4">
-                    Pedido nº {estado.numero} registrado. Obrigado! Toda sugestão é conferida na fonte antes de entrar no arquivo.
+                    A lista pública de pedidos da OZpédia abriu em outra aba, com o que você escreveu já preenchido. Para registrar o pedido, confirme
+                    o envio lá (pede um cadastro gratuito). Toda sugestão é conferida na fonte antes de entrar no arquivo.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <a href={estado.url} target="_blank" rel="noreferrer" className={`${botao} bg-tinta text-white`}>
-                      Acompanhar o pedido
+                      Abrir a lista de novo
                     </a>
                     <button type="button" onClick={() => setEstado({ tipo: "editando" })} className={`${botao} border border-tinta-suave`}>
-                      Enviar outro
+                      Voltar ao pedido
                     </button>
                   </div>
                 </div>
@@ -132,23 +108,16 @@ export function SugerirCorrecao({ pagina }: { pagina: string }) {
                     Fonte para conferir <span className="font-normal text-tinta-suave">(documento, lei, jornal ou endereço do site oficial)</span>
                     <input maxLength={500} value={campos.fonte} onChange={muda("fonte")} className={caixa} />
                   </label>
-                  {/* Campo que pessoas não veem e robôs preenchem. */}
-                  <input type="text" name="site" tabIndex={-1} autoComplete="off" aria-hidden className="absolute -left-[9999px] h-px w-px opacity-0" />
-                  {estado.tipo === "erro" && (
-                    <p className="bg-fundo-suave p-3 text-sm" role="alert">
-                      {estado.mensagem} Se preferir,{" "}
-                      <a href={linkLista()} target="_blank" rel="noreferrer" className="link font-bold">
-                        envie pela lista pública de pedidos
-                      </a>{" "}
-                      (pede um cadastro gratuito; o que você escreveu já vai junto).
-                    </p>
-                  )}
+                  <p className="text-sm text-tinta-suave">
+                    O pedido é registrado na lista pública de pedidos da OZpédia, que abre em outra aba com o texto já preenchido (pede um cadastro
+                    gratuito). O que você escrever fica visível para todos.
+                  </p>
                   <div className="flex flex-wrap items-center justify-end gap-2">
                     <button type="button" onClick={() => janela.current?.close()} className={`${botao} border border-tinta-suave`}>
                       Cancelar
                     </button>
-                    <button type="submit" disabled={estado.tipo === "enviando"} className={`${botao} bg-tinta text-white disabled:opacity-60`}>
-                      {estado.tipo === "enviando" ? "Enviando…" : "Enviar sugestão"}
+                    <button type="submit" className={`${botao} bg-tinta text-white`}>
+                      Continuar na lista de pedidos
                     </button>
                   </div>
                 </form>
