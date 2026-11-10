@@ -27,3 +27,2119 @@ cf-1988-art-29:
   autor: "Presidência da República"
   url: "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   consultado: "2026-11-09"
+
+iomo-2947:
+  titulo: "Imprensa Oficial do Município de Osasco, ano XXVII, nº 2947 (Lei nº 5.448, de 7 de janeiro de 2026)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2026/01/iomo-2947.pdf"
+  data: "2026-01-07"
+  consultado: "2026-11-09"
+
+# Câmara dos Deputados: biografias oficiais (consultadas em 09/11/2026)
+camara-dep-francisco-rossi:
+  titulo: "Biografia do deputado federal Francisco Rossi"
+  autor: "Câmara dos Deputados"
+  url: "https://www.camara.leg.br/deputados/139212/biografia"
+  consultado: "2026-11-09"
+camara-dep-guacu-piteri:
+  titulo: "Biografia do deputado federal Guaçu Piteri"
+  autor: "Câmara dos Deputados"
+  url: "https://www.camara.leg.br/deputados/131509/biografia"
+  consultado: "2026-11-09"
+camara-dep-humberto-parro:
+  titulo: "Biografia do deputado federal Humberto Parro"
+  autor: "Câmara dos Deputados"
+  url: "https://www.camara.leg.br/deputados/73974/biografia"
+  consultado: "2026-11-09"
+camara-dep-celso-giglio:
+  titulo: "Biografia do deputado federal Celso Giglio"
+  autor: "Câmara dos Deputados"
+  url: "https://www.camara.leg.br/deputados/74703/biografia"
+  consultado: "2026-11-09"
+camara-dep-joao-paulo-cunha:
+  titulo: "Biografia do deputado federal João Paulo Cunha"
+  autor: "Câmara dos Deputados"
+  url: "https://www.camara.leg.br/deputados/73534/biografia"
+  consultado: "2026-11-09"
+
+# Imprensa
+exame-2016-12-29-fux-lins:
+  titulo: "Fux mantém prefeito eleito de Osasco na cadeia por 900 crimes"
+  autor: "Estadão Conteúdo, publicado em Exame"
+  url: "https://exame.com/brasil/fux-mantem-prefeito-eleito-de-osasco-na-cadeia-por-900-crimes/"
+  data: "2016-12-29"
+  consultado: "2026-11-09"
+abr-2017-01-01-posse-lins:
+  titulo: "Após deixar penitenciária, prefeito eleito toma posse em Osasco"
+  autor: "Agência Brasil (Fernanda Cruz)"
+  url: "https://agenciabrasil.ebc.com.br/politica/noticia/2017-01/apos-deixar-penitenciaria-prefeito-eleito-toma-posse-em-osasco"
+  data: "2017-01-01"
+  consultado: "2026-11-09"
+cfoco-2016-12-26-lins-se-entrega:
+  titulo: "Considerado foragido da Justiça, prefeito eleito de Osasco se entrega à PF"
+  autor: "Congresso em Foco"
+  url: "https://congressoemfoco.com.br/noticia/51922/considerado-foragido-da-justica-prefeito-eleito-de-osasco-se-entrega-a-pf"
+  data: "2016-12-26"
+  consultado: "2026-11-09"
+visaooeste-2026-05-lins-absolvido:
+  titulo: "Justiça inocenta Rogério Lins em processo da operação Caça Fantasmas"
+  autor: "Portal Visão Oeste (Jenifer Oliveira)"
+  url: "https://visaooeste.com.br/justica-inocenta-rogerio-lins-em-processo-da-operacao-caca-fantasmas/"
+  nota: "Página atualizada em 29/05/2026; não informa a data da sentença."
+  consultado: "2026-11-09"
+cfoco-2012-10-07-nulos-osasco:
+  titulo: "Cidade de João Paulo Cunha, Osasco tem 42% de votos nulos"
+  autor: "Congresso em Foco (Mario Coelho)"
+  url: "https://www.congressoemfoco.com.br/noticia/59586/cidade-de-joao-paulo-cunha-osasco-tem-42-de-votos-nulos"
+  data: "2012-10-07"
+  consultado: "2026-11-09"
+cfoco-2012-10-27-lapas-prefeito:
+  titulo: "Jorge Lapas é decretado prefeito de Osasco"
+  autor: "Congresso em Foco"
+  url: "https://www.congressoemfoco.com.br/noticia/89130/jorge-lapas-e-decretado-prefeito-de-osasco"
+  data: "2012-10-27"
+  consultado: "2026-11-09"
+mm-2016-08-09-bloqueio-emidio:
+  titulo: "Justiça bloqueia bens de ex-prefeito e de dois ex-secretários do PT em Osasco"
+  autor: "Monitor Mercantil, com informações da Agência Brasil"
+  url: "https://monitormercantil.com.br/justica-bloqueia-bens-de-ex-prefeito-e-de-dois-ex-secretario-do-pt-em-osasco/"
+  data: "2016-08-09"
+  consultado: "2026-11-09"
+
+# Prefeitura de Osasco: Galeria de Prefeitos (consultada em 09/11/2026). Usada só para datas de mandato, vices,
+# formação e cargos; os adjetivos e avaliações das páginas não entram no texto.
+prefeitura-galeria:
+  titulo: "Galeria de Prefeitos"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/"
+  consultado: "2026-11-09"
+prefeitura-galeria-gerson-pessoa:
+  titulo: "Galeria de Prefeitos: Gerson Pessoa"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/gerson-pessoa/"
+  consultado: "2026-11-09"
+prefeitura-galeria-rogerio-lins:
+  titulo: "Galeria de Prefeitos: Rogério Lins"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/rogerio-lins/"
+  consultado: "2026-11-09"
+prefeitura-galeria-jorge-lapas:
+  titulo: "Galeria de Prefeitos: Jorge Lapas"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/jorge-lapas/"
+  consultado: "2026-11-09"
+prefeitura-galeria-emidio-de-souza:
+  titulo: "Galeria de Prefeitos: Emídio de Souza"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/emidio-de-souza/"
+  consultado: "2026-11-09"
+prefeitura-galeria-celso-giglio:
+  titulo: "Galeria de Prefeitos: Celso Gíglio"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/celso-giglio/"
+  consultado: "2026-11-09"
+prefeitura-galeria-silas-bortolosso:
+  titulo: "Galeria de Prefeitos: Silas Bortolosso"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/silas-bortolosso/"
+  consultado: "2026-11-09"
+prefeitura-galeria-francisco-rossi:
+  titulo: "Galeria de Prefeitos: Francisco Rossi"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/francisco-rossi-2/"
+  consultado: "2026-11-09"
+prefeitura-galeria-humberto-parro:
+  titulo: "Galeria de Prefeitos: Humberto Parro"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/humberto-parro/"
+  consultado: "2026-11-09"
+prefeitura-galeria-primo-broseghini:
+  titulo: "Galeria de Prefeitos: Primo Broseghini"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/primo-broseghini/"
+  consultado: "2026-11-09"
+prefeitura-galeria-guacu-piteri:
+  titulo: "Galeria de Prefeitos: Guaçu Piteri"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/guacu-piteri/"
+  consultado: "2026-11-09"
+prefeitura-galeria-jose-liberatti:
+  titulo: "Galeria de Prefeitos: José Liberatti"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/jose-liberatti/"
+  consultado: "2026-11-09"
+prefeitura-galeria-marino-pedro-nicoletti:
+  titulo: "Galeria de Prefeitos: Marino Pedro Nicoletti"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/marino-pedro-nicoletti/"
+  consultado: "2026-11-09"
+prefeitura-galeria-hirant-sanazar:
+  titulo: "Galeria de Prefeitos: Hirant Sanazar"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/galeria-de-prefeitos/hirant-sanazar/"
+  consultado: "2026-11-09"
+
+camara-dep-valmir-prascidelli:
+  titulo: "Biografia do deputado federal Valmir Prascidelli"
+  autor: "Câmara dos Deputados"
+  url: "https://www.camara.leg.br/deputados/113247/biografia"
+  consultado: "2026-11-09"
+
+metropoles-2024-09-02-candidatos-osasco:
+  titulo: "Eleições em SP: quem são os candidatos à Prefeitura de Osasco"
+  autor: "Metrópoles (Pedro Trajano)"
+  url: "https://www.metropoles.com/sao-paulo/eleicoes-em-sp-quem-sao-os-candidatos-a-prefeitura-de-osasco"
+  data: "2024-09-02"
+  consultado: "2026-11-09"
+agemt-2024-09-13-candidatos-osasco:
+  titulo: "Conheça os candidatos a prefeito de Osasco (SP)"
+  autor: "Agência AGEMT, Jornalismo PUC-SP (Artur Maciel)"
+  url: "https://agemt.pucsp.br/noticias/conheca-os-candidatos-prefeito-de-osasco-sp"
+  data: "2024-09-13"
+  consultado: "2026-11-09"
+visaooeste-2026-04-17-lau-alencar:
+  titulo: "Kassab lança Lau Alencar, vice-prefeito de Osasco, como pré-candidato a deputado federal"
+  autor: "Visão Oeste"
+  url: "https://visaooeste.com.br/kassab-lanca-lau-alencar-vice-prefeito-de-osasco-como-pre-candidato-a-deputado-federal/"
+  data: "2026-04-17"
+  consultado: "2026-11-09"
+ohoje-2024-09-09-ana-paula-rossi:
+  titulo: "Morre a vereadora Ana Paula Rossi, presidente do PL em Osasco"
+  autor: "O Hoje (Leticia Marielle)"
+  url: "https://ohoje.com/2024/09/09/morre-a-vereadora-ana-paula-rossi-presidente-do-pl-em-osasco/"
+  data: "2024-09-09"
+  consultado: "2026-11-09"
+metropoles-2024-10-15-stephane-rossi:
+  titulo: "Vereadora eleita em Osasco substitui a mãe que morreu de câncer"
+  autor: "Metrópoles"
+  url: "https://www.metropoles.com/sao-paulo/vereadora-substitui-mae"
+  data: "2024-10-15"
+  consultado: "2026-11-09"
+jornalarua-2019-04-05-silas-psdb:
+  titulo: "PSDB de Osasco terá Silas Bortolosso como presidente"
+  autor: "Jornal ARua"
+  url: "https://jornalarua.com/2019/04/05/psdb-de-osasco-tera-silas-bortolosso-como-presidente/"
+  data: "2019-04-05"
+  consultado: "2026-11-09"
+alesp-2000-05-04-cpi-precatorios:
+  titulo: "CPI dos Precatórios, 8ª reunião (14ª Legislatura): depoimento do prefeito de Osasco"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://al.sp.gov.br/geral/comissoes/ata.jsp?comissao=99997&idAta=1229&legislatura=14"
+  data: "2000-05-04"
+  consultado: "2026-11-09"
+
+sbt-2026-04-02-tre-psol-rede-osasco:
+  titulo: "TRE-SP anula votos do PSOL-Rede em Osasco por fraude à cota de gênero"
+  autor: "SBT News"
+  url: "https://sbtnews.sbt.com.br/noticia/politica/tre-sp-anula-votos-do-psol-rede-em-osasco-por-fraude-a-cota-de-genero"
+  data: "2026-04-02"
+  consultado: "2026-11-09"
+
+cmanha-2026-05-11-novos-vereadores-osasco:
+  titulo: "Novos vereadores assumem as cadeiras na Câmara de Osasco"
+  autor: "Correio da Manhã (Redação)"
+  url: "https://www.correiodamanha.com.br/nacional/sao-paulo/grande-sao-paulo/2026/05/284491-novos-vereadores-assumem-as-cadeiras-na-camara-de-osasco.html"
+  data: "2026-05-11"
+  consultado: "2026-11-09"
+
+conjur-2022-09-21-josias-absolvido:
+  titulo: "Por falta de provas, juíza absolve vereador de Osasco e assessores"
+  autor: "Consultor Jurídico (ConJur)"
+  url: "https://www.conjur.com.br/2022-set-21/falta-provas-juiza-absolve-vereador-osasco-assessores2/"
+  data: "2022-09-21"
+  consultado: "2026-11-09"
+
+diario-regiao-prefeitos:
+  titulo: "Em 50 anos, Osasco teve oito prefeitos – Conheça o perfil de cada um deles!"
+  autor: "Diário da Região (Osasco), texto reproduzido no blog RC TV Interativa, de Roberto Carlos"
+  url: "https://web.archive.org/web/20170404043029/https://robertocarlosc.wordpress.com/2013/02/07/em-47-anos-osasco-teve-oito-prefeitos/"
+  data: "2013-02-07"
+  nota: "Publicado no blog em 07/02/2013, com a indicação 'Fonte: Diário da Região'; o texto sobre Emídio de Souza é do início de 2009. Resumo das obras de cada prefeito; os adjetivos e avaliações do texto não foram usados. Cópia arquivada no Internet Archive."
+  consultado: "2026-11-09"
+
+dhbb-guacu-piteri:
+  titulo: "Antônio Guaçu Dinaer Piteri (verbete biográfico)"
+  autor: "Fundação Getulio Vargas, CPDOC, Dicionário Histórico-Biográfico Brasileiro"
+  url: "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/antonio-guacu-dinaer-piteri"
+  consultado: "2026-11-09"
+
+lei-sp-14213-2010:
+  titulo: "Lei nº 14.213, de 3 de setembro de 2010: dá a denominação de Prefeito Hirant Sanazar à Faculdade de Tecnologia de Osasco"
+  autor: "Assembleia Legislativa do Estado de São Paulo; projeto do deputado Celso Giglio"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/2010/lei-14213-03.09.2010.html"
+  data: "2010-09-03"
+  consultado: "2026-11-09"
+
+decreto-sp-54729-2009:
+  titulo: "Decreto nº 54.729, de 1º de setembro de 2009: cria a Faculdade de Tecnologia de Osasco"
+  autor: "Governo do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2009/decreto-54729-01.09.2009.html"
+  data: "2009-09-01"
+  consultado: "2026-11-09"
+
+mural-2024-10-02-gestao-lins:
+  titulo: "Em Osasco, gestão Rogério Lins teve avanço em empregos, mas projetos inacabados"
+  autor: "Agência Mural de Jornalismo das Periferias (Ariane Costa Gomes, Kaliny Santos e Paulo Talarico)"
+  url: "https://agenciamural.org.br/em-osasco-gestao-rogerio-lins-teve-avanco-em-empregos-mas-projetos-inacabados/"
+  data: "2024-10-02"
+  consultado: "2026-11-09"
+
+prefeitura-2026-02-19-balanco-2025:
+  titulo: "Osasco apresenta balanço 2025 com avanços em todas as áreas"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/osasco-apresenta-balanco-2025-com-avancos-em-todas-as-areas/"
+  data: "2026-02-19"
+  nota: "Balanço divulgado pela própria Prefeitura; os números são os informados por ela."
+  consultado: "2026-11-09"
+
+paginazero-2026-04-10-hospital-crianca:
+  titulo: "Osasco inaugura primeira fase de funcionamento do Hospital da Criança e da Mulher"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2026/04/10/osasco-inaugura-primeira-fase-de-funcionamento-do-hospital-da-crianca-e-da-mulher/"
+  data: "2026-04-10"
+  consultado: "2026-11-09"
+
+prefeitura-2026-08-transversal-norte:
+  titulo: "Prefeitura de Osasco entrega último trecho da Avenida Transversal Norte"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/prefeitura-de-osasco-entrega-ultimo-trecho-da-avenida-transversal-norte/"
+  consultado: "2026-11-09"
+
+dhbb-francisco-rossi:
+  titulo: "Francisco Rossi de Almeida (verbete biográfico)"
+  autor: "Fundação Getulio Vargas, CPDOC, Dicionário Histórico-Biográfico Brasileiro"
+  url: "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/francisco-rossi-de-almeida"
+  consultado: "2026-11-09"
+
+dhbb-joao-paulo-cunha:
+  titulo: "João Paulo Cunha (verbete biográfico)"
+  autor: "Fundação Getulio Vargas, CPDOC, Dicionário Histórico-Biográfico Brasileiro"
+  url: "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/joao-paulo-cunha"
+  consultado: "2026-11-09"
+
+istoe-2010-08-24-rossi-ficha-limpa:
+  titulo: "TRE de SP barra candidatura de Francisco Rossi"
+  autor: "IstoÉ Dinheiro"
+  url: "https://istoedinheiro.com.br/tre-de-sp-barra-candidatura-de-francisco-rossi"
+  data: "2010-08-24"
+  consultado: "2026-11-09"
+
+prefeitura-2022-07-18-creche-guacu-piteri:
+  titulo: "Prefeito de Osasco entrega a maior creche do País"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/prefeito-de-osasco-entrega-a-maior-creche-do-pais/"
+  data: "2022-07-18"
+  consultado: "2026-11-09"
+
+mural-2019-04-29-contas-prefeitos:
+  titulo: "Em 12 anos, Osasco teve 11 pedidos de rejeição de contas de ex-prefeitos pelo Tribunal de Contas"
+  autor: "Agência Mural de Jornalismo das Periferias"
+  url: "https://agenciamural.org.br/em-12-anos-osasco-teve-11-pedidos-de-rejeicao-de-contas-de-ex-prefeitos-pelo-tribunal-de-contas/"
+  data: "2019-04-29"
+  consultado: "2026-11-09"
+
+fpa-2024-04-09-emidio:
+  titulo: "Entrevista: Emídio de Souza fala sobre os desafios de Osasco nas eleições 2024"
+  autor: "Fundação Perseu Abramo (ligada ao PT), revista Focus Brasil"
+  url: "https://fpabramo.org.br/focusbrasil/2024/04/09/entrevista-emidio-de-souza-fala-sobre-os-desafios-de-osasco-nas-eleicoes-2024/"
+  data: "2024-04-09"
+  nota: "Entrevista publicada pela fundação do partido do entrevistado; os números são os informados por ela ou por ele."
+  consultado: "2026-11-09"
+
+cpaulista-2020-02-13-emidio:
+  titulo: "Especial Osasco 58 anos: Emidio de Souza (2005-2008 | 2009-2012)"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/especial-osasco-58-anos-emidio-de-souza-2005-2008-2009-2012/"
+  data: "2020-02-13"
+  nota: "Texto em primeira pessoa, com o depoimento do ex-prefeito."
+  consultado: "2026-11-09"
+
+jdro-2026-10-16-comissionados:
+  titulo: "Gerson Pessoa não poupou esforços jurídicos para evitar exoneração de cerca de 400 servidores em Osasco"
+  autor: "Jornal Digital da Região Oeste"
+  url: "https://jornaldigitaldaregiaooeste.com.br/gerson-pessoa-nao-poupou-esforcos-juridicos-para-evitar-exoneracao-de-cerca-de-400-servidores-em-osasco/"
+  data: "2026-10-16"
+  consultado: "2026-11-09"
+
+visaooeste-2014-07-11-ubs-remedios:
+  titulo: "Prefeitura inaugura UBS na Vila dos Remédios"
+  autor: "Portal Visão Oeste (Carol Nogueira)"
+  url: "https://visaooeste.com.br/prefeitura-inaugura-ubs-na-vila-dos-remedios/"
+  data: "2014-07-11"
+  consultado: "2026-11-09"
+
+visaooeste-2014-11-07-lapas-sabesp:
+  titulo: "Lapas faz cobranças à presidente da Sabesp"
+  autor: "Portal Visão Oeste"
+  url: "http://www.visaooeste.com.br/lapas-faz-cobrancas-a-presidente-da-sabesp/"
+  data: "2014-11-07"
+  consultado: "2026-11-09"
+
+osascofacil-2015-08-05-upa-conceicao:
+  titulo: "UPA do Jardim Conceição 24h será inaugurada neste sábado (8)"
+  autor: "Osasco Fácil"
+  url: "https://www.osascofacil.com.br/noticias/upa-do-jardim-conceicao-24h-sera-inaugurada-neste-sabado-8-1840"
+  data: "2015-08-05"
+  consultado: "2026-11-09"
+
+visaooeste-2015-08-10-upa-conceicao:
+  titulo: "UPA 24h é inaugurada com festa no Jardim Conceição"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/upa-24h-e-inaugurada-com-festa-no-jardim-conceicao/"
+  data: "2015-08-10"
+  consultado: "2026-11-09"
+
+fuabc-2016-06-10-upa-centro:
+  titulo: "UPA Centro será inaugurada em Osasco"
+  autor: "Fundação do ABC"
+  url: "https://fuabc.org.br/noticias/upa-centro-sera-inaugurada-em-osasco/"
+  data: "2016-06-10"
+  consultado: "2026-11-09"
+
+fuabc-2016-06-17-upa-centro:
+  titulo: "UPA Centro é inaugurada em Osasco"
+  autor: "Fundação do ABC"
+  url: "https://fuabc.org.br/noticias/upa-centro-e-inaugurada-em-osasco/"
+  data: "2016-06-17"
+  consultado: "2026-11-09"
+
+exame-2014-05-22-greve-onibus:
+  titulo: "65% da população de Osasco está sem ônibus, diz prefeito"
+  autor: "Exame"
+  url: "https://exame.com/brasil/65-da-populacao-de-osasco-esta-sem-onibus-diz-prefeito/"
+  data: "2014-05-22"
+  consultado: "2026-11-09"
+
+dt-2016-12-28-tarifa-osasco:
+  titulo: "Tarifa de ônibus de Osasco aumenta para R$ 4,20 nesta sexta-feira"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2016/12/28/tarifa-de-onibus-de-osasco-aumenta-para-r-420-nesta-sexta-feira/"
+  data: "2016-12-28"
+  consultado: "2026-11-09"
+
+dt-2017-07-21-tarifa-justica:
+  titulo: "Justiça determina a redução da tarifa de ônibus em Osasco"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2017/07/21/justica-determina-a-reducao-da-tarifa-de-onibus-em-osasco/"
+  data: "2017-07-21"
+  consultado: "2026-11-09"
+
+dt-2017-08-17-tj-tarifa:
+  titulo: "TJ revoga decisão que determinava redução de tarifa em Osasco"
+  autor: "Diário do Transporte"
+  url: "https://diariodotransporte.com.br/2017/08/17/tj-revoga-decisao-que-determinava-reducao-de-tarifa-em-osasco/"
+  data: "2017-08-17"
+  consultado: "2026-11-09"
+
+iomo-1142:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 1142 (Leis nº 4.689 e 4.690 e Leis Complementares nº 291 a 293, de 21 de maio de 2015)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2015/05/httposasco.sp_.gov_.brcompsec1atosEd1142.pdf"
+  data: "2015-05-22"
+  consultado: "2026-11-09"
+
+iomo-1225:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 1225 (extrato do Contrato nº 011/2016, da Secretaria de Educação)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2016/03/httposasco.sp_.gov_.brcompsec1atosEd1225.pdf"
+  data: "2016-03-18"
+  consultado: "2026-11-09"
+
+iomo-1308:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 1308 (Decretos nº 11.416 e 11.420, de dezembro de 2016)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1308.pdf"
+  data: "2016-12-27"
+  consultado: "2026-11-09"
+
+mural-2020-11-05-paco:
+  titulo: "Nova prefeitura de Osasco, prevista há dez anos, tem obra cancelada"
+  autor: "Agência Mural de Jornalismo das Periferias (Ariane Costa Gomes)"
+  url: "https://agenciamural.org.br/nova-prefeitura-de-osasco-cancelada/"
+  data: "2020-11-05"
+  consultado: "2026-11-09"
+
+jus-2016-10-04-eleicoes-osasco:
+  titulo: "Eleições 2016 em Osasco-SP: resultado e análise"
+  autor: "Fábio de Oliveira Ribeiro, advogado, no Jus.com.br"
+  url: "https://jus.com.br/artigos/52564/eleicoes-2016-em-osasco-sp-resultado-e-analise"
+  data: "2016-10-04"
+  nota: "Artigo de opinião; usado só para os fatos e para a análise atribuída ao autor."
+  consultado: "2026-11-09"
+
+sehdu-2015-11-politica-habitacional:
+  titulo: "Dez anos da Política Habitacional: avanços, potencialidades e a continuação de uma política (apresentação)"
+  autor: "Prefeitura de Osasco, Secretaria de Habitação e Desenvolvimento Urbano (publicada pelo CEDEPE da PUC-SP)"
+  url: "https://www5.pucsp.br/cedepe/download/apresentacoes/sandra-simoes.pdf"
+  data: "2015-11"
+  nota: "Balanço apresentado pela própria Prefeitura, cobrindo 2005 a 2015; os números são os informados por ela."
+  consultado: "2026-11-09"
+
+osascoagora-2008-09-10-habitacao:
+  titulo: "Osasco: projetos habitacionais transformam favelas em bairros"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/osasco-projetos-habitacionais-transformam-favelas-em-bairros/"
+  data: "2008-09-10"
+  consultado: "2026-11-09"
+
+osascoagora-2010-08-31-vicentina:
+  titulo: "Em Osasco, 122 famílias começam a deixar barracos para obras da 2ª etapa de urbanização da Vila Vicentina"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/em-osasco-122-familias-comecam-a-deixar-barracos-para-obras-da-2%C2%AA-etapa-de-urbanizacao-da-vila-vicentina/"
+  data: "2010-08-31"
+  consultado: "2026-11-09"
+
+osascoagora-2008-07-02-joao-goulart:
+  titulo: "Avenida Presidente João Goulart projeta Osasco para o futuro"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/avenida-presidente-joao-goulart-projeta-osasco-para-o-futuro/"
+  data: "2008-07-02"
+  consultado: "2026-11-09"
+
+osascoagora-2009-11-12-visconde:
+  titulo: "Prefeitura de Osasco entrega primeira fase de duplicação da avenida Visconde de Nova Granada"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/prefeitura-de-osasco-entrega-primeira-fase-de-duplicacao-da-avenida-visconde-de-nova-granada/"
+  data: "2009-11-12"
+  consultado: "2026-11-09"
+
+girosa-2016-09-22-visconde:
+  titulo: "Prefeitura de Osasco entregará a duplicação da Av. Visconde de Nova Granada"
+  autor: "Giro S/A"
+  url: "https://girosa.com.br/prefeitura-de-osasco-entregara-a-duplicacao-da-av-visconde-de-nova-granada/"
+  data: "2016-09-22"
+  consultado: "2026-11-09"
+
+tudoemum-2010-03-03-ceu-zilda-arns:
+  titulo: "Osasco inaugura seu primeiro CEU"
+  autor: "Tudo em Um"
+  url: "https://www.tudoemum.com.br/osasco/osasco-inaugura-seu-primeiro-ceu/"
+  data: "2010-03-03"
+  consultado: "2026-11-09"
+
+osascoagora-2011-07-26-ceu-saramago:
+  titulo: "Prefeitura de Osasco inaugura CEU do Jardim Santo Antônio"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/prefeito-emidio-inaugura-novo-ceu-no-jardim-santo-antonio/"
+  data: "2011-07-26"
+  consultado: "2026-11-09"
+
+osascoagora-2012-12-19-upa-menck:
+  titulo: "Inauguração da UPA da Vila Menck acontece nessa sexta feira com a presença do Prefeito Emídio e do Ministro Alexandre Padilha"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/inauguracao-da-upa-da-vila-menck-acontece-nessa-sexta-feira-com-a-presenca-do-prefeito-emidio-e-do-ministro-alexandre-padilha/"
+  data: "2012-12-19"
+  consultado: "2026-11-09"
+
+incor-2005-relatorio:
+  titulo: "Relatório anual do Instituto do Coração (InCor) de 2005"
+  autor: "Instituto do Coração do Hospital das Clínicas da FMUSP"
+  url: "http://www.incor.usp.br/sites/incor2013/docs/relatorios_pngs/Relatorio-PNGS-2005.pdf"
+  data: "2005"
+  consultado: "2026-11-09"
+
+webdiario-2023-09-21-viaduto:
+  titulo: "Viaduto Metálico construído por Rossi terminou de ser pago por Lins"
+  autor: "Webdiário"
+  url: "https://webdiario.com.br/noticias/viaduto-metalico-construido-por-rossi-terminou-de-ser-pago-por-lins/"
+  data: "2023-09-21"
+  consultado: "2026-11-09"
+
+cpaulista-2026-03-27-zuppo:
+  titulo: "Zuppo faz parte da história de Osasco e merecidamente é o mais novo Cidadão Osasquense"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/zuppo-faz-parte-da-historia-de-osasco-e-merecidamente-e-o-mais-novo-cidadao-osasquense/"
+  data: "2026-03-27"
+  nota: "Falas de Fernando Zuppo e de Francisco Rossi numa homenagem; usadas só como declarações."
+  consultado: "2026-11-09"
+
+senado-res-38-1975:
+  titulo: "Resolução nº 38, de 22 de agosto de 1975 (autoriza a Prefeitura de Osasco a elevar a dívida consolidada)"
+  autor: "Senado Federal (texto na Legislação Informatizada da Câmara dos Deputados)"
+  url: "https://www2.camara.leg.br/legin/fed/ressen/1970-1979/resolucao-38-22-agosto-1975-477716-publicacaooriginal-1-pl.html"
+  data: "1975-08-22"
+  consultado: "2026-11-09"
+
+lei-sp-10419-1971:
+  titulo: "Lei estadual nº 10.419, de 3 de dezembro de 1971 (sistema de distribuição de água de Osasco)"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/1971/lei-10419-03.12.1971.html"
+  data: "1971-12-03"
+  consultado: "2026-11-09"
+
+rios-2022-favelas-osasco:
+  titulo: "Políticas públicas para favelas em Osasco-SP e a produção da cidade periférica"
+  autor: "Joana da Costa Manso Ramos Alves Rios (FAU-USP), Revista Nacional de Gerenciamento de Cidades, v. 10, n. 81"
+  url: "https://publicacoes.amigosdanatureza.org.br/index.php/gerenciamento_de_cidades/article/view/3356"
+  data: "2022-12-25"
+  consultado: "2026-11-09"
+
+conjur-2008-10-10-rossi-tse:
+  titulo: "TSE reconhece votos de Rossi para prefeitura de Osasco"
+  autor: "Consultor Jurídico (ConJur)"
+  url: "https://www.conjur.com.br/2008-out-10/tse_reconhece_votos_rossi_prefeitura_osasco/"
+  data: "2008-10-10"
+  consultado: "2026-11-09"
+
+cfoco-2010-09-27-sinal-amarelo:
+  titulo: "Sinal amarelo – SP"
+  autor: "Congresso em Foco"
+  url: "https://www.congressoemfoco.com.br/noticia/70961/sinal-amarelo-sp"
+  data: "2010-09-27"
+  consultado: "2026-11-09"
+
+jcampus-2010-09-21-ficha-limpa:
+  titulo: "Confira os 242 candidatos barrados pela Lei da Ficha Limpa"
+  autor: "Jornal do Campus, da USP (Rafael Aloi)"
+  url: "https://www.jornaldocampus.usp.br/index.php/2010/09/confira-os-242-candidatos-barrados-pela-lei-da-ficha-limpa/"
+  data: "2010-09-21"
+  consultado: "2026-11-09"
+
+stf-dje-2010-10-07:
+  titulo: "Diário da Justiça Eletrônico do STF nº 190/2010 (Agravo de Instrumento 816.821)"
+  autor: "Supremo Tribunal Federal"
+  url: "https://www.stf.jus.br/arquivo/djEletronico/DJE_20101007_190.pdf"
+  data: "2010-10-07"
+  consultado: "2026-11-09"
+
+tjsp-acp-0015717-1996:
+  titulo: "Consulta processual: Ação Civil Pública nº 0015717-46.1996.8.26.0405 (1ª Vara da Fazenda Pública de Osasco)"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=0015717-46.1996&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=0015717-46.1996.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-09"
+
+seade-francisco-rossi:
+  titulo: "Informações eleitorais: Francisco Rossi de Almeida"
+  autor: "Fundação Seade"
+  url: "http://produtos.seade.gov.br/produtos/eleicoes/candidatos/index.php?page=pol_det&bjs=1&cand=858"
+  consultado: "2026-11-09"
+
+dgabc-2021-02-24-arena-1972:
+  titulo: "Memória: Em 1972, Arena 5, MDB 2"
+  autor: "Diário do Grande ABC (Ademir Medici)"
+  url: "https://www.dgabc.com.br/Noticia/3683224/em-1972-arena-5-mdb-2"
+  data: "2021-02-24"
+  consultado: "2026-11-09"
+
+dt-2021-02-24-terminal-vila-yara:
+  titulo: "EMTU entrega reforma e ampliação do Terminal Vila Yara, em Osasco"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2021/02/24/emtu-entrega-reforma-e-ampliacao-do-terminal-vila-yara-em-osasco/"
+  data: "2021-02-24"
+  consultado: "2026-11-09"
+
+cee-parecer-77-1969:
+  titulo: "Parecer CEE nº 77/69 (Processo CEE 13/69): Instituto Tecnológico de Osasco"
+  autor: "Conselho Estadual de Educação de São Paulo (relator: conselheiro Oswaldo Müller da Silva)"
+  url: "https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/par-77-69-pro-13-69-s-maiara-c-maiara-w-maiara.pdf"
+  data: "1969-03-07"
+  consultado: "2026-11-09"
+
+cee-parecer-2-1969:
+  titulo: "Parecer CEE nº 2/69-CLN (Processo CEE 13/69): Instituto Tecnológico de Osasco"
+  autor: "Conselho Estadual de Educação de São Paulo, Comissão de Legislação e Normas (relator: conselheiro Paulo Ernesto Tolle)"
+  url: "https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/par-2-69-pro-13-69-s-maiara-c-augusto-w-augusto.pdf"
+  data: "1969-09-01"
+  consultado: "2026-11-09"
+
+cee-parecer-510-1999:
+  titulo: "Parecer CEE nº 510/99 (Processo CEE 627/97): histórico da Fundação Instituto Tecnológico de Osasco"
+  autor: "Conselho Estadual de Educação de São Paulo"
+  url: "https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/627-97.doc"
+  data: "1999-10-27"
+  consultado: "2026-11-09"
+
+terra-2015-08-14-fito:
+  titulo: "Endividada, faculdade particular fecha as portas em Osasco"
+  autor: "Terra"
+  url: "https://www.terra.com.br/noticias/educacao/endividada-faculdade-particular-fecha-as-portas-em-osasco,2ee512aabbae8d3926ef414a2fe4ebacf0akRCRD.html"
+  data: "2015-08-14"
+  consultado: "2026-11-09"
+
+pessanha-2019-ibrahim:
+  titulo: "Militância, memórias do exílio e recomposição política: a trajetória de José Ibrahim, líder da greve de Osasco de 1968 (resenha do livro de Maria José Chotil)"
+  autor: "Elina Pessanha (UFRJ), Revista Latinoamericana de Antropología del Trabajo, v. 3, n. 5"
+  url: "https://ojs.ceil-conicet.gov.ar/index.php/lat/article/download/558/396/1820"
+  data: "2019-06-21"
+  consultado: "2026-11-09"
+
+rovai-2012-osasco-1968:
+  titulo: "Osasco 1968: a greve no feminino e no masculino (tese de doutorado em História Social)"
+  autor: "Marta Gouveia de Oliveira Rovai, FFLCH-USP"
+  url: "https://teses.usp.br/teses/disponiveis/8/8138/tde-10012013-175034/publico/2012_MartaGouveiaDeOliveiraRovai_VCorr.pdf"
+  data: "2012-10-16"
+  consultado: "2026-11-09"
+
+espinosa-2013-entrevista:
+  titulo: "Entrevista Antônio Roberto Espinosa – Greve na Cobrasma de 1968"
+  autor: "Blog Memórias Operárias (coleta e transcrição de Alessandro de Moura)"
+  url: "https://memoriasoperarias.blogspot.com/2013/09/dois-relampagos-na-noite-do-arrocho.html"
+  data: "2013-09-11"
+  nota: "Depoimento de um dos líderes do movimento; usado só como declaração."
+  consultado: "2026-11-09"
+
+cpaulista-2021-06-06-guacu:
+  titulo: "Morre o ex-prefeito de Osasco Guaçu Piteri"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/morre-o-ex-prefeito-de-osasco-guacu-piteri/"
+  data: "2021-06-06"
+  consultado: "2026-11-09"
+
+visaooeste-2021-06-06-guacu:
+  titulo: "Ex-prefeito de Osasco Guaçu Piteri morre aos 86 anos"
+  autor: "Portal Visão Oeste (Leandro Conceição)"
+  url: "https://www.visaooeste.com.br/ex-prefeito-de-osasco-guacu-piteri-morre-aos-86-anos/"
+  data: "2021-06-06"
+  consultado: "2026-11-09"
+
+girosa-2021-06-06-guacu:
+  titulo: "Guaçu Piteri, ex-prefeito de Osasco, morre aos 86 anos vítima de câncer"
+  autor: "Giro S/A"
+  url: "https://girosa.com.br/guacu-piteri-ex-prefeito-de-osasco-morre-aos-86-anos-vitima-de-cancer/"
+  data: "2021-06-06"
+  consultado: "2026-11-09"
+
+cemap-greves-1968:
+  titulo: "A história de Contagem e Osasco (especial 50 anos das greves)"
+  autor: "Centro de Documentação do Movimento Operário Mário Pedrosa (Cemap-Interludium)"
+  url: "https://cemap-interludium.org.br/50-anos-das-greves-de-contagem-e-osasco/a-historia-do-movimento/"
+  consultado: "2026-11-09"
+
+publica-2023-06-02-cobrasma:
+  titulo: "Cobrasma lucrou milhões ao apoiar ditadura e reprimir movimentos sociais"
+  autor: "Agência Pública (Vasconcelo Quadros)"
+  url: "https://apublica.org/2023/06/cobrasma-lucrou-milhoes-ao-apoiar-ditadura-e-reprimir-movimentos-sociais/"
+  data: "2023-06-02"
+  consultado: "2026-11-09"
+
+ec-14-1980:
+  titulo: "Emenda Constitucional nº 14, de 9 de setembro de 1980 (prorroga os mandatos municipais)"
+  autor: "Presidência da República"
+  url: "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc14-80.htm"
+  data: "1980-09-09"
+  consultado: "2026-11-09"
+
+brandao-2011-constituinte:
+  titulo: "Os movimentos sociais e a Assembleia Nacional Constituinte de 1987-1988 (dissertação de mestrado em Sociologia)"
+  autor: "Lucas Coelho Brandão, FFLCH-USP"
+  url: "https://teses.usp.br/teses/disponiveis/8/8132/tde-16082012-125217/publico/2011_LucasCoelhoBrandao.pdf"
+  data: "2011"
+  consultado: "2026-11-09"
+
+osasco-2024-09-04-zoneamento:
+  titulo: "Relatório de Participação Social: revisão da Lei de Zoneamento (Lei nº 1.485/1978) e do Código de Obras"
+  autor: "Prefeitura de Osasco, Secretaria de Planejamento e Gestão"
+  url: "https://participa.osasco.sp.gov.br/Upload/Audiencias/2024/relatorio-participacao-social-lei-zoneamento.pdf"
+  data: "2024-09-04"
+  consultado: "2026-11-09"
+
+osasco-2024-12-10-codigo-obras:
+  titulo: "Relatório de Participação Social: revisão do Código de Obras (Lei nº 1.025, de 5 de julho de 1971)"
+  autor: "Prefeitura de Osasco"
+  url: "https://participa.osasco.sp.gov.br/Upload/Audiencias/2024/relatorio-participacao-social-codigo-obras.pdf"
+  data: "2024-12-10"
+  consultado: "2026-11-09"
+
+pires-1991-km18:
+  titulo: "Centro emancipou o distrito, porém é no Km 18 que mora o poder"
+  autor: "Luís Pires, Jornal Primeira Hora (reproduzido no site da Câmara Municipal de Osasco)"
+  url: "https://www.osasco.sp.leg.br/centro-emancipou-o-distrito-porem-e-no-km-18-que-mora-o-poder"
+  data: "1991-04"
+  consultado: "2026-11-09"
+
+cpaulista-2019-05-09-plano-diretor:
+  titulo: "O primeiro Plano Diretor de Osasco"
+  autor: "Correio Paulista (coluna de Oscar Buturi)"
+  url: "https://correiopaulista.com/o-primeiro-plano-diretor-de-osasco/"
+  data: "2019-05-09"
+  consultado: "2026-11-09"
+
+rocha-grosbaum-2016-wilheim:
+  titulo: "Jorge, o traço e o todo"
+  autor: "Lígia Rocha e Marcia Grosbaum, Oculum Ensaios (PUC-Campinas), v. 13, n. 2"
+  url: "https://www.redalyc.org/pdf/3517/351749335002.pdf"
+  data: "2016"
+  consultado: "2026-11-09"
+
+vianna-2015-wilheim:
+  titulo: "Curitiba: Jorge Wilheim (Minha Cidade 181.01)"
+  autor: "Fabiano Borba Vianna, Vitruvius"
+  url: "https://vitruvius.com.br/revistas/read/minhacidade/16.181/5630"
+  data: "2015"
+  consultado: "2026-11-09"
+
+delamonica-2018-liberatti:
+  titulo: "Professor José Liberatti de São Manuel a prefeito de Osasco"
+  autor: "Eduardo Ayres Delamonica, blog Centro de Pesquisa e História de São Manuel"
+  url: "http://dudelamonica.blogspot.com/2018/04/professor-jose-liberati-de-sao-manuel.html"
+  data: "2018-04-26"
+  nota: "Blog sem citação de fontes; usado só para dados biográficos, atribuídos."
+  consultado: "2026-11-09"
+
+camara-osasco-legislaturas:
+  titulo: "Todas as Legislaturas"
+  autor: "Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/vereadores/legislaturas"
+  consultado: "2026-11-09"
+
+visaooeste-2019-10-24-broseghini:
+  titulo: "Corpo de ex-prefeito de Osasco é velado e será enterrado no Bela Vista"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/corpo-de-ex-prefeito-de-osasco-e-velado-e-sera-enterrado-no-bela-vista/"
+  data: "2019-10-24"
+  consultado: "2026-11-09"
+
+iomo-212:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 212"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/09/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1506628105_7.pdf"
+  data: "2002-02-22"
+  consultado: "2026-11-09"
+
+iomo-223:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 223"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1506960842_7.pdf"
+  data: "2002-05-10"
+  consultado: "2026-11-09"
+
+iomo-225:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 225"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1506961092_7.pdf"
+  data: "2002-05-24"
+  consultado: "2026-11-09"
+
+iomo-231:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 231"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1506968883_7.pdf"
+  data: "2002-07-05"
+  consultado: "2026-11-09"
+
+iomo-233:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 233"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507129494_7.pdf"
+  data: "2002-07-22"
+  consultado: "2026-11-09"
+
+iomo-234:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 234"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2002/07/httphomologacao.osasco.sp_.gov_.brcompsec7atosOsasco_1507129654_7.pdf"
+  data: "2002-07-29"
+  consultado: "2026-11-09"
+
+iomo-246:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 246"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507133344_7.pdf"
+  data: "2002-10-11"
+  consultado: "2026-11-09"
+
+iomo-251:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 251"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507143041_7.pdf"
+  data: "2002-11-14"
+  consultado: "2026-11-09"
+
+iomo-258:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 258"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507144627_7.pdf"
+  data: "2002-12-23"
+  consultado: "2026-11-09"
+
+iomo-261:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 261"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507227506_7.pdf"
+  data: "2003-01-15"
+  consultado: "2026-11-09"
+
+iomo-268:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 268"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507558320_7.pdf"
+  data: "2003-02-28"
+  consultado: "2026-11-09"
+
+iomo-272:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 272"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507564829_7.pdf"
+  data: "2003-03-28"
+  consultado: "2026-11-09"
+
+iomo-277:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 277"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507578076_7-1.pdf"
+  data: "2003-04-30"
+  consultado: "2026-11-09"
+
+iomo-279:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 279"
+  autor: "Prefeitura de Osasco"
+  url: "https://www.osasco.sp.gov.br/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507578727_7.pdf"
+  data: "2003-05-19"
+  consultado: "2026-11-09"
+
+iomo-281:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 281"
+  autor: "Prefeitura de Osasco"
+  url: "https://www.osasco.sp.gov.br/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507581678_7.pdf"
+  data: "2003-05-30"
+  consultado: "2026-11-09"
+
+iomo-282:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 282"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507582243_7.pdf"
+  data: "2003-06-06"
+  consultado: "2026-11-09"
+
+iomo-286:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 286"
+  autor: "Prefeitura de Osasco"
+  url: "https://www.osasco.sp.gov.br/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507583074_7.pdf"
+  data: "2003-07-04"
+  consultado: "2026-11-09"
+
+iomo-288:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 288"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1507583771_7.pdf"
+  data: "2003-07-15"
+  consultado: "2026-11-09"
+
+iomo-291:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 291"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508171772_7.pdf"
+  data: "2003-07-30"
+  consultado: "2026-11-09"
+
+iomo-303a:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 303-A"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508179575_7-1.pdf"
+  data: "2003-09-19"
+  consultado: "2026-11-09"
+
+iomo-308:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 308"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508183451_7.pdf"
+  data: "2003-10-10"
+  consultado: "2026-11-09"
+
+iomo-310:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 310"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508184097_7.pdf"
+  data: "2003-10-24"
+  consultado: "2026-11-09"
+
+iomo-311:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 311"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508184615_7.pdf"
+  data: "2003-10-31"
+  consultado: "2026-11-09"
+
+iomo-319:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 319"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508186745_7.pdf"
+  data: "2003-12-09"
+  consultado: "2026-11-09"
+
+iomo-326:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 326"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508350114_7.pdf"
+  data: "2004-01-13"
+  consultado: "2026-11-09"
+
+iomo-331:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 331"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508423282_7-1.pdf"
+  data: "2004-02-04"
+  consultado: "2026-11-09"
+
+iomo-335:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 335"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508432338_7.pdf"
+  data: "2004-02-27"
+  consultado: "2026-11-09"
+
+iomo-341:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 341"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508441769_7.pdf"
+  data: "2004-04-02"
+  consultado: "2026-11-09"
+
+iomo-346:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 346"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1508444016_7.pdf"
+  data: "2004-04-30"
+  consultado: "2026-11-09"
+
+iomo-349:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 349"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1509028230_7.pdf"
+  data: "2004-05-14"
+  consultado: "2026-11-09"
+
+iomo-359:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 359"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2017/10/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1509476503_7.pdf"
+  data: "2004-06-18"
+  consultado: "2026-11-09"
+
+iomo-371:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 371"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2004/08/httphomologacao.osasco.sp_.gov_.brcompsec7atosOsasco_1513273494_7.pdf"
+  data: "2004-08-06"
+  consultado: "2026-11-09"
+
+iomo-409:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 409"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo409.pdf"
+  data: "2005-03-10"
+  consultado: "2026-11-09"
+
+iomo-439:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 439"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo439.pdf"
+  data: "2005-09-08"
+  consultado: "2026-11-09"
+
+cfoco-2012-10-11-tse-giglio:
+  titulo: "TSE mantém impedimento a candidato de Osasco"
+  autor: "Congresso em Foco"
+  url: "https://www.congressoemfoco.com.br/noticias/tse-mantem-impedimento-a-candidato-de-osasco/"
+  data: "2012-10-11"
+  consultado: "2026-11-09"
+
+abr-2012-10-11-tse-giglio:
+  titulo: "TSE indefere recurso de candidato à prefeitura de Osasco"
+  autor: "Agência Brasil (Mariana Jungmann), publicado pelo Estado de Minas e pela CartaCapital"
+  url: "https://www.cartacapital.com.br/?p=26753"
+  data: "2012-10-11"
+  consultado: "2026-11-09"
+
+cfoco-2012-10-12-barrados:
+  titulo: "Barrados pela Justiça perderam 3,4 milhões de votos"
+  autor: "Congresso em Foco (Eduardo Militão)"
+  url: "https://www.congressoemfoco.com.br/noticia/67750/barrados-pela-justica-perderam-34-milhoes-de-votos"
+  data: "2012-10-12"
+  consultado: "2026-11-09"
+
+conjur-2012-10-07-osasco-cuiaba:
+  titulo: "Osasco (SP) e Cuiabá mostram efeitos da judicialização das eleições"
+  autor: "Consultor Jurídico (Pedro Canário)"
+  url: "https://www.conjur.com.br/2012-out-07/osasco-sp-cuiaba-mostram-efeitos-judicializacao-eleicoes/"
+  data: "2012-10-07"
+  consultado: "2026-11-09"
+
+conjur-2013-03-13-contas-giglio:
+  titulo: "Justiça anula decisão que rejeitou contas de ex-prefeito de Osasco"
+  autor: "Consultor Jurídico"
+  url: "https://www.conjur.com.br/2013-mar-13/justica-anula-decisao-rejeitou-contas-ex-prefeito-osasco/"
+  data: "2013-03-13"
+  consultado: "2026-11-09"
+
+cee-parecer-99-2000:
+  titulo: "Parecer CEE nº 99/2000 (Processo CEE 68/2000): avaliação institucional da Faculdade de Ciências Econômicas e Administrativas de Osasco (Fito)"
+  autor: "Conselho Estadual de Educação de São Paulo"
+  url: "https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/68-2000.doc"
+  data: "2000-04-12"
+  consultado: "2026-11-09"
+
+cee-parecer-207-2004:
+  titulo: "Parecer CEE nº 207/2004 (Processo CEE 186/2003): Faculdade de Ciências da Fito, curso Normal Superior"
+  autor: "Conselho Estadual de Educação de São Paulo"
+  url: "https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/186-03.doc"
+  data: "2004-07-28"
+  consultado: "2026-11-09"
+
+primeirahora-1991-03-23-autonomia:
+  titulo: "\"Sim\" ou \"Não\": nem o Centro digeriu autonomia de Osasco"
+  autor: "Jornal Primeira Hora (Luís Pires), reproduzido no site da Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/sim-ou-nao:-nem-o-centro-digeriu-autonomia-de-osasco"
+  data: "1991-03-23"
+  consultado: "2026-11-09"
+
+primeirahora-1991-06-01-praca:
+  titulo: "A fonte secou, mas a praça anda doce"
+  autor: "Jornal Primeira Hora, reproduzido no site da Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/a-fonte-secou-mas-a-praca-anda-doce-"
+  data: "1991-06-01"
+  consultado: "2026-11-09"
+
+primeirahora-1991-04-06-quitauna:
+  titulo: "Quitaúna: 70 anos de história acontecem sob nossos narizes"
+  autor: "Jornal Primeira Hora, reproduzido no site da Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/quitauna:-70-anos-de-historia-acontecem-sob-nossos-narizes"
+  data: "1991-04-06"
+  consultado: "2026-11-09"
+
+camara-politica-1964:
+  titulo: "Política (tumulto na eleição para a presidência da Câmara em fevereiro de 1964)"
+  autor: "Câmara Municipal de Osasco (texto de Mara Danusa com reportagem do Última Hora de 26/02/1964)"
+  url: "https://www.osasco.sp.leg.br/politica"
+  consultado: "2026-11-09"
+
+camara-lacerda-1964:
+  titulo: "Carlos Lacerda é Cidadão de Osasco"
+  autor: "Câmara Municipal de Osasco (texto de Mara Danusa)"
+  url: "https://www.osasco.sp.leg.br/carlos-lacerda-e-cidadao-de-osasco"
+  consultado: "2026-11-09"
+
+camara-esgoto-iluminacao:
+  titulo: "Rede de esgoto e iluminação são problemas urbanos de difícil solução"
+  autor: "Câmara Municipal de Osasco (texto de Mara Danusa)"
+  url: "https://www.osasco.sp.leg.br/rede-de-esgoto-e-iluminacao-sao-problemas-urbanos-de-dificil-solucao"
+  consultado: "2026-11-09"
+
+camara-educacao-historia:
+  titulo: "Educação"
+  autor: "Câmara Municipal de Osasco (texto histórico)"
+  url: "https://www.osasco.sp.leg.br/educacao"
+  consultado: "2026-11-09"
+
+camara-cidade-1962:
+  titulo: "Cidade (1962...)"
+  autor: "Câmara Municipal de Osasco (texto histórico)"
+  url: "https://www.osasco.sp.leg.br/cidade-1962"
+  consultado: "2026-11-09"
+
+camara-emancipacao-casa-propria:
+  titulo: "Emancipação é casa própria"
+  autor: "Câmara Municipal de Osasco (texto de Mara Danusa)"
+  url: "https://www.osasco.sp.leg.br/emancipacao-e-casa-propria"
+  consultado: "2026-11-09"
+
+camara-integracao-historia:
+  titulo: "Entre o ontem e o hoje, um longo caminho para integração"
+  autor: "Câmara Municipal de Osasco (texto histórico)"
+  url: "https://www.osasco.sp.leg.br/entre-o-ontem-e-o-hoje-um-longo-caminho-para-integracao"
+  consultado: "2026-11-09"
+
+camara-2023-04-26-juco:
+  titulo: "Câmara participa de comemoração dos 61 anos da Juco"
+  autor: "Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/noticia/408/Camara-participa-de-comemoracao-dos-61-anos-da-Juco"
+  data: "2023-04-26"
+  consultado: "2026-11-09"
+
+sindmetal-2015-10-08-desagravo:
+  titulo: "Osasco faz desagravo a Hirant e a vereadores vítimas de militares"
+  autor: "Sindicato dos Metalúrgicos de Osasco (Cristiane Alves)"
+  url: "https://sindmetal.org.br/osasco-faz-desagravo-a-hirant-e-a-vereadores-vitimas-de-militares/"
+  data: "2015-10-08"
+  consultado: "2026-11-09"
+
+sindmetal-2015-10-07-cmvo:
+  titulo: "CMVO faz desagravo a Hirant e vereadores por coações na ditadura"
+  autor: "Sindicato dos Metalúrgicos de Osasco (texto creditado à Prefeitura de Osasco)"
+  url: "https://sindmetal.org.br/cmvo-faz-desagravo-a-hirant-e-vereadores-por-coacoes-na-ditadura/"
+  data: "2015-10-07"
+  consultado: "2026-11-09"
+
+estacaoarmenia-2015-10-01-hirant:
+  titulo: "Reempossamento simbólico de Hirant Sanazar, o 1º prefeito de Osasco"
+  autor: "Estação Armênia (Armen Kevork Pamboukdjian)"
+  url: "https://estacaoarmenia.com.br/45497/22838/"
+  data: "2015-10-01"
+  consultado: "2026-11-09"
+
+memoriasresistentes-desagravo-hirant:
+  titulo: "Memorial de Desagravo Hirant Sanazar (acervo da Comissão Municipal da Verdade de Osasco)"
+  autor: "Memórias Resistentes"
+  url: "https://memoriasresistentes.org/acervo-da-comissao-municipal-da-verdade-osasco/memorial-de-desagravo-hirant-sanazar/"
+  consultado: "2026-11-09"
+
+jornalarua-2024-02-19-62anos:
+  titulo: "Osasco completa 62 anos de emancipação; conheça a história da cidade"
+  autor: "Jornal ARua"
+  url: "https://jornalarua.com/2024/02/19/osasco-completa-62-anos-de-emancipacao-conheca-a-historia-da-cidade/"
+  data: "2024-02-19"
+  consultado: "2026-11-09"
+
+cpaulista-2026-02-19-64anos:
+  titulo: "Osasco celebra 64 anos de emancipação político-administrativa neste 19 de fevereiro"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/osasco-celebra-64-anos-de-emancipacao-politico-administrativa-neste-19-de-fevereiro/"
+  data: "2026-02-19"
+  consultado: "2026-11-09"
+
+lei-sp-5990-1960:
+  titulo: "Lei estadual nº 5.990, de 24 de dezembro de 1960 (empréstimos aos municípios criados pela lei quinquenal)"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/1960/lei-5990-24.12.1960.html"
+  data: "1960-12-24"
+  consultado: "2026-11-09"
+
+lei-sp-6677-1962:
+  titulo: "Lei estadual nº 6.677, de 4 de janeiro de 1962 (cria centro de saúde em Osasco)"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/1962/lei-6677-04.01.1962.html"
+  data: "1962-01-04"
+  consultado: "2026-11-09"
+
+lei-sp-6786-1962:
+  titulo: "Lei estadual nº 6.786, de 6 de abril de 1962 (art. 13: coletorias estaduais em Osasco)"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/1962/lei-6786-06.04.1962.html"
+  data: "1962-04-06"
+  consultado: "2026-11-09"
+
+alesp-pl-508-2002:
+  titulo: "Projeto de Lei nº 508/2002 (utilidade pública da Juventude Cívica de Osasco), justificativa"
+  autor: "Assembleia Legislativa do Estado de São Paulo; autor: deputado Antonio Salim Curiati"
+  url: "https://www.al.sp.gov.br/spl/2002/08/Processo/123076_01_0508_2002_0123076.doc"
+  data: "2002"
+  consultado: "2026-11-09"
+
+lei-sp-14388-2011:
+  titulo: "Lei estadual nº 14.388, de 30 de março de 2011 (declara de utilidade pública a Juventude Cívica de Osasco)"
+  autor: "Assembleia Legislativa do Estado de São Paulo; projeto do deputado Celso Giglio"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/2011/lei-14388-30.03.2011.html"
+  data: "2011-03-30"
+  consultado: "2026-11-09"
+
+santana-santos-2022-biblioteca:
+  titulo: "Em defesa da biblioteca pública: mapeamento de iniciativas populares e de advocacy bibliotecário em Osasco (SP)"
+  autor: "Solange Alves Santana e Maria Fátima dos Santos (USP), Anais do CBBD 2022"
+  url: "https://portal.febab.org.br/cbbd2022/article/download/2676/2612/4067"
+  data: "2022"
+  consultado: "2026-11-09"
+
+lei-sp-8333-1964:
+  titulo: "Lei estadual nº 8.333, de 5 de outubro de 1964 (cria o Estádio Regional de Osasco)"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/1964/lei-8333-05.10.1964.html"
+  data: "1964-10-05"
+  consultado: "2026-11-09"
+
+lei-sp-9028-1965:
+  titulo: "Lei estadual nº 9.028, de 21 de outubro de 1965 (cria Delegacia de Polícia em Osasco)"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/repositorio/legislacao/lei/1965/lei-9028-21.10.1965.html"
+  data: "1965-10-21"
+  consultado: "2026-11-09"
+
+decreto-56226-1965:
+  titulo: "Decreto federal nº 56.226, de 30 de abril de 1965 (posto do SAMDU em Osasco)"
+  autor: "Presidência da República (registro no Senado Federal)"
+  url: "https://legis.senado.leg.br/norma/478817"
+  data: "1965-04-30"
+  consultado: "2026-11-09"
+
+prefeitura-2025-09-22-boulevard-nicoletti:
+  titulo: "Prefeitura entrega revitalização do Boulevard Marino Pedro Nicoletti, no Baronesa"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/prefeitura-entrega-revitalizacao-do-boulevard-marino-pedro-nicoletti-no-baronesa/"
+  data: "2025-09-22"
+  consultado: "2026-11-09"
+
+spinazzola-2008-regularizacao:
+  titulo: "Impactos da regularização fundiária no espaço urbano (dissertação de mestrado)"
+  autor: "Patrícia Cezário Silva Spinazzola, FAU-USP"
+  url: "https://www.teses.usp.br/teses/disponiveis/16/16137/tde-15012010-102847/publico/dissertacao_Patricia_Cezario_Silva_Spinazzola.pdf"
+  data: "2008"
+  consultado: "2026-11-09"
+
+lei-osasco-1881-1986:
+  titulo: "Lei nº 1.881, de 10 de janeiro de 1986 (cria o Fundo de Assistência aos Moradores de Favelas)"
+  autor: "Município de Osasco (texto no portal Jusbrasil)"
+  url: "https://www.jusbrasil.com.br/legislacao/447275/lei-1881-86"
+  data: "1986-01-10"
+  consultado: "2026-11-09"
+
+lei-osasco-1918-1986:
+  titulo: "Lei nº 1.918, de 7 de julho de 1986 (cria o Sistema Municipal de Proteção ao Consumidor)"
+  autor: "Município de Osasco (texto no portal Jusbrasil)"
+  url: "https://www.jusbrasil.com.br/legislacao/447153/lei-1918-86"
+  data: "1986-07-07"
+  consultado: "2026-11-09"
+
+lei-osasco-1864-1985:
+  titulo: "Lei nº 1.864, de 26 de novembro de 1985 (cria a Companhia Municipal de Transportes de Osasco)"
+  autor: "Município de Osasco (texto no portal Jusbrasil)"
+  url: "https://www.jusbrasil.com.br/legislacao/447320/lei-1864-85"
+  data: "1985-11-26"
+  consultado: "2026-11-09"
+
+cmto-sobre:
+  titulo: "Sobre a CMTO"
+  autor: "Companhia Municipal de Transportes de Osasco"
+  url: "https://cmto.com.br/sobre.php"
+  consultado: "2026-11-09"
+
+fundo-social-osasco-legislacao:
+  titulo: "Fundo Social de Solidariedade de Osasco: legislação"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/fundo-social-de-solidariedade-de-osasco/legislacao/"
+  consultado: "2026-11-09"
+
+lei-osasco-1910-1986:
+  titulo: "Lei nº 1.910, de 7 de julho de 1986 (área destinada à EEPG João Guimarães Rosa)"
+  autor: "Município de Osasco (texto no portal Jusbrasil)"
+  url: "https://www.jusbrasil.com.br/legislacao/447181/lei-1910-86"
+  data: "1986-07-07"
+  consultado: "2026-11-09"
+
+reis-2018-conselhos:
+  titulo: "Conselhos municipais e participação cidadã: avaliação e mapeamento na cidade de Osasco-SP (monografia de especialização)"
+  autor: "Ivan Alves dos Reis, UTFPR"
+  url: "https://riut.utfpr.edu.br/jspui/bitstream/1/21634/1/CT_GPMP_VI_2018_05.pdf"
+  data: "2018"
+  consultado: "2026-11-09"
+
+camargo-cddho:
+  titulo: "A luta pelos direitos humanos na cidade de Osasco (1974 a 1988): a atuação do Centro de Defesa de Direitos Humanos de Osasco"
+  autor: "Lucas Alves de Camargo (PUC-SP), anais da ANPUH"
+  url: "https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548945021_5d54ea1deb03805e1e4549734c036ddd.pdf"
+  data: "2019"
+  consultado: "2026-11-09"
+
+dgabc-2005-11-04-fundacentro:
+  titulo: "Fundacentro desvia R$ 32 mi na era FHC e Valério recebe a maior parte"
+  autor: "Diário do Grande ABC (Roney Domingos)"
+  url: "http://www.dgabc.com.br/Noticia/240884/fundacentro-desvia-rs-32-mi-na-era-fhc-e-valerio-recebe-a-maior-parte"
+  data: "2005-11-04"
+  consultado: "2026-11-09"
+
+flondrina-1999-03-03-cadeia:
+  titulo: "Cadeia de Osasco é interditada"
+  autor: "Folha de Londrina (Agência Estado)"
+  url: "https://www.folhadelondrina.com.br/geral/cadeia-de-osasco-e-interditada-129951.html"
+  data: "1999-03-03"
+  consultado: "2026-11-09"
+
+lei-osasco-3431-1998:
+  titulo: "Lei nº 3.431, de 15 de julho de 1998 (transporte coletivo de escolares)"
+  autor: "Município de Osasco (texto no portal Jusbrasil)"
+  url: "https://www.jusbrasil.com.br/legislacao/442498/lei-3431-98"
+  data: "1998-07-15"
+  consultado: "2026-11-09"
+
+cmi-resolucao-02-2026:
+  titulo: "Resolução CMI nº 02/2026 (cita a Lei nº 3.397/1998, de criação do Conselho Municipal do Idoso)"
+  autor: "Conselho Municipal do Idoso de Osasco"
+  url: "https://participa.osasco.sp.gov.br/Upload/Conselhos/CMI/2026/resolucao-cmi-02-2026.pdf"
+  data: "2026-03-30"
+  consultado: "2026-11-09"
+
+cmas-resolucao-04-2025:
+  titulo: "Resolução nº 04/2025 do CMAS (cita a Lei nº 3.388/1997, de criação do conselho)"
+  autor: "Conselho Municipal de Assistência Social de Osasco"
+  url: "https://participa.osasco.sp.gov.br/Upload/Conselhos/CMAS/2025/resolucao-04-cmas-26-02-2025.pdf"
+  data: "2025-02-26"
+  consultado: "2026-11-09"
+
+cme-ata-2025-08-29:
+  titulo: "Ata de reunião ordinária do Conselho Municipal de Educação (cita a Lei nº 3.411/1998)"
+  autor: "Conselho Municipal de Educação de Osasco"
+  url: "https://participa.osasco.sp.gov.br/Upload/Conselhos/CME/2025/ata-reuniao-ordinaria-cme-29-08-2025.pdf"
+  data: "2025-08-29"
+  consultado: "2026-11-09"
+
+iomo-476:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 476 (Lei nº 4.036/2006, que altera a Lei nº 3.481/1999)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo476.pdf"
+  data: "2006-05-11"
+  consultado: "2026-11-09"
+
+prefeitura-2019-11-24-iss:
+  titulo: "Grupo apresenta ao prefeito sugestão de alíquota única de ISS"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/teste-1/"
+  data: "2019-11-24"
+  consultado: "2026-11-09"
+
+folha-2021-05-10-osasco-tecnologia:
+  titulo: "Osasco vira a queridinha das empresas de tecnologia (reprodução)"
+  autor: "Folha de S.Paulo, reproduzida pelo site Imóvel Adequado"
+  url: "https://www.imoveladequado.com.br/artigo/Osasco_vira_a_queridinha_das_empresas_de_tecnologia"
+  data: "2021-05-10"
+  consultado: "2026-11-09"
+
+visaooeste-2020-10-23-rappi:
+  titulo: "Chegada do Rappi reforça Osasco como \"Vale do Silício\" brasileiro"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/chegada-do-rappi-reforca-osasco-como-vale-do-silicio-brasileiro/"
+  data: "2020-10-23"
+  consultado: "2026-11-09"
+
+girosa-2021-06-17-empresas:
+  titulo: "Chegada de novas empresas a Barueri e Osasco dá sinais de recuperação do mercado de trabalho"
+  autor: "Giro S/A (Mariana Pereira)"
+  url: "https://girosa.com.br/chegada-de-novas-empresas-a-barueri-e-osasco-da-sinais-de-recuperacao-do-mercado-de-trabalho/"
+  data: "2021-06-17"
+  consultado: "2026-11-09"
+
+girosa-2022-12-26-codigo-tributario:
+  titulo: "Câmara de Osasco aprova mudança na cobrança de débitos e no código tributário"
+  autor: "Giro S/A (Vanessa Dainesi)"
+  url: "https://girosa.com.br/camara-de-osasco-aprova-mudanca-na-cobranca-de-debitos-e-no-codigo-tributario/"
+  data: "2022-12-26"
+  consultado: "2026-11-09"
+
+camara-2023-12-20-credito:
+  titulo: "Aprovado projeto que viabiliza novas obras em Osasco"
+  autor: "Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/noticia/981/Aprovado-projeto-que-viabiliza-novas-obras-em-Osasco"
+  data: "2023-12-20"
+  consultado: "2026-11-09"
+
+prefeitura-2021-11-12-rochdale:
+  titulo: "Prefeito vistoria andamento das obras de urbanização do Rochdale"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/prefeito-vistoria-andamento-das-obras-de-urbanizacao-do-rochdale/"
+  data: "2021-11-12"
+  consultado: "2026-11-09"
+
+paginazero-2024-04-19-transversal:
+  titulo: "Transversal Norte de Osasco recebe asfalto em vias de 2,5 km de extensão"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2024/04/19/transversal-norte-de-osasco-recebe-asfalto-em-vias-de-25-km-de-extensao/"
+  data: "2024-04-19"
+  consultado: "2026-11-09"
+
+prefeitura-2025-01-28-rochdale:
+  titulo: "Osasco inicia última etapa da primeira fase de urbanização do Rochdale"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/osasco-inicia-ultima-etapa-da-primeira-fase-de-urbanizacao-do-rochdale/"
+  data: "2025-01-28"
+  consultado: "2026-11-09"
+
+camara-2025-05-07-rochdale:
+  titulo: "Legislativo aprova nova etapa das obras de urbanização no Rochdale"
+  autor: "Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/noticia/1711/Legislativo-aprova-nova-etapa-das-obras-de-urbanizacao-no-Rochdale"
+  data: "2025-05-07"
+  consultado: "2026-11-09"
+
+prefeitura-2024-04-09-bonanca:
+  titulo: "Osasco entrega obras de contenção de encostas no Jardim Bonança"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/osasco-entrega-obras-de-contencao-de-encostas-no-jardim-bonanca/"
+  data: "2024-04-09"
+  consultado: "2026-11-09"
+
+prefeitura-2023-08-03-quitauna:
+  titulo: "Quitaúna recebe obra de combate às enchentes"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/quitauna-recebe-obra-de-combate-as-enchentes/"
+  data: "2023-08-03"
+  consultado: "2026-11-09"
+
+visaooeste-2025-01-14-quitauna:
+  titulo: "Obras de drenagem em Quitaúna são retomadas para combater enchentes"
+  autor: "Portal Visão Oeste (Soraia Sene)"
+  url: "https://visaooeste.com.br/obras-de-drenagem-em-quitauna-sao-retomadas-para-combater-enchentes/"
+  data: "2025-01-14"
+  consultado: "2026-11-09"
+
+mural-2023-02-24-quitauna:
+  titulo: "Enchentes em Quitaúna viram rotina, e moradores questionam demora em obra"
+  autor: "Agência Mural (Carolina Maria)"
+  url: "https://agenciamural.org.br/enchentes-em-quitauna-viram-rotina-e-moradores-questionam-demora-em-obra/"
+  data: "2023-02-24"
+  consultado: "2026-11-09"
+
+mural-2023-03-20-ribeirao-vermelho:
+  titulo: "Famílias de favela desapropriada em Osasco relatam dificuldades para conseguir Bolsa Aluguel"
+  autor: "Agência Mural (Kaliny Santos)"
+  url: "https://agenciamural.org.br/familias-de-favela-desapropriada-em-osasco-relatam-dificuldades-para-conseguir-bolsa-aluguel/"
+  data: "2023-03-20"
+  consultado: "2026-11-09"
+
+mural-2022-07-27-fabrica-cultura:
+  titulo: "Fábrica de Cultura de Osasco (prédio antes anunciado como UBS)"
+  autor: "Agência Mural (Kaliny Santos)"
+  url: "https://agenciamural.org.br/fabrica-de-cultura-de-osasco-e-nova-ubs/"
+  data: "2022-07-27"
+  consultado: "2026-11-09"
+
+dt-2019-12-05-bilhete-unico:
+  titulo: "Prefeito de Osasco sanciona lei que institui \"Bilhete Único\" na cidade"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2019/12/05/prefeito-de-osasco-sanciona-lei-que-institui-bilhete-unico-na-cidade/"
+  data: "2019-12-05"
+  consultado: "2026-11-09"
+
+paginazero-2019-12-13-bilhete-unico:
+  titulo: "Implantação do Bilhete Único em Osasco fica para a próxima semana"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2019/12/13/implantacao-do-bilhete-unico-em-osasco-fica-para-a-proxima-semana/"
+  data: "2019-12-13"
+  consultado: "2026-11-09"
+
+dt-2018-01-06-tarifa:
+  titulo: "Tarifa de ônibus em Osasco sobe para R$ 4,35 neste domingo, 7"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2018/01/06/tarifa-de-onibus-em-osasco-sobe-para-r-435-neste-domingo-7/"
+  data: "2018-01-06"
+  consultado: "2026-11-09"
+
+dt-2020-12-29-tarifa:
+  titulo: "Osasco descarta reajuste de tarifa de ônibus em 2021"
+  autor: "Diário do Transporte (Jessica Marques)"
+  url: "https://diariodotransporte.com.br/2020/12/29/osasco-descarta-reajuste-de-tarifa-de-onibus-em-2021/"
+  data: "2020-12-29"
+  consultado: "2026-11-09"
+
+dt-2022-04-19-tarifa:
+  titulo: "Osasco (SP) reajusta tarifa de ônibus para R$ 5"
+  autor: "Diário do Transporte (Jessica Marques)"
+  url: "https://diariodotransporte.com.br/2022/04/19/osasco-sp-reajusta-tarifa-de-onibus-para-r-5/"
+  data: "2022-04-19"
+  consultado: "2026-11-09"
+
+dt-2023-12-21-tarifa:
+  titulo: "Tarifa de ônibus de Osasco (SP) será reduzida para R$ 5 no Cartão BEM e vai ser mantida em R$ 5,30 em dinheiro"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2023/12/21/tarifa-de-onibus-de-osasco-sp-sera-reduzida-para-r-5-no-cartao-bem-e-vai-ser-mantida-em-r-530-em-dinheiro/"
+  data: "2023-12-21"
+  consultado: "2026-11-09"
+
+metropoles-2024-05-19-castello:
+  titulo: "Tarcísio inaugura viaduto que liga Osasco à Rodovia Castello Branco"
+  autor: "Metrópoles"
+  url: "https://www.metropoles.com/sao-paulo/tarcisio-inaugura-viaduto-que-liga-osasco-a-rodovia-castello-branco"
+  data: "2024-05-19"
+  consultado: "2026-11-09"
+
+paginazero-2024-05-24-castello:
+  titulo: "Ponte de nova entrada da Castello a Osasco é inaugurada"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2024/05/24/ponte-de-nova-entrada-da-castello-a-osasco-e-inaugurada-prefeitura-espera-adaptacoes-as-mudancas-no-sistema-viario/"
+  data: "2024-05-24"
+  consultado: "2026-11-09"
+
+prefeitura-2021-02-03-hemodinamica:
+  titulo: "Osasco ganha Centro de Hemodinâmica"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/osasco-ganha-centro-de-hemodinamica/"
+  data: "2021-02-03"
+  consultado: "2026-11-09"
+
+girosa-2021-02-04-hemodinamica:
+  titulo: "Hospital Municipal Antônio Giglio, em Osasco, passa a realizar diagnósticos cardíacos"
+  autor: "Giro S/A (Mariana Pereira)"
+  url: "https://girosa.com.br/hospital-municipal-antonio-giglio-em-osasco-passa-a-realizar-diagnosticos-cardiacos/"
+  data: "2021-02-04"
+  consultado: "2026-11-09"
+
+paginazero-2023-05-19-ubs-bonanca:
+  titulo: "Primeira UBS do Jardim Bonança foi inaugurada pela Prefeitura e já atende população do bairro"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2023/05/19/primeira-ubs-do-jardim-bonanca-foi-inaugurada-pela-prefeitura-e-ja-atende-populacao-do-bairro/"
+  data: "2023-05-19"
+  consultado: "2026-11-09"
+
+iomo-ldo-2025-audiencia:
+  titulo: "Ata da audiência pública da LDO 2025, na Imprensa Oficial do Município de Osasco"
+  autor: "Prefeitura de Osasco, Secretaria de Planejamento e Gestão"
+  url: "https://participa.osasco.sp.gov.br/Upload/publicacao/ata-audiencia-publica-ldo-2025.pdf"
+  data: "2024-06-19"
+  consultado: "2026-11-09"
+
+saude-osasco-2020-03-30-cti:
+  titulo: "Osasco entrega Centro de Terapia Intensiva para pacientes com coronavírus"
+  autor: "Prefeitura de Osasco, Secretaria de Saúde"
+  url: "https://saude.osasco.sp.gov.br/osasco-entrega-centro-de-terapia-intensiva-para-pacientes-com-coronavirus/"
+  data: "2020-03-30"
+  consultado: "2026-11-09"
+
+iomo-1830:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 1830 (decretos da quarentena)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2020/04/httphomologacao.osasco.sp_.gov_.brcompsec7atosOsasco_1586225198_7.pdf"
+  data: "2020-04-06"
+  consultado: "2026-11-09"
+
+seplag-2020-11-20-covid:
+  titulo: "Acompanhamento da pandemia COVID-19 – 20/11/20"
+  autor: "Prefeitura de Osasco, Secretaria de Planejamento e Gestão"
+  url: "https://seplag.osasco.sp.gov.br/Noticia/Detail/146"
+  data: "2020-11-20"
+  consultado: "2026-11-09"
+
+prefeitura-2021-04-13-uti:
+  titulo: "Prefeitura entrega 30 novos leitos de UTI para o Hospital Antônio Giglio"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/prefeitura-entrega-30-novos-leitos-de-uti-para-o-hospital-antonio-giglio/"
+  data: "2021-04-13"
+  consultado: "2026-11-09"
+
+dt-2021-04-17-transicao:
+  titulo: "Osasco incorpora \"fase de transição\" e destaca necessidade de reduzir aglomeração no transporte público em decreto"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2021/04/17/osasco-incorpora-fase-de-transicao-e-destaca-necessidade-de-reduzir-aglomeracao-no-transporte-publico-em-decreto/"
+  data: "2021-04-17"
+  consultado: "2026-11-09"
+
+visaooeste-2022-06-07-escola-futuro:
+  titulo: "Osasco ganhará duas unidades da Escola do Futuro em período integral, diz Rogério Lins"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/osasco-ganhara-duas-unidades-da-escola-do-futuro-em-periodo-integral-diz-rogerio-lins/"
+  data: "2022-06-07"
+  consultado: "2026-11-09"
+
+cpaulista-2025-08-09-escola-futuro:
+  titulo: "Obras da Escola do Futuro e Cidade da Polícia avançam em Osasco"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/obras-da-escola-do-futuro-e-cidade-da-policia-avancam-em-osasco/"
+  data: "2025-08-09"
+  consultado: "2026-11-09"
+
+visaooeste-2023-05-26-notebooks:
+  titulo: "Entrega de 24 mil notebooks a alunos da rede municipal de Osasco começa neste sábado"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/entrega-de-24-mil-notebooks-a-alunos-da-rede-municipal-de-osasco-comeca-neste-sabado/"
+  data: "2023-05-26"
+  consultado: "2026-11-09"
+
+portalregiaooeste-2024-08-09-creches:
+  titulo: "Lins promete há 8 anos zerar fila de espera por creches em Osasco"
+  autor: "Portal Região Oeste"
+  url: "http://portalregiaooeste.com.br/lins-promete-ha-8-anos-zerar-fila-de-espera-por-creches-em-osasco/"
+  data: "2024-08-09"
+  consultado: "2026-11-09"
+
+girosa-2023-03-01-monitoramento:
+  titulo: "Segurança: em Osasco, prefeito Rogério Lins implanta Central de Monitoramento Escolar"
+  autor: "Giro S/A (Vanessa Dainesi)"
+  url: "https://girosa.com.br/seguranca-em-osasco-prefeito-rogerio-lins-implanta-central-de-monitoramento-escolar/"
+  data: "2023-03-01"
+  consultado: "2026-11-09"
+
+prefeitura-2023-08-01-cidade-policia:
+  titulo: "Obra de construção da Cidade da Polícia de Osasco segue acelerada"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/obra-de-construcao-da-cidade-da-policia-de-osasco-segue-acelerada/"
+  data: "2023-08-01"
+  consultado: "2026-11-09"
+
+visaooeste-2019-08-06-seguranca:
+  titulo: "\"Osasco tem feito a 'lição de casa' na Segurança Pública\", diz Rogério Lins"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/osasco-tem-feito-a-licao-de-casa-na-seguranca-publica-diz-rogerio-lins/"
+  data: "2019-08-06"
+  consultado: "2026-11-09"
+
+paginazero-2020-06-19-vila-alemanha:
+  titulo: "Rogério Lins comanda cerimônia de entrega dos 300 apartamentos do Residencial Vila Alemanha"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2020/06/19/rogerio-lins-comanda-cerimonia-de-entrega-dos-300-apartamentos-do-residencial-vila-alemanha/"
+  data: "2020-06-19"
+  consultado: "2026-11-09"
+
+cpaulista-2020-04-22-portal-doeste:
+  titulo: "Prefeitura de Osasco entrega apartamentos no Portal D'Oeste"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/prefeitura-de-osasco-entrega-apartamentos-no-portal-doeste/"
+  data: "2020-04-22"
+  consultado: "2026-11-09"
+
+girosa-2024-04-08-paco:
+  titulo: "Osasco: complexo tecnológico vai ocupar prédio destinado à nova Prefeitura"
+  autor: "Giro S/A (Vanessa Dainesi)"
+  url: "https://girosa.com.br/osasco-complexo-tecnologico-predio-da-prefeitura/"
+  data: "2024-04-08"
+  consultado: "2026-11-09"
+
+folhaoeste-2026-04-14-paco:
+  titulo: "Obra abandonada no Centro de Osasco"
+  autor: "Jornal Folha Oeste"
+  url: "https://www.jornalfolhaoeste.com.br/noticia/2886"
+  data: "2026-04-14"
+  consultado: "2026-11-09"
+
+tce-2024-03-05-contas-2022:
+  titulo: "Parecer prévio das contas de 2022 da Prefeitura de Osasco (TC-004383.989.22-5), Segunda Câmara, relator Robson Marinho"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://jurisprudencia.tce.sp.gov.br/arqs_juri/pdf/6/5/0/947056.pdf"
+  data: "2024-03-05"
+  consultado: "2026-11-09"
+
+tce-2025-03-12-pleno:
+  titulo: "Pauta e resultados da sessão do Tribunal Pleno de 12/03/2025"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/sites/default/files/noticias/20250312_Pleno.pdf"
+  data: "2025-03-12"
+  consultado: "2026-11-09"
+
+tce-2020-12-11-segunda-camara:
+  titulo: "Segunda Câmara do TCESP analisa 165 processos da Ordem do Dia"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/6524-segunda-camara-tcesp-analisa-165-processos-ordem-dia"
+  data: "2020-12-11"
+  consultado: "2026-11-09"
+
+girosa-2022-06-06-contas-2017:
+  titulo: "Em sessão extraordinária, Câmara de Osasco aprova contas do prefeito Rogério Lins"
+  autor: "Giro S/A (Vanessa Dainesi)"
+  url: "https://girosa.com.br/em-sessao-extraordinaria-camara-de-osasco-aprova-contas-do-prefeito-rogerio-lins/"
+  data: "2022-06-06"
+  consultado: "2026-11-09"
+
+cpaulista-2025-06-18-contas:
+  titulo: "Câmara de Osasco aprova contas da Prefeitura referentes aos anos de 2021 e 2022"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/camara-de-osasco-aprova-contas-da-prefeitura-referentes-aos-anos-de-2021-e-2022/"
+  data: "2025-06-18"
+  consultado: "2026-11-09"
+
+cpaulista-2025-09-19-contas-2023:
+  titulo: "Câmara de Osasco aprova contas da Prefeitura referentes a 2023 com parecer favorável do TCE"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/camara-de-osasco-aprova-contas-da-prefeitura-referentes-a-2023-com-parecer-favoravel-do-tce/"
+  data: "2025-09-19"
+  consultado: "2026-11-09"
+
+cpaulista-2026-10-24-contas-2024:
+  titulo: "Câmara de Osasco aprova contas da Prefeitura referentes ao exercício de 2024"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/camara-de-osasco-aprova-contas-da-prefeitura-referentes-ao-exercicio-de-2024/"
+  data: "2026-10-24"
+  consultado: "2026-11-09"
+
+tce-2023-05-03-pleno:
+  titulo: "Ata da 13ª Sessão Ordinária do Tribunal Pleno (03/05/2023)"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://tce.sp.gov.br/sites/default/files/atas/2023_05_03_pleno_13so.pdf"
+  data: "2023-05-03"
+  consultado: "2026-11-09"
+
+forum-2026-08-17-lins:
+  titulo: "Anfitrião de Tarcísio em Osasco teve R$ 1,2 milhão bloqueados por improbidade administrativa"
+  autor: "Revista Fórum (Julinho Bittencourt)"
+  url: "https://revistaforum.com.br/politica/anfitriao-tarcisio-osasco-r-12-milhao-bloqueados-improbidade-administrativa"
+  data: "2026-08-17"
+  consultado: "2026-11-09"
+
+cpaulista-2026-05-29-lins-absolvido:
+  titulo: "Depois de anos, Justiça inocenta Rogério Lins: \"Não havia prova nenhuma\""
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/depois-de-anos-justica-inocenta-rogerio-lins-nao-havia-prova-nenhuma/"
+  data: "2026-05-29"
+  consultado: "2026-11-09"
+
+abr-2017-04-12-bloqueio-lins:
+  titulo: "Justiça determina bloqueio de bens do prefeito de Osasco"
+  autor: "Agência Brasil, publicado pela Exame"
+  url: "https://exame.com/brasil/justica-determina-bloqueio-de-bens-do-prefeito-de-osasco/"
+  data: "2017-04-12"
+  consultado: "2026-11-09"
+
+oipp-2022-08-saude-osasco:
+  titulo: "Parâmetros referenciais para a análise da execução orçamentária e financeira das ações e serviços públicos de saúde da Prefeitura de Osasco/SP"
+  autor: "Luana de Lima Oliveira e Ursula Dias Peres (EACH-USP), Boletim de Políticas Públicas OIPP/USP nº 25"
+  url: "https://sites.usp.br/boletimoipp/wp-content/uploads/sites/823/2022/09/Oliveira_Peres_agosto_2022.pdf"
+  data: "2022-08"
+  consultado: "2026-11-09"
+
+folhaalphaville-2026-10-15-cargos:
+  titulo: "Decisão judicial pede exoneração de mais de 400 cargos comissionados na Prefeitura de Osasco"
+  autor: "Folha de Alphaville (Aliz Lambiazzi)"
+  url: "https://folhadealphaville.com.br/cidades/2026/10/15/decisao-judicial-ameaca-400-cargos-na-prefeitura-de-osasco.html"
+  data: "2026-10-15"
+  consultado: "2026-11-09"
+
+jornalarua-2026-10-14-cargos:
+  titulo: "Após esgotar recursos na Justiça, Prefeitura de Osasco deverá exonerar cerca de 400 comissionados"
+  autor: "Jornal ARua"
+  url: "https://jornalarua.com/2026/10/14/apos-esgotar-recursos-na-justica-prefeitura-de-osasco-devera-exonerar-cerca-de-400-comissionados/"
+  data: "2026-10-14"
+  consultado: "2026-11-09"
+
+visaooeste-2026-10-14-cargos:
+  titulo: "Prefeitura de Osasco deve exonerar 400 servidores comissionados após decisão judicial"
+  autor: "Portal Visão Oeste (Jenifer Oliveira)"
+  url: "https://visaooeste.com.br/prefeitura-de-osasco-deve-exonerar-400-servidores-comissionados-apos-decisao-judicial/"
+  data: "2026-10-14"
+  consultado: "2026-11-09"
+
+stf-2019-09-03-osasco-comissionados:
+  titulo: "Suspensa ordem de exoneração imediata de servidores comissionados de Osasco (SP)"
+  autor: "Supremo Tribunal Federal"
+  url: "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=422470"
+  data: "2019-09-03"
+  consultado: "2026-11-09"
+
+camara-2025-03-06-cargos:
+  titulo: "Câmara começa a votar reestruturação de cargos da Prefeitura de Osasco"
+  autor: "Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/noticia/1636/Camara-comeca-a-votar-reestruturacao-de-cargos-da-Prefeitura-de-Osasco"
+  data: "2025-03-06"
+  consultado: "2026-11-09"
+
+camara-2025-05-28-reajuste:
+  titulo: "Legislativo aprova reajuste de 5,54% para servidores da Prefeitura de Osasco"
+  autor: "Câmara Municipal de Osasco"
+  url: "https://www.osasco.sp.leg.br/noticia/1750/Legislativo-aprova-reajuste-de-554-para-servidores-da-Prefeitura-de-Osasco"
+  data: "2025-05-28"
+  consultado: "2026-11-09"
+
+cpaulista-2025-09-26-ppa:
+  titulo: "Câmara de Osasco aprova PPA e LDO 2026 com orçamento de R$ 5,4 bilhões"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/camara-de-osasco-aprova-ppa-e-ldo-2026-com-orcamento-de-r-54-bilhoes/"
+  data: "2025-09-26"
+  consultado: "2026-11-09"
+
+cpaulista-2025-11-27-loa:
+  titulo: "Audiência da LOA 2026 destaca maior orçamento da história de Osasco"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/audiencia-da-loa-2026-destaca-maior-orcamento-da-historia-de-osasco/"
+  data: "2025-11-27"
+  consultado: "2026-11-09"
+
+visaooeste-2025-04-11-100-dias:
+  titulo: "Gerson Pessoa apresenta balanço dos 100 dias de governo em Osasco"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/gerson-pessoa-apresenta-balanco-dos-100-dias-de-governo-em-osasco-destacando-avancos-e-projetos-futuros/"
+  data: "2025-04-11"
+  consultado: "2026-11-09"
+
+cpaulista-2026-06-17-18-meses:
+  titulo: "Prefeito Gerson Pessoa apresenta balanço dos primeiros 18 meses de governo a pastores em Osasco"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/prefeito-gerson-pessoa-apresenta-balanco-dos-primeiros-18-meses-de-governo-a-pastores-em-osasco/"
+  data: "2026-06-17"
+  consultado: "2026-11-09"
+
+girosa-2025-09-01-hospital-crianca:
+  titulo: "Osasco: sem data de entrega, Hospital da Criança inicia escolha da OS"
+  autor: "Giro S/A (Vanessa Dainesi)"
+  url: "https://girosa.com.br/osasco-hospital-crianca-mulher-sem-data-escolhe-os/"
+  data: "2025-09-01"
+  consultado: "2026-11-09"
+
+visaooeste-2025-08-06-hospital-crianca:
+  titulo: "Gerson promete entregar Hospital da Criança e da Mulher de Osasco até dezembro"
+  autor: "Portal Visão Oeste (Jenifer Oliveira)"
+  url: "https://visaooeste.com.br/gerson-promete-entregar-hospital-da-crianca-e-da-mulher-de-osasco-ate-dezembro/"
+  data: "2025-08-06"
+  consultado: "2026-11-09"
+
+visaooeste-2026-09-29-giglio:
+  titulo: "Obras do Hospital Antônio Giglio entram na reta final com entrega confirmada para 24 de outubro em Osasco"
+  autor: "Portal Visão Oeste (Soraia Sene)"
+  url: "https://visaooeste.com.br/obras-do-hospital-antonio-giglio-entram-na-reta-final-com-entrega-confirmada-para-24-de-outubro-em-osasco/"
+  data: "2026-09-29"
+  consultado: "2026-11-09"
+
+visaooeste-2026-09-23-ubs-rochdale:
+  titulo: "Gerson Pessoa anuncia nova UBS do Rochdale"
+  autor: "Portal Visão Oeste (Soraia Sene)"
+  url: "https://visaooeste.com.br/gerson-pessoa-anuncia-nova-ubs-do-rochdale/"
+  data: "2026-09-23"
+  consultado: "2026-11-09"
+
+jornalarua-2025-02-06-cemei:
+  titulo: "Prefeito Gerson Pessoa inaugura CEMEI do Jaguaribe"
+  autor: "Jornal ARua"
+  url: "https://jornalarua.com/2025/02/06/prefeito-gerson-pessoa-inaugura-cemei-do-jaguaribe/"
+  data: "2025-02-06"
+  consultado: "2026-11-09"
+
+cpaulista-2025-08-26-creche-portal:
+  titulo: "Prefeito de Osasco Gerson Pessoa acompanha obras da nova creche no Portal D'Oeste"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/prefeito-de-osasco-gerson-pessoa-acompanha-obras-da-nova-creche-no-portal-doeste/"
+  data: "2025-08-26"
+  consultado: "2026-11-09"
+
+cpaulista-2026-02-03-professores:
+  titulo: "Prefeitura de Osasco dá posse a 300 professores de desenvolvimento infantil"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/prefeitura-de-osasco-da-posse-a-300-professores-de-desenvolvimento-infantil/"
+  data: "2026-02-03"
+  consultado: "2026-11-09"
+
+abr-2026-04-27-livros:
+  titulo: "Prefeitura de Osasco joga no lixo livros de biblioteca municipal"
+  autor: "Agência Brasil (Matheus Crobelatti)"
+  url: "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-04/prefeitura-de-osasco-joga-no-lixo-livros-de-biblioteca-municipal"
+  data: "2026-04-27"
+  consultado: "2026-11-09"
+
+infomoney-2026-04-28-livros:
+  titulo: "MP é acionado para investigar prefeitura após descarte de 40 mil livros em Osasco"
+  autor: "InfoMoney (Caio César)"
+  url: "https://www.infomoney.com.br/politica/mp-e-acionado-para-investigar-prefeitura-apos-descarte-de-40-mil-livros-em-osasco/"
+  data: "2026-04-28"
+  consultado: "2026-11-09"
+
+gazetadopovo-2026-04-29-livros:
+  titulo: "O que se sabe sobre o descarte de 40 mil livros em Osasco"
+  autor: "Gazeta do Povo (Aline Rechmann)"
+  url: "https://www.gazetadopovo.com.br/vida-e-cidadania/o-que-se-sabe-sobre-o-descarte-de-40-mil-livros-em-osasco/"
+  data: "2026-04-29"
+  consultado: "2026-11-09"
+
+metropoles-2026-04-30-livros:
+  titulo: "MPSP apura descarte de livros de biblioteca em Osasco"
+  autor: "Metrópoles (Julia Gandra)"
+  url: "https://www.metropoles.com/sao-paulo/mpsp-apura-livros-biblioteca-sp"
+  data: "2026-04-30"
+  consultado: "2026-11-09"
+
+icl-2026-04-30-livros:
+  titulo: "Promotoria abre inquérito para apurar descarte de milhares de livros em Osasco (SP)"
+  autor: "ICL Notícias, com Folhapress"
+  url: "https://iclnoticias.com.br/inquerito-contra-descarte-de-livros/"
+  data: "2026-04-30"
+  consultado: "2026-11-09"
+
+paginazero-2025-12-12-monitora-oz:
+  titulo: "Monitora OZ vai receber imagens de câmeras de empresas e residências de Osasco"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2025/12/12/monitora-oz-vai-receber-imagens-de-cameras-de-empresas-e-residencias-de-osasco/"
+  data: "2025-12-12"
+  consultado: "2026-11-09"
+
+girosa-2025-12-09-monitora-oz:
+  titulo: "Monitora OZ: conheça novo sistema de monitoramento de Osasco"
+  autor: "Giro S/A (Mariana Pereira)"
+  url: "https://girosa.com.br/monitora-oz-conheca-sistema-de-monitoramento-osascoo/"
+  data: "2025-12-09"
+  consultado: "2026-11-09"
+
+jornalarua-2026-09-22-centro-seguranca:
+  titulo: "Prefeitura de Osasco inaugura novo Centro de Segurança"
+  autor: "Jornal ARua"
+  url: "https://jornalarua.com/2026/09/22/prefeitura-de-osasco-inaugura-novo-centro-de-seguranca/"
+  data: "2026-09-22"
+  consultado: "2026-11-09"
+
+visaooeste-2025-03-11-cidade-policia:
+  titulo: "Cidade da Polícia: complexo de segurança pública em Osasco deve ficar pronto em 2026"
+  autor: "Portal Visão Oeste"
+  url: "https://visaooeste.com.br/cidade-da-policia-complexo-de-seguranca-publica-em-osasco-deve-ficar-pronto-em-2026/"
+  data: "2025-03-11"
+  consultado: "2026-11-09"
+
+visaooeste-2026-09-10-ddm:
+  titulo: "Delegacia da Mulher de Osasco começará a funcionar 24 horas em 1º de outubro"
+  autor: "Portal Visão Oeste (Soraia Sene)"
+  url: "https://visaooeste.com.br/delegacia-da-mulher-de-osasco-comecara-a-funcionar-24-horas-em-1o-de-outubro/"
+  data: "2026-09-10"
+  consultado: "2026-11-09"
+
+sbt-2026-03-30-gcm:
+  titulo: "Vídeo flagra agressão de agentes da Guarda Civil contra mulher em Osasco (SP)"
+  autor: "SBT News"
+  url: "https://sbtnews.sbt.com.br/noticia/policia/video-flagra-agressao-de-agentes-da-guarda-civil-contra-mulher-em-osasco-sp"
+  data: "2026-03-30"
+  consultado: "2026-11-09"
+
+prefeitura-2025-07-28-pac-rochdale:
+  titulo: "Em Osasco, presidente anuncia recursos para o Rochdale e as comunidades da 13 e do Limite"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/em-osasco-presidente-anuncia-recursos-para-o-rochdale-e-as-comunidades-da-13-e-do-limite/"
+  data: "2025-07-28"
+  consultado: "2026-11-09"
+
+portalamais-2026-02-09-parque-nordestino:
+  titulo: "Osasco inaugura Parque do Nordestino e transforma antigo piscinão em complexo de lazer no Rochdale"
+  autor: "Portal A+"
+  url: "https://portalamais.com/osasco-inaugura-parque-do-nordestino-e-transforma-antigo-piscinao-em-complexo-de-lazer-no-rochdale/"
+  data: "2026-02-09"
+  consultado: "2026-11-09"
+
+dt-2025-05-09-eletricos:
+  titulo: "Prefeitura de Osasco (SP) detalha ao Diário do Transporte chegada de frota de ônibus elétricos"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2025/05/09/prefeitura-de-osasco-sp-detalha-ao-diario-do-transporte-chegada-de-frota-de-onibus-eletricos-anunciada-por-gerson-pessoa/"
+  data: "2025-05-09"
+  consultado: "2026-11-09"
+
+dt-2025-08-03-eletricos:
+  titulo: "Osasco (SP) terá mais 10 ônibus elétricos com nova tecnologia a partir deste domingo, 03 de agosto de 2025"
+  autor: "Diário do Transporte (Adamo Bazani)"
+  url: "https://diariodotransporte.com.br/2025/08/03/osasco-sp-tera-mais-10-onibus-eletricos-com-nova-tecnologia-a-partir-deste-domingo-03-de-agosto-de-2025/"
+  data: "2025-08-03"
+  consultado: "2026-11-09"
+
+visaooeste-2025-09-26-faixa-azul:
+  titulo: "Osasco inicia implantação da faixa azul para motociclistas"
+  autor: "Portal Visão Oeste (Soraia Sene)"
+  url: "https://visaooeste.com.br/osasco-inicia-implantacao-da-faixa-azul-para-motociclistas/"
+  data: "2025-09-26"
+  consultado: "2026-11-09"
+
+cpaulista-2026-02-24-onibus:
+  titulo: "Osasco celebra 64 anos com entrega de 17 novos ônibus, sendo 12 elétricos"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/osasco-celebra-64-anos-com-entrega-de-17-novos-onibus-sendo-12-eletricos/"
+  data: "2026-02-24"
+  consultado: "2026-11-09"
+
+paginazero-2025-10-17-cras:
+  titulo: "Novo Centro de Assistência Social de Osasco já atende no Jardim D'Abril"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2025/10/17/novo-centro-de-assistencia-social-de-osasco-ja-atende-no-jardim-dabril/"
+  data: "2025-10-17"
+  consultado: "2026-11-09"
+
+paginazero-2026-06-26-superacao:
+  titulo: "Governo do Estado destina R$ 4,9 milhões para Osasco fortalecer parceria com SuperAção SP"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2026/06/26/governo-do-estado-destina-r-49-milhoes-para-osasco-fortalecer-parceria-com-superacao-sp/"
+  data: "2026-06-26"
+  consultado: "2026-11-09"
+
+paginazero-2025-04-17-ecoponto:
+  titulo: "Cidade das Flores recebe oitavo ecoponto em Osasco"
+  autor: "Página Zero"
+  url: "https://paginazero.com.br/2025/04/17/cidade-das-flores-recebe-oitavo-ecoponto-em-osasco/"
+  data: "2025-04-17"
+  consultado: "2026-11-09"
+
+cpaulista-2026-05-18-ecoponto:
+  titulo: "Osasco ganha 10º Ecoponto no Centro"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/osasco-ganha-10o-ecoponto-no-centro-veja-enderecos-e-o-que-pode-descartar/"
+  data: "2026-05-18"
+  consultado: "2026-11-09"
+
+cpaulista-2025-11-03-cemiterio:
+  titulo: "Prefeitura de Osasco inaugura o primeiro cemitério vertical da cidade"
+  autor: "Correio Paulista"
+  url: "https://correiopaulista.com/prefeitura-de-osasco-inaugura-o-primeiro-cemiterio-vertical-da-cidade-com-tecnologia-moderna-e-sustentavel/"
+  data: "2025-11-03"
+  consultado: "2026-11-09"
+
+visaooeste-2025-11-03-cemiterio:
+  titulo: "Entorno do cemitério vertical de Osasco será transformado em praça memorial, promete Gerson Pessoa"
+  autor: "Portal Visão Oeste (Jenifer Oliveira)"
+  url: "https://visaooeste.com.br/entorno-do-cemiterio-vertical-de-osasco-sera-transformado-em-praca-memorial-promete-gerson-pessoa/"
+  data: "2025-11-03"
+  consultado: "2026-11-09"
+
+romao-2010-op:
+  titulo: "Nas franjas da sociedade política: estudo sobre o orçamento participativo (tese de doutorado em Sociologia)"
+  autor: "Wagner de Melo Romão, FFLCH-USP"
+  url: "https://teses.usp.br/teses/disponiveis/8/8132/tde-28092010-092315/publico/2010_WagnerdeMeloRomao.pdf"
+  data: "2010"
+  consultado: "2026-11-09"
+
+pinto-2014-op:
+  titulo: "Orçamento participativo como instrumento de democracia na cidade de Osasco (monografia de especialização)"
+  autor: "Vanie Dias Pinto, UTFPR"
+  url: "http://repositorio.utfpr.edu.br/jspui/handle/1/23066"
+  data: "2014"
+  consultado: "2026-11-09"
+
+iomo-434:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 434 (Lei nº 3.952/2005, Diretrizes Orçamentárias de 2006)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo434.pdf"
+  data: "2005-08-04"
+  consultado: "2026-11-09"
+
+iomo-450:
+  titulo: "Imprensa Oficial do Município de Osasco, edição nº 450 (Lei Complementar nº 139/2005, Código Tributário)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo450.pdf"
+  data: "2005-11-24"
+  consultado: "2026-11-09"
+
+osascoagora-2010-11-09-ubs-palmares:
+  titulo: "UBS do Parque Palmares vai melhorar o atendimento em saúde em toda zona Sul de Osasco"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/ubs-do-parque-palmares-vai-melhorar-o-atendimento-em-saude-em-toda-zona-sul-de-osasco/"
+  data: "2010-11-09"
+  consultado: "2026-11-09"
+
+osascoagora-2011-07-13-samu:
+  titulo: "SAMU: programa que revolucionou atendimento de urgência em Osasco completa 6 anos"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/samu-programa-que-revolucionou-atendimento-de-urgencia-em-osasco-completa-6-anos/"
+  data: "2011-07-13"
+  consultado: "2026-11-09"
+
+osascoagora-2009-03-26-maternidade:
+  titulo: "\"Maternidade Amador Aguiar é referência para a região\", afirma superintendente da unidade"
+  autor: "Osasco Agora"
+  url: "https://www.osascoagora.com.br/%E2%80%9Cmaternidade-amador-aguiar-e-referencia-para-a-regiao%E2%80%9D-afirma-dr-egidio-superintendente-da-unidade/"
+  data: "2009-03-26"
+  consultado: "2026-11-09"
+
+encontralapa-2008-piscinoes:
+  titulo: "Região do Jaraguá ganhará piscinão para o próximo período de chuva na Lapa"
+  autor: "Encontra Lapa (texto da Secretaria de Comunicação do Governo do Estado)"
+  url: "https://www.encontralapa.com.br/sobre/regiao-do-jaragua-ganhara-piscinao-para-o-proximo-periodo-de-chuva-na-lapa/"
+  data: "2008"
+  consultado: "2026-11-09"
+
+daee-2021-01-21-piscinoes:
+  titulo: "DAEE investe R$ 37,8 milhões na manutenção de 24 piscinões de SP"
+  autor: "ABC do ABC (texto do DAEE)"
+  url: "https://abcdoabc.com.br/daee-investe-r-378-milhoes-na-manutencao-de-24-piscinoes-de-sp/"
+  data: "2021-01-21"
+  consultado: "2026-11-09"
+
+prefeitura-2020-08-06-piscinoes:
+  titulo: "Prefeitura pede limpeza de dois piscinões de Osasco para o Estado de SP"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/prefeitura-pede-limpeza-de-dois-piscinoes-de-osasco-para-o-estado-de-sp/"
+  data: "2020-08-06"
+  consultado: "2026-11-09"
+
+rubio-alvim-2018-colinas:
+  titulo: "Programa de urbanização de favelas e o direito à cidade: o caso do Colinas D'Oeste em Osasco"
+  autor: "Viviane Manzione Rubio e Angélica Tanus Benatti Alvim, revista Espaços Vividos (Universidade de Lisboa), v. 1, n. 6"
+  url: "https://biblioteca.fa.ulisboa.pt/images/revistas/espacos_vividos/v1n6/6.5_Programa_de_Urbaniza%C3%A7%C3%A3o_de_favelas_e_o_Direito_%C3%A0_Cidade.pdf"
+  data: "2018"
+  consultado: "2026-11-09"
+
+conjur-2009-02-14-osasco-cargos:
+  titulo: "Prefeitura de Osasco terá que exonerar 1.811 servidores, decide TJ-SP"
+  autor: "Consultor Jurídico (Fernando Porfírio)"
+  url: "https://www.conjur.com.br/2009-fev-14/prefeitura-osasco-exonerar-1811-servidores-decide-tj-sp/"
+  data: "2009-02-14"
+  consultado: "2026-11-09"
+
+tce-2013-02-05-gruhbas:
+  titulo: "Segunda Câmara julga irregular contrato na Educação em Osasco"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/6524-segunda-camara-julga-irregular-contrato-na-educacao-em-osasco"
+  data: "2013-02-05"
+  consultado: "2026-11-09"
+
+dp-2016-03-11-emidio:
+  titulo: "Justiça bloqueia bens e quebra sigilo do presidente estadual do PT paulista"
+  autor: "Diario de Pernambuco (agência)"
+  url: "https://www.diariodepernambuco.com.br/noticia/politica/2016/03/justica-bloqueia-bens-e-quebra-sigilo-do-presidente-estadual-do-pt-pau.html"
+  data: "2016-03-11"
+  consultado: "2026-11-09"
+
+tjsp-2016-10-05-penhora:
+  titulo: "Mantida penhora de bens de ex-prefeito de Osasco"
+  autor: "Tribunal de Justiça de São Paulo"
+  url: "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=37777"
+  data: "2016-10-05"
+  consultado: "2026-11-09"

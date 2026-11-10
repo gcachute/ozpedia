@@ -1,0 +1,56 @@
+# Prefeitos de Osasco antes das eleições com dados abertos do TSE (1996 em diante).
+# Só entra quem tem fonte. Campos: pessoa (id da página), periodo, partido, vice (nome), vicePessoa (id da página do vice,
+# se houver), fontes (lista de identificadores de fonte), nota.
+# Datas e vices: Galeria de Prefeitos da Prefeitura de Osasco. Partido: biografias da Câmara dos Deputados, quando trazem.
+
+- pessoa: hirant-sanazar
+  periodo: "19/02/1962 – 27/06/1964"
+  vice: Marino Pedro Nicoletti
+  vicePessoa: marino-pedro-nicoletti
+  fontes: [prefeitura-galeria-hirant-sanazar]
+  nota: "Mandato interrompido por um Inquérito Policial Militar. Voltou ao cargo em 1965 e saiu em seguida, por intervenção estadual."
+- pessoa: marino-pedro-nicoletti
+  periodo: "27/06/1964 – 31/12/1966"
+  fontes: [prefeitura-galeria-marino-pedro-nicoletti]
+  nota: "Prefeito interino de 1964 a 1965 e interventor estadual de 1965 a 1966."
+- pessoa: guacu-piteri
+  periodo: "01/02/1967 – 01/02/1970"
+  partido: MDB
+  vice: Guido Collino
+  fontes: [prefeitura-galeria-guacu-piteri, camara-dep-guacu-piteri]
+- pessoa: jose-liberatti
+  periodo: "01/02/1970 – 31/01/1973"
+  vice: Guido Collino
+  fontes: [prefeitura-galeria, prefeitura-galeria-jose-liberatti]
+  nota: "A página do prefeito na galeria registra o fim do mandato em 31 de janeiro de 1972."
+- pessoa: francisco-rossi
+  periodo: "01/02/1973 – 31/01/1977"
+  partido: ARENA
+  vice: Vivaldo Simões
+  fontes: [prefeitura-galeria-francisco-rossi, camara-dep-francisco-rossi]
+- pessoa: guacu-piteri
+  periodo: "01/02/1977 – 15/06/1982"
+  partido: MDB
+  vice: João Gilberto Port
+  vicePessoa: joao-gilberto-port
+  fontes: [prefeitura-galeria-guacu-piteri, prefeitura-galeria-primo-broseghini, camara-dep-guacu-piteri]
+  nota: "Renunciou para exercer o mandato de deputado federal."
+- pessoa: primo-broseghini
+  periodo: "16/06/1982 – 31/01/1983"
+  fontes: [prefeitura-galeria-primo-broseghini, camara-legislaturas]
+  nota: "Assumiu como presidente da Câmara Municipal, depois da renúncia de Guaçu Piteri."
+- pessoa: humberto-parro
+  periodo: "01/02/1983 – 31/12/1988"
+  partido: PMDB
+  vice: Aylton Muniz Menezes
+  fontes: [prefeitura-galeria-humberto-parro, camara-dep-humberto-parro]
+- pessoa: francisco-rossi
+  periodo: "01/01/1989 – 31/12/1992"
+  partido: PTB
+  vice: Antonio Toschi
+  fontes: [prefeitura-galeria-francisco-rossi, camara-dep-francisco-rossi]
+- pessoa: celso-giglio
+  periodo: "01/01/1993 – 31/12/1996"
+  vice: Jair Assaf
+  vicePessoa: jair-assaf
+  fontes: [prefeitura-galeria-celso-giglio]

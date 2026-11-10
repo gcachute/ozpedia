@@ -17,6 +17,7 @@ const MENU = [
   ["/eleicoes/", "Eleições"],
   ["/camara/", "Câmara"],
   ["/prefeitura/", "Prefeitura"],
+  ["/leis/", "Leis"],
   ["/fatos/", "Fatos"],
 ] as const;
 

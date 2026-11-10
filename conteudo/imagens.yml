@@ -1,0 +1,43 @@
+# Imagens das páginas de pessoa. Só arquivos do Wikimedia Commons com licença livre; o crédito (autor e licença)
+# é lido do próprio Commons pelo script scripts/importar-imagens.mjs e aparece como referência na legenda.
+# As fotos de candidatura do TSE (Portal de Dados Abertos, CC BY 4.0) que estão no Commons são achadas sozinhas
+# pelo script; aqui ficam as escolhas feitas à mão, que têm prioridade.
+#
+# Campos: pessoa (id da página), arquivo (nome do arquivo no Commons), legenda.
+
+- pessoa: celso-giglio
+  arquivo: "Celso_Giglio_(cropped).jpg"
+  legenda: "Celso Giglio em 2014"
+- pessoa: emidio
+  arquivo: "GRF_7479.jpg"
+  legenda: "Emídio de Souza em 2024"
+- pessoa: francisco-rossi
+  arquivo: "Mário_Covas-Joelmir_Beting-Francisco_Rossi_(1994)_(Francisco_Rossi)_(cropped).jpg"
+  legenda: "Francisco Rossi em 1994, em debate entre candidatos ao governo do estado"
+- pessoa: guacu-piteri
+  arquivo: "Guaçu_Piteri_(1976)_(cropped).jpg"
+  legenda: "Guaçu Piteri em dezembro de 1976, prefeito eleito"
+- pessoa: lapas
+  arquivo: "Jorge_Lapas_(cropped).jpg"
+  legenda: "Jorge Lapas em 2012"
+- pessoa: joao-paulo-cunha
+  arquivo: "João_Paulo_Cunha.jpg"
+  legenda: "João Paulo Cunha em 2004, como presidente da Câmara dos Deputados"
+- pessoa: rogerio-lins
+  arquivo: "Rogério_Lins_(cropped).jpg"
+  legenda: "Rogério Lins em 2017"
+- pessoa: valmir-prascidelli
+  arquivo: "Valmir_Prascidelli.jpg"
+  legenda: "Valmir Prascidelli em 2015, na Câmara dos Deputados"
+- pessoa: hirant-sanazar
+  arquivo: "José_Bonifácio-Hirant_Sanazar-Carvalho_Pinto_(1962).jpg"
+  legenda: "Hirant Sanazar (centro), prefeito de Osasco, em audiência com o governador Carvalho Pinto (à direita), em 1962"
+- pessoa: marino-pedro-nicoletti
+  arquivo: "Laudo_Natel_-_Francisco_Rossi_-_Marino_Pedro_Nicoletti_(1972).jpg"
+  legenda: "Marino Pedro Nicoletti (quinto a partir da esquerda) em 1972, com o governador Laudo Natel (terceiro) e Francisco Rossi (quarto)"
+- pessoa: humberto-parro
+  arquivo: "Mário_Covas_e_Humberto_Parro_(1994).jpg"
+  legenda: "Humberto Parro (à direita) com Mário Covas (centro), em 1994"
+- pessoa: reginaldo-valadao
+  arquivo: "Franco_Montoro_e_Ulysses_Guimarães_visitam_autoridades_de_Osasco_(1978).jpg"
+  legenda: "Da esquerda para a direita: Franco Montoro, Ulysses Guimarães, Jair Assaf, Guaçu Piteri, Jair Sanches e Reginaldo Valadão, em 1978"

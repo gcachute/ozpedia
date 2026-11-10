@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { LinkPagina } from "@/components/artigo";
 import { escritas } from "@/lib/conteudo";
 import { dataPorExtenso } from "@/lib/texto";
+import { Figura } from "@/components/artigo";
+import { imagemPagina } from "@/lib/imagens";
 
 export const metadata: Metadata = { title: "Fatos" };
 
@@ -10,6 +12,7 @@ export default function Fatos() {
   return (
     <div>
       <h1 className="titulo text-4xl">Fatos</h1>
+      <Figura imagem={imagemPagina("fatos")} />
       <p className="mt-2 max-w-2xl">Episódios da política de Osasco, em ordem de data.</p>
       <ul className="mt-8 divide-y divide-fio">
         {lista.map((f) => (

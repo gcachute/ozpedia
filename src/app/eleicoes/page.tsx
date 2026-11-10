@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { LinkPagina, NomePessoa, SiglaPartido } from "@/components/artigo";
 import { escrita } from "@/lib/conteudo";
 import { chapas, eleicoes, pessoa } from "@/lib/dados";
+import { Figura } from "@/components/artigo";
+import { imagemPagina } from "@/lib/imagens";
 
 export const metadata: Metadata = { title: "Eleições" };
 
@@ -9,6 +11,7 @@ export default function Eleicoes() {
   return (
     <div>
       <h1 className="titulo text-4xl">Eleições</h1>
+      <Figura imagem={imagemPagina("eleicoes")} />
       <p className="mt-2 max-w-2xl">
         Eleições municipais de Osasco. De 1996 em diante, com os dados abertos do Tribunal Superior Eleitoral; antes disso, páginas escritas com outras
         fontes.

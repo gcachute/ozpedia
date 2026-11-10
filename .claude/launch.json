@@ -1,6 +1,15 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "ozpedia", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3300, "url": "http://localhost:3300" }
+    {
+      "name": "ozpedia",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3300,
+      "url": "http://localhost:3300"
+    }
   ]
 }

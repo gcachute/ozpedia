@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { LinkPagina } from "@/components/artigo";
 import { partidos, siglaExibida, temPaginaPartido } from "@/lib/dados";
+import { Figura } from "@/components/artigo";
+import { imagemPagina } from "@/lib/imagens";
 
 export const metadata: Metadata = { title: "Partidos" };
 
@@ -9,6 +11,7 @@ export default function Partidos() {
   return (
     <div>
       <h1 className="titulo text-4xl">Partidos</h1>
+      <Figura imagem={imagemPagina("partidos")} />
       <p className="mt-2 max-w-2xl">Siglas com candidatura nas eleições municipais de Osasco desde 1996, de acordo com o Tribunal Superior Eleitoral.</p>
       <table className="tabela mt-8">
         <thead>

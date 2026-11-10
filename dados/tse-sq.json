@@ -1,0 +1,656 @@
+{
+ "fonte": "Tribunal Superior Eleitoral, DivulgaCandContas (código de cada candidatura)",
+ "coletadoEm": "2026-11-09",
+ "candidaturas": {
+  "adao-heleno": {
+   "ano": 2008,
+   "sq": 52952,
+   "urna": "ADÃO HELENO"
+  },
+  "adauto-to": {
+   "ano": 2024,
+   "sq": 250001952372,
+   "urna": "ADAUTO TÔ"
+  },
+  "aguimaraes-2000": {
+   "ano": 2008,
+   "sq": 44893,
+   "urna": "AGUIMARÃES"
+  },
+  "alex-da-academia": {
+   "ano": 2024,
+   "sq": 250001952373,
+   "urna": "ALEX DA ACADEMIA"
+  },
+  "alexandre-capriotti": {
+   "ano": 2024,
+   "sq": 250002017199,
+   "urna": "ALEXANDRE CAPRIOTTI"
+  },
+  "aluisio-pinheiro": {
+   "ano": 2016,
+   "sq": 250000049780,
+   "urna": "ALUISIO PINHEIRO"
+  },
+  "amerino": {
+   "ano": 2004,
+   "sq": 476,
+   "urna": "AMERINO"
+  },
+  "ana-paula-rossi": {
+   "ano": 2020,
+   "sq": 250000898445,
+   "urna": "ANA PAULA ROSSI"
+  },
+  "andrea-verginio-capriotti": {
+   "ano": 2016,
+   "sq": 250000005122,
+   "urna": "ANDREA VERGINIO CAPRIOTTI"
+  },
+  "andrezinho": {
+   "ano": 2024,
+   "sq": 250002053709,
+   "urna": "ANDREZINHO"
+  },
+  "angelo-elias": {
+   "ano": 2008,
+   "sq": 56291,
+   "urna": "ANGELO ELIAS"
+  },
+  "augusto-piva": {
+   "ano": 2012,
+   "sq": 250000099048,
+   "urna": "AUGUSTO PIVA"
+  },
+  "barbosa-1996": {
+   "ano": 2008,
+   "sq": 25960,
+   "urna": "BARBOSA"
+  },
+  "batista-comunidade": {
+   "ano": 2024,
+   "sq": 250002051391,
+   "urna": "BATISTA COMUNIDADE"
+  },
+  "bio": {
+   "ano": 2008,
+   "sq": 47496,
+   "urna": "BIO"
+  },
+  "bispo-nunes": {
+   "ano": 2024,
+   "sq": 250002017203,
+   "urna": "BISPO NUNES"
+  },
+  "bognar": {
+   "ano": 2016,
+   "sq": 250000051658,
+   "urna": "BOGNAR"
+  },
+  "bruno-sousa": {
+   "ano": 2024,
+   "sq": 250002345049,
+   "urna": "BRUNO SOUSA"
+  },
+  "camilo": {
+   "ano": 2020,
+   "sq": 250001146156,
+   "urna": "CAMILO"
+  },
+  "cantor-goleiro": {
+   "ano": 2024,
+   "sq": 250002068757,
+   "urna": "CANTOR GOLEIRO"
+  },
+  "carmonio-bastos": {
+   "ano": 2024,
+   "sq": 250002049868,
+   "urna": "CARMONIO BASTOS"
+  },
+  "catarino": {
+   "ano": 2020,
+   "sq": 250001146159,
+   "urna": "CATARINO"
+  },
+  "claudio-da-locadora": {
+   "ano": 2020,
+   "sq": 250001139477,
+   "urna": "CLAUDIO DA LOCADORA"
+  },
+  "clemente": {
+   "ano": 2004,
+   "sq": 271,
+   "urna": "CLEMENTE"
+  },
+  "cuca": {
+   "ano": 2008,
+   "sq": 25967,
+   "urna": "CUCA"
+  },
+  "daniel-matias": {
+   "ano": 2024,
+   "sq": 250001963522,
+   "urna": "DANIEL MATIAS"
+  },
+  "de-paula-2012": {
+   "ano": 2024,
+   "sq": 250002049870,
+   "urna": "DE PAULA"
+  },
+  "didi": {
+   "ano": 2020,
+   "sq": 250001149595,
+   "urna": "DIDI"
+  },
+  "dinei-simao": {
+   "ano": 2024,
+   "sq": 250001963521,
+   "urna": "DINEI SIMÃO"
+  },
+  "dino-do-almoco-de-natal": {
+   "ano": 2020,
+   "sq": 250001131577,
+   "urna": "DINO DO ALMOÇO DE NATAL"
+  },
+  "doutor-dionisio-mateos": {
+   "ano": 2004,
+   "sq": 422,
+   "urna": "DOUTOR DIONISIO MATEOS"
+  },
+  "dr-andre-sacco": {
+   "ano": 2012,
+   "sq": 250000083202,
+   "urna": "ANDRE SACCO"
+  },
+  "dr-cury": {
+   "ano": 2012,
+   "sq": 250000028630,
+   "urna": "DR. CURY"
+  },
+  "dr-gaspar": {
+   "ano": 2020,
+   "sq": 250000897906,
+   "urna": "DR  GASPAR"
+  },
+  "dr-haroldo": {
+   "ano": 2004,
+   "sq": 1,
+   "urna": "DOUTOR HAROLDO"
+  },
+  "dr-jair-sanches": {
+   "ano": 2008,
+   "sq": 47515,
+   "urna": "DR. JAIR SANCHES"
+  },
+  "dr-jose-amando": {
+   "ano": 2008,
+   "sq": 53343,
+   "urna": "DR. JOSÉ AMANDO"
+  },
+  "dr-maxwell": {
+   "ano": 2020,
+   "sq": 250000898442,
+   "urna": "DR MAXWELL"
+  },
+  "dra-bethy-polachini": {
+   "ano": 2008,
+   "sq": 34878,
+   "urna": "DRA BETHY"
+  },
+  "dra-karen-gaspar": {
+   "ano": 2020,
+   "sq": 250001131566,
+   "urna": "DRA KAREN GASPAR"
+  },
+  "dra-regia": {
+   "ano": 2016,
+   "sq": 250000040345,
+   "urna": "DRA. RÉGIA"
+  },
+  "dra-silvia": {
+   "ano": 2024,
+   "sq": 250002055233,
+   "urna": "DRA SILVIA DENTISTA"
+  },
+  "eduardao": {
+   "ano": 2020,
+   "sq": 250000898293,
+   "urna": "EDUARDÃO"
+  },
+  "elania-silva": {
+   "ano": 2024,
+   "sq": 250001963528,
+   "urna": "ELÂNIA SILVA"
+  },
+  "elsa-oliveira": {
+   "ano": 2024,
+   "sq": 250002049874,
+   "urna": "ELSA OLIVEIRA"
+  },
+  "emerson-osasco": {
+   "ano": 2024,
+   "sq": 250002065686,
+   "urna": "EMERSON OSASCO"
+  },
+  "eron-silveira": {
+   "ano": 2024,
+   "sq": 250001952393,
+   "urna": "ERON SILVEIRA"
+  },
+  "fabio-chirinhan": {
+   "ano": 2024,
+   "sq": 250002013407,
+   "urna": "FABIO CHIRINHAN"
+  },
+  "fabio-yamato": {
+   "ano": 2016,
+   "sq": 250000007348,
+   "urna": "FÁBIO YAMATO"
+  },
+  "gabriel-saude": {
+   "ano": 2024,
+   "sq": 250002019809,
+   "urna": "GABRIEL SAÚDE"
+  },
+  "gilmar-soares-2020": {
+   "ano": 2020,
+   "sq": 250000783465,
+   "urna": "GILMAR SOARES"
+  },
+  "giro-inoguti": {
+   "ano": 2008,
+   "sq": 62736,
+   "urna": "GIRO INOGUTI"
+  },
+  "gloria-brito": {
+   "ano": 2024,
+   "sq": 250002345048,
+   "urna": "GLÓRIA BRITO"
+  },
+  "greice-kerche": {
+   "ano": 2004,
+   "sq": 26,
+   "urna": "GREICE KERCHE"
+  },
+  "guiga": {
+   "ano": 2024,
+   "sq": 250002051405,
+   "urna": "GUIGA"
+  },
+  "guilherme-prado": {
+   "ano": 2024,
+   "sq": 250002013408,
+   "urna": "GUILHERME PRADO"
+  },
+  "heber-do-juntoz": {
+   "ano": 2024,
+   "sq": 250002065690,
+   "urna": "HEBER DO JUNTOZ"
+  },
+  "helder-oliveira": {
+   "ano": 2024,
+   "sq": 250002053724,
+   "urna": "HELDER OLIVEIRA"
+  },
+  "helton-bastos": {
+   "ano": 2008,
+   "sq": 56209,
+   "urna": "HELTON BASTOS"
+  },
+  "ivanildo-eventos": {
+   "ano": 2024,
+   "sq": 250001963513,
+   "urna": "IVANILDO EVENTOS"
+  },
+  "jair-assaf": {
+   "ano": 2020,
+   "sq": 250001139485,
+   "urna": "JAIR ASSAF"
+  },
+  "joao-gois": {
+   "ano": 2024,
+   "sq": 250002065700,
+   "urna": "JOÃO GOIS"
+  },
+  "joel-nunes": {
+   "ano": 2020,
+   "sq": 250001059321,
+   "urna": "JOEL NUNES"
+  },
+  "josias-da-juco": {
+   "ano": 2024,
+   "sq": 250001963519,
+   "urna": "JOSIAS DA JUCO"
+  },
+  "juliana-curvelo": {
+   "ano": 2024,
+   "sq": 250002295713,
+   "urna": "JULIANA E ATIVOZ"
+  },
+  "juliao-soares": {
+   "ano": 2024,
+   "sq": 250002016056,
+   "urna": "JULIÃO"
+  },
+  "laercio-mendonca": {
+   "ano": 2024,
+   "sq": 250001952381,
+   "urna": "LAÉRCIO MENDONÇA"
+  },
+  "lau-e-federal": {
+   "ano": 2024,
+   "sq": 250001905070,
+   "urna": "LAU ALENCAR"
+  },
+  "lelo": {
+   "ano": 2004,
+   "sq": 461,
+   "urna": "LELO"
+  },
+  "leninha-consoli": {
+   "ano": 2016,
+   "sq": 250000078302,
+   "urna": "LENINHA CONSOLI"
+  },
+  "levi-nantess": {
+   "ano": 2024,
+   "sq": 250001952382,
+   "urna": "LEVI NANTESS"
+  },
+  "lucia-da-saude": {
+   "ano": 2024,
+   "sq": 250002049861,
+   "urna": "LUCIA DA SAUDE"
+  },
+  "ludval": {
+   "ano": 2020,
+   "sq": 250001149578,
+   "urna": "LUDVAL"
+  },
+  "maluco-beleza": {
+   "ano": 2020,
+   "sq": 250001139493,
+   "urna": "MALUCO BELEZA"
+  },
+  "mane": {
+   "ano": 2016,
+   "sq": 250000040372,
+   "urna": "MANÉ"
+  },
+  "marcio-da-lan": {
+   "ano": 2024,
+   "sq": 250002049860,
+   "urna": "MARCIO DA LAN"
+  },
+  "marco-ribeiro": {
+   "ano": 2016,
+   "sq": 250000052514,
+   "urna": "MARCO RIBEIRO"
+  },
+  "marco-souza-dateninha": {
+   "ano": 2020,
+   "sq": 250001137671,
+   "urna": "MARCO SOUZA DATENINHA"
+  },
+  "marcos-arruda": {
+   "ano": 2016,
+   "sq": 250000024124,
+   "urna": "MARCOS ARRUDA"
+  },
+  "marcos-martins": {
+   "ano": 2004,
+   "sq": 86,
+   "urna": "MARCOS MARTINS"
+  },
+  "maria-coluna": {
+   "ano": 2004,
+   "sq": 444,
+   "urna": "MARIA COLUNA"
+  },
+  "marilu-rodrigues": {
+   "ano": 2024,
+   "sq": 250002063164,
+   "urna": "MARILU RODRIGUES"
+  },
+  "miazaki": {
+   "ano": 2016,
+   "sq": 250000040356,
+   "urna": "MIAZAKI"
+  },
+  "michel-figueredo": {
+   "ano": 2024,
+   "sq": 250001962283,
+   "urna": "MICHEL FIGUEREDO"
+  },
+  "missionaria-dionizia-luvizotto": {
+   "ano": 2008,
+   "sq": 51916,
+   "urna": "MISSIONÁRIA DIONIZIA LUVIZOTTO"
+  },
+  "montoia": {
+   "ano": 2008,
+   "sq": 56698,
+   "urna": "CELSO MONTOIA"
+  },
+  "motta": {
+   "ano": 2020,
+   "sq": 250001133465,
+   "urna": "MOTTA"
+  },
+  "nelsinho": {
+   "ano": 2016,
+   "sq": 250000049798,
+   "urna": "NELSINHO"
+  },
+  "nelson-frare": {
+   "ano": 2008,
+   "sq": 52953,
+   "urna": "NELSON FRARE"
+  },
+  "ni-da-pizzaria": {
+   "ano": 2020,
+   "sq": 250001143578,
+   "urna": "NI DA PIZZARIA"
+  },
+  "pastor-gilmar-romano": {
+   "ano": 2008,
+   "sq": 25957,
+   "urna": "PASTOR GILMAR ROMANO"
+  },
+  "pastora-cristiane-celegato": {
+   "ano": 2024,
+   "sq": 250002019806,
+   "urna": "PASTORA CRISTIANE CELEGATO"
+  },
+  "pedrinho-cantagessi": {
+   "ano": 2024,
+   "sq": 250002068751,
+   "urna": "PEDRINHO CANTAGESSI"
+  },
+  "pele-da-candida": {
+   "ano": 2024,
+   "sq": 250002049866,
+   "urna": "PELÉ DA CANDIDA"
+  },
+  "polim": {
+   "ano": 2008,
+   "sq": 47509,
+   "urna": "POLIM"
+  },
+  "pr-paulo-junior": {
+   "ano": 2024,
+   "sq": 250002013409,
+   "urna": "PAULO JUNIOR"
+  },
+  "prof-bispo-cordeiro": {
+   "ano": 2016,
+   "sq": 250000040366,
+   "urna": "PROF. BISPO CORDEIRO"
+  },
+  "prof-mario-luiz-guide": {
+   "ano": 2016,
+   "sq": 250000054111,
+   "urna": "PROF. MÁRIO LUIZ GUIDE"
+  },
+  "professora-maze-favarao": {
+   "ano": 2024,
+   "sq": 250002065688,
+   "urna": "PROFESSORA MAZÉ FAVARÃO"
+  },
+  "ralfi-silva": {
+   "ano": 2024,
+   "sq": 250002053717,
+   "urna": "RALFI SILVA"
+  },
+  "reinaldo-mota": {
+   "ano": 2024,
+   "sq": 250002053713,
+   "urna": "REINALDO MOTA"
+  },
+  "ribamar-silva": {
+   "ano": 2020,
+   "sq": 250001146162,
+   "urna": "RIBAMAR SILVA"
+  },
+  "ricardo-silva": {
+   "ano": 2024,
+   "sq": 250002049858,
+   "urna": "RICARDO SILVA"
+  },
+  "roberto-trapp": {
+   "ano": 2024,
+   "sq": 250002065704,
+   "urna": "ROBERTO TRAPP"
+  },
+  "rodolfo-cara": {
+   "ano": 2024,
+   "sq": 250002049873,
+   "urna": "RODOLFO CARA"
+  },
+  "rodrigo-gansinho": {
+   "ano": 2024,
+   "sq": 250002017206,
+   "urna": "RODRIGO GANSINHO"
+  },
+  "rogerio-santos": {
+   "ano": 2020,
+   "sq": 250000898421,
+   "urna": "ROGÉRIO SANTOS"
+  },
+  "rogerio-silva": {
+   "ano": 2016,
+   "sq": 250000040169,
+   "urna": "ROGÉRIO SILVA"
+  },
+  "romeu-pepino": {
+   "ano": 2012,
+   "sq": 250000083235,
+   "urna": "ROMEU PEPINO"
+  },
+  "rubinho-bastos": {
+   "ano": 2020,
+   "sq": 250001058616,
+   "urna": "RUBINHO BASTOS"
+  },
+  "sasso": {
+   "ano": 2004,
+   "sq": 356,
+   "urna": "SASSO"
+  },
+  "sergio-ape": {
+   "ano": 2004,
+   "sq": 368,
+   "urna": "SERGIO APE"
+  },
+  "sergio-fontellas": {
+   "ano": 2024,
+   "sq": 250002053726,
+   "urna": "SERGIO FONTELLAS"
+  },
+  "silas-bortolosso": {
+   "ano": 2008,
+   "sq": 59618,
+   "urna": "SILAS BORTOLOSSO"
+  },
+  "silvio-neves": {
+   "ano": 2020,
+   "sq": 250001081136,
+   "urna": "SILVIO NEVES"
+  },
+  "simony-dos-anjos": {
+   "ano": 2020,
+   "sq": 250000783466,
+   "urna": "SIMONY DOS ANJOS"
+  },
+  "solange-pall": {
+   "ano": 2020,
+   "sq": 250000811199,
+   "urna": "SOLANGE PALL"
+  },
+  "sonia-rainho": {
+   "ano": 2008,
+   "sq": 44920,
+   "urna": "SONIA RAINHO"
+  },
+  "stephane-rossi": {
+   "ano": 2024,
+   "sq": 250002395906,
+   "urna": "STEPHANE ROSSI"
+  },
+  "tabajara": {
+   "ano": 2020,
+   "sq": 250001147501,
+   "urna": "TABAJARA"
+  },
+  "tadeu-neves": {
+   "ano": 2024,
+   "sq": 250002049865,
+   "urna": "TADEU NEVES"
+  },
+  "tinha-di-ferreira": {
+   "ano": 2024,
+   "sq": 250002049876,
+   "urna": "TINHA DI FERREIRA"
+  },
+  "toninho-enfermeiro": {
+   "ano": 2016,
+   "sq": 250000007338,
+   "urna": "TONINHO ENFERMEIRO"
+  },
+  "toniolo": {
+   "ano": 2024,
+   "sq": 250002053728,
+   "urna": "TONIOLO"
+  },
+  "valdecir-vandao": {
+   "ano": 2008,
+   "sq": 56211,
+   "urna": "VALDECIR MARTINS"
+  },
+  "valdir-roque": {
+   "ano": 2024,
+   "sq": 250002065694,
+   "urna": "VALDIR ROQUE"
+  },
+  "valdomiro-ventura": {
+   "ano": 2024,
+   "sq": 250002049878,
+   "urna": "VALDOMIRO VENTURA"
+  },
+  "willians-rafael": {
+   "ano": 2016,
+   "sq": 250000078301,
+   "urna": "WILLIANS RAFAEL"
+  },
+  "ze-carlos-do-santa-maria": {
+   "ano": 2024,
+   "sq": 250002068754,
+   "urna": "ZÉ CARLOS DO SANTA MARIA"
+  },
+  "zeze": {
+   "ano": 2004,
+   "sq": 2,
+   "urna": "ZEZÉ"
+  }
+ }
+}

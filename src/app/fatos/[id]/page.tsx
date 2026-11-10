@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Artigo, LinkPagina, Quadro, Secao, TextoEscrito, type LinhaQuadro } from "@/components/artigo";
+import { Artigo, LinkPagina, Quadro, Secao, TextoEscrito, type LinhaQuadro, imagemParaQuadro } from "@/components/artigo";
 import { escrita, escritas } from "@/lib/conteudo";
 import { Referencias } from "@/lib/fontes";
+import { imagemPagina } from "@/lib/imagens";
 import { markdown } from "@/lib/markdown";
 import { dataPorExtenso } from "@/lib/texto";
 
@@ -19,11 +20,13 @@ export default async function PaginaFato({ params }: Props) {
   const f = escrita("fatos", id);
   if (!f) notFound();
   const refs = new Referencias();
+  const imgPagina = imagemPagina(`fatos/${id}`, "fato");
+  const imagemQ = imgPagina ? imagemParaQuadro(refs, imgPagina, imgPagina.legenda) : null;
   const linhas: LinhaQuadro[] = [];
   if (f.cab.quando) linhas.push({ rotulo: "Quando", valor: dataPorExtenso(f.cab.quando), cita: f.cab.fonteQuando ? refs.cita(f.cab.fonteQuando) : undefined });
   const html = markdown(f.corpo, refs);
   return (
-    <Artigo tipo="Fato" titulo={f.cab.titulo ?? id} refs={refs} quadro={<Quadro titulo={f.cab.titulo ?? id} linhas={linhas} />}>
+    <Artigo tipo="Fato" titulo={f.cab.titulo ?? id} refs={refs} quadro={<Quadro titulo={f.cab.titulo ?? id} linhas={linhas} imagem={imagemQ} />}>
       <TextoEscrito html={html} />
       {!!f.cab.relacionados?.length && (
         <Secao titulo="Veja também">

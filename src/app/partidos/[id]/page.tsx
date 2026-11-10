@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Artigo, Cita, LinkPagina, NomePessoa, Quadro, Secao, TextoEscrito, type LinhaQuadro } from "@/components/artigo";
+import { Artigo, Cita, LinkPagina, NomePessoa, Quadro, Secao, SiglaPartido, TextoEscrito, type LinhaQuadro, imagemParaQuadro } from "@/components/artigo";
 import { escrita } from "@/lib/conteudo";
-import { candidaturasDe, chavePartido, partidoPorId, partidos, siglaExibida, temPaginaPartido, venceu, type Mudanca, type Partido } from "@/lib/dados";
+import { candidaturasDe, chapas, chavePartido, partidoPorId, partidos, siglaExibida, temPaginaPartido, venceu, type Mudanca, type Partido } from "@/lib/dados";
 import { Referencias } from "@/lib/fontes";
+import { imagemPagina } from "@/lib/imagens";
 import { markdown } from "@/lib/markdown";
+import { anoTse, detalhe, pct, siglasDaComposicao } from "@/lib/detalhes";
 import { dataCurta, dataPorExtenso, listaE, numero } from "@/lib/texto";
 
 type Props = { params: Promise<{ id: string }> };
@@ -84,6 +86,8 @@ export default async function PaginaPartido({ params }: Props) {
   if (!p || !temPaginaPartido(p)) notFound();
   const e = escrita("partidos", id);
   const refs = new Referencias();
+  const imgPagina = imagemPagina(`partidos/${id}`, "partido");
+  const imagemQ = imgPagina ? imagemParaQuadro(refs, imgPagina, imgPagina.legenda) : null;
   const sigla = siglaExibida(p);
 
   const linhas: LinhaQuadro[] = [];
@@ -110,11 +114,49 @@ export default async function PaginaPartido({ params }: Props) {
         prefeitura: cs.filter((c) => c.cargo === "Prefeito" || c.cargo === "Vice-prefeito"),
         vereadores: cs.filter((c) => c.cargo === "Vereador"),
         eleitos: cs.filter((c) => c.cargo === "Vereador" && venceu(c)).sort((a, b) => (b.votos ?? 0) - (a.votos ?? 0)),
+        // Chapa à Prefeitura de que o partido fez parte (coligação ou federação), quando não teve candidatura própria.
+        apoio: chapas(ano).find((c) => {
+          const d = detalhe(ano, "Prefeito", c.titular.numero);
+          return !!d && chavePartido(c.titular.partido, ano) !== p.chave && siglasDaComposicao(d.composicao ?? d.composicaoFederacao).some((x) => chavePartido(x, ano) === p.chave);
+        }),
+        votosCamara: anoTse(ano)?.partidosCamara.find((x) => chavePartido(x.sigla, ano) === p.chave) ?? null,
+        validosCamara: anoTse(ano)?.turnos["Vereador|1"]?.validos ?? 0,
       };
     });
 
+  const totalVereadores = porAno.reduce((t, a) => t + a.vereadores.length, 0);
+  const totalEleitos = porAno.reduce((t, a) => t + a.eleitos.length, 0);
+  const anosPrefeitura = porAno.filter((a) => a.prefeitura.some((c) => c.cargo === "Prefeito")).map((a) => a.ano).sort();
+  const anosVitoriaPrefeitura = porAno.filter((a) => a.prefeitura.some((c) => c.cargo === "Prefeito" && c.resultado === "Eleito")).map((a) => a.ano).sort();
+
   return (
-    <Artigo tipo="Partido" titulo={sigla} subtitulo={p.nome && p.nome.toUpperCase() !== sigla.toUpperCase() ? p.nome : undefined} refs={refs} quadro={<Quadro titulo={sigla} linhas={linhas} />}>
+    <Artigo tipo="Partido" titulo={sigla} subtitulo={p.nome && p.nome.toUpperCase() !== sigla.toUpperCase() ? p.nome : undefined} refs={refs} quadro={<Quadro titulo={sigla} linhas={linhas} imagem={imagemQ} />}>
+      {(
+        <div className="prosa">
+          <p>
+            <strong>{sigla}</strong>
+            {p.nome && p.nome.toUpperCase() !== sigla.toUpperCase() ? ` (${p.nome})` : ""}
+            {p.registro ? (
+              <>
+                {" "}
+                é um partido registrado no Tribunal Superior Eleitoral desde {dataPorExtenso(p.registro.deferimento)}, com o número {p.registro.numero}.
+                <Cita n={refs.cita("tse-partidos")} />
+              </>
+            ) : (
+              <> é um partido que não está entre os registrados hoje no Tribunal Superior Eleitoral{p.depois.length ? "; o que aconteceu com ele está abaixo" : ""}.<Cita n={refs.cita("tse-partidos")} /></>
+            )}
+          </p>
+          {p.anos.length > 0 && (
+            <p>
+              Em Osasco, teve candidaturas em {p.anos.length === 1 ? `uma eleição municipal, a de ${p.anos[0]}` : `${p.anos.length} eleições municipais, de ${p.anos[0]} a ${p.anos.at(-1)}`}:{" "}
+              {numero(totalVereadores)} à Câmara, das quais {totalEleitos === 0 ? "nenhuma venceu" : totalEleitos === 1 ? "uma venceu" : `${totalEleitos} venceram`}
+              {anosPrefeitura.length > 0 ? `, e ${anosPrefeitura.length === 1 ? "uma chapa" : `${anosPrefeitura.length} chapas`} à Prefeitura` : ""}
+              {anosVitoriaPrefeitura.length > 0 ? `, com vitória em ${listaE(anosVitoriaPrefeitura.map(String))}` : ""}.
+              <Cita n={nTse} />
+            </p>
+          )}
+        </div>
+      )}
       {html && <TextoEscrito html={html} />}
 
       {(p.antes.length > 0 || p.depois.length > 0) && (
@@ -138,6 +180,7 @@ export default async function PaginaPartido({ params }: Props) {
                   <th>Eleição</th>
                   <th>Prefeitura</th>
                   <th className="num">Candidaturas à Câmara</th>
+                  <th className="num">Votos para a Câmara</th>
                   <th>Venceram para a Câmara</th>
                 </tr>
               </thead>
@@ -155,9 +198,20 @@ export default async function PaginaPartido({ params }: Props) {
                               {c.resultado === "Eleito" ? ", venceu" : ""})
                             </span>
                           ))
-                        : "—"}
+                        : a.apoio
+                          ? (
+                              <>
+                                Na chapa de <NomePessoa id={a.apoio.titular.pessoa} nome={a.apoio.titular.nome} /> (<SiglaPartido sigla={a.apoio.titular.partido} ano={a.ano} />
+                                {a.apoio.titular.resultado === "Eleito" ? ", venceu" : ""})
+                              </>
+                            )
+                          : "—"}
                     </td>
                     <td className="num">{numero(a.vereadores.length)}</td>
+                    <td className="num">
+                      {a.votosCamara ? numero(a.votosCamara.nominais + a.votosCamara.legenda) : "—"}
+                      {a.votosCamara && a.validosCamara > 0 && <span className="block text-sm text-tinta-suave">{pct(a.votosCamara.nominais + a.votosCamara.legenda, a.validosCamara)}</span>}
+                    </td>
                     <td>
                       {a.eleitos.length
                         ? a.eleitos.map((c, i) => (
@@ -175,7 +229,8 @@ export default async function PaginaPartido({ params }: Props) {
           </div>
           <p className="mt-2 text-sm text-tinta-suave">
             Fonte: Tribunal Superior Eleitoral.
-            <Cita n={nTse} /> Candidaturas registradas com a sigla {p.sigla} nas eleições municipais de Osasco.
+            <Cita n={nTse} /> Votos nominais e de legenda somados, com o percentual sobre os votos válidos para a Câmara.
+            <Cita n={porAno.filter((a) => a.votosCamara).map((a) => refs.cita(`tse-votos-partido-${a.ano}`))} /> Candidaturas registradas com a sigla {p.sigla} nas eleições municipais de Osasco.
           </p>
         </Secao>
       )}

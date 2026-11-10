@@ -1,9 +1,11 @@
 // Peças comuns das páginas: o artigo com o quadro de dados ao lado, as chamadas de fonte e a lista de referências.
 import Link from "next/link";
+import { SugerirCorrecao } from "@/components/correcao";
 import { fonte, type Referencias } from "@/lib/fontes";
 import { dataPorExtenso } from "@/lib/texto";
 import { href, titulo as tituloDe } from "@/lib/links";
 import { partidoDe, siglaExibida, temPaginaPartido, pessoa } from "@/lib/dados";
+import type { Imagem } from "@/lib/imagens";
 
 export function Cita({ n }: { n: number | number[] }) {
   const ns = Array.isArray(n) ? n : [n];
@@ -20,11 +22,55 @@ export function Cita({ n }: { n: number | number[] }) {
 
 export type LinhaQuadro = { rotulo: string; valor: React.ReactNode; cita?: number | number[] };
 
-export function Quadro({ titulo, linhas }: { titulo: string; linhas: LinhaQuadro[] }) {
-  if (!linhas.length) return null;
+export type ImagemQuadro = { src: string; alt: string; legenda: string; cita: number };
+
+/** Imagem do quadro, com a chamada de referência que dá o crédito (autor, licença, endereço do arquivo). */
+export const imagemParaQuadro = (refs: Referencias, img: Imagem, alt: string): ImagemQuadro => ({
+  src: img.caminho,
+  alt,
+  legenda: img.legenda,
+  cita: refs.cita(img.fonteId),
+});
+
+const caminhoImagem = (src: string) => (process.env.NEXT_PUBLIC_BASE_PATH ?? "") + src;
+
+/** Imagem com o crédito na própria legenda, para páginas sem lista de referências. */
+export function Figura({ imagem, alt }: { imagem: Imagem | null; alt?: string }) {
+  if (!imagem) return null;
+  const origem = imagem.pagina.includes("commons.wikimedia.org") ? "Wikimedia Commons" : "Tribunal Superior Eleitoral";
+  return (
+    <figure className="mb-6 w-full border-t-4 border-cidade bg-fundo-suave p-4 text-sm md:float-right md:mb-4 md:ml-8 md:w-80">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={caminhoImagem(imagem.caminho)} alt={alt ?? imagem.legenda} className="mx-auto max-h-80 w-auto" loading="lazy" />
+      <figcaption className="mt-2 text-center text-xs text-tinta-suave">
+        {imagem.legenda}.{" "}
+        <span className="block">
+          Imagem: {imagem.autor}; licença {imagem.licenca};{" "}
+          <a href={imagem.pagina} target="_blank" rel="noopener noreferrer">
+            {origem}
+          </a>
+          .
+        </span>
+      </figcaption>
+    </figure>
+  );
+}
+
+export function Quadro({ titulo, linhas, imagem }: { titulo: string; linhas: LinhaQuadro[]; imagem?: ImagemQuadro | null }) {
+  if (!linhas.length && !imagem) return null;
   return (
     <aside className="mb-6 w-full border-t-4 border-cidade bg-fundo-suave p-4 text-sm md:float-right md:mb-4 md:ml-8 md:w-80" aria-label="Quadro de dados">
       <p className="titulo mb-3 text-lg leading-tight">{titulo}</p>
+      {imagem && (
+        <figure className="mb-4">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={caminhoImagem(imagem.src)} alt={imagem.alt} className="mx-auto max-h-80 w-auto" loading="lazy" />
+          <figcaption className="mt-2 text-center text-xs text-tinta-suave">
+            {imagem.legenda}
+            <Cita n={imagem.cita} />
+          </figcaption>
+        </figure>
+      )}
       <dl className="grid gap-y-2">
         {linhas.map((l, i) => (
           <div key={i} className="grid grid-cols-[7rem_minmax(0,1fr)] gap-x-3 border-t border-fio pt-2 first:border-0 first:pt-0">
@@ -65,6 +111,9 @@ export function Artigo({
         {children}
       </div>
       <ListaReferencias refs={refs} />
+      <p className="clear-both mt-8 border-t border-fio pt-4 text-sm">
+        Viu algo errado ou sem fonte? <SugerirCorrecao pagina={titulo} />
+      </p>
     </article>
   );
 }

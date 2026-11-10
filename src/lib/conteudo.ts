@@ -27,11 +27,13 @@ export type Cabecalho = {
 export type Escrita = { tipo: Tipo; id: string; cab: Cabecalho; corpo: string; arquivo: string };
 
 const RAIZ = path.join(process.cwd(), "conteudo");
-const cache = new Map<Tipo, Escrita[]>();
+const cache = new Map<Tipo, { lidoEm: number; lista: Escrita[] }>();
+// Na montagem final, lê uma vez só; na máquina (npm run dev), relê depois de 2 segundos, para o texto novo aparecer sem reiniciar.
+const VALIDADE = process.env.NODE_ENV === "production" ? Infinity : 2000;
 
 export function escritas(tipo: Tipo): Escrita[] {
   const ja = cache.get(tipo);
-  if (ja) return ja;
+  if (ja && Date.now() - ja.lidoEm < VALIDADE) return ja.lista;
   const pasta = path.join(RAIZ, tipo);
   const lista = !existsSync(pasta)
     ? []
@@ -44,7 +46,7 @@ export function escritas(tipo: Tipo): Escrita[] {
           for (const [k, v] of Object.entries(data)) if (v instanceof Date) data[k] = v.toISOString().slice(0, 10);
           return { tipo, id: f.replace(/\.md$/, ""), cab: data as Cabecalho, corpo: content.trim(), arquivo };
         });
-  cache.set(tipo, lista);
+  cache.set(tipo, { lidoEm: Date.now(), lista });
   return lista;
 }
 

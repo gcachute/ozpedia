@@ -18,3 +18,6 @@ export function instituicao(c: Pick<Candidatura, "cargo" | "local">): string {
 // Ordem para listar: Prefeitura antes da Câmara, Osasco antes do estado.
 export const ordemCargo = (cargo: string) =>
   ["prefeito", "vice-prefeito", "vereador", "governador", "vice-governador", "senador", "deputado federal", "deputado estadual"].indexOf(cargo.toLowerCase()) >>> 0;
+
+// "a Câmara Municipal de Osasco", "o Senado Federal, por São Paulo".
+export const comArtigo = (inst: string) => (/^(Governo|Vice-governo|Senado)/.test(inst) ? `o ${inst}` : `a ${inst}`);

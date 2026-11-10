@@ -1,0 +1,171 @@
+# Imagens das páginas que não são de pessoa (e as imagens padrão de cada tipo de página).
+# Só arquivos do Wikimedia Commons com licença livre; autor e licença são lidos do Commons por
+# scripts/importar-imagens.mjs e aparecem como referência na legenda.
+#
+# Campos: chave (endereço da página, ou padrao/<tipo>), arquivo (nome no Commons), legenda e, se o crédito do
+# Commons não for um nome legível, autor.
+# Ordem de procura numa página: a chave da página; senão, padrao/<tipo>.
+# Página de pessoa sem foto: a imagem da primeira legislatura em que exerceu mandato; senão, a da eleição
+# de que participou; senão, padrao/pessoa.
+#
+# Os gráficos "Municipal council Osasco (SP) Brazil AAAA election.svg" foram conferidos com os resultados
+# do TSE, partido por partido (2000 a 2016). O de 2020 não bate com o TSE e não é usado.
+
+# ---------- Padrões ----------
+- chave: padrao/pessoa
+  arquivo: "Brasão de Osasco.svg"
+  legenda: "Brasão do município de Osasco"
+- chave: padrao/legislatura
+  arquivo: "Brasão de Osasco.svg"
+  legenda: "Brasão do município de Osasco"
+- chave: padrao/lei
+  arquivo: "Brasão de Osasco.svg"
+  legenda: "Brasão do município de Osasco"
+- chave: padrao/eleicao
+  arquivo: "Urna eletrônica brasileira UE2020.jpg"
+  legenda: "Urna eletrônica brasileira, modelo UE2020"
+- chave: padrao/partido
+  arquivo: "Urna eletrônica brasileira UE2020.jpg"
+  legenda: "Urna eletrônica brasileira, modelo UE2020"
+- chave: padrao/fato
+  arquivo: "Vista aerea Osasco 1961 - panoramio.jpg"
+  legenda: "Vista aérea de Osasco em 1961"
+  autor: "Adriano Martins (foto cedida ao site Estações Ferroviárias do Brasil)"
+
+# ---------- Páginas gerais ----------
+- chave: inicio
+  arquivo: "Vista de Osasco.jpg"
+  legenda: "Vista de Osasco em 2012"
+- chave: sobre
+  arquivo: "Bandeira de Osasco.svg"
+  legenda: "Bandeira de Osasco"
+- chave: fontes
+  arquivo: "Largo de Osasco.jpg"
+  legenda: "Largo de Osasco"
+  autor: "Humanoo, na Wikivoyage em francês"
+- chave: camara
+  arquivo: "Municipal council Osasco (SP) Brazil 2016 election.svg"
+  legenda: "Vereadores eleitos em 2016, por partido"
+- chave: prefeitura
+  arquivo: "Brasão de Osasco.svg"
+  legenda: "Brasão do município de Osasco"
+- chave: projetos
+  arquivo: "Brasão de Osasco.svg"
+  legenda: "Brasão do município de Osasco"
+- chave: leis
+  arquivo: "Brasão de Osasco.svg"
+  legenda: "Brasão do município de Osasco"
+- chave: eleicoes
+  arquivo: "Urna eletrônica brasileira UE2020.jpg"
+  legenda: "Urna eletrônica brasileira, modelo UE2020"
+- chave: partidos
+  arquivo: "Urna eletrônica brasileira UE2020.jpg"
+  legenda: "Urna eletrônica brasileira, modelo UE2020"
+- chave: fatos
+  arquivo: "Vista aerea Osasco 1961 - panoramio.jpg"
+  legenda: "Vista aérea de Osasco em 1961"
+  autor: "Adriano Martins (foto cedida ao site Estações Ferroviárias do Brasil)"
+- chave: fatos/emancipacao-de-osasco
+  arquivo: "Vista aerea Osasco 1961 - panoramio.jpg"
+  legenda: "Vista aérea de Osasco em 1961"
+  autor: "Adriano Martins (foto cedida ao site Estações Ferroviárias do Brasil)"
+
+# ---------- Eleições ----------
+- chave: eleicoes/1962
+  arquivo: "José Bonifácio-Hirant Sanazar-Carvalho Pinto (1962).jpg"
+  legenda: "Hirant Sanazar (centro), prefeito de Osasco, em audiência com o governador Carvalho Pinto (à direita), em 1962"
+- chave: eleicoes/2000
+  arquivo: "Municipal council Osasco (SP) Brazil 2000 election.svg"
+  legenda: "Vereadores eleitos em 2000, por partido"
+- chave: eleicoes/2004
+  arquivo: "Municipal council Osasco (SP) Brazil 2004 election.svg"
+  legenda: "Vereadores eleitos em 2004, por partido"
+- chave: eleicoes/2008
+  arquivo: "Municipal council Osasco (SP) Brazil 2008 election.svg"
+  legenda: "Vereadores eleitos em 2008, por partido"
+- chave: eleicoes/2012
+  arquivo: "Municipal council Osasco (SP) Brazil 2012 election.svg"
+  legenda: "Vereadores eleitos em 2012, por partido"
+- chave: eleicoes/2016
+  arquivo: "Municipal council Osasco (SP) Brazil 2016 election.svg"
+  legenda: "Vereadores eleitos em 2016, por partido"
+
+# ---------- Legislaturas ----------
+- chave: legislaturas/1962-1966
+  arquivo: "Vista aerea Osasco 1961 - panoramio.jpg"
+  legenda: "Vista aérea de Osasco em 1961"
+  autor: "Adriano Martins (foto cedida ao site Estações Ferroviárias do Brasil)"
+- chave: legislaturas/1970-1973
+  arquivo: "Laudo Natel - Francisco Rossi - Marino Pedro Nicoletti (1972).jpg"
+  legenda: "O governador Laudo Natel (terceiro a partir da esquerda) com Francisco Rossi e Marino Pedro Nicoletti, candidatos a prefeito de Osasco, em 1972"
+- chave: legislaturas/1973-1977
+  arquivo: "Inauguração do sistema DDD em Osasco (1973) 08.jpg"
+  legenda: "O governador Laudo Natel inaugura o sistema DDD em Osasco, em 1973"
+- chave: legislaturas/1977-1983
+  arquivo: "Franco Montoro e Ulysses Guimarães visitam autoridades de Osasco (1978).jpg"
+  legenda: "Da esquerda para a direita: Franco Montoro, Ulysses Guimarães, o vereador Jair Assaf, o prefeito Guaçu Piteri, o vereador Jair Sanches e o deputado estadual Reginaldo Valadão, em 1978"
+- chave: legislaturas/1983-1988
+  arquivo: "Paulo Maluf-João Figueiredo e Reynaldo de Barros (1982).jpg"
+  legenda: "O presidente João Figueiredo em comício eleitoral em Osasco, em 1982"
+  autor: "autor desconhecido (imprensa oficial, Empresa Brasileira de Notícias)"
+- chave: legislaturas/1993-1996
+  arquivo: "Mário Covas e Humberto Parro (1994).jpg"
+  legenda: "Mário Covas (centro) e o ex-prefeito Humberto Parro (à direita), na entrega do título de cidadão osasquense a Covas, em 1994"
+- chave: legislaturas/2001-2004
+  arquivo: "Municipal council Osasco (SP) Brazil 2000 election.svg"
+  legenda: "Vereadores eleitos em 2000, por partido"
+- chave: legislaturas/2005-2008
+  arquivo: "Municipal council Osasco (SP) Brazil 2004 election.svg"
+  legenda: "Vereadores eleitos em 2004, por partido"
+- chave: legislaturas/2009-2012
+  arquivo: "Municipal council Osasco (SP) Brazil 2008 election.svg"
+  legenda: "Vereadores eleitos em 2008, por partido"
+- chave: legislaturas/2013-2016
+  arquivo: "Municipal council Osasco (SP) Brazil 2012 election.svg"
+  legenda: "Vereadores eleitos em 2012, por partido"
+- chave: legislaturas/2017-2020
+  arquivo: "Municipal council Osasco (SP) Brazil 2016 election.svg"
+  legenda: "Vereadores eleitos em 2016, por partido"
+
+# ---------- Partidos (logotipo, só na página do partido com esse nome) ----------
+- { chave: partidos/agir, arquivo: "Logomarca do Partido Agir.png", legenda: "Logotipo do Agir" }
+- { chave: partidos/avante, arquivo: "Avante 70 (Brasil) logo.svg", legenda: "Logotipo do Avante" }
+- { chave: partidos/cidadania, arquivo: "Logo do Cidadania 23.png", legenda: "Logotipo do Cidadania" }
+- { chave: partidos/dem, arquivo: "Democratas (Brazil) logo (2018-2022) (vertical).jpg", legenda: "Logotipo do Democratas, usado de 2018 a 2022" }
+- { chave: partidos/mdb, arquivo: "Movimento Democrático Brasileiro (2017).svg", legenda: "Logotipo do MDB" }
+- { chave: partidos/novo, arquivo: "Partido Novo logo (2023).svg", legenda: "Logotipo do Novo" }
+- { chave: partidos/patriota, arquivo: "Logotipo do partido Patriota.svg", legenda: "Logotipo do Patriota" }
+- { chave: partidos/pcb, arquivo: "PCB logo.svg", legenda: "Logotipo do PCB" }
+- { chave: partidos/pcdob, arquivo: "PCdoB logo.svg", legenda: "Logotipo do PCdoB" }
+- { chave: partidos/pco, arquivo: "PCO29.jpg", legenda: "Logotipo do PCO" }
+- { chave: partidos/pdt, arquivo: "PDT logo 2026 (cropped).png", legenda: "Logotipo do PDT" }
+- { chave: partidos/pgt, arquivo: "Partido PGT logo.png", legenda: "Logotipo do PGT" }
+- { chave: partidos/phs, arquivo: "Logo - Partido Humanista da Solidariedade.png", legenda: "Logotipo do PHS" }
+- { chave: partidos/pl, arquivo: "Partido Liberal (Brazil) logo.svg", legenda: "Logotipo do PL" }
+- { chave: partidos/pmb, arquivo: "Logomarca do Partido da Mulher Brasileira (2008).png", legenda: "Logotipo do PMB" }
+- { chave: partidos/pmn, arquivo: "PMN logo.svg", legenda: "Logotipo do PMN" }
+- { chave: partidos/pode, arquivo: "PODEMOSLogo (from 1997 to 2022).png", legenda: "Logotipo do Podemos, usado até 2022" }
+- { chave: partidos/pp, arquivo: "Progressistas logo.png", legenda: "Logotipo do Progressistas" }
+- { chave: partidos/ppl, arquivo: "Logotipo - Partido Pátria Livre (Brasil).png", legenda: "Logotipo do PPL" }
+- { chave: partidos/pr, arquivo: "Partido da República (Brazil) logo (2006–2019).svg", legenda: "Logotipo do PR, usado de 2006 a 2019" }
+- { chave: partidos/prd, arquivo: "Partido Renovação Democrática logo.svg", legenda: "Logotipo do PRD" }
+- { chave: partidos/prona, arquivo: "Partido de Reedificação da Ordem Nacional logo (2004–2006).png", legenda: "Logotipo do Prona, usado de 2004 a 2006" }
+- { chave: partidos/pros, arquivo: "Logomarca do Partido Republicano da Ordem Social (PROS), do Brasil.png", legenda: "Logotipo do PROS" }
+- { chave: partidos/prtb, arquivo: "PRTB-LOGO-03-1024x393.png", legenda: "Logotipo do PRTB" }
+- { chave: partidos/psb, arquivo: "Logo of the Brazilian Socialist Party (wordmark color).svg", legenda: "Logotipo do PSB" }
+- { chave: partidos/psc, arquivo: "PSC logo.svg", legenda: "Logotipo do PSC", autor: "Partido Social Cristão" }
+- { chave: partidos/psd, arquivo: "PSD Brazil logo.svg", legenda: "Logotipo do PSD" }
+- { chave: partidos/psdb, arquivo: "Logo of the Brazilian Social Democracy Party (2023).svg", legenda: "Logotipo do PSDB" }
+- { chave: partidos/psl, arquivo: "Partido Social Liberal logo.svg", legenda: "Logotipo do PSL" }
+- { chave: partidos/psol, arquivo: "Logo PSOL roxo.svg", legenda: "Logotipo do PSOL" }
+- { chave: partidos/pstu, arquivo: "Logo PSTU.png", legenda: "Logotipo do PSTU" }
+- { chave: partidos/pt, arquivo: "PT (Brazil) logo 2021.svg", legenda: "Logotipo do PT", autor: "Partido dos Trabalhadores" }
+- { chave: partidos/ptb, arquivo: "Logomarca Partido Trabalhista Brasileiro.png", legenda: "Logotipo do PTB" }
+- { chave: partidos/pv, arquivo: "PV Logo.svg", legenda: "Logotipo do PV" }
+- { chave: partidos/rede, arquivo: "Rede Sustentabilidade logo.svg", legenda: "Logotipo da Rede Sustentabilidade" }
+- { chave: partidos/sd, arquivo: "Logomarca do Partido Solidariedade.png", legenda: "Logotipo do Solidariedade" }
+- { chave: partidos/solidariedade, arquivo: "Logomarca do Partido Solidariedade.png", legenda: "Logotipo do Solidariedade" }
+- { chave: partidos/uniao, arquivo: "União Brasil logo.svg", legenda: "Logotipo do União Brasil" }
+- chave: pessoas
+  arquivo: "Osasco 2017 01.jpg"
+  legenda: "Osasco em 2017"

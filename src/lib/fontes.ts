@@ -3,6 +3,8 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { load as lerYaml } from "js-yaml";
 import tse from "../../dados/tse.json";
+import { CAMARA, nomeSessao } from "./camara";
+import { fontesDeImagens } from "./imagens";
 
 export type Fonte = {
   id: string;
@@ -37,6 +39,70 @@ function geradas(): Fonte[] {
       nota: "Votos somados nas zonas de Osasco.",
     });
   }
+  for (const ano of ANOS_TSE.filter((a) => a % 4 === 0)) {
+    lista.push({
+      id: `tse-comparecimento-${ano}`,
+      titulo: `Resultados ${ano}: detalhe da votação por município e zona, arquivo detalhe_votacao_munzona_${ano} (São Paulo)`,
+      autor: "Tribunal Superior Eleitoral, Portal de Dados Abertos",
+      url: `https://dadosabertos.tse.jus.br/dataset/resultados-${ano}`,
+      consultado: "2026-11-09",
+      nota: "Eleitorado apto, comparecimento, abstenções, votos válidos, brancos e nulos, somados nas zonas de Osasco.",
+    });
+    lista.push({
+      id: `tse-votos-partido-${ano}`,
+      titulo: `Resultados ${ano}: votação por partido, município e zona, arquivo votacao_partido_munzona_${ano} (São Paulo)`,
+      autor: "Tribunal Superior Eleitoral, Portal de Dados Abertos",
+      url: `https://dadosabertos.tse.jus.br/dataset/resultados-${ano}`,
+      consultado: "2026-11-09",
+      nota: "Votos nominais e de legenda de cada partido para a Câmara, somados nas zonas de Osasco.",
+    });
+    lista.push({
+      id: `tse-vagas-${ano}`,
+      titulo: `Candidatos ${ano}: vagas por cargo, arquivo consulta_vagas_${ano} (São Paulo)`,
+      autor: "Tribunal Superior Eleitoral, Portal de Dados Abertos",
+      url: `https://dadosabertos.tse.jus.br/dataset/candidatos-${ano}`,
+      consultado: "2026-11-09",
+      nota: "Número de vagas, data da eleição e data da posse.",
+    });
+  }
+  lista.push({
+    id: "tse-contas-2024",
+    titulo: "Prestação de contas eleitorais 2024: receitas e despesas de candidatos (São Paulo)",
+    autor: "Tribunal Superior Eleitoral, Portal de Dados Abertos",
+    url: "https://dadosabertos.tse.jus.br/dataset/prestacao-de-contas-eleitorais-2024",
+    consultado: "2026-11-01",
+    nota: "Totais declarados pela própria candidatura.",
+  });
+  lista.push({
+    id: "tse-bens-2024",
+    titulo: "Candidatos 2024: bens declarados, arquivo bem_candidato_2024 (São Paulo)",
+    autor: "Tribunal Superior Eleitoral, Portal de Dados Abertos",
+    url: "https://dadosabertos.tse.jus.br/dataset/candidatos-2024",
+    consultado: "2026-11-01",
+    nota: "Soma dos valores informados pela própria candidatura.",
+  });
+  lista.push({
+    id: "camara-legislaturas",
+    titulo: "Todas as Legislaturas: vereadores e Mesa Diretora de cada sessão legislativa, desde 1962",
+    autor: "Câmara Municipal de Osasco",
+    url: "https://www.osasco.sp.leg.br/vereadores/legislaturas",
+    consultado: "2026-11-09",
+  });
+  lista.push({
+    id: "camara-historico",
+    titulo: "Histórico da Câmara de Osasco",
+    autor: "Câmara Municipal de Osasco",
+    url: "https://www.osasco.sp.leg.br/historico-da-camara",
+    consultado: "2026-11-09",
+    nota: "Texto institucional com relatos de vereadores e do primeiro prefeito.",
+  });
+  lista.push({
+    id: "camara-presidentes",
+    titulo: "Galeria dos Presidentes",
+    autor: "Câmara Municipal de Osasco",
+    url: "https://www.osasco.sp.leg.br/vereadores/presidentes",
+    consultado: "2026-11-09",
+  });
   lista.push({
     id: "tse-trajetorias",
     titulo: "Candidaturas de 1996 a 2026 (arquivos consulta_cand e votacao_candidato_munzona de cada eleição)",
@@ -53,12 +119,46 @@ function geradas(): Fonte[] {
     url: "https://dadosabertos.tse.jus.br/",
     consultado: coleta,
   });
+  // Câmara Municipal: a planilha de cada sessão e o perfil oficial de cada vereador.
+  for (const s of CAMARA.sessoes)
+    lista.push({
+      id: `camara-sessao-${s.id}`,
+      titulo: `Planilha da ${nomeSessao(s)}`,
+      autor: "Câmara Municipal de Osasco",
+      url: s.url,
+      consultado: CAMARA.coletadoEm,
+    });
+  lista.push({
+    id: "camara-sessoes",
+    titulo: `Planilhas de votação e expediente das sessões de ${CAMARA.periodo.inicio.split("-").reverse().join("/")} a ${CAMARA.periodo.fim.split("-").reverse().join("/")}`,
+    autor: "Câmara Municipal de Osasco",
+    url: "https://www.osasco.sp.leg.br/",
+    consultado: CAMARA.coletadoEm,
+    nota: "Projetos lidos, leis sancionadas e vetos comunicados em cada sessão; cada item tem o link para a planilha da sessão.",
+  });
+  for (const v of CAMARA.vereadores)
+    lista.push({
+      id: `camara-perfil-${v.pessoa}`,
+      titulo: `Perfil de ${v.nome}`,
+      autor: "Câmara Municipal de Osasco",
+      url: v.perfilOficial,
+      consultado: CAMARA.coletadoEm,
+    });
+  // Imagens: cada uma é citada na legenda, como na Wikipédia.
+  for (const { id, img: i } of fontesDeImagens())
+    lista.push({
+      id,
+      titulo: `Arquivo: ${i.arquivo}`,
+      autor: `${i.autor}; licença ${i.licenca}${i.pagina.includes("commons.wikimedia.org") ? "; via Wikimedia Commons" : ""}`,
+      url: i.pagina,
+      data: i.data ?? undefined,
+    });
   return lista;
 }
 
 let todas: Map<string, Fonte> | null = null;
 export function fontes(): Map<string, Fonte> {
-  if (todas) return todas;
+  if (todas && process.env.NODE_ENV === "production") return todas;
   const escritas = lerYaml(readFileSync(path.join(process.cwd(), "conteudo", "fontes.yml"), "utf8")) as Record<string, Omit<Fonte, "id">>;
   todas = new Map();
   for (const [id, f] of Object.entries(escritas ?? {})) todas.set(id, { id, ...f, consultado: f.consultado ? String(f.consultado) : undefined, data: f.data ? String(f.data) : undefined });

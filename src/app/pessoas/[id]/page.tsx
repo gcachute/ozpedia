@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Artigo, Cita, LinkPagina, Quadro, Secao, SiglaPartido, TextoEscrito, type LinhaQuadro } from "@/components/artigo";
+import { Artigo, Cita, imagemParaQuadro, LinkPagina, Quadro, Secao, SiglaPartido, TextoEscrito, type LinhaQuadro } from "@/components/artigo";
+import { TabelaLeis, TabelaProjetos, TabelaVetos } from "@/components/camara";
+import { CAMARA, leisDe, perfilCamara, projetosDe, vetosDe } from "@/lib/camara";
 import { escrita } from "@/lib/conteudo";
-import { ANOS_MUNICIPAIS, chavePartido, emOsasco, pessoa, pessoas, rotuloResultado, venceu } from "@/lib/dados";
+import { ANOS_MUNICIPAIS, mandatosCamara, chavePartido, emOsasco, partidoDe, pessoa, pessoas, rotuloResultado, siglaExibida, venceu } from "@/lib/dados";
 import { Referencias } from "@/lib/fontes";
-import { instituicao, ordemCargo } from "@/lib/cargos";
+import { sucessaoPrefeitura } from "@/lib/prefeitos";
+import { imagemDe, imagemPagina } from "@/lib/imagens";
+import { comArtigo, instituicao, ordemCargo } from "@/lib/cargos";
 import { markdown } from "@/lib/markdown";
-import { listaE, numero } from "@/lib/texto";
+import { dataPorExtenso, listaE, nomeProprio, numero, slugify } from "@/lib/texto";
+import { campanha2024, detalhe, lugar, minusculas, reais, semPrefixo, siglasDaComposicao } from "@/lib/detalhes";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -25,11 +30,95 @@ export default async function PaginaPessoa({ params }: Props) {
   const refs = new Referencias();
   const cs = p.candidaturas;
   const temTse = cs.length > 0;
-
-  // Quadro de dados.
-  const linhas: LinhaQuadro[] = [];
   const nTse = temTse ? refs.cita("tse-trajetorias") : 0;
-  if (temTse) linhas.push({ rotulo: "Nome de urna", valor: [...cs].reverse().find((c) => c.urna)?.urna ?? "", cita: nTse });
+  const perfil = perfilCamara(id);
+  const nPerfil = perfil ? refs.cita(`camara-perfil-${id}`) : 0;
+
+  // ---------- Quadro de dados ----------
+  // Foto da pessoa; sem foto, a imagem da primeira legislatura em que exerceu mandato, a da eleição de que
+  // participou em Osasco ou, por fim, a imagem padrão.
+  const foto = imagemDe(id);
+  const semFoto = () => {
+    const legs = [...mandatosCamara(id)].sort((a, b) => a.leg.inicio.localeCompare(b.leg.inicio));
+    for (const m of legs) {
+      const i = imagemPagina(`legislaturas/${m.leg.inicio.slice(0, 4)}-${m.leg.fim.slice(0, 4)}`);
+      if (i) return i;
+    }
+    for (const c of [...cs].filter((c) => emOsasco(c)).sort((a, b) => b.ano - a.ano)) {
+      const i = imagemPagina(`eleicoes/${c.ano}`);
+      if (i) return i;
+    }
+    return imagemPagina("padrao/pessoa");
+  };
+  const img = foto ?? semFoto();
+  const imagemQuadro = img ? imagemParaQuadro(refs, img, foto ? `Foto de ${p.nome}` : img.legenda) : null;
+  const linhas: LinhaQuadro[] = [];
+  // Cargos na Prefeitura, com antecessor e sucessor (mandatos seguidos da mesma pessoa contam como um só período).
+  const sucessao = sucessaoPrefeitura();
+  for (let i = 0; i < sucessao.length; i++) {
+    if (sucessao[i].pessoa !== id || sucessao[i - 1]?.pessoa === id) continue;
+    let j = i;
+    while (sucessao[j + 1]?.pessoa === id) j++;
+    const ini = sucessao[i].periodo.split(/ a |–/)[0];
+    const fim = sucessao[j].periodo.split(/ a |–/).at(-1);
+    const ant = sucessao[i - 1];
+    const suc = sucessao[j + 1];
+    linhas.push({
+      rotulo: "Prefeitura de Osasco",
+      valor: (
+        <>
+          <span className="block">{i === j ? sucessao[i].periodo.replace(" a ", " – ") : `${ini} – ${fim}`}</span>
+          {ant && (
+            <span className="block">
+              Antecessor: {ant.pessoa ? <LinkPagina caminho={`pessoas/${ant.pessoa}`}>{ant.nome}</LinkPagina> : ant.nome}
+            </span>
+          )}
+          {suc && (
+            <span className="block">
+              Sucessor: {suc.pessoa ? <LinkPagina caminho={`pessoas/${suc.pessoa}`}>{suc.nome}</LinkPagina> : suc.nome}
+            </span>
+          )}
+        </>
+      ),
+      cita: [...new Set(sucessao.slice(i, j + 1).flatMap((m) => m.fontes))].map((f) => refs.cita(f)),
+    });
+  }
+  for (const m of sucessao.filter((m) => m.vicePessoa === id))
+    linhas.push({
+      rotulo: "Vice-prefeitura de Osasco",
+      valor: (
+        <>
+          <span className="block">{m.periodo.replace(" a ", " – ")}</span>
+          <span className="block">Na Prefeitura: {m.pessoa ? <LinkPagina caminho={`pessoas/${m.pessoa}`}>{m.nome}</LinkPagina> : m.nome}</span>
+        </>
+      ),
+      cita: m.fontes.map((f) => refs.cita(f)),
+    });
+  const urnaRecente = [...cs].reverse().find((c) => c.urna)?.urna ?? null;
+  if (temTse) linhas.push({ rotulo: "Nome de urna", valor: urnaRecente ?? "", cita: nTse });
+  if (perfil?.perfil.nomeCompleto) linhas.push({ rotulo: "Nome completo", valor: perfil.perfil.nomeCompleto, cita: nPerfil });
+  // O que a pessoa declarou ao TSE nas candidaturas municipais em Osasco (a mais recente que tem o dado).
+  const declarado = cs
+    .filter(emOsasco)
+    .map((c) => ({ c, d: detalhe(c.ano, c.cargo, c.numero) }))
+    .filter((x) => x.d)
+    .reverse();
+  const ultimo = <K extends "ocupacao" | "instrucao" | "naturalidade">(k: K) => declarado.find((x) => x.d![k]);
+  const natTse = ultimo("naturalidade");
+  const ocuTse = ultimo("ocupacao");
+  const insTse = ultimo("instrucao");
+  if (perfil?.perfil.naturalidade) linhas.push({ rotulo: "Naturalidade", valor: perfil.perfil.naturalidade, cita: nPerfil });
+  else if (natTse) linhas.push({ rotulo: "Naturalidade", valor: lugar(natTse.d!.naturalidade), cita: refs.cita(`tse-candidatos-${natTse.c.ano}`) });
+  if (perfil?.perfil.ocupacao) linhas.push({ rotulo: "Ocupação", valor: perfil.perfil.ocupacao, cita: nPerfil });
+  if (ocuTse)
+    linhas.push({ rotulo: "Ocupação declarada ao TSE", valor: `${minusculas(ocuTse.d!.ocupacao)} (${ocuTse.c.ano})`, cita: refs.cita(`tse-candidatos-${ocuTse.c.ano}`) });
+  if (perfil?.perfil.instrucao) linhas.push({ rotulo: "Instrução", valor: perfil.perfil.instrucao, cita: nPerfil });
+  else if (insTse)
+    linhas.push({ rotulo: "Escolaridade declarada ao TSE", valor: `${minusculas(insTse.d!.instrucao)} (${insTse.c.ano})`, cita: refs.cita(`tse-candidatos-${insTse.c.ano}`) });
+  // Campanha de 2024: totais da prestação de contas e bens declarados.
+  const c2024 = cs.find((c) => c.ano === 2024 && emOsasco(c));
+  const camp = c2024 ? campanha2024(c2024.cargo, c2024.numero) : null;
+
   const vitorias = new Map<string, { anos: number[]; ordem: number }>();
   for (const c of cs.filter(venceu)) {
     const k = instituicao(c);
@@ -37,24 +126,38 @@ export default async function PaginaPessoa({ params }: Props) {
     v.anos.push(c.ano);
     vitorias.set(k, v);
   }
-  const venceuPara: React.ReactNode[] = [...vitorias.entries()]
-    .sort((a, b) => a[1].ordem - b[1].ordem)
-    .map(([k, v]) => (
-      <span key={k} className="block">
-        {k} ({listaE(v.anos.map(String))})
-      </span>
-    ));
-  // Com uma fonte só (TSE), a chamada vai no fim da linha; o que foi escrito à mão leva a fonte de cada item.
-  const soTse = !e?.cab.cargos?.length;
-  if (!soTse && venceuPara.length) venceuPara.push(<Cita key="tse" n={nTse} />);
-  for (const c of e?.cab.cargos ?? [])
-    venceuPara.push(
-      <span key={c.cargo + c.eleicao} className="block">
-        {c.cargo} ({c.eleicao ?? c.periodo})
-        <Cita n={refs.cita(c.fonte)} />
-      </span>,
-    );
-  if (venceuPara.length) linhas.push({ rotulo: "Venceu a eleição para", valor: venceuPara, cita: soTse ? nTse : undefined });
+  const listaVitorias = [...vitorias.entries()].sort((a, b) => a[1].ordem - b[1].ordem);
+  const venceuPara: React.ReactNode[] = listaVitorias.map(([k, v]) => (
+    <span key={k} className="block">
+      {k} ({listaE(v.anos.map(String))})
+    </span>
+  ));
+  if (venceuPara.length) linhas.push({ rotulo: "Venceu a eleição para", valor: venceuPara, cita: nTse });
+  // Mandatos registrados em biografias e documentos (o que os dados do TSE não cobrem), cada um com a fonte.
+  const prefeitoNaSucessao = sucessao.some((m) => m.pessoa === id);
+  const escritos = (e?.cab.cargos ?? []).filter((c) => !(prefeitoNaSucessao && c.cargo === "Prefeitura de Osasco")).map((c) => (
+    <span key={c.cargo + (c.eleicao ?? c.periodo)} className="block">
+      {c.cargo} ({c.periodo ?? `eleição de ${c.eleicao}`})
+      <Cita n={refs.cita(c.fonte)} />
+    </span>
+  ));
+  if (escritos.length) linhas.push({ rotulo: "Mandatos", valor: escritos });
+
+  const mandatos = mandatosCamara(id);
+  const nLeg = mandatos.length ? refs.cita("camara-legislaturas") : 0;
+  if (mandatos.length)
+    linhas.push({
+      rotulo: "Câmara Municipal",
+      valor: mandatos.map((m) => (
+        <span key={m.leg.numero} className="block">
+          <LinkPagina caminho={`legislaturas/${m.leg.inicio.slice(0, 4)}-${m.leg.fim.slice(0, 4)}`}>{`${m.leg.numero}ª Legislatura`}</LinkPagina> ({m.leg.inicio.slice(0, 4)}–{m.leg.fim.slice(0, 4)}
+          {m.suplente ? ", suplente" : ""})
+        </span>
+      )),
+      cita: nLeg,
+    });
+  const presidencias = mandatos.flatMap((m) => m.mesa.filter((x) => x.cargo === "Presidente").map((x) => x.inicio.slice(0, 4)));
+  if (presidencias.length) linhas.push({ rotulo: "Presidência da Câmara", valor: listaE([...new Set(presidencias)]), cita: nLeg });
 
   // Partidos, na ordem em que aparecem, com os anos.
   const porPartido: { sigla: string; ano: number; anos: number[] }[] = [];
@@ -75,36 +178,153 @@ export default async function PaginaPessoa({ params }: Props) {
       )),
       cita: nTse,
     });
-  if (temTse)
-    linhas.push({
-      rotulo: "Eleições disputadas",
-      valor: `${new Set(cs.map((c) => c.ano)).size}, de ${cs[0].ano} a ${cs.at(-1)!.ano}`,
-      cita: nTse,
-    });
 
-  // Texto: o escrito à mão ou, sem ele, uma frase com o que dizem os dados.
-  const html = e?.corpo ? markdown(e.corpo, refs) : null;
+  const cargosMesa = [
+    ...mandatos
+      .flatMap((m) => m.mesa)
+      .reduce((acc, x) => {
+        const anos = acc.get(x.cargo) ?? [];
+        if (!anos.includes(x.inicio.slice(0, 4))) anos.push(x.inicio.slice(0, 4));
+        acc.set(x.cargo, anos);
+        return acc;
+      }, new Map<string, string[]>())
+      .entries(),
+  ];
+
+  // ---------- Câmara, legislatura atual ----------
+  const leis = leisDe(id);
+  const vetos = vetosDe(id);
+  const projetos = projetosDe(id);
+  const temCamara = leis.length + vetos.length + projetos.length > 0;
+  const nSessoes = temCamara ? refs.cita("camara-sessoes") : 0;
+
+  // ---------- Texto ----------
+  // Modelo de verbete: abertura e seções escritas primeiro; "Controvérsias" e "Prêmios e honrarias" depois do desempenho eleitoral.
+  const corte = e?.corpo ? e.corpo.search(/^## (Controvérsias|Prêmios e honrarias)/m) : -1;
+  const corpoInicio = e?.corpo ? (corte >= 0 ? e.corpo.slice(0, corte) : e.corpo) : "";
+  const corpoFim = e?.corpo && corte >= 0 ? e.corpo.slice(corte) : "";
+  const html = corpoInicio.trim() ? markdown(corpoInicio, refs) : null;
   const anos = [...new Set(cs.map((c) => c.ano))];
+  const siglas = [...new Set(porPartido.map((x) => { const pt = partidoDe(x.sigla, x.ano); return pt ? siglaExibida(pt) : x.sigla; }))];
+  const derrotas = cs.filter((c) => !venceu(c)).length;
+  const periodo = `${dataPorExtenso(CAMARA.periodo.inicio)} e ${dataPorExtenso(CAMARA.periodo.fim)}`;
 
-  return (
-    <Artigo
-      tipo="Pessoa"
-      titulo={p.nome}
-      refs={refs}
-      quadro={<Quadro titulo={p.nome} linhas={linhas} />}
-    >
-      {html ? (
-        <TextoEscrito html={html} />
-      ) : (
-        <p className="prosa">
-          <strong>{p.nome}</strong> é o nome de urna de quem disputou {anos.length === 1 ? "uma eleição" : `${anos.length} eleições`}
-          {anos.length === 1 ? `, em ${anos[0]}` : `, de ${anos[0]} a ${anos.at(-1)}`}, de acordo com o Tribunal Superior Eleitoral.
-          <Cita n={nTse} />
-        </p>
+  const resumo = (
+    <>
+      {!temTse && mandatos.length > 0 && (
+        <div className="prosa">
+          <p>
+            <strong>{p.nome}</strong> exerceu mandato na <LinkPagina caminho="camara" /> {mandatos.length === 1 ? "na" : "nas"}{" "}
+            {listaE(mandatos.map((m) => `${m.leg.numero}ª`))} {mandatos.length === 1 ? "legislatura" : "legislaturas"} (
+            {listaE(mandatos.map((m) => `${m.leg.inicio.slice(0, 4)}–${m.leg.fim.slice(0, 4)}`))})
+            {mandatos.some((m) => m.suplente) ? `, ${mandatos.every((m) => m.suplente) ? "como suplente que assumiu a vaga" : "em parte como suplente"}` : ""}, segundo a lista
+            oficial da Câmara.
+            <Cita n={nLeg} />
+            {cargosMesa.length > 0 && (
+              <>
+                {" "}
+                Na Mesa Diretora, ocupou {listaE(cargosMesa.map(([c, anos]) => `o cargo de ${c.toLowerCase()} (${listaE(anos)})`))}.
+                <Cita n={nLeg} />
+              </>
+            )}
+          </p>
+        </div>
+      )}
+      {temTse && (
+        <div className="prosa">
+          <p>
+            <strong>{p.nome}</strong>
+            {p.escrita && urnaRecente && slugify(urnaRecente) !== slugify(p.nome) ? ` (nome de urna mais recente: ${nomeProprio(urnaRecente)}) disputou ` : " é o nome de urna de quem disputou "}
+            {anos.length === 1 ? `uma eleição, em ${anos[0]}` : `${anos.length} eleições, de ${anos[0]} a ${anos.at(-1)}`}, de acordo com o Tribunal Superior Eleitoral.
+            <Cita n={nTse} />
+            {perfil?.perfil.naturalidade && (
+              <>
+                {" "}
+                Nasceu em {perfil.perfil.naturalidade.replace("/", ", ")}.
+                <Cita n={nPerfil} />
+              </>
+            )}
+          </p>
+          <p>
+            {listaVitorias.length > 0 ? (
+              <>
+                Venceu {listaE(listaVitorias.map(([k, v]) => `para ${comArtigo(k)} em ${listaE(v.anos.map(String))}`))}
+                {derrotas > 0 ? `; nas outras ${derrotas === 1 ? "candidatura" : `${derrotas} candidaturas`}, não venceu` : ""}.
+              </>
+            ) : (
+              <>Não venceu nenhuma das candidaturas.</>
+            )}{" "}
+            {siglas.length > 1 ? `Candidatou-se por ${siglas.length} partidos: ${listaE(siglas)}.` : cs.length === 1 ? `Partido da candidatura: ${siglas[0]}.` : `Partido em todas as candidaturas: ${siglas[0]}.`}
+            <Cita n={nTse} />
+          </p>
+          {mandatos.length > 0 && (
+            <p>
+              Exerceu mandato na <LinkPagina caminho="camara" /> {mandatos.length === 1 ? "na" : "nas"} {listaE(mandatos.map((m) => `${m.leg.numero}ª`))}{" "}
+              {mandatos.length === 1 ? "legislatura" : "legislaturas"} ({listaE(mandatos.map((m) => `${m.leg.inicio.slice(0, 4)}–${m.leg.fim.slice(0, 4)}`))})
+              {mandatos.some((m) => m.suplente) ? `, ${mandatos.every((m) => m.suplente) ? "como suplente que assumiu a vaga" : "em parte como suplente"}` : ""}.
+              <Cita n={nLeg} />
+              {cargosMesa.length > 0 && (
+                <>
+                  {" "}
+                  Na Mesa Diretora, ocupou {listaE(cargosMesa.map(([c, anos]) => `o cargo de ${c.toLowerCase()} (${listaE(anos)})`))}.
+                  <Cita n={nLeg} />
+                </>
+              )}
+            </p>
+          )}
+          {temCamara && (
+            <p>
+              Nas sessões da <LinkPagina caminho="camara" /> realizadas entre {periodo}, {projetos.length === 1 ? "foi lida uma proposição" : `foram lidas ${numero(projetos.length)} proposições`} de sua autoria
+              {leis.length > 0 && `, e ${leis.length === 1 ? "foi comunicada a sanção de uma lei" : `foi comunicada a sanção de ${leis.length} leis`} de sua autoria`}
+              {vetos.length > 0 && `; ${vetos.length === 1 ? "um projeto de sua autoria foi vetado" : `${vetos.length} projetos de sua autoria foram vetados`} pela Prefeitura`}.
+              <Cita n={nSessoes} />
+            </p>
+          )}
+        </div>
       )}
 
+    </>
+  );
+
+  return (
+    <Artigo tipo="Pessoa" titulo={p.nome} refs={refs} quadro={<Quadro titulo={p.nome} linhas={linhas} imagem={imagemQuadro} />}>
+      {html ? <TextoEscrito html={html} /> : resumo}
+
+      {temCamara && (
+        <Secao titulo="Na Câmara, legislatura 2025–2028">
+          <p className="mb-4 text-sm text-tinta-suave">
+            Sessões realizadas entre {periodo}. Cada item leva à planilha da sessão em que foi lido.
+            <Cita n={nSessoes} />
+          </p>
+          {leis.length > 0 && (
+            <>
+              <h3 className="mb-2 font-bold">Leis sancionadas</h3>
+              <div className="mb-6">
+                <TabelaLeis leis={leis} comAutoria={leis.some((l) => l.autores.length > 1)} />
+              </div>
+            </>
+          )}
+          {vetos.length > 0 && (
+            <>
+              <h3 className="mb-2 font-bold">Projetos vetados</h3>
+              <div className="mb-6">
+                <TabelaVetos vetos={vetos} />
+              </div>
+            </>
+          )}
+          {projetos.length > 0 && (
+            <>
+              <h3 className="mb-2 font-bold">Proposições apresentadas ({numero(projetos.length)})</h3>
+              <TabelaProjetos projetos={projetos} comAutoria={projetos.some((x) => x.autores.length > 1)} />
+            </>
+          )}
+        </Secao>
+      )}
+
+      {html && !temTse && mandatos.length > 0 && <Secao titulo="Mandatos na Câmara">{resumo}</Secao>}
       {temTse && (
-        <Secao titulo="Na urna, eleição a eleição">
+        <Secao titulo="Desempenho eleitoral">
+          {html && resumo}
           <div className="overflow-x-auto">
             <table className="tabela">
               <thead>
@@ -121,13 +341,16 @@ export default async function PaginaPessoa({ params }: Props) {
                 {[...cs].reverse().map((c, i) => (
                   <tr key={i}>
                     <td>{emOsasco(c) && ANOS_MUNICIPAIS.includes(c.ano) ? <LinkPagina caminho={`eleicoes/${c.ano}`}>{c.ano}</LinkPagina> : c.ano}</td>
-                    <td>{instituicao(c)}</td>
+                    <td>
+                      {instituicao(c)}
+                      <DetalheDisputa ano={c.ano} cargo={c.cargo} numero={c.numero} osasco={emOsasco(c)} />
+                    </td>
                     <td>
                       <SiglaPartido sigla={c.partido} ano={c.ano} />
                     </td>
                     <td className="num">{c.numero}</td>
                     <td className="num">
-                      {emOsasco(c) ? numero(c.votos) : "—"}
+                      {emOsasco(c) ? numero(c.votos) || "—" : "—"}
                       {c.votos2turno != null && <span className="block text-tinta-suave">2º turno: {numero(c.votos2turno)}</span>}
                     </td>
                     <td>{rotuloResultado(c)}</td>
@@ -142,6 +365,63 @@ export default async function PaginaPessoa({ params }: Props) {
           </p>
         </Secao>
       )}
+      {camp && c2024 && <Campanha2024 camp={camp} cargo={instituicao(c2024)} nContas={refs.cita("tse-contas-2024")} nBens={refs.cita("tse-bens-2024")} />}
+      {corpoFim && <TextoEscrito html={markdown(corpoFim, refs)} />}
     </Artigo>
+  );
+}
+
+function DetalheDisputa({ ano, cargo, numero: n, osasco }: { ano: number; cargo: string; numero: string | null; osasco: boolean }) {
+  const d = osasco ? detalhe(ano, cargo, n) : null;
+  if (!d) return null;
+  const coligacao = d.coligacao && !/^PARTIDO ISOLADO$/i.test(d.coligacao) ? d.coligacao : null;
+  const grupo = semPrefixo(coligacao) ?? semPrefixo(d.federacao) ?? null;
+  const siglas = siglasDaComposicao(d.composicao ?? d.composicaoFederacao);
+  return (
+    <span className="block text-sm text-tinta-suave">
+      {grupo && (
+        <>
+          {coligacao ? "Coligação" : "Federação"} {grupo}
+          {siglas.length > 1 ? ` (${siglas.join(", ")})` : ""}.{" "}
+        </>
+      )}
+      {d.reeleicao && "Concorria à reeleição."}
+    </span>
+  );
+}
+
+function Campanha2024({ camp, cargo, nContas, nBens }: { camp: NonNullable<ReturnType<typeof campanha2024>>; cargo: string; nContas: number; nBens: number }) {
+  const origens = Object.entries(camp.receitasPorOrigem).sort((a, b) => b[1] - a[1]);
+  return (
+    <Secao titulo="Campanha de 2024">
+      <div className="prosa">
+        <p>
+          Na disputa pela {cargo.replace(/^Câmara/, "Câmara")} em 2024, a candidatura declarou ao Tribunal Superior Eleitoral receitas de {reais(camp.receitas)} e despesas
+          contratadas de {reais(camp.despesas)}.
+          <Cita n={nContas} />
+          {origens.length > 0 && (
+            <>
+              {" "}
+              Origem das receitas: {listaE(origens.map(([o, v]) => `${o.toLowerCase()} (${reais(v)})`))}.
+              <Cita n={nContas} />
+            </>
+          )}
+          {camp.maioresDespesas.length > 0 && (
+            <>
+              {" "}
+              Maiores despesas: {listaE(camp.maioresDespesas.map(([t, v]) => `${t.toLowerCase()} (${reais(v)})`))}.
+              <Cita n={nContas} />
+            </>
+          )}
+          {camp.bens != null && (
+            <>
+              {" "}
+              Bens declarados no registro da candidatura: {camp.bens > 0 ? reais(camp.bens) : "nenhum"}.
+              <Cita n={nBens} />
+            </>
+          )}
+        </p>
+      </div>
+    </Secao>
   );
 }

@@ -4,6 +4,8 @@ import tse from "../../dados/tse.json";
 import partidosTse from "../../dados/partidos-tse.json";
 import registro from "../../dados/partidos-tse-registro.json";
 import { escrita, escritas } from "./conteudo";
+import { CAMARA } from "./camara";
+import historico from "../../dados/camara-legislaturas.json";
 import { nomeProprio, slugify } from "./texto";
 
 export type Candidatura = {
@@ -161,9 +163,46 @@ export type Pessoa = {
   escrita: boolean;
 };
 
-// Ganha página quem venceu alguma eleição em Osasco, quem disputou a Prefeitura (titular ou vice) e quem tem página
-// escrita à mão. As demais candidaturas aparecem nas páginas das eleições, sem link.
-const temPagina = (p: PessoaTse) => !!p.urna && p.candidaturas.some((c) => emOsasco(c) && (venceu(c) || c.cargo !== "Vereador"));
+// ---------- Câmara Municipal desde 1962 (página oficial "Todas as Legislaturas") ----------
+export type VereadorLeg = { nome: string; suplente: boolean; votos: number | null; pessoa: string | null };
+export type SessaoLeg = { numero: number; inicio: string; fim: string; mesa: { cargo: string; nome: string; pessoa: string | null }[] };
+export type LegCamara = { numero: number; titulo: string; inicio: string; fim: string; vereadores: VereadorLeg[]; sessoes: SessaoLeg[] };
+export const LEGISLATURAS = (historico.legislaturas as LegCamara[]).slice().sort((a, b) => b.numero - a.numero);
+export const HISTORICO_CAMARA = { url: historico.url, coletadoEm: historico.coletadoEm };
+
+// Quem só aparece na lista da Câmara (sem candidatura nos arquivos do TSE, de 1996 em diante) ganha um identificador
+// tirado do nome completo publicado pela Câmara.
+const idsTse = new Set(pessoasTse.map((p) => p.id));
+const idPorNomeCamara = new Map<string, string>();
+for (const l of LEGISLATURAS)
+  for (const v of l.vereadores)
+    if (!v.pessoa && !idPorNomeCamara.has(v.nome)) {
+      let id = slugify(v.nome);
+      if (idsTse.has(id)) id = `${id}-vereador`;
+      idPorNomeCamara.set(v.nome, id);
+    }
+const nomePorIdCamara = new Map([...idPorNomeCamara].map(([n, i]) => [i, n]));
+// Pessoa de um nome da Câmara (vereador ou membro da Mesa).
+export const pessoaDoNome = (nome: string, pessoa: string | null) => pessoa ?? idPorNomeCamara.get(nome) ?? null;
+
+// Mandatos de uma pessoa na Câmara, com os cargos na Mesa Diretora, ano a ano.
+export function mandatosCamara(id: string) {
+  const lista: { leg: LegCamara; suplente: boolean; votos: number | null; nomeOficial: string; mesa: { cargo: string; inicio: string; fim: string }[] }[] = [];
+  for (const l of [...LEGISLATURAS].reverse()) {
+    const v = l.vereadores.find((x) => pessoaDoNome(x.nome, x.pessoa) === id);
+    if (!v) continue;
+    const mesa = l.sessoes.flatMap((s) => s.mesa.filter((m) => pessoaDoNome(m.nome, m.pessoa) === id).map((m) => ({ cargo: m.cargo, inicio: s.inicio, fim: s.fim })));
+    lista.push({ leg: l, suplente: v.suplente, votos: v.votos, nomeOficial: v.nome, mesa });
+  }
+  return lista;
+}
+
+// Ganha página quem venceu alguma eleição em Osasco, quem disputou a Prefeitura (titular ou vice), quem exerceu mandato
+// na Câmara em qualquer legislatura desde 1962 (inclusive suplentes que assumiram) e quem tem página escrita à mão.
+// As demais candidaturas aparecem nas páginas das eleições, sem link.
+const naCamara = new Set([...CAMARA.vereadores.map((v) => v.pessoa), ...LEGISLATURAS.flatMap((l) => l.vereadores.map((v) => v.pessoa)).filter(Boolean)]);
+const temPagina = (p: PessoaTse) =>
+  !!p.urna && (naCamara.has(p.id) || p.candidaturas.some((c) => emOsasco(c) && (venceu(c) || c.cargo !== "Vereador")));
 
 let _pessoas: Map<string, Pessoa> | null = null;
 export function pessoas(): Map<string, Pessoa> {
@@ -173,6 +212,10 @@ export function pessoas(): Map<string, Pessoa> {
     const e = escrita("pessoas", p.id);
     if (!temPagina(p) && !e) continue;
     mapa.set(p.id, { id: p.id, nome: e?.cab.titulo ?? nomeProprio(p.urna ?? ""), candidaturas: p.candidaturas, escrita: !!e });
+  }
+  for (const [id, nome] of nomePorIdCamara) {
+    const e = escrita("pessoas", id);
+    mapa.set(id, { id, nome: e?.cab.titulo ?? nome, candidaturas: [], escrita: !!e });
   }
   for (const e of escritas("pessoas"))
     if (!mapa.has(e.id)) mapa.set(e.id, { id: e.id, nome: e.cab.titulo ?? e.id, candidaturas: [], escrita: true });
@@ -213,7 +256,17 @@ export function chapas(ano: number) {
 // Mandato de quatro anos, começando no ano seguinte ao da eleição (Constituição, art. 29).
 export const periodo = (ano: number) => `${ano + 1}-${ano + 4}`;
 export const periodoTexto = (ano: number) => `${ano + 1}–${ano + 4}`;
-export const legislaturas = () => ANOS_MUNICIPAIS.slice().reverse().map((ano) => ({ ano, id: periodo(ano) }));
+// Legislaturas: as 16 da página oficial da Câmara. O id é o período ("2025-2028"); "ano" é a eleição que preencheu as
+// vagas quando há dados do TSE (1996 em diante), ou a de 1962 para a primeira.
+const anoInicio = (iso: string) => Number(iso.slice(0, 4));
+export const legislaturas = () =>
+  LEGISLATURAS.map((l) => {
+    const ini = anoInicio(l.inicio);
+    const fim = anoInicio(l.fim);
+    const ano = ANOS_MUNICIPAIS.includes(ini - 1) ? ini - 1 : l.numero === 1 ? 1962 : null;
+    return { id: `${ini}-${fim}`, numero: l.numero, periodo: `${ini}–${fim}`, ano, leg: l };
+  });
+export const legislaturaDaEleicao = (ano: number) => legislaturas().find((l) => l.ano === ano) ?? null;
 export const eleitosCamara = (ano: number) =>
   candidaturasDe(ano)
     .filter((c) => c.cargo === "Vereador" && venceu(c))

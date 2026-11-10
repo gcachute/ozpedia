@@ -3,6 +3,8 @@ import { Busca } from "@/components/busca";
 import { LinkPagina } from "@/components/artigo";
 import { emOsasco, pessoas, venceu } from "@/lib/dados";
 import { instituicao, ordemCargo } from "@/lib/cargos";
+import { Figura } from "@/components/artigo";
+import { imagemPagina } from "@/lib/imagens";
 
 export const metadata: Metadata = { title: "Pessoas" };
 
@@ -11,8 +13,9 @@ export default function Pessoas() {
   return (
     <div>
       <h1 className="titulo text-4xl">Pessoas</h1>
+      <Figura imagem={imagemPagina("pessoas")} />
       <p className="mt-2 max-w-2xl">
-        Tem página quem venceu alguma eleição em Osasco desde 1996, quem disputou a Prefeitura (como titular ou vice) e quem já tem texto escrito. As demais
+        Tem página quem venceu alguma eleição em Osasco desde 1996, quem disputou a Prefeitura (como titular ou vice), quem exerceu mandato na Câmara na legislatura atual (inclusive suplentes) e quem já tem texto escrito. As demais
         candidaturas aparecem nas páginas de cada eleição.
       </p>
       <div className="mt-6">

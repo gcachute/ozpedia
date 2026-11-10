@@ -1,0 +1,4814 @@
+{
+ "fonte": "Câmara Municipal de Osasco, Todas as Legislaturas",
+ "url": "https://www.osasco.sp.leg.br/vereadores/legislaturas",
+ "coletadoEm": "2026-11-09",
+ "legislaturas": [
+  {
+   "numero": 1,
+   "titulo": "1ª Legislatura - 1962/1966",
+   "inicio": "1962-02-19",
+   "fim": "1966-12-31",
+   "vereadores": [
+    {
+     "nome": "Alfredo Thomaz",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Primo Broseghini",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Clóvis Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João Catan",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João Gilberto Port",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Benedito Ventura Nitão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Clóvis Carrilho de Freitas",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Octacílio Firmino Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Orlando Calasans",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Adevaldo José de Castro",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Anízio Nunes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Aymoré de Mello Dias",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Cid Sergio Alcântara Von Puttkammer",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Esmeraldo Vieira Malagueta",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João Emílio Bornacina",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Joaquim Fraga",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Guizi",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Marino Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Moacyr de Araújo Nunes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Osler de Almeida Barros",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Pedro Furlan",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Vicente Florindo Netto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Wilton Pereira da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1962-02-19",
+     "fim": "1963-02-18",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Orlando Calasans",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Alfredo Thomaz",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Adevaldo José de Castro",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Clóvis Carrilho de Freitas",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Clóvis Assaf",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1963-02-19",
+     "fim": "1963-10-18",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "João Catan",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Alfredo Thomaz",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Clóvis Carrilho de Freitas",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Esmeraldo Vieira Malagueta",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Vicente Florindo Netto",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1964-02-24",
+     "fim": "1965-02-18",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "João Emílio Bornacina",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Octacílio Firmino Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Clóvis Carrilho de Freitas",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Cid Sergio Alcântara Von Puttkammer",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Joaquim Fraga",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "1965-02-19",
+     "fim": "1966-02-18",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Vicente Florindo Netto",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Aymoré de Mello Dias",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Clóvis Carrilho de Freitas",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Joaquim Fraga",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Benedito Ventura Nitão",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titulo": "2ª Legislatura - 1967/1970",
+   "inicio": "1967-01-01",
+   "fim": "1970-01-31",
+   "vereadores": [
+    {
+     "nome": "José Santos Sasso",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "sasso"
+    },
+    {
+     "nome": "Maria Coluna da Conceição Baptista",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "maria-coluna"
+    },
+    {
+     "nome": "Achoute Sanazar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Alfredo Thomaz",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Armando Moioli",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Primo Broseghini",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Reginaldo Valadão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Orlando Antônio Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Clóvis Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Ilarino Juliano",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João Catan",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João Gilberto Port",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Carlos Próspero",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Benedito Ventura Nitão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Alcino dos Santos",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "André Bogasian",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Clóvis Carrilho de Freitas",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Lucídio Vieira dos Santos",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Marino Cafundó de Moraes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Octacílio Firmino Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Pedro Proscurcin",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Renato Pacheco de Mattos",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Saburo Matsubara",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1967-01-10",
+     "fim": "1968-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "João Gilberto Port",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Achoute Sanazar",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "José Carlos Próspero",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Primo Broseghini",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Benedito Ventura Nitão",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1968-02-01",
+     "fim": "1969-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Octacílio Firmino Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "José Carlos Próspero",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Clóvis Carrilho de Freitas",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Lucídio Vieira dos Santos",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1969-02-01",
+     "fim": "1970-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Alfredo Thomaz",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Clóvis Assaf",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Pedro Proscurcin",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Orlando Antônio Lopes",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titulo": "3ª Legislatura - 1970/1973",
+   "inicio": "1970-02-01",
+   "fim": "1973-01-31",
+   "vereadores": [
+    {
+     "nome": "José Santos Sasso",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "sasso"
+    },
+    {
+     "nome": "Maria Coluna da Conceição Baptista",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "maria-coluna"
+    },
+    {
+     "nome": "Achoute Sanazar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Márcio Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Antônio de Lima",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Claudino Zequinha da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio José de Souza Faria",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Primo Broseghini",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Reginaldo Valadão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Orlando Antônio Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João de Deus Pereira Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Clóvis Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Edmundo Amaral",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Elias Acchiles de Miranda",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Edair Borborema",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Ilarino Juliano",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João Catan",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Ferreira Batista",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1970-02-01",
+     "fim": "1971-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Clóvis Assaf",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Reginaldo Valadão",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "João de Deus Pereira Filho",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Reginaldo Valadão",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Elias Acchiles de Miranda",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1971-02-01",
+     "fim": "1972-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Clóvis Assaf",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Reginaldo Valadão",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "João de Deus Pereira Filho",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Orlando Antônio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Elias Acchiles de Miranda",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1972-02-01",
+     "fim": "1973-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Reginaldo Valadão",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Edair Borborema",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Orlando Antônio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Ilarino Juliano",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Antônio José de Souza Faria",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Clóvis Assaf",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titulo": "4ª Legislatura - 1973/1977",
+   "inicio": "1973-02-01",
+   "fim": "1977-01-31",
+   "vereadores": [
+    {
+     "nome": "José Santos Sasso",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "sasso"
+    },
+    {
+     "nome": "Maria Coluna da Conceição Baptista",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "maria-coluna"
+    },
+    {
+     "nome": "Antônio Márcio Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Antônio de Lima",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio José de Souza Faria",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Armando Moioli",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Primo Broseghini",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Jorge Yoshida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Reginaldo Valadão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Orlando Antônio Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João de Deus Pereira Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Gomes de Souza",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Arthur Sergio Gastão Castelani",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Clóvis Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Edmundo Amaral",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Antônio Couzo Arévalo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Vrejhi Mardiros Sanazar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1973-02-01",
+     "fim": "1974-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Armando Moioli",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Jorge Yoshida",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Reginaldo Valadão",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Orlando Antônio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "João de Deus Pereira Filho",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1974-02-01",
+     "fim": "1975-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Armando Moioli",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Jorge Yoshida",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Reginaldo Valadão",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Orlando Antônio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "João de Deus Pereira Filho",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1975-02-01",
+     "fim": "1976-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Márcio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "José Antônio Couzo Arévalo",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jorge Yoshida",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio Gomes de Souza",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Vrejhi Mardiros Sanazar",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Edmundo Amaral",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "1976-02-01",
+     "fim": "1977-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Márcio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "José Antônio Couzo Arévalo",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jorge Yoshida",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio Gomes de Souza",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Vrejhi Mardiros Sanazar",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Edmundo Amaral",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "titulo": "5ª Legislatura - 1977/1983",
+   "inicio": "1977-02-01",
+   "fim": "1983-01-31",
+   "vereadores": [
+    {
+     "nome": "Jair Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jair-assaf"
+    },
+    {
+     "nome": "Sebastião Bognar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "bognar"
+    },
+    {
+     "nome": "Maria Coluna da Conceição Baptista",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "maria-coluna"
+    },
+    {
+     "nome": "Samuel Mendes Sanches",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Jesus Rodrigues Domingues Neto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Márcio Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Antônio de Lima",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Claudino Zequinha da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Levy Tesdeschi",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Tsuyoshi Sergio Yamato",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Alfredo Thomaz",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio José de Souza Faria",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Armando Moioli",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Augusto José Portella",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Gilberto Camargo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Jair Sanches",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-jair-sanches"
+    },
+    {
+     "nome": "João Costa Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "o-moco-da-caneta"
+    },
+    {
+     "nome": "Primo Broseghini",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Silas Bortolosso",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "silas-bortolosso"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1977-02-01",
+     "fim": "1978-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Claudino Zequinha da Silva",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Levy Tesdeschi",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Tsuyoshi Sergio Yamato",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Samuel Mendes Sanches",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1978-01-01",
+     "fim": "1978-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Claudino Zequinha da Silva",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Levy Tesdeschi",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Tsuyoshi Sergio Yamato",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Samuel Mendes Sanches",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1979-01-01",
+     "fim": "1979-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Jair Sanches",
+       "pessoa": "dr-jair-sanches"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Gilberto Camargo",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "João Costa Filho",
+       "pessoa": "o-moco-da-caneta"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio Márcio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Samuel Mendes Sanches",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "1980-01-01",
+     "fim": "1980-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Jair Sanches",
+       "pessoa": "dr-jair-sanches"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Gilberto Camargo",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "João Costa Filho",
+       "pessoa": "o-moco-da-caneta"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio Márcio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Samuel Mendes Sanches",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "inicio": "1981-02-01",
+     "fim": "1981-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Primo Broseghini",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Sebastião Bognar",
+       "pessoa": "bognar"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Márcio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "José Claudino Zequinha da Silva",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Tsuyoshi Sergio Yamato",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Jesus Rodrigues Domingues Neto",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "inicio": "1982-02-01",
+     "fim": "1982-06-15",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Primo Broseghini",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Sebastião Bognar",
+       "pessoa": "bognar"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Márcio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "José Claudino Zequinha da Silva",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Tsuyoshi Sergio Yamato",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Jesus Rodrigues Domingues Neto",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "inicio": "1982-06-17",
+     "fim": "1983-01-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Alfredo Thomaz",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Sebastião Bognar",
+       "pessoa": "bognar"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Márcio Lopes",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "José Claudino Zequinha da Silva",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Tsuyoshi Sergio Yamato",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Jesus Rodrigues Domingues Neto",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "titulo": "6ª Legislatura - 1983/1988",
+   "inicio": "1983-02-01",
+   "fim": "1988-12-31",
+   "vereadores": [
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "Faisal Cury",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-cury"
+    },
+    {
+     "nome": "Francisco Carlos Motta",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "motta"
+    },
+    {
+     "nome": "Samuel Mendes Sanches",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Achoute Sanazar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Luiz Carlos Camarotto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Jesus Rodrigues Domingues Neto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Enilson Lopes de Oliveira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Fenelon Guedes Pereira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Ananias Kir Biyikian Neto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Carlos Tonca Falseti",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Márcio Lopes",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Moraes Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "antonio-moraes-filho"
+    },
+    {
+     "nome": "Eurípedes Brandão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Hugo Crepaldi Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "João Paulo Cunha",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "joao-paulo-cunha"
+    },
+    {
+     "nome": "José David Binsztajn",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "José Fortunato Sirol",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Josué Lucianelli",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Rosa Lopes Martins",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Sônia Maria Souza Cruz",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1983-01-01",
+     "fim": "1983-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Achoute Sanazar",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Francisco Carlos Motta",
+       "pessoa": "motta"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Luiz Carlos Camarotto",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Jesus Rodrigues Domingues Neto",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Enilson Lopes de Oliveira",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Fenelon Guedes Pereira",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1984-01-01",
+     "fim": "1984-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Achoute Sanazar",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Francisco Carlos Motta",
+       "pessoa": "motta"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Luiz Carlos Camarotto",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Jesus Rodrigues Domingues Neto",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Enilson Lopes de Oliveira",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Fenelon Guedes Pereira",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1985-01-01",
+     "fim": "1985-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Carlos Tonca Falseti",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Enilson Lopes de Oliveira",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "José Fortunato Sirol",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Samuel Mendes Sanches",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Eurípedes Brandão",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Rosa Lopes Martins",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "1986-01-01",
+     "fim": "1986-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Carlos Tonca Falseti",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Enilson Lopes de Oliveira",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "José Fortunato Sirol",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Samuel Mendes Sanches",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Eurípedes Brandão",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Rosa Lopes Martins",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "inicio": "1987-01-01",
+     "fim": "1987-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José David Binsztajn",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Josué Lucianelli",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Moraes Filho",
+       "pessoa": "antonio-moraes-filho"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Rosa Lopes Martins",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Achoute Sanazar",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Eurípedes Brandão",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "inicio": "1988-01-01",
+     "fim": "1988-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José David Binsztajn",
+       "pessoa": null
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Josué Lucianelli",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Moraes Filho",
+       "pessoa": "antonio-moraes-filho"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Rosa Lopes Martins",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Achoute Sanazar",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Eurípedes Brandão",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "titulo": "7ª Legislatura - 1989/1992",
+   "inicio": "1989-01-01",
+   "fim": "1992-12-31",
+   "vereadores": [
+    {
+     "nome": "Jair Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jair-assaf"
+    },
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "Reginaldo Oliveira de Almeida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "didi"
+    },
+    {
+     "nome": "Carlos José Gaspar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-gaspar"
+    },
+    {
+     "nome": "Marcos Lopes Martins",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "marcos-martins"
+    },
+    {
+     "nome": "Antônio Cláudio Flores Piteri",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-piteri"
+    },
+    {
+     "nome": "Dionísio Alvarez Mateos Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "doutor-dionisio-mateos"
+    },
+    {
+     "nome": "Romeu Marchionno",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "romeu-pepino"
+    },
+    {
+     "nome": "Mário Tenório Cavalcante",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Emídio Pereira de Souza",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "emidio"
+    },
+    {
+     "nome": "Giro Inoguti",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "giro-inoguti"
+    },
+    {
+     "nome": "José Santos Sasso",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "sasso"
+    },
+    {
+     "nome": "Altino Rossi de Almeida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "altino-rossi-de-almeida"
+    },
+    {
+     "nome": "Henos Amorina",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "henos-amorina"
+    },
+    {
+     "nome": "Maria Coluna da Conceição Baptista",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "maria-coluna"
+    },
+    {
+     "nome": "Celso Antônio Giglio",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "celso-giglio"
+    },
+    {
+     "nome": "Catharino de Lima Barros",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "catarino"
+    },
+    {
+     "nome": "Francisco Carlos Motta",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "motta"
+    },
+    {
+     "nome": "Sadamitu Omosako",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Ludval dos Santos Oliveira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ludval"
+    },
+    {
+     "nome": "Maria Salete Ramos da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Noel Ferreira Borges",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "noel-ferreira-borges"
+    },
+    {
+     "nome": "Samuel Mendes Sanches",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1989-01-01",
+     "fim": "1989-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Celso Antônio Giglio",
+       "pessoa": "celso-giglio"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Catharino de Lima Barros",
+       "pessoa": "catarino"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Francisco Carlos Motta",
+       "pessoa": "motta"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Sadamitu Omosako",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1990-01-01",
+     "fim": "1990-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Celso Antônio Giglio",
+       "pessoa": "celso-giglio"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Catharino de Lima Barros",
+       "pessoa": "catarino"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Francisco Carlos Motta",
+       "pessoa": "motta"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Sadamitu Omosako",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1991-01-01",
+     "fim": "1991-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Salete Ramos da Silva",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Ludval dos Santos Oliveira",
+       "pessoa": "ludval"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "1992-01-01",
+     "fim": "1992-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Maria Salete Ramos da Silva",
+       "pessoa": null
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Ludval dos Santos Oliveira",
+       "pessoa": "ludval"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Maria Coluna da Conceição Baptista",
+       "pessoa": "maria-coluna"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "titulo": "8ª Legislatura - 1993/1996",
+   "inicio": "1993-01-01",
+   "fim": "1996-12-31",
+   "vereadores": [
+    {
+     "nome": "Antônio Aparecido Toniolo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toniolo"
+    },
+    {
+     "nome": "Reginaldo Oliveira de Almeida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "didi"
+    },
+    {
+     "nome": "Carlos José Gaspar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-gaspar"
+    },
+    {
+     "nome": "José Barbosa Coelho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "barbosa-1996"
+    },
+    {
+     "nome": "Marcos Lopes Martins",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "marcos-martins"
+    },
+    {
+     "nome": "Antônio Cláudio Flores Piteri",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-piteri"
+    },
+    {
+     "nome": "Manoel Edvan Cerqueira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "mane"
+    },
+    {
+     "nome": "Dionísio Alvarez Mateos Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "doutor-dionisio-mateos"
+    },
+    {
+     "nome": "Mário Tenório Cavalcante",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Emídio Pereira de Souza",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "emidio"
+    },
+    {
+     "nome": "Faisal Cury",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-cury"
+    },
+    {
+     "nome": "Giro Inoguti",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "giro-inoguti"
+    },
+    {
+     "nome": "Willians Rafael da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "willians-rafael"
+    },
+    {
+     "nome": "José Santos Sasso",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "sasso"
+    },
+    {
+     "nome": "Antônio César de Oliveira Braga",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "braguinha"
+    },
+    {
+     "nome": "Carlos Roberto Salge",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Altino Rossi de Almeida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "altino-rossi-de-almeida"
+    },
+    {
+     "nome": "Armando Martins Cordeiro Junior",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "cordeiro"
+    },
+    {
+     "nome": "Henos Amorina",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "henos-amorina"
+    },
+    {
+     "nome": "Jacir Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jacir-assaf"
+    },
+    {
+     "nome": "Maria Coluna da Conceição Baptista",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "maria-coluna"
+    },
+    {
+     "nome": "João Agostinho Bezerra",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1993-01-01",
+     "fim": "1993-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio César de Oliveira Braga",
+       "pessoa": "braguinha"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Carlos Roberto Salge",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1994-01-01",
+     "fim": "1994-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio César de Oliveira Braga",
+       "pessoa": "braguinha"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Carlos Roberto Salge",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1995-01-01",
+     "fim": "1995-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Jacir Assaf",
+       "pessoa": "jacir-assaf"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Carlos Roberto Salge",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Antônio César de Oliveira Braga",
+       "pessoa": "braguinha"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "1996-01-01",
+     "fim": "1996-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "José Santos Sasso",
+       "pessoa": "sasso"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Jacir Assaf",
+       "pessoa": "jacir-assaf"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Antônio César de Oliveira Braga",
+       "pessoa": "braguinha"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "titulo": "9ª Legislatura - 1997/2000",
+   "inicio": "1997-01-01",
+   "fim": "2000-12-31",
+   "vereadores": [
+    {
+     "nome": "Délbio Camargo Teruel",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "delbio-teruel"
+    },
+    {
+     "nome": "Antônio Aparecido Toniolo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toniolo"
+    },
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "Reginaldo Oliveira de Almeida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "didi"
+    },
+    {
+     "nome": "André Sacco Júnior",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-andre-sacco"
+    },
+    {
+     "nome": "Fumio Miazaki",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "miazaki"
+    },
+    {
+     "nome": "José Barbosa Coelho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "barbosa-1996"
+    },
+    {
+     "nome": "Marcos Lopes Martins",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "marcos-martins"
+    },
+    {
+     "nome": "Antônio Cláudio Flores Piteri",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-piteri"
+    },
+    {
+     "nome": "José Amando Mota",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-jose-amando"
+    },
+    {
+     "nome": "Sônia Maria Rainho Gonçalves",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "sonia-rainho"
+    },
+    {
+     "nome": "Manoel Edvan Cerqueira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "mane"
+    },
+    {
+     "nome": "Dionísio Alvarez Mateos Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "doutor-dionisio-mateos"
+    },
+    {
+     "nome": "Paulo Sartori",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "paulo-papau-sartori"
+    },
+    {
+     "nome": "Romeu Marchionno",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "romeu-pepino"
+    },
+    {
+     "nome": "Mário Tenório Cavalcante",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Bernardino do Couto Alves",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dino-do-almoco-de-natal"
+    },
+    {
+     "nome": "Emídio Pereira de Souza",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "emidio"
+    },
+    {
+     "nome": "Faisal Cury",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-cury"
+    },
+    {
+     "nome": "Giro Inoguti",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "giro-inoguti"
+    },
+    {
+     "nome": "Willians Rafael da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "willians-rafael"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "1997-01-01",
+     "fim": "1997-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Cláudio Flores Piteri",
+       "pessoa": "claudio-piteri"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Paulo Sartori",
+       "pessoa": "paulo-papau-sartori"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "José Amando Mota",
+       "pessoa": "dr-jose-amando"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Romeu Marchionno",
+       "pessoa": "romeu-pepino"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "1998-01-01",
+     "fim": "1998-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Cláudio Flores Piteri",
+       "pessoa": "claudio-piteri"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Dionísio Alvarez Mateos Filho",
+       "pessoa": "doutor-dionisio-mateos"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Paulo Sartori",
+       "pessoa": "paulo-papau-sartori"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "José Amando Mota",
+       "pessoa": "dr-jose-amando"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Romeu Marchionno",
+       "pessoa": "romeu-pepino"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Mário Tenório Cavalcante",
+       "pessoa": null
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "1999-01-01",
+     "fim": "1999-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Amando Mota",
+       "pessoa": "dr-jose-amando"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "André Sacco Júnior",
+       "pessoa": "dr-andre-sacco"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Romeu Marchionno",
+       "pessoa": "romeu-pepino"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Fumio Miazaki",
+       "pessoa": "miazaki"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Manoel Edvan Cerqueira",
+       "pessoa": "mane"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "2000-01-01",
+     "fim": "2000-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Amando Mota",
+       "pessoa": "dr-jose-amando"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "André Sacco Júnior",
+       "pessoa": "dr-andre-sacco"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Romeu Marchionno",
+       "pessoa": "romeu-pepino"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Fumio Miazaki",
+       "pessoa": "miazaki"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Manoel Edvan Cerqueira",
+       "pessoa": "mane"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "titulo": "10ª Legislatura - 2001/2004",
+   "inicio": "2001-01-01",
+   "fim": "2004-12-31",
+   "vereadores": [
+    {
+     "nome": "Délbio Camargo Teruel",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "delbio-teruel"
+    },
+    {
+     "nome": "Antônio Aparecido Toniolo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toniolo"
+    },
+    {
+     "nome": "Jair Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jair-assaf"
+    },
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "Reginaldo Oliveira de Almeida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "didi"
+    },
+    {
+     "nome": "Maria José Favarão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "professora-maze-favarao"
+    },
+    {
+     "nome": "Aluísio da Silva Pinheiro",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "aluisio-pinheiro"
+    },
+    {
+     "nome": "Luiz Clóvis Medeiros",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "cuca"
+    },
+    {
+     "nome": "Fumio Miazaki",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "miazaki"
+    },
+    {
+     "nome": "Rubens Bastos do Nascimento",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "rubinho-bastos"
+    },
+    {
+     "nome": "José Barbosa Coelho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "barbosa-1996"
+    },
+    {
+     "nome": "Marcos Lopes Martins",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "marcos-martins"
+    },
+    {
+     "nome": "Gilmar Romano",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "pastor-gilmar-romano"
+    },
+    {
+     "nome": "Antônio Aguimarães de Caldas",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Cláudio Flores Piteri",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-piteri"
+    },
+    {
+     "nome": "José Amando Mota",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-jose-amando"
+    },
+    {
+     "nome": "Manoel Edvan Cerqueira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "mane"
+    },
+    {
+     "nome": "Terezinha Bonezi Gaspar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "terezinha-do-dr-gaspar"
+    },
+    {
+     "nome": "Carlos Aparício Clemente",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "clemente"
+    },
+    {
+     "nome": "Marcos Arruda",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "marcos-arruda"
+    },
+    {
+     "nome": "Roberto Trapp de Castro",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "roberto-trapp"
+    },
+    {
+     "nome": "Dionísio Alvarez Mateos Filho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "doutor-dionisio-mateos"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "2001-01-01",
+     "fim": "2001-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Délbio Camargo Teruel",
+       "pessoa": "delbio-teruel"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Cláudio Flores Piteri",
+       "pessoa": "claudio-piteri"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Manoel Edvan Cerqueira",
+       "pessoa": "mane"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "José Amando Mota",
+       "pessoa": "dr-jose-amando"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Terezinha Bonezi Gaspar",
+       "pessoa": "terezinha-do-dr-gaspar"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "2002-01-01",
+     "fim": "2002-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Délbio Camargo Teruel",
+       "pessoa": "delbio-teruel"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Cláudio Flores Piteri",
+       "pessoa": "claudio-piteri"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Manoel Edvan Cerqueira",
+       "pessoa": "mane"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "José Amando Mota",
+       "pessoa": "dr-jose-amando"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Terezinha Bonezi Gaspar",
+       "pessoa": "terezinha-do-dr-gaspar"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "2003-01-01",
+     "fim": "2003-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Marcos Arruda",
+       "pessoa": "marcos-arruda"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Roberto Trapp de Castro",
+       "pessoa": "roberto-trapp"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Gilmar Romano",
+       "pessoa": "pastor-gilmar-romano"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Antônio Aguimarães de Caldas",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Rubens Bastos do Nascimento",
+       "pessoa": "rubinho-bastos"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Luiz Clóvis Medeiros",
+       "pessoa": "cuca"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "2004-01-01",
+     "fim": "2004-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Marcos Arruda",
+       "pessoa": "marcos-arruda"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Roberto Trapp de Castro",
+       "pessoa": "roberto-trapp"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Gilmar Romano",
+       "pessoa": "pastor-gilmar-romano"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Antônio Aguimarães de Caldas",
+       "pessoa": null
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Rubens Bastos do Nascimento",
+       "pessoa": "rubinho-bastos"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Luiz Clóvis Medeiros",
+       "pessoa": "cuca"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "titulo": "11ª Legislatura - 2005/2008",
+   "inicio": "2005-01-01",
+   "fim": "2008-12-31",
+   "vereadores": [
+    {
+     "nome": "Antônio Aparecido Toniolo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toniolo"
+    },
+    {
+     "nome": "Jair Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jair-assaf"
+    },
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "André Sacco Júnior",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-andre-sacco"
+    },
+    {
+     "nome": "Fábio Yuiti Yamato",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "fabio-yamato"
+    },
+    {
+     "nome": "Sebastião Bognar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "bognar"
+    },
+    {
+     "nome": "Osvaldo Vergínio da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "osvaldo-verginio"
+    },
+    {
+     "nome": "Aluísio da Silva Pinheiro",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "aluisio-pinheiro"
+    },
+    {
+     "nome": "Luiz Clóvis Medeiros",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "cuca"
+    },
+    {
+     "nome": "Fumio Miazaki",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "miazaki"
+    },
+    {
+     "nome": "Carlos José Gaspar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-gaspar"
+    },
+    {
+     "nome": "José Barbosa Coelho",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "barbosa-1996"
+    },
+    {
+     "nome": "Marcos Lopes Martins",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "marcos-martins"
+    },
+    {
+     "nome": "Dionizia José Gomes Luvizotto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "missionaria-dionizia-luvizotto"
+    },
+    {
+     "nome": "Gilmar Romano",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "pastor-gilmar-romano"
+    },
+    {
+     "nome": "Nelson Matias da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "nelsinho"
+    },
+    {
+     "nome": "Antônio Aguimarães de Caldas",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Antônio Cláudio Flores Piteri",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-piteri"
+    },
+    {
+     "nome": "José Amando Mota",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-jose-amando"
+    },
+    {
+     "nome": "Sônia Maria Rainho Gonçalves",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "sonia-rainho"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "2005-01-01",
+     "fim": "2005-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Gilmar Romano",
+       "pessoa": "pastor-gilmar-romano"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Dionizia José Gomes Luvizotto",
+       "pessoa": "missionaria-dionizia-luvizotto"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Nelson Matias da Silva",
+       "pessoa": "nelsinho"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Aluísio da Silva Pinheiro",
+       "pessoa": "aluisio-pinheiro"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "2006-01-01",
+     "fim": "2006-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "José Barbosa Coelho",
+       "pessoa": "barbosa-1996"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Marcos Lopes Martins",
+       "pessoa": "marcos-martins"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Gilmar Romano",
+       "pessoa": "pastor-gilmar-romano"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Dionizia José Gomes Luvizotto",
+       "pessoa": "missionaria-dionizia-luvizotto"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Nelson Matias da Silva",
+       "pessoa": "nelsinho"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Aluísio da Silva Pinheiro",
+       "pessoa": "aluisio-pinheiro"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "2007-01-01",
+     "fim": "2007-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Osvaldo Vergínio da Silva",
+       "pessoa": "osvaldo-verginio"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Sebastião Bognar",
+       "pessoa": "bognar"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Fumio Miazaki",
+       "pessoa": "miazaki"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Carlos José Gaspar",
+       "pessoa": "dr-gaspar"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "2008-01-01",
+     "fim": "2008-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Osvaldo Vergínio da Silva",
+       "pessoa": "osvaldo-verginio"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Sebastião Bognar",
+       "pessoa": "bognar"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Fumio Miazaki",
+       "pessoa": "miazaki"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Carlos José Gaspar",
+       "pessoa": "dr-gaspar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "titulo": "12ª Legislatura - 2009/2012",
+   "inicio": "2009-01-01",
+   "fim": "2012-12-31",
+   "vereadores": [
+    {
+     "nome": "Ana Paula Rossi de Almeida Magdesian",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ana-paula-rossi"
+    },
+    {
+     "nome": "Josias Nascimento de Jesus",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "josias-da-juco"
+    },
+    {
+     "nome": "Cláudio Henrique da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-da-locadora"
+    },
+    {
+     "nome": "Antônio Aparecido Toniolo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toniolo"
+    },
+    {
+     "nome": "Jair Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jair-assaf"
+    },
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "Valdomiro Ventura da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "valdomiro-ventura"
+    },
+    {
+     "nome": "Rogério Lins Wanderley",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "rogerio-lins"
+    },
+    {
+     "nome": "André Sacco Júnior",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-andre-sacco"
+    },
+    {
+     "nome": "Fábio Yuiti Yamato",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "fabio-yamato"
+    },
+    {
+     "nome": "João Gois Neto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "joao-gois"
+    },
+    {
+     "nome": "Sebastião Bognar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "bognar"
+    },
+    {
+     "nome": "Osvaldo Vergínio da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "osvaldo-verginio"
+    },
+    {
+     "nome": "Aluísio da Silva Pinheiro",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "aluisio-pinheiro"
+    },
+    {
+     "nome": "Luiz Clóvis Medeiros",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "cuca"
+    },
+    {
+     "nome": "Fumio Miazaki",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "miazaki"
+    },
+    {
+     "nome": "Antônio Pedro da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toninho-enfermeiro"
+    },
+    {
+     "nome": "Carlos José Gaspar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-gaspar"
+    },
+    {
+     "nome": "Eduardo Pereira Martins",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "eduardao"
+    },
+    {
+     "nome": "Rubens Bastos do Nascimento",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "rubinho-bastos"
+    },
+    {
+     "nome": "Valmir Prascidelli",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "valmir-prascidelli"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "2009-01-01",
+     "fim": "2009-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Osvaldo Vergínio da Silva",
+       "pessoa": "osvaldo-verginio"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Aluísio da Silva Pinheiro",
+       "pessoa": "aluisio-pinheiro"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "João Gois Neto",
+       "pessoa": "joao-gois"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Luiz Clóvis Medeiros",
+       "pessoa": "cuca"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Fumio Miazaki",
+       "pessoa": "miazaki"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "2010-01-01",
+     "fim": "2010-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Osvaldo Vergínio da Silva",
+       "pessoa": "osvaldo-verginio"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Aluísio da Silva Pinheiro",
+       "pessoa": "aluisio-pinheiro"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "João Gois Neto",
+       "pessoa": "joao-gois"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Luiz Clóvis Medeiros",
+       "pessoa": "cuca"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Fumio Miazaki",
+       "pessoa": "miazaki"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "2011-01-01",
+     "fim": "2011-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Aluísio da Silva Pinheiro",
+       "pessoa": "aluisio-pinheiro"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Rogério Lins Wanderley",
+       "pessoa": "rogerio-lins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Josias Nascimento de Jesus",
+       "pessoa": "josias-da-juco"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Luiz Clóvis Medeiros",
+       "pessoa": "cuca"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "2012-01-01",
+     "fim": "2012-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Aluísio da Silva Pinheiro",
+       "pessoa": "aluisio-pinheiro"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Rogério Lins Wanderley",
+       "pessoa": "rogerio-lins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Josias Nascimento de Jesus",
+       "pessoa": "josias-da-juco"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Fábio Yuiti Yamato",
+       "pessoa": "fabio-yamato"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Luiz Clóvis Medeiros",
+       "pessoa": "cuca"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 13,
+   "titulo": "13ª Legislatura - 2013/2016",
+   "inicio": "2013-01-01",
+   "fim": "2016-12-31",
+   "vereadores": [
+    {
+     "nome": "Batista de Sousa Moreira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "batista-comunidade"
+    },
+    {
+     "nome": "Josias Nascimento de Jesus",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "josias-da-juco"
+    },
+    {
+     "nome": "Cláudio Henrique da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-da-locadora"
+    },
+    {
+     "nome": "Alex Sandro de Souza Sá",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "alex-da-academia"
+    },
+    {
+     "nome": "Antônio Aparecido Toniolo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toniolo"
+    },
+    {
+     "nome": "Francisco de Paula de Oliveira Leite",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "de-paula-2012"
+    },
+    {
+     "nome": "Jair Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jair-assaf"
+    },
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "Valdomiro Ventura da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "valdomiro-ventura"
+    },
+    {
+     "nome": "Valdir Pereira Roque",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "valdir-roque"
+    },
+    {
+     "nome": "Rogério Lins Wanderley",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "rogerio-lins"
+    },
+    {
+     "nome": "Rogério Antônio da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "rogerio-silva"
+    },
+    {
+     "nome": "André Sacco Júnior",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-andre-sacco"
+    },
+    {
+     "nome": "Andréa Cristina Capriotti Maier",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "andrea-verginio-capriotti"
+    },
+    {
+     "nome": "Claudinei José Simão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dinei-simao"
+    },
+    {
+     "nome": "Fábio Yuiti Yamato",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "fabio-yamato"
+    },
+    {
+     "nome": "João Gois Neto",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "joao-gois"
+    },
+    {
+     "nome": "Karen Cristina Gaspar Jovanelli",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dra-karen-gaspar"
+    },
+    {
+     "nome": "Maria José Favarão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "professora-maze-favarao"
+    },
+    {
+     "nome": "Olair Prado de Oliveira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "maluco-beleza"
+    },
+    {
+     "nome": "Sebastião Bognar",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "bognar"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "2013-01-01",
+     "fim": "2013-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Valdir Pereira Roque",
+       "pessoa": "valdir-roque"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Rogério Lins Wanderley",
+       "pessoa": "rogerio-lins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Rogério Antônio da Silva",
+       "pessoa": "rogerio-silva"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Valdomiro Ventura da Silva",
+       "pessoa": "valdomiro-ventura"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Alex Sandro de Souza Sá",
+       "pessoa": "alex-da-academia"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "2014-01-01",
+     "fim": "2014-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Valdir Pereira Roque",
+       "pessoa": "valdir-roque"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Rogério Lins Wanderley",
+       "pessoa": "rogerio-lins"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Rogério Antônio da Silva",
+       "pessoa": "rogerio-silva"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Valdomiro Ventura da Silva",
+       "pessoa": "valdomiro-ventura"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Alex Sandro de Souza Sá",
+       "pessoa": "alex-da-academia"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "2015-01-01",
+     "fim": "2015-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Karen Cristina Gaspar Jovanelli",
+       "pessoa": "dra-karen-gaspar"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Maria José Favarão",
+       "pessoa": "professora-maze-favarao"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Alex Sandro de Souza Sá",
+       "pessoa": "alex-da-academia"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Olair Prado de Oliveira",
+       "pessoa": "maluco-beleza"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Rogério Lins Wanderley",
+       "pessoa": "rogerio-lins"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "2016-01-01",
+     "fim": "2016-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Karen Cristina Gaspar Jovanelli",
+       "pessoa": "dra-karen-gaspar"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Maria José Favarão",
+       "pessoa": "professora-maze-favarao"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Alex Sandro de Souza Sá",
+       "pessoa": "alex-da-academia"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Olair Prado de Oliveira",
+       "pessoa": "maluco-beleza"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Rogério Lins Wanderley",
+       "pessoa": "rogerio-lins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 14,
+   "titulo": "14ª Legislatura - 2017/2020",
+   "inicio": "2017-01-01",
+   "fim": "2020-12-31",
+   "vereadores": [
+    {
+     "nome": "Batista de Sousa Moreira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "batista-comunidade"
+    },
+    {
+     "nome": "Ana Paula Rossi de Almeida Magdesian",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ana-paula-rossi"
+    },
+    {
+     "nome": "Josias Nascimento de Jesus",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "josias-da-juco"
+    },
+    {
+     "nome": "Francisca Jenilúcia Ribeiro de Andrade",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "lucia-da-saude"
+    },
+    {
+     "nome": "Paulo César Dias dos Reis",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "pele-da-candida"
+    },
+    {
+     "nome": "Ralfi Rafael da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ralfi-silva"
+    },
+    {
+     "nome": "Ribamar Antônio da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ribamar-silva"
+    },
+    {
+     "nome": "Cláudio Henrique da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-da-locadora"
+    },
+    {
+     "nome": "José Rogério Soares dos Santos",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "rogerio-santos"
+    },
+    {
+     "nome": "Elissandro Márcio Silva Lindoso",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dr-marcio-lindoso"
+    },
+    {
+     "nome": "Jéferson Ricardo da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ricardo-silva"
+    },
+    {
+     "nome": "Régia Maria Gouveia Sarmento",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dra-regia"
+    },
+    {
+     "nome": "Valdenir Luiz de Franca",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ni-da-pizzaria"
+    },
+    {
+     "nome": "Alex Sandro de Souza Sá",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "alex-da-academia"
+    },
+    {
+     "nome": "Antônio Aparecido Toniolo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "toniolo"
+    },
+    {
+     "nome": "Daniel Matias da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "daniel-matias"
+    },
+    {
+     "nome": "Francisco de Paula de Oliveira Leite",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "de-paula-2012"
+    },
+    {
+     "nome": "Jair Assaf",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "jair-assaf"
+    },
+    {
+     "nome": "Mário Luiz Guide",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "prof-mario-luiz-guide"
+    },
+    {
+     "nome": "Reginaldo Oliveira de Almeida",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "didi"
+    },
+    {
+     "nome": "Severino Tinha Di Ferreira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": null
+    },
+    {
+     "nome": "Valdomiro Ventura da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "valdomiro-ventura"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "2017-01-01",
+     "fim": "2017-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Elissandro Márcio Silva Lindoso",
+       "pessoa": "dr-marcio-lindoso"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Ribamar Antônio da Silva",
+       "pessoa": "ribamar-silva"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jéferson Ricardo da Silva",
+       "pessoa": "ricardo-silva"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Régia Maria Gouveia Sarmento",
+       "pessoa": "dra-regia"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Valdenir Luiz de Franca",
+       "pessoa": "ni-da-pizzaria"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Ralfi Rafael da Silva",
+       "pessoa": "ralfi-silva"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "2018-01-01",
+     "fim": "2018-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Elissandro Márcio Silva Lindoso",
+       "pessoa": "dr-marcio-lindoso"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Ribamar Antônio da Silva",
+       "pessoa": "ribamar-silva"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Jéferson Ricardo da Silva",
+       "pessoa": "ricardo-silva"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Régia Maria Gouveia Sarmento",
+       "pessoa": "dra-regia"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Valdenir Luiz de Franca",
+       "pessoa": "ni-da-pizzaria"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Ralfi Rafael da Silva",
+       "pessoa": "ralfi-silva"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "2019-01-01",
+     "fim": "2019-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Ribamar Antônio da Silva",
+       "pessoa": "ribamar-silva"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Alex Sandro de Souza Sá",
+       "pessoa": "alex-da-academia"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Daniel Matias da Silva",
+       "pessoa": "daniel-matias"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Francisca Jenilúcia Ribeiro de Andrade",
+       "pessoa": "lucia-da-saude"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Paulo César Dias dos Reis",
+       "pessoa": "pele-da-candida"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "2020-01-01",
+     "fim": "2020-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Ribamar Antônio da Silva",
+       "pessoa": "ribamar-silva"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Alex Sandro de Souza Sá",
+       "pessoa": "alex-da-academia"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Daniel Matias da Silva",
+       "pessoa": "daniel-matias"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Francisca Jenilúcia Ribeiro de Andrade",
+       "pessoa": "lucia-da-saude"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Antônio Aparecido Toniolo",
+       "pessoa": "toniolo"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Jair Assaf",
+       "pessoa": "jair-assaf"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Paulo César Dias dos Reis",
+       "pessoa": "pele-da-candida"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 15,
+   "titulo": "15ª Legislatura - 2021/2024",
+   "inicio": "2021-01-01",
+   "fim": "2024-12-31",
+   "vereadores": [
+    {
+     "nome": "Carmônio Gonçalves Bastos",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "carmonio-bastos"
+    },
+    {
+     "nome": "Adauto Leonildo de Souza",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "adauto-to"
+    },
+    {
+     "nome": "Batista de Sousa Moreira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "batista-comunidade"
+    },
+    {
+     "nome": "Ana Paula Rossi de Almeida Magdesian",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ana-paula-rossi"
+    },
+    {
+     "nome": "Cristiane Furlan Palmeira Celegato",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "pastora-cristiane-celegato"
+    },
+    {
+     "nome": "Délbio Camargo Teruel",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "delbio-teruel"
+    },
+    {
+     "nome": "Elsa Natal de Oliveira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "elsa-oliveira"
+    },
+    {
+     "nome": "Emerson Marcio Vitalino",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "emerson-osasco"
+    },
+    {
+     "nome": "Fábio Chirinhan",
+     "suplente": true,
+     "votos": null,
+     "pessoa": "fabio-chirinhan"
+    },
+    {
+     "nome": "Joel Nunes da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "joel-nunes"
+    },
+    {
+     "nome": "José Carlos Ferreira Silva",
+     "suplente": true,
+     "votos": null,
+     "pessoa": "ze-carlos-do-santa-maria"
+    },
+    {
+     "nome": "Josias Nascimento de Jesus",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "josias-da-juco"
+    },
+    {
+     "nome": "Juliana Gomes Curvelo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "juliana-curvelo"
+    },
+    {
+     "nome": "Laércio Patrício de Mendonça",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "laercio-mendonca"
+    },
+    {
+     "nome": "Francisca Jenilúcia Ribeiro de Andrade",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "lucia-da-saude"
+    },
+    {
+     "nome": "Luís Carlos Soares de Oliveira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "juliao-soares"
+    },
+    {
+     "nome": "Michel Araújo Silva Figueredo",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "michel-figueredo"
+    },
+    {
+     "nome": "Paulo César Dias dos Reis",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "pele-da-candida"
+    },
+    {
+     "nome": "Paulo José da Silva Junior",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "pr-paulo-junior"
+    },
+    {
+     "nome": "Ralfi Rafael da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ralfi-silva"
+    },
+    {
+     "nome": "Rodrigo Mendes Pascoto",
+     "suplente": true,
+     "votos": null,
+     "pessoa": "rodrigo-gansinho"
+    },
+    {
+     "nome": "Ribamar Antônio da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "ribamar-silva"
+    },
+    {
+     "nome": "Cláudio Henrique da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "claudio-da-locadora"
+    },
+    {
+     "nome": "José Rogério Soares dos Santos",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "rogerio-santos"
+    },
+    {
+     "nome": "Claudinei José Simão",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "dinei-simao"
+    },
+    {
+     "nome": "Márcio Júnior da Silva",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "marcio-da-lan"
+    },
+    {
+     "nome": "Levi Nantes de Santiago",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "levi-nantess"
+    },
+    {
+     "nome": "Eron Gregório Silveira",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "eron-silveira"
+    },
+    {
+     "nome": "José Tadeu das Neves",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "tadeu-neves"
+    },
+    {
+     "nome": "Alexandre de Jesus Capriotti",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "alexandre-capriotti"
+    },
+    {
+     "nome": "José Nunes dos Santos",
+     "suplente": false,
+     "votos": null,
+     "pessoa": "bispo-nunes"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "2021-01-01",
+     "fim": "2021-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Ribamar Antônio da Silva",
+       "pessoa": "ribamar-silva"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Josias Nascimento de Jesus",
+       "pessoa": "josias-da-juco"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "José Rogério Soares dos Santos",
+       "pessoa": "rogerio-santos"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Cristiane Furlan Palmeira Celegato",
+       "pessoa": "pastora-cristiane-celegato"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Carmônio Gonçalves Bastos",
+       "pessoa": "carmonio-bastos"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Luís Carlos Soares de Oliveira",
+       "pessoa": "juliao-soares"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "2022-01-01",
+     "fim": "2022-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Ribamar Antônio da Silva",
+       "pessoa": "ribamar-silva"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Josias Nascimento de Jesus",
+       "pessoa": "josias-da-juco"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "José Rogério Soares dos Santos",
+       "pessoa": "rogerio-santos"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Cristiane Furlan Palmeira Celegato",
+       "pessoa": "pastora-cristiane-celegato"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Cláudio Henrique da Silva",
+       "pessoa": "claudio-da-locadora"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Carmônio Gonçalves Bastos",
+       "pessoa": "carmonio-bastos"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Luís Carlos Soares de Oliveira",
+       "pessoa": "juliao-soares"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "inicio": "2023-01-01",
+     "fim": "2023-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Carmônio Gonçalves Bastos",
+       "pessoa": "carmonio-bastos"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Luís Carlos Soares de Oliveira",
+       "pessoa": "juliao-soares"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Cristiane Furlan Palmeira Celegato",
+       "pessoa": "pastora-cristiane-celegato"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Elsa Natal de Oliveira",
+       "pessoa": "elsa-oliveira"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Emerson Marcio Vitalino",
+       "pessoa": "emerson-osasco"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Michel Araújo Silva Figueredo",
+       "pessoa": "michel-figueredo"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Fábio Chirinhan",
+       "pessoa": "fabio-chirinhan"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "inicio": "2024-01-01",
+     "fim": "2024-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Carmônio Gonçalves Bastos",
+       "pessoa": "carmonio-bastos"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Luís Carlos Soares de Oliveira",
+       "pessoa": "juliao-soares"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Cristiane Furlan Palmeira Celegato",
+       "pessoa": "pastora-cristiane-celegato"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Elsa Natal de Oliveira",
+       "pessoa": "elsa-oliveira"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Emerson Marcio Vitalino",
+       "pessoa": "emerson-osasco"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Michel Araújo Silva Figueredo",
+       "pessoa": "michel-figueredo"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Fábio Chirinhan",
+       "pessoa": "fabio-chirinhan"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 16,
+   "titulo": "16ª Legislatura - 2025/2028",
+   "inicio": "2025-01-01",
+   "fim": "2028-12-31",
+   "vereadores": [
+    {
+     "nome": "Carmônio Gonçalves Bastos",
+     "suplente": false,
+     "votos": 5631,
+     "pessoa": "carmonio-bastos"
+    },
+    {
+     "nome": "Batista de Sousa Moreira",
+     "suplente": false,
+     "votos": 5819,
+     "pessoa": "batista-comunidade"
+    },
+    {
+     "nome": "Délbio Camargo Teruel",
+     "suplente": false,
+     "votos": 4447,
+     "pessoa": "delbio-teruel"
+    },
+    {
+     "nome": "Elsa Natal de Oliveira",
+     "suplente": false,
+     "votos": 3876,
+     "pessoa": "elsa-oliveira"
+    },
+    {
+     "nome": "Emerson Marcio Vitalino",
+     "suplente": false,
+     "votos": 3952,
+     "pessoa": "emerson-osasco"
+    },
+    {
+     "nome": "Fábio Chirinhan",
+     "suplente": true,
+     "votos": 4477,
+     "pessoa": "fabio-chirinhan"
+    },
+    {
+     "nome": "José Carlos Ferreira Silva",
+     "suplente": true,
+     "votos": 3144,
+     "pessoa": "ze-carlos-do-santa-maria"
+    },
+    {
+     "nome": "Josias Nascimento de Jesus",
+     "suplente": false,
+     "votos": 3969,
+     "pessoa": "josias-da-juco"
+    },
+    {
+     "nome": "Laércio Patrício de Mendonça",
+     "suplente": false,
+     "votos": 4837,
+     "pessoa": "laercio-mendonca"
+    },
+    {
+     "nome": "Francisca Jenilúcia Ribeiro de Andrade",
+     "suplente": false,
+     "votos": 5378,
+     "pessoa": "lucia-da-saude"
+    },
+    {
+     "nome": "Luís Carlos Soares de Oliveira",
+     "suplente": false,
+     "votos": 3137,
+     "pessoa": "juliao-soares"
+    },
+    {
+     "nome": "Paulo José da Silva Junior",
+     "suplente": false,
+     "votos": 5899,
+     "pessoa": "pr-paulo-junior"
+    },
+    {
+     "nome": "Ralfi Rafael da Silva",
+     "suplente": false,
+     "votos": 6347,
+     "pessoa": "ralfi-silva"
+    },
+    {
+     "nome": "Rodrigo Mendes Pascoto",
+     "suplente": true,
+     "votos": 4383,
+     "pessoa": "rodrigo-gansinho"
+    },
+    {
+     "nome": "Alexandre de Jesus Capriotti",
+     "suplente": false,
+     "votos": 4633,
+     "pessoa": "alexandre-capriotti"
+    },
+    {
+     "nome": "Elania Silva de Lima",
+     "suplente": false,
+     "votos": 6391,
+     "pessoa": "elania-silva"
+    },
+    {
+     "nome": "Gabriel de Paula Barbosa",
+     "suplente": false,
+     "votos": 3871,
+     "pessoa": "gabriel-saude"
+    },
+    {
+     "nome": "Gilmeiron Medeiros",
+     "suplente": false,
+     "votos": 3772,
+     "pessoa": "cantor-goleiro"
+    },
+    {
+     "nome": "Guilherme de Prado Souza",
+     "suplente": false,
+     "votos": 4944,
+     "pessoa": "guilherme-prado"
+    },
+    {
+     "nome": "Heber Rocha Farias",
+     "suplente": false,
+     "votos": 4214,
+     "pessoa": "heber-do-juntoz"
+    },
+    {
+     "nome": "Pedro Cantagessi Vitoriano",
+     "suplente": false,
+     "votos": 3702,
+     "pessoa": "pedrinho-cantagessi"
+    },
+    {
+     "nome": "Sergio Augusto Fontellas dos Santos",
+     "suplente": false,
+     "votos": 4208,
+     "pessoa": "sergio-fontellas"
+    },
+    {
+     "nome": "Stephane Carolina Rossi de Almeida Magdesian",
+     "suplente": false,
+     "votos": 5291,
+     "pessoa": "stephane-rossi"
+    },
+    {
+     "nome": "Guilherme Garbis Magdesian",
+     "suplente": true,
+     "votos": 2691,
+     "pessoa": "guiga"
+    },
+    {
+     "nome": "Rodolfo Rodrigues Cara",
+     "suplente": true,
+     "votos": 3210,
+     "pessoa": "rodolfo-cara"
+    },
+    {
+     "nome": "André Luís Alves Pereira",
+     "suplente": true,
+     "votos": 2879,
+     "pessoa": "andrezinho"
+    },
+    {
+     "nome": "Helder de Jesus Oliveira",
+     "suplente": false,
+     "votos": 2457,
+     "pessoa": "helder-oliveira"
+    },
+    {
+     "nome": "Ivanildo Luiz dos Santos",
+     "suplente": false,
+     "votos": 3583,
+     "pessoa": "ivanildo-eventos"
+    }
+   ],
+   "sessoes": [
+    {
+     "numero": 1,
+     "inicio": "2025-01-01",
+     "fim": "2025-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Carmônio Gonçalves Bastos",
+       "pessoa": "carmonio-bastos"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Elania Silva de Lima",
+       "pessoa": "elania-silva"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Elsa Natal de Oliveira",
+       "pessoa": "elsa-oliveira"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Stephane Carolina Rossi de Almeida Magdesian",
+       "pessoa": "stephane-rossi"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Batista de Sousa Moreira",
+       "pessoa": "batista-comunidade"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "inicio": "2026-01-01",
+     "fim": "2026-12-31",
+     "mesa": [
+      {
+       "cargo": "Presidente",
+       "nome": "Carmônio Gonçalves Bastos",
+       "pessoa": "carmonio-bastos"
+      },
+      {
+       "cargo": "Vice-Presidente",
+       "nome": "Elania Silva de Lima",
+       "pessoa": "elania-silva"
+      },
+      {
+       "cargo": "1º Secretário",
+       "nome": "Elsa Natal de Oliveira",
+       "pessoa": "elsa-oliveira"
+      },
+      {
+       "cargo": "2º Secretário",
+       "nome": "Stephane Carolina Rossi de Almeida Magdesian",
+       "pessoa": "stephane-rossi"
+      },
+      {
+       "cargo": "2º Vice-Presidente",
+       "nome": "Batista de Sousa Moreira",
+       "pessoa": "batista-comunidade"
+      },
+      {
+       "cargo": "3º Secretário",
+       "nome": "Sergio Augusto Fontellas dos Santos",
+       "pessoa": "sergio-fontellas"
+      },
+      {
+       "cargo": "4º Secretário",
+       "nome": "Gilmeiron Medeiros",
+       "pessoa": "cantor-goleiro"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
