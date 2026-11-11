@@ -9,7 +9,12 @@
     "importar:partidos": "node scripts/importar-partidos.mjs",
     "importar:camara": "node scripts/importar-camara.mjs",
     "importar:detalhes": "node scripts/importar-tse-detalhes.mjs",
-    "importar:camara-historico": "node scripts/importar-camara-historico.mjs"
+    "importar:camara-historico": "node scripts/importar-camara-historico.mjs",
+    "importar:leis": "node scripts/importar-leis-iomo.mjs",
+    "importar:convocacoes": "node scripts/importar-convocacoes-iomo.mjs",
+    "importar:sancoes": "node scripts/importar-sancoes-camara.mjs",
+    "gerar:graficos": "node scripts/gerar-graficos-camara.mjs",
+    "importar:decretos": "node scripts/importar-decretos-iomo.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

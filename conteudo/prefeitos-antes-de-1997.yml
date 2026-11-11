@@ -17,16 +17,19 @@
   periodo: "01/02/1967 – 01/02/1970"
   partido: MDB
   vice: Guido Collino
+  vicePessoa: guido-collino-vice
   fontes: [prefeitura-galeria-guacu-piteri, camara-dep-guacu-piteri]
 - pessoa: jose-liberatti
   periodo: "01/02/1970 – 31/01/1973"
   vice: Guido Collino
+  vicePessoa: guido-collino-vice
   fontes: [prefeitura-galeria, prefeitura-galeria-jose-liberatti]
   nota: "A página do prefeito na galeria registra o fim do mandato em 31 de janeiro de 1972."
 - pessoa: francisco-rossi
   periodo: "01/02/1973 – 31/01/1977"
   partido: ARENA
   vice: Vivaldo Simões
+  vicePessoa: vivaldo-simoes
   fontes: [prefeitura-galeria-francisco-rossi, camara-dep-francisco-rossi]
 - pessoa: guacu-piteri
   periodo: "01/02/1977 – 15/06/1982"
@@ -43,11 +46,13 @@
   periodo: "01/02/1983 – 31/12/1988"
   partido: PMDB
   vice: Aylton Muniz Menezes
+  vicePessoa: aylton-muniz-menezes
   fontes: [prefeitura-galeria-humberto-parro, camara-dep-humberto-parro]
 - pessoa: francisco-rossi
   periodo: "01/01/1989 – 31/12/1992"
   partido: PTB
   vice: Antonio Toschi
+  vicePessoa: antonio-toschi
   fontes: [prefeitura-galeria-francisco-rossi, camara-dep-francisco-rossi]
 - pessoa: celso-giglio
   periodo: "01/01/1993 – 31/12/1996"

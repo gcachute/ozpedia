@@ -28,10 +28,13 @@ for (const p of tse.pessoas)
       porUrna.set(k, porUrna.has(k) && porUrna.get(k) !== p.id ? null : p.id);
     }
 const recentes = new Set(tse.pessoas.filter((p) => p.candidaturas.some((c) => c.ano >= 2020 && c.cargo === "Vereador" && c.local === "Osasco")).map((p) => p.id));
+// Ligações feitas à mão, quando o nome de urna é outro. André Luís Alves Pereira: suplente do Republicanos, chamado de
+// "Andrezinho" nas planilhas das sessões; no TSE, "ANDREZINHO", suplente do Republicanos em 2024.
+const MANUAL = { "andre-luis-alves-pereira": "andrezinho" };
 const pessoaDe = {};
 const semPar = [];
 for (const v of d.vereadores) {
-  const id = porUrna.get(dobra(v.nome)) ?? (recentes.has(v.id) ? v.id : null);
+  const id = MANUAL[v.id] ?? porUrna.get(dobra(v.nome)) ?? (recentes.has(v.id) ? v.id : null);
   if (id) pessoaDe[v.id] = id;
   else semPar.push(v.nome);
 }
@@ -74,7 +77,8 @@ const vereadores = d.vereadores
     perfilOficial: v.perfilOficial,
     emExercicio: v.emExercicio,
     perfil: {
-      nomeCompleto: v.perfil?.nomeCompleto ?? null,
+      // O perfil da Câmara traz "(Suplente)" junto do nome; a situação já aparece nas tabelas.
+      nomeCompleto: v.perfil?.nomeCompleto?.replace(/\s*\(suplente\)\s*$/i, "") ?? null,
       naturalidade: v.perfil?.naturalidade ?? null,
       ocupacao: v.perfil?.ocupacao ?? null,
       instrucao: v.perfil?.instrucao ?? null,

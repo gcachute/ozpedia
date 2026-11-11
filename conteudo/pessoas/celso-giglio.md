@@ -16,7 +16,7 @@ titulo: Celso Giglio
 
 ## Primeiros anos e formação
 
-Nasceu em Campinas (SP).[@prefeitura-galeria-celso-giglio] Formou-se em Medicina em 1965 e fez pós-graduação em cirurgia geral e obstetrícia na Santa Casa de São Paulo e em administração hospitalar na USP.[@camara-dep-celso-giglio] Foi médico concursado do serviço de urgência (SAMDU) e da Prefeitura de Osasco e presidiu a Associação Paulista de Medicina de 1975 a 1977.[@prefeitura-galeria-celso-giglio][@camara-dep-celso-giglio]
+Nasceu em Campinas (SP), em 19 de fevereiro de 1941; o pai, Antônio Giglio, foi três vezes prefeito de Viradouro (SP).[@prefeitura-galeria-celso-giglio][@dhbb-celso-giglio] Formou-se em Medicina em 1965, pela Faculdade de Medicina do Triângulo Mineiro e pela Escola Paulista de Medicina, e fez pós-graduação em cirurgia geral e obstetrícia na Santa Casa de São Paulo e em administração hospitalar na USP.[@camara-dep-celso-giglio][@dhbb-celso-giglio] Foi médico concursado do serviço de urgência (SAMDU) e da Prefeitura de Osasco e presidiu a Associação Paulista de Medicina de 1975 a 1977.[@prefeitura-galeria-celso-giglio][@camara-dep-celso-giglio]
 
 ## Carreira política
 
@@ -30,7 +30,7 @@ Eleito vereador, presidiu a Câmara Municipal em 1989 e 1990.[@camara-legislatur
 
 ### Primeiro mandato de prefeito (1993–1996)
 
-Eleito no primeiro turno em 1992, com o apoio do prefeito [[pessoas/francisco-rossi|Francisco Rossi]], governou de 1º de janeiro de 1993 a 31 de dezembro de 1996, com [[pessoas/jair-assaf|Jair Assaf]] como vice.[@prefeitura-galeria-celso-giglio][@dhbb-francisco-rossi] Em 1995 e 1996, coordenou nacionalmente o Movimento União pelo Município, durante a discussão da reforma tributária.[@prefeitura-galeria-celso-giglio]
+Eleito no primeiro turno em 1992, com o apoio do prefeito [[pessoas/francisco-rossi|Francisco Rossi]], governou de 1º de janeiro de 1993 a 31 de dezembro de 1996, com [[pessoas/jair-assaf|Jair Assaf]] como vice.[@prefeitura-galeria-celso-giglio][@dhbb-francisco-rossi] Em 1995 e 1996, coordenou nacionalmente o Movimento União pelo Município, durante a discussão da reforma tributária.[@prefeitura-galeria-celso-giglio][@dhbb-celso-giglio]
 
 ### Deputado federal (1999–2000)
 
@@ -38,11 +38,11 @@ Presidiu a Associação Paulista de Municípios de 1997 a 1998 e liderou em 1998
 
 ### Segundo mandato de prefeito (2001–2004)
 
-Governou de 1º de janeiro de 2001 a 31 de dezembro de 2004, com Angelo Alberto Forsanaro Melli como vice.[@prefeitura-galeria-celso-giglio] Em 2002, coordenou o Fórum Metropolitano de Segurança Pública, que reunia 39 municípios da Grande São Paulo.[@prefeitura-galeria-celso-giglio] Disputou a reeleição em 2004, já pelo PSDB, e perdeu.[@tse-trajetorias][@prefeitura-galeria-celso-giglio]
+Governou de 1º de janeiro de 2001 a 31 de dezembro de 2004, com Angelo Alberto Forsanaro Melli como vice.[@prefeitura-galeria-celso-giglio] Em 2002, coordenou o Fórum Metropolitano de Segurança Pública, que reunia 39 municípios da Grande São Paulo.[@prefeitura-galeria-celso-giglio] Disputou a reeleição em 2004, já pelo PSDB, e perdeu no segundo turno para [[pessoas/emidio|Emídio de Souza]], do PT.[@tse-trajetorias][@prefeitura-galeria-celso-giglio][@dhbb-celso-giglio]
 
 ### Depois da Prefeitura (2005–2017)
 
-Foi superintendente do Instituto de Assistência Médica ao Servidor Público Estadual (Iamspe) em 2006 e voltou a presidir a Associação Paulista de Municípios.[@prefeitura-galeria-celso-giglio] Elegeu-se deputado estadual pelo PSDB em 2006, 2010 e 2014 e disputou a Prefeitura de Osasco em 2008, 2012 e 2016, sem vencer.[@tse-trajetorias] Criada pelo governo do estado em 2009 a Faculdade de Tecnologia de Osasco, um projeto seu deu a ela o nome de [[pessoas/hirant-sanazar|Hirant Sanazar]] (Lei nº 14.213, de 2010).[@decreto-sp-54729-2009][@lei-sp-14213-2010] Morreu em 11 de julho de 2017.[@camara-dep-celso-giglio]
+Foi superintendente do Instituto de Assistência Médica ao Servidor Público Estadual (Iamspe) em 2006, a convite do governador Geraldo Alckmin, e voltou a presidir a Associação Paulista de Municípios.[@prefeitura-galeria-celso-giglio][@dhbb-celso-giglio] Elegeu-se deputado estadual pelo PSDB em 2006, 2010 e 2014 e disputou a Prefeitura de Osasco em 2008, 2012 e 2016, sem vencer.[@tse-trajetorias] Criada pelo governo do estado em 2009 a Faculdade de Tecnologia de Osasco, um projeto seu deu a ela o nome de [[pessoas/hirant-sanazar|Hirant Sanazar]] (Lei nº 14.213, de 2010).[@decreto-sp-54729-2009][@lei-sp-14213-2010] Morreu em 11 de julho de 2017.[@camara-dep-celso-giglio]
 
 Publicou os livros *O município moderno* (1998), *Políticas públicas no Brasil: balanço e desafios* (1999), *A força dos municípios* (2001), *Municípios e municipalismo: história e desafios para o século XXI* (2002) e *Municípios: ideias, reflexões e expectativas* (2003).[@prefeitura-galeria-celso-giglio]
 
@@ -54,7 +54,7 @@ Segundo o resumo do Diário da Região, a gestão construiu, por meio de parceri
 
 ### Educação
 
-Em 13 de janeiro de 2004, a Lei nº 3.823 autorizou a criação de 13 escolas municipais de ensino fundamental, e outras leis do mesmo dia e de 30 de janeiro criaram a EMEF Fernando Botelho Franco (Jardim Munhoz Júnior), as EMEIs Zaíra Collino Odália (Cidade das Flores) e Rubens Bandeira (Vila Menck) e a EMEF Saad Bechara (Jardim Piratininga).[@iomo-326][@iomo-331] O Decreto nº 9.270, da mesma data, criou o Programa de Transporte Escolar Municipal Gratuito, para alunos da educação infantil e de 1ª a 4ª série que moravam em bairros sem escola, com prioridade para alunos com deficiência.[@iomo-326][@diario-regiao-prefeitos] Em outubro de 2003, a construção do Centro Municipal de Educação Integrada Unidade II, no antigo Hospital Santa Isabel, foi adjudicada por R$ 2,46 milhões.[@iomo-310] Em 2003, uma lei criou o emprego de professor adjunto de educação básica e outra doou à Fundação Bradesco uma área no bairro Conceição para uma escola.[@iomo-281] Segundo o Diário da Região, a gestão construiu escolas, creches e escolas de educação infantil e reformou e ampliou a biblioteca municipal.[@diario-regiao-prefeitos]
+Em 13 de janeiro de 2004, a [[leis/lei-3823|Lei nº 3.823]] autorizou a criação de 13 escolas municipais de ensino fundamental, e outras leis do mesmo dia e de 30 de janeiro criaram a EMEF Fernando Botelho Franco (Jardim Munhoz Júnior), as EMEIs Zaíra Collino Odália (Cidade das Flores) e Rubens Bandeira (Vila Menck) e a EMEF Saad Bechara (Jardim Piratininga).[@iomo-326][@iomo-331] O Decreto nº 9.270, da mesma data, criou o Programa de Transporte Escolar Municipal Gratuito, para alunos da educação infantil e de 1ª a 4ª série que moravam em bairros sem escola, com prioridade para alunos com deficiência.[@iomo-326][@diario-regiao-prefeitos] Em outubro de 2003, a construção do Centro Municipal de Educação Integrada Unidade II, no antigo Hospital Santa Isabel, foi adjudicada por R$ 2,46 milhões.[@iomo-310] Em 2003, uma lei criou o emprego de professor adjunto de educação básica e outra doou à Fundação Bradesco uma área no bairro Conceição para uma escola.[@iomo-281] Segundo o Diário da Região, a gestão construiu escolas, creches e escolas de educação infantil e reformou e ampliou a biblioteca municipal.[@diario-regiao-prefeitos]
 
 ### Fito e ensino superior
 
@@ -66,7 +66,7 @@ O Programa de Combate à Miséria e Garantia de Renda Familiar Mínima foi criad
 
 ### Habitação e urbanização de favelas
 
-Segundo o Diário da Região, a gestão urbanizou 80 das 144 favelas da cidade, construiu 504 moradias pelo programa Habitar Brasil, com recursos do BID, e entregou 690 apartamentos em parceria com a CDHU.[@diario-regiao-prefeitos] Na Área Y, no Jardim Padroeira, as Leis Complementares nº 103 e nº 104, de julho de 2002, criaram regras especiais de parcelamento do solo para a regularização fundiária do Habitar Brasil, e a segunda acertou uma troca de áreas com a Dersa ligada ao Rodoanel; em setembro de 2003, a Prefeitura abriu a concorrência, pelas normas do BID, para as obras de urbanização.[@iomo-233][@iomo-234][@iomo-246][@iomo-291] A pesquisadora Joana Rios registra que o projeto da Área Y começou em 2004 e soma mais de 700 moradias em dois conjuntos.[@rios-2022-favelas-osasco] Em 2002 e 2003, a Prefeitura firmou convênios com o governo do estado para pavimentar o Conjunto Habitacional Terra é Nossa e urbanizar uma área livre no Jardim Veloso, e com a Caixa para o Programa de Arrendamento Residencial.[@iomo-223][@iomo-319][@iomo-251]
+Segundo o Diário da Região, a gestão urbanizou 80 das 144 favelas da cidade, construiu 504 moradias pelo programa Habitar Brasil, com recursos do BID, e entregou 690 apartamentos em parceria com a CDHU.[@diario-regiao-prefeitos] Em 7 de novembro de 2002, a [[leis/lei-3721|Lei nº 3.721]] autorizou um convênio com a Caixa Econômica Federal para implantar na cidade o Programa de Arrendamento Residencial (PAR).[@iomo-251] Na Área Y, no Jardim Padroeira, as Leis Complementares nº 103 e nº 104, de julho de 2002, criaram regras especiais de parcelamento do solo para a regularização fundiária do Habitar Brasil, e a segunda acertou uma troca de áreas com a Dersa ligada ao Rodoanel; em setembro de 2003, a Prefeitura abriu a concorrência, pelas normas do BID, para as obras de urbanização.[@iomo-233][@iomo-234][@iomo-246][@iomo-291] A pesquisadora Joana Rios registra que o projeto da Área Y começou em 2004 e soma mais de 700 moradias em dois conjuntos.[@rios-2022-favelas-osasco] Em 2002 e 2003, a Prefeitura firmou convênios com o governo do estado para pavimentar o Conjunto Habitacional Terra é Nossa e urbanizar uma área livre no Jardim Veloso, e com a Caixa para o Programa de Arrendamento Residencial.[@iomo-223][@iomo-319][@iomo-251]
 
 ### Transporte e sistema viário
 
@@ -78,7 +78,7 @@ Em 2002, foi eleito coordenador-geral do Fórum Metropolitano de Segurança Púb
 
 ### Drenagem e meio ambiente
 
-Em junho de 2004, um decreto declarou de utilidade pública uma área no Jardim Bonança para um reservatório de contenção de cheias, na bacia do Alto Tietê.[@iomo-359] A Lei de Diretrizes Orçamentárias de 2003 previa programas de prevenção de enchentes e recuperação de áreas de risco.[@iomo-234]
+Em junho de 2004, um decreto declarou de utilidade pública uma área no Jardim Bonança para um reservatório de contenção de cheias, na bacia do Alto Tietê.[@iomo-359] A Lei de Diretrizes Orçamentárias de 2003 previa programas de prevenção de enchentes e recuperação de áreas de risco.[@iomo-234] Em 23 de dezembro de 2003, a [[leis/lei-3816|Lei nº 3.816]] autorizou um convênio com o governo do estado, diretamente ou pelo DAEE, para ações conjuntas de controle de inundações na bacia do Ribeirão Vermelho e do Braço Morto do rio Tietê.[@iomo-323]
 
 ### Finanças e desenvolvimento econômico
 

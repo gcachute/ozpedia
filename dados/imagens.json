@@ -1,6 +1,6 @@
 {
  "fonte": "Wikimedia Commons",
- "coletadoEm": "2026-11-10",
+ "coletadoEm": "2026-11-11",
  "imagens": [
   {
    "pessoa": "agora-e-com-elas-zelia-lucas",
@@ -85,6 +85,18 @@
    "miniatura": "https://upload.wikimedia.org/wikipedia/commons/2/25/2016_D%C3%89LBIO_TERUEL_CANDIDATO_VICE-PREFEITO_SP_OSASCO_TSE_%28250000052521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "data": "2016",
    "caminho": "/imagens/delbio-teruel.jpg"
+  },
+  {
+   "pessoa": "dr-jair-sanches",
+   "arquivo": "Franco Montoro e Ulysses Guimarães visitam autoridades de Osasco (1978).jpg",
+   "legenda": "Jair Sanches (o quinto da esquerda para a direita) com Franco Montoro, Ulysses Guimarães, Jair Assaf, Guaçu Piteri e Reginaldo Valadão, em 1978",
+   "autor": "Acervo de Jair Assaf",
+   "licenca": "CC0",
+   "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Franco_Montoro_e_Ulysses_Guimar%C3%A3es_visitam_autoridades_de_Osasco_(1978).jpg",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Franco_Montoro_e_Ulysses_Guimar%C3%A3es_visitam_autoridades_de_Osasco_%281978%29.jpg/500px-Franco_Montoro_e_Ulysses_Guimar%C3%A3es_visitam_autoridades_de_Osasco_%281978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "1978-09-22",
+   "caminho": "/imagens/dr-jair-sanches.jpg"
   },
   {
    "pessoa": "dr-marcio-lindoso",
@@ -1239,6 +1251,162 @@
    "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Osasco_2017_01.jpg/500px-Osasco_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "data": "2017-05-02",
    "caminho": "/imagens/commons/osasco-2017-01.jpg"
+  },
+  {
+   "chave": "partidos/republicanos",
+   "arquivo": "Republicanos (Brazil) wordmark.svg",
+   "legenda": "Logotipo do Republicanos",
+   "autor": "Republicanos",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Republicanos_(Brazil)_wordmark.svg",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Republicanos_%28Brazil%29_wordmark.svg/500px-Republicanos_%28Brazil%29_wordmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "2019",
+   "caminho": "/imagens/commons/republicanos-brazil-wordmark.png"
+  },
+  {
+   "chave": "partidos/pps",
+   "arquivo": "Logomarca do Partido Popular Socialista.png",
+   "legenda": "Logotipo do PPS, usado de 1992 a 2019",
+   "autor": "Partido Popular Socialista",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Logomarca_do_Partido_Popular_Socialista.png",
+   "miniatura": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logomarca_do_Partido_Popular_Socialista.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "data": "1992-03-19",
+   "caminho": "/imagens/commons/logomarca-do-partido-popular-socialista.png"
+  },
+  {
+   "chave": "partidos/pfl",
+   "arquivo": "Partido da Frente Liberal logo (1985-2005).svg",
+   "legenda": "Logotipo do PFL, usado de 1985 a 2005",
+   "autor": "Partido da Frente Liberal",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Partido_da_Frente_Liberal_logo_(1985-2005).svg",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Partido_da_Frente_Liberal_logo_%281985-2005%29.svg/500px-Partido_da_Frente_Liberal_logo_%281985-2005%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "1985",
+   "caminho": "/imagens/commons/partido-da-frente-liberal-logo-1985-2005.png"
+  },
+  {
+   "chave": "partidos/pmdb",
+   "arquivo": "Partido do Movimento Democrático Brasileiro logo (2000–2017).svg",
+   "legenda": "Logotipo do PMDB, usado de 2000 a 2017",
+   "autor": "Partido do Movimento Democrático Brasileiro",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Partido_do_Movimento_Democr%C3%A1tico_Brasileiro_logo_(2000%E2%80%932017).svg",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Partido_do_Movimento_Democr%C3%A1tico_Brasileiro_logo_%282000%E2%80%932017%29.svg/500px-Partido_do_Movimento_Democr%C3%A1tico_Brasileiro_logo_%282000%E2%80%932017%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "2000",
+   "caminho": "/imagens/commons/partido-do-movimento-democratico-brasileiro-logo-2000-2017.png"
+  },
+  {
+   "chave": "partidos/ppb",
+   "arquivo": "Logotipo do Partido Progressista Brasileiro (1995).svg",
+   "legenda": "Logotipo do PPB, usado de 1995 a 2003",
+   "autor": "Progressistas (Brazil)",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Partido_Progressista_Brasileiro_logo_(1995%E2%80%932003).svg",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Partido_Progressista_Brasileiro_logo_%281995%E2%80%932003%29.svg/500px-Partido_Progressista_Brasileiro_logo_%281995%E2%80%932003%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "1995",
+   "caminho": "/imagens/commons/logotipo-do-partido-progressista-brasileiro-1995.png"
+  },
+  {
+   "chave": "partidos/prp",
+   "arquivo": "Partido Republicano Progressista logo.png",
+   "legenda": "Logotipo do PRP",
+   "autor": "Partido Republicano Progressista",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Partido_Republicano_Progressista_logo.png",
+   "miniatura": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Partido_Republicano_Progressista_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "data": null,
+   "caminho": "/imagens/commons/partido-republicano-progressista-logo.png"
+  },
+  {
+   "chave": "partidos/ptc",
+   "arquivo": "Ptc-logo.png",
+   "legenda": "Logotipo do PTC",
+   "autor": "Mateusfutebs",
+   "licenca": "CC BY-SA 4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ptc-logo.png",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Ptc-logo.png/500px-Ptc-logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "2023-10-19",
+   "caminho": "/imagens/commons/ptc-logo.png"
+  },
+  {
+   "chave": "partidos/dc",
+   "arquivo": "Christian Democracy (Brazil) logo.png",
+   "legenda": "Logotipo do DC (Democracia Cristã)",
+   "autor": "Democracia Cristã",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Christian_Democracy_(Brazil)_logo.png",
+   "miniatura": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Christian_Democracy_%28Brazil%29_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "data": null,
+   "caminho": "/imagens/commons/christian-democracy-brazil-logo.png"
+  },
+  {
+   "chave": "partidos/pan",
+   "arquivo": "Logotipo do Partido dos Aposentados da Nação.png",
+   "legenda": "Logotipo do PAN",
+   "autor": "Partido dos Aposentados da Nação",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Logotipo_do_Partido_dos_Aposentados_da_Na%C3%A7%C3%A3o.png",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Logotipo_do_Partido_dos_Aposentados_da_Na%C3%A7%C3%A3o.png/500px-Logotipo_do_Partido_dos_Aposentados_da_Na%C3%A7%C3%A3o.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "2019-10-15",
+   "caminho": "/imagens/commons/logotipo-do-partido-dos-aposentados-da-nacao.png"
+  },
+  {
+   "chave": "partidos/pl-antigo",
+   "arquivo": "Partido Liberal (Brazil) logo (1985–2004).svg",
+   "legenda": "Logotipo do PL, usado de 1985 a 2004",
+   "autor": "Partido Liberal",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Partido_Liberal_(Brazil)_logo_(1985%E2%80%932004).svg",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Partido_Liberal_%28Brazil%29_logo_%281985%E2%80%932004%29.svg/500px-Partido_Liberal_%28Brazil%29_logo_%281985%E2%80%932004%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "1985",
+   "caminho": "/imagens/commons/partido-liberal-brazil-logo-1985-2004.png"
+  },
+  {
+   "chave": "partidos/prb",
+   "arquivo": "Logomarca do Partido Republicano Brasileiro (2005–2012).png",
+   "legenda": "Logotipo do PRB, usado de 2005 a 2012",
+   "autor": "autor desconhecido",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Logomarca_do_Partido_Republicano_Brasileiro_(2005%E2%80%932012).png",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Logomarca_do_Partido_Republicano_Brasileiro_%282005%E2%80%932012%29.png/500px-Logomarca_do_Partido_Republicano_Brasileiro_%282005%E2%80%932012%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": null,
+   "caminho": "/imagens/commons/logomarca-do-partido-republicano-brasileiro-2005-2012.png"
+  },
+  {
+   "chave": "partidos/psdc",
+   "arquivo": "Bandeira do Partido Social Democrata Cristão.svg",
+   "legenda": "Bandeira do PSDC",
+   "autor": "Partido Social Democrata Cristão",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bandeira_do_Partido_Social_Democrata_Crist%C3%A3o.svg",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Bandeira_do_Partido_Social_Democrata_Crist%C3%A3o.svg/500px-Bandeira_do_Partido_Social_Democrata_Crist%C3%A3o.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": null,
+   "caminho": "/imagens/commons/bandeira-do-partido-social-democrata-cristao.png"
+  },
+  {
+   "chave": "partidos/pst",
+   "arquivo": "Partido Social Trabalhista (1988).png",
+   "legenda": "Logotipo do PST em 1988",
+   "autor": "João Vitor Bachini",
+   "licenca": "CC BY-SA 4.0",
+   "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Partido_Social_Trabalhista_(1988).png",
+   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Partido_Social_Trabalhista_%281988%29.png/500px-Partido_Social_Trabalhista_%281988%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "data": "2021-07-16",
+   "caminho": "/imagens/commons/partido-social-trabalhista-1988.png"
   }
  ]
 }

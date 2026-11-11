@@ -3,7 +3,9 @@ import { Artigo, Cita, LinkPagina, NomePessoa, Secao, imagemParaQuadro, Quadro }
 import { legislaturas, pessoa, pessoaDoNome } from "@/lib/dados";
 import { Referencias } from "@/lib/fontes";
 import { imagemPagina } from "@/lib/imagens";
-import { listaE } from "@/lib/texto";
+import { dataPorExtenso, listaE } from "@/lib/texto";
+import { Autoria } from "@/components/camara";
+import { autoresDe, fonteEdicao, idLeiIomo, leisIomo } from "@/lib/leis";
 
 export const metadata: Metadata = { title: "Câmara Municipal de Osasco" };
 
@@ -95,6 +97,69 @@ export default function Camara() {
           Fonte: Câmara Municipal de Osasco.
           <Cita n={nLeg} />
         </p>
+      </Secao>
+      <p className="prosa mt-4">
+        Os atos de convocação de suplentes publicados na Imprensa Oficial do Município estão em <LinkPagina caminho="camara/suplentes" />.
+      </p>
+      <Secao titulo="Contas da Câmara no Tribunal de Contas">
+        <div className="prosa">
+          <p>
+            As contas anuais da própria Câmara são julgadas pelo Tribunal de Contas do Estado. Julgamentos achados nas publicações do Tribunal:
+          </p>
+          <ul>
+            <li>
+              <strong>2007:</strong> julgadas irregulares pela Segunda Câmara do Tribunal em 27 de novembro de 2012, com a condenação do presidente da Câmara à
+              época, <NomePessoa id="osvaldo-verginio" nome="Osvaldo Vergínio da Silva" />, a devolver R$ 3.711.200,20: R$ 425.187,81 pagos a mais aos vereadores, pelo
+              reajuste dos subsídios vinculado ao dos deputados estaduais, e R$ 3.286.012,39 de verba de representação. Em 22 de junho de 2016, o Tribunal Pleno
+              negou o recurso, com voto da conselheira Cristiana de Castro Moraes; o voto diz que o reajuste automático durante a legislatura ofendeu os princípios
+              da anterioridade e da economicidade e que a distribuição de verbas a cada gabinete contrariou o princípio do caixa único.
+              <Cita n={[refs.cita("tce-2016-06-22-voto-contas-camara-2007"), refs.cita("tce-2016-07-01-contas-camara-2007")]} />
+            </li>
+            <li>
+              <strong>2011:</strong> julgadas irregulares em setembro de 2014, com relatoria do conselheiro Dimas Ramalho. Dos 510 cargos ocupados, 466 eram em
+              comissão (91,37%) e 44 efetivos; 47 cargos em comissão tinham sido criados por resolução, sem previsão na Lei de Diretrizes Orçamentárias. O presidente
+              da Câmara à época foi multado em 200 Ufesps, e o caso foi enviado ao Ministério Público. Em março de 2016, o Tribunal negou o recurso da Câmara.
+              <Cita n={[refs.cita("tce-2014-09-11-contas-camara-2011"), refs.cita("tce-2016-03-21-contas-camara-2011-recurso")]} />
+            </li>
+            <li>
+              <strong>Exercícios com contas da Câmara julgadas irregulares e decisão definitiva (trânsito em julgado) até 1º de agosto de 2025</strong>, segundo a
+              relação publicada pelo Tribunal:{" "}
+              {([["1998", "4902/026/98", "29/03/2004"], ["2000", "2608/026/12", "15/05/2006"], ["2002", "194/026/02", "27/08/2007"], ["2003", "1188/026/03", "08/12/2008"], ["2004", "2179/026/04", "13/10/2009"], ["2005", "1036/026/05", "23/03/2010"], ["2006", "1489/026/06", "21/09/2010"], ["2007", "3219/026/07", "07/11/2016"], ["2008", "126/026/08", "25/11/2016"], ["2009", "770/026/09", "22/05/2017"], ["2011", "2538/026/11", "25/05/2016"], ["2012", "2229/026/12", "06/05/2016"], ["2013", "126/026/13", "23/01/2017"], ["2015", "695/026/15", "14/03/2019"]] as const).map(([ex, proc, data], k, todos) => (
+                <span key={ex}>
+                  {ex} (processo TC-{proc}, em {data}){k < todos.length - 1 ? (k === todos.length - 2 ? " e " : ", ") : ""}
+                </span>
+              ))}
+              .<Cita n={refs.cita("tce-2025-08-01-contas-irregulares")} />
+            </li>
+            <li>
+              <strong>2020 a 2023:</strong> segundo o resumo da sessão de 4 de junho de 2024 da Segunda Câmara do Tribunal, &ldquo;a prestação de contas da Câmara de
+              Osasco, referente a 2020, 2021, 2022, 2023, foi julgada irregular, com aplicação de multa&rdquo;.
+              <Cita n={refs.cita("tce-2024-06-07-sessoes")} />
+            </li>
+          </ul>
+        </div>
+      </Secao>
+      <Secao titulo="Vetos rejeitados">
+        <p className="mb-3">
+          Leis publicadas na Imprensa Oficial do Município em que o texto diz que a Câmara rejeitou o veto da Prefeitura ao projeto e a Presidência da Câmara
+          promulgou a lei:
+        </p>
+        <ul className="prosa">
+          {leisIomo()
+            .filter((l) => l.vetoRejeitado)
+            .map((l) => (
+              <li key={l.key}>
+                <LinkPagina caminho={`leis/${idLeiIomo(l)}`}>{l.lei}</LinkPagina>, de {dataPorExtenso(l.data)}: {l.ementa.replace(/\.$/, "")}
+                {autoresDe(l).length > 0 && (
+                  <>
+                    {" "}
+                    (autoria: <Autoria autores={autoresDe(l)} />)
+                  </>
+                )}
+                .<Cita n={refs.cita(fonteEdicao(l))} />
+              </li>
+            ))}
+        </ul>
       </Secao>
       <Secao titulo="Presidentes">
         <ol className="prosa">

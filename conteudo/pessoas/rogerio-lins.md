@@ -28,6 +28,8 @@ Elegeu-se deputado estadual pelo Podemos em 2026.[@tse-trajetorias]
 
 Segundo a *Folha de S.Paulo*, em 2021, Lins disse ter reduzido o ISS de 3% para 2% em 2018 e negociar "caso a caso" a vinda de empresas; a Agência Mural fala em redução de 5% para 2% em algumas atividades.[@folha-2021-05-10-osasco-tecnologia][@mural-2024-10-02-gestao-lins] Em novembro de 2019, um grupo do Fórum de Desenvolvimento Econômico lhe entregou proposta de alíquota única de 2%.[@prefeitura-2019-11-24-iss] Instalaram-se na cidade sedes ou centros de empresas como Mercado Livre, iFood, Dafiti, B2W, Rappi (2020) e Uber (2021).[@visaooeste-2020-10-23-rappi][@girosa-2021-06-17-empresas][@mural-2024-10-02-gestao-lins] A *Folha* registrou, com dados da Fundação Seade, que a indústria caiu de 9,6% para 4,45% do PIB de Osasco entre 2002 e 2018.[@folha-2021-05-10-osasco-tecnologia] Em dezembro de 2022, a Câmara aprovou um novo Código Tributário, e em dezembro de 2023, uma operação de crédito com o Banco do Brasil para obras de educação, mobilidade, saúde e esporte, por 17 votos a 2.[@girosa-2022-12-26-codigo-tributario][@camara-2023-12-20-credito] Pelo Caged, citado pela Agência Mural, o saldo de empregos formais foi de 24 mil em 2021.[@mural-2024-10-02-gestao-lins]
 
+Leis sancionadas por ele instituíram um programa de incentivos fiscais e o "IPTU social" ([[leis/lei-complementar-380|Lei Complementar nº 380]], de 27 de dezembro de 2019) e, em 28 de dezembro de 2022, um novo Código Tributário do Município ([[leis/lei-complementar-404|Lei Complementar nº 404]]) e a Política Municipal de Inovação Tecnológica ([[leis/lei-complementar-403|Lei Complementar nº 403]]).[@iomo-1778][@iomo-2365]
+
 ### Urbanização do Rochdale e drenagem
 
 A urbanização do Rochdale, com recursos do PAC, previa 2,5 km de canalização do Braço Morto do rio Tietê e ligação entre o Rochdale, o Canaã, o Aliança e o Piratininga; em novembro de 2021, a Prefeitura informava investimento de mais de R$ 110 milhões, R$ 87,3 milhões deles federais.[@prefeitura-2021-11-12-rochdale] Em abril de 2024, entregou a avenida Transversal Norte, com 38 mil m² de asfalto, e em agosto, três pontes sobre o Braço Morto.[@paginazero-2024-04-19-transversal][@prefeitura-2025-01-28-rochdale] A fase 1 foi concluída em agosto de 2026, já na gestão seguinte.[@prefeitura-2026-08-transversal-norte][@camara-2025-05-07-rochdale] No Jardim Bonança, entregou em abril de 2024 obras de contenção de encostas e drenagem.[@prefeitura-2024-04-09-bonanca][@mural-2024-10-02-gestao-lins] Em Quitaúna, a obra de drenagem, de R$ 12 milhões, teve início em setembro de 2022 segundo a Agência Mural, ou em setembro de 2023 segundo a Prefeitura; em fevereiro de 2023, moradores relatavam quatro enchentes nas primeiras semanas do ano, e a obra foi retomada em janeiro de 2025.[@mural-2023-02-24-quitauna][@prefeitura-2023-08-03-quitauna][@visaooeste-2025-01-14-quitauna] Em 2024, o Tribunal de Contas apontou que o Plano de Drenagem não tinha sido revisado como exige a lei municipal.[@tce-2024-03-05-contas-2022]
@@ -44,9 +46,13 @@ Em fevereiro de 2021, entrou em funcionamento o Centro de Hemodinâmica do Hospi
 
 Em março de 2020, a Prefeitura decretou quarentena e abriu centros de terapia intensiva para Covid nos prontos-socorros do Jardim Santo Antônio e do Helena Maria.[@iomo-1830][@saude-osasco-2020-03-30-cti] Até novembro de 2020, a cidade contava 21.006 casos e 860 mortes.[@seplag-2020-11-20-covid] Em abril de 2021, entregou 30 leitos de UTI para Covid no Hospital Antônio Giglio e decretou toque de recolher das 20h às 5h, numa "fase de transição".[@prefeitura-2021-04-13-uti][@dt-2021-04-17-transicao] Segundo o Tribunal de Contas, a Prefeitura fez em 2021 cerca de R$ 150 milhões em pagamentos sem contrato.[@tce-2024-03-05-contas-2022]
 
+Em 15 de dezembro de 2021, a [[leis/lei-5157|Lei nº 5.157]] criou o Programa Nosso Futuro, de combate à insegurança alimentar de crianças e adolescentes.[@iomo-2152]
+
 ### Educação
 
 Em 16 de julho de 2022, entregou a creche Mundo da Criança – Guaçu Piteri, com mais de 1.300 vagas.[@prefeitura-2022-07-18-creche-guacu-piteri] Lins prometeu zerar a fila de creches; o Tribunal de Contas contou em 2022 um déficit de 4.921 vagas, e na votação das contas de 2024 a Câmara citou demanda de cerca de 1,1 mil.[@tce-2024-03-05-contas-2022][@portalregiaooeste-2024-08-09-creches][@cpaulista-2026-10-24-contas-2024] Em 2023, o programa Conecta Oz começou a entregar 24 mil notebooks a alunos e professores.[@visaooeste-2023-05-26-notebooks] As duas Escolas do Futuro anunciadas em 2022 não ficaram prontas no mandato; a primeira teve pedra fundamental em agosto de 2024.[@visaooeste-2022-06-07-escola-futuro][@cpaulista-2025-08-09-escola-futuro] Em 2017, a aplicação em educação foi de 21,45% do orçamento, abaixo do mínimo de 25% (ver Controvérsias).[@girosa-2022-06-06-contas-2017]
+
+Em 4 de abril de 2019, sancionou o Plano de Carreira e Remuneração do Magistério Público Municipal ([[leis/lei-complementar-352|Lei Complementar nº 352]]).[@iomo-1640]
 
 ### Cultura
 
@@ -56,9 +62,13 @@ A Fábrica de Cultura de Osasco, programa do governo do estado, foi inaugurada e
 
 Em 2019, Lins disse à Câmara que o orçamento da segurança tinha passado de R$ 44 milhões para R$ 77 milhões e que a Guarda Civil dobrara o efetivo.[@visaooeste-2019-08-06-seguranca] Em fevereiro de 2023, inaugurou a Central de Monitoramento Escolar, com câmeras em todas as escolas municipais.[@girosa-2023-03-01-monitoramento] A Cidade da Polícia, em obra desde 2023, não ficou pronta no mandato.[@prefeitura-2023-08-01-cidade-policia][@cpaulista-2025-08-09-escola-futuro]
 
+Em novembro e dezembro de 2017, sancionou o Plano Municipal de Segurança Pública ([[leis/lei-4847|Lei nº 4.847]]) e a lei que criou o Fundo Municipal de Segurança Pública ([[leis/lei-4871|Lei nº 4.871]]).[@iomo-1407][@iomo-1430]
+
 ### Habitação
 
 Em 2020, entregou 300 apartamentos do Residencial Vila Alemanha, no Jardim Veloso, do Minha Casa Minha Vida e do Casa Paulista, e apartamentos no Portal D'Oeste para famílias que viviam em área de risco.[@paginazero-2020-06-19-vila-alemanha][@cpaulista-2020-04-22-portal-doeste] Em fevereiro de 2023, a favela Ribeirão Vermelho foi demolida, por risco causado pela canalização do córrego Ribeirão Vermelho, obra do governo do estado; moradores relataram dificuldade para receber o Bolsa Aluguel.[@mural-2023-03-20-ribeirao-vermelho]
+
+Em 17 de janeiro de 2024, sancionou o novo Plano Diretor ([[leis/lei-complementar-431|Lei Complementar nº 431]]), e em 20 de dezembro de 2024 o Código de Obras e Edificações ([[leis/lei-complementar-443|Lei Complementar nº 443]]) e a Operação Urbana Consorciada Paiva Ramos, para a urbanização da área chamada Fazenda Paiva Ramos ([[leis/lei-complementar-440|Lei Complementar nº 440]]).[@iomo-2575][@iomo-2768] A [[leis/lei-5317|Lei nº 5.317]], de 28 de dezembro de 2023, autorizou a doação de áreas municipais ao Fundo de Arrendamento Residencial, da Caixa, para moradias do Minha Casa Minha Vida.[@iomo-2567]
 
 ### O novo Paço Municipal
 
@@ -72,6 +82,8 @@ A Agência Mural lista promessas que não avançaram até outubro de 2024: cowor
 
 ### Operação Caça-Fantasmas
 
+Ver também: [[fatos/operacao-caca-fantasmas]].
+
 Em 6 de dezembro de 2016, depois de eleito prefeito e ainda no mandato de vereador, Rogério Lins teve a prisão preventiva decretada na Operação Caça-Fantasmas, do Ministério Público de São Paulo, que investigava funcionários fantasmas na Câmara de Osasco e a captação de parte do salário de assessores de vereadores. A operação atingiu 14 dos 21 vereadores da cidade.[@exame-2016-12-29-fux-lins][@abr-2017-01-01-posse-lins]
 
 Segundo a denúncia do Ministério Público, citada pelo Estadão, a ele eram atribuídos organização criminosa e mais de 900 crimes de estelionato desde janeiro de 2009, com 14 funcionários fantasmas sob seu comando; a Promotoria calculou o desvio na Câmara em R$ 21 milhões.[@exame-2016-12-29-fux-lins] Em 19 de dezembro de 2016, o ministro Luiz Fux, do Supremo Tribunal Federal, negou seguimento a um habeas corpus da defesa.[@exame-2016-12-29-fux-lins]
@@ -82,7 +94,7 @@ Em reportagem atualizada em 29 de maio de 2026, o portal Visão Oeste informou q
 
 ### Contas no Tribunal de Contas
 
-Das contas da gestão, o Tribunal de Contas do Estado deu parecer desfavorável às de 2017 (aplicação de 21,45% em educação), 2018 e 2022, e favorável às de 2019, 2020, 2023 e 2024.[@girosa-2022-06-06-contas-2017][@tce-2020-12-11-segunda-camara][@tce-2024-03-05-contas-2022][@cpaulista-2025-09-19-contas-2023][@cpaulista-2026-10-24-contas-2024] Nas de 2022, apontou R$ 38,85 milhões em pagamentos sem licitação nem contrato, prática repetida desde 2013, e sobrepreço em medicamentos; o parecer foi revisto pelo Pleno do Tribunal em 12 de março de 2025.[@tce-2024-03-05-contas-2022][@tce-2025-03-12-pleno] A Câmara aprovou as contas de 2017 em junho de 2022, por 19 votos a 1, e as de 2021 e 2022 em junho de 2025.[@girosa-2022-06-06-contas-2017][@cpaulista-2025-06-18-contas]
+Das contas da gestão, o Tribunal de Contas do Estado deu parecer desfavorável às de 2017 (aplicação de 21,45% em educação), 2018 e 2022, e favorável às de 2019, 2020, 2023 e 2024.[@girosa-2022-06-06-contas-2017][@tce-2020-12-11-segunda-camara][@tce-2024-03-05-contas-2022][@cpaulista-2025-09-19-contas-2023][@cpaulista-2026-10-24-contas-2024] Nas de 2022, apontou R$ 38,85 milhões em pagamentos sem licitação nem contrato, prática repetida desde 2013, e sobrepreço em medicamentos; em 12 de março de 2025, o Pleno do Tribunal deu provimento ao pedido de reexame da Prefeitura, com um voto vencido.[@tce-2024-03-05-contas-2022][@tce-2025-03-12-pleno] Para as contas de 2021, o parecer da Segunda Câmara do Tribunal foi desfavorável, publicado em 29 de novembro de 2023 e mantido nos embargos; o pedido de reexame foi retirado de pauta em 23 de outubro de 2024, depois das sustentações orais.[@tce-2024-10-23-pleno-ata] Na votação de junho de 2025, segundo o Jornal Digital da Região Oeste, as contas de 2021 e 2022 tinham parecer favorável, com ressalvas sobre pagamentos indenizatórios de contratos emergenciais da pandemia.[@jdro-2025-06-23-contas-lins] A Câmara aprovou as contas de 2017 em junho de 2022, por 19 votos a 1, e as de 2021 e 2022 em junho de 2025, por 20 votos e uma abstenção.[@girosa-2022-06-06-contas-2017][@cpaulista-2025-06-18-contas][@jdro-2025-06-23-contas-lins]
 
 ### Contrato de ambulâncias
 

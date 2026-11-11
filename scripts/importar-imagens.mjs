@@ -23,9 +23,12 @@ const semHtml = (s) => String(s ?? "").replace(/<[^>]+>/g, "").replace(/\s+/g, "
 
 async function api(params) {
   const url = API + "?" + new URLSearchParams({ format: "json", ...params });
-  const r = await fetch(url, { headers: { "User-Agent": UA } });
-  if (!r.ok) throw new Error(`Commons respondeu ${r.status}`);
-  return r.json();
+  for (let tentativa = 0; ; tentativa++) {
+    const r = await fetch(url, { headers: { "User-Agent": UA } });
+    if (r.ok) return r.json();
+    if (r.status !== 429 || tentativa >= 5) throw new Error(`Commons respondeu ${r.status}`);
+    await new Promise((ok) => setTimeout(ok, 60000 * (tentativa + 1)));
+  }
 }
 
 const tse = JSON.parse(readFileSync(path.join(raiz, "dados", "tse.json"), "utf8"));

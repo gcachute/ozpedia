@@ -14,7 +14,8 @@ export default function Eleicoes() {
       <Figura imagem={imagemPagina("eleicoes")} />
       <p className="mt-2 max-w-2xl">
         Eleições municipais de Osasco. De 1996 em diante, com os dados abertos do Tribunal Superior Eleitoral; antes disso, páginas escritas com outras
-        fontes.
+        fontes. As candidaturas de pessoas de Osasco a cargos do estado e federais estão em{" "}
+        <LinkPagina caminho="eleicoes/estaduais-e-federais">Eleições estaduais e federais</LinkPagina>.
       </p>
       <table className="tabela mt-8">
         <thead>

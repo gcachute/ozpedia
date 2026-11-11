@@ -77,3 +77,35 @@ export const tituloLei = (id: string): string | null => {
   const l = leiPorId(id);
   return l ? `${l.lei}, de ${l.data}` : null;
 };
+
+// Projeto de origem de cada lei: projeto de lei com a mesma autoria e o mesmo texto de ementa (a sessão lê a ementa do
+// projeto e, na sanção, o resumo da lei, que repete a ementa). Só liga quando um projeto se destaca com clareza.
+const palavras = (s: string) =>
+  new Set(
+    s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/\p{M}/gu, "")
+      .match(/[a-z]{4,}/g)
+      ?.filter((w) => !["municipio", "osasco", "dispoe", "sobre", "institui", "ambito", "autoria", "vereador", "vereadora", "providencias", "municipal", "outras"].includes(w)) ?? [],
+  );
+const parecido = (a: Set<string>, b: Set<string>) => {
+  const comum = [...a].filter((w) => b.has(w)).length;
+  return comum / (a.size + b.size - comum || 1);
+};
+let _origem: Map<string, Projeto> | null = null;
+function origens() {
+  if (_origem) return _origem;
+  _origem = new Map();
+  for (const l of CAMARA.leis) {
+    const p = palavras(resumoSemAutoria(l.resumo));
+    const notas = CAMARA.projetos
+      .filter((x) => (x.tipo === "PL" || x.tipo === "PLC") && x.autores.some((a) => l.autores.includes(a)))
+      .map((x) => ({ x, nota: parecido(p, palavras(x.ementa)) }))
+      .sort((a, b) => b.nota - a.nota);
+    if (notas[0] && notas[0].nota >= 0.45 && notas[0].nota - (notas[1]?.nota ?? 0) >= 0.2) _origem.set(l.key, notas[0].x);
+  }
+  return _origem;
+}
+export const projetoDeOrigem = (l: Lei) => origens().get(l.key) ?? null;
+export const leiDoProjeto = (p: Projeto) => CAMARA.leis.find((l) => origens().get(l.key)?.key === p.key) ?? null;

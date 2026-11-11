@@ -6,6 +6,14 @@ import registro from "../../dados/partidos-tse-registro.json";
 import { escrita, escritas } from "./conteudo";
 import { CAMARA } from "./camara";
 import historico from "../../dados/camara-legislaturas.json";
+import { pessoasConvocadas } from "./convocacoes";
+import { readFileSync as lerArquivo } from "node:fs";
+import caminhoArq from "node:path";
+import { load as lerYamlDados } from "js-yaml";
+
+// Suplentes que exerceram mandato sem ato de convocação achado (conteudo/exerceram-mandato.yml).
+export type ExerceuMandato = { pessoa: string; nomes: string[]; legislatura: string; fontes: string[]; nota: string };
+export const EXERCERAM = (lerYamlDados(lerArquivo(caminhoArq.join(process.cwd(), "conteudo", "exerceram-mandato.yml"), "utf8")) ?? []) as ExerceuMandato[];
 import { nomeProprio, slugify } from "./texto";
 
 export type Candidatura = {
@@ -198,9 +206,15 @@ export function mandatosCamara(id: string) {
 }
 
 // Ganha página quem venceu alguma eleição em Osasco, quem disputou a Prefeitura (titular ou vice), quem exerceu mandato
-// na Câmara em qualquer legislatura desde 1962 (inclusive suplentes que assumiram) e quem tem página escrita à mão.
+// na Câmara em qualquer legislatura desde 1962 (inclusive suplentes que assumiram, pela lista da Câmara ou pelos atos de
+// convocação publicados na Imprensa Oficial) e quem tem página escrita à mão.
 // As demais candidaturas aparecem nas páginas das eleições, sem link.
-const naCamara = new Set([...CAMARA.vereadores.map((v) => v.pessoa), ...LEGISLATURAS.flatMap((l) => l.vereadores.map((v) => v.pessoa)).filter(Boolean)]);
+const naCamara = new Set([
+  ...CAMARA.vereadores.map((v) => v.pessoa),
+  ...LEGISLATURAS.flatMap((l) => l.vereadores.map((v) => v.pessoa)).filter(Boolean),
+  ...pessoasConvocadas(),
+  ...EXERCERAM.map((e) => e.pessoa),
+]);
 const temPagina = (p: PessoaTse) =>
   !!p.urna && (naCamara.has(p.id) || p.candidaturas.some((c) => emOsasco(c) && (venceu(c) || c.cargo !== "Vereador")));
 
@@ -230,7 +244,22 @@ export function candidaturasDe(ano: number) {
   const ps = pessoas();
   for (const p of pessoasTse)
     for (const c of p.candidaturas)
-      if (c.ano === ano && emOsasco(c)) lista.push({ ...c, pessoa: p.id, nome: c.urna || p.urna ? nomeProprio((c.urna ?? p.urna)!) : "Nome não informado no arquivo", temPagina: ps.has(p.id) });
+      if (c.ano === ano && emOsasco(c)) {
+        // Em 1996, o campo de nome de urna do arquivo do TSE traz o nome civil: quando a pessoa disputou eleições
+        // depois, a lista mostra o nome de urna mais recente (o nome de 1996 continua na página da pessoa).
+        const depois = ano === 1996 ? [...p.candidaturas].filter((x) => x.ano > 1996 && x.urna).sort((a, b) => b.ano - a.ano)[0]?.urna : null;
+        const urna = depois ?? c.urna ?? p.urna;
+        lista.push({ ...c, pessoa: p.id, nome: urna ? nomeProprio(urna) : "Nome não informado no arquivo", temPagina: ps.has(p.id) });
+      }
+  return lista;
+}
+
+// Candidaturas a cargos estaduais e federais de quem também disputou eleições em Osasco.
+export function candidaturasForaDeOsasco() {
+  const lista: (Candidatura & { pessoa: string; nome: string })[] = [];
+  for (const p of pessoasTse)
+    for (const c of p.candidaturas)
+      if (!emOsasco(c)) lista.push({ ...c, pessoa: p.id, nome: c.urna || p.urna ? nomeProprio((c.urna ?? p.urna)!) : "Nome não informado no arquivo" });
   return lista;
 }
 

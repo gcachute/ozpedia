@@ -35,6 +35,13 @@ iomo-2947:
   data: "2026-01-07"
   consultado: "2026-11-09"
 
+iomo-2758:
+  titulo: "Imprensa Oficial do Município de Osasco, ano XXV, nº 2758 (Lei nº 5.376, de 6 de dezembro de 2024)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/site/wp-content/uploads/2024/12/iomo-2758.pdf"
+  data: "2024-12-09"
+  consultado: "2026-11-10"
+
 # Câmara dos Deputados: biografias oficiais (consultadas em 09/11/2026)
 camara-dep-francisco-rossi:
   titulo: "Biografia do deputado federal Francisco Rossi"
@@ -606,7 +613,7 @@ tjsp-acp-0015717-1996:
   titulo: "Consulta processual: Ação Civil Pública nº 0015717-46.1996.8.26.0405 (1ª Vara da Fazenda Pública de Osasco)"
   autor: "Tribunal de Justiça de São Paulo, e-SAJ"
   url: "https://esaj.tjsp.jus.br/cpopg/search.do?cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=0015717-46.1996&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=0015717-46.1996.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
-  consultado: "2026-11-09"
+  consultado: "2026-11-11"
 
 seade-francisco-rossi:
   titulo: "Informações eleitorais: Francisco Rossi de Almeida"
@@ -2143,3 +2150,273 @@ tjsp-2016-10-05-penhora:
   url: "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=37777"
   data: "2016-10-05"
   consultado: "2026-11-09"
+
+camara-dep-ribamar-silva:
+  titulo: "Deputado Ribamar Silva"
+  autor: "Câmara dos Deputados"
+  url: "https://www.camara.leg.br/deputados/175765"
+  consultado: "2026-11-10"
+
+congressoemfoco-2024-10-30-suplentes:
+  titulo: "Conheça quem são os suplentes que vão substituir deputados eleitos prefeitos"
+  autor: "Pedro Sales, Congresso em Foco"
+  url: "https://congressoemfoco.com.br/noticia/5818/conheca-quem-sao-os-suplentes-que-vao-substituir-deputados-eleitos-prefeitos"
+  data: "2024-10-30"
+  consultado: "2026-11-10"
+
+alesp-2025-01-06-posse-suplentes:
+  titulo: "Novos deputados tomam posse na Alesp; suplentes assumem vagas deixadas por eleitos em prefeituras"
+  autor: "Assembleia Legislativa do Estado de São Paulo"
+  url: "https://www.al.sp.gov.br/noticia/?id=488584"
+  data: "2025-01-06"
+  consultado: "2026-11-10"
+
+visaooeste-2016-12-06-14-vereadores:
+  titulo: "Saiba quem são os 14 vereadores que tiveram prisão preventiva decretada em Osasco"
+  autor: "Redação, Visão Oeste"
+  url: "https://visaooeste.com.br/saiba-quem-sao-os-14-vereadores-que-tiveram-prisao-preventiva-decretada-em-osasco/"
+  data: "2016-12-06"
+  consultado: "2026-11-10"
+
+abr-2016-12-06-dez-vereadores-presos:
+  titulo: "Dez vereadores são presos em Osasco em operação contra funcionários fantasma"
+  autor: "Daniel Mello, Agência Brasil"
+  url: "https://agenciabrasil.ebc.com.br/geral/noticia/2016-12/dez-vereadores-sao-presos-em-osasco-em-operacao-contra-funcionarios-fantasma"
+  data: "2016-12-06"
+  consultado: "2026-11-10"
+
+giro-2019-06-25-capriotti-condenada:
+  titulo: "Andréa Vergínio Capriotti é condenada na Caça-Fantasmas"
+  autor: "Rodolfo Andrade, Jornal Giro"
+  url: "https://girosa.com.br/andrea-verginio-capriotti-e-condenada-na-caca-fantasmas/"
+  data: "2019-06-25"
+  consultado: "2026-11-10"
+
+giro-2019-10-09-de-paula-condenado:
+  titulo: "Justiça condena vereador De Paula na \"Caça-fantasmas\" em Osasco"
+  autor: "Rodolfo Andrade, Jornal Giro"
+  url: "https://girosa.com.br/justica-condena-vereador-de-paula-na-caca-fantasmas-em-osasco/"
+  data: "2019-10-09"
+  consultado: "2026-11-10"
+
+giro-2020-07-03-batista-condenado:
+  titulo: "Batista da Comunidade é condenado na \"Caça-fantasmas\" em Osasco"
+  autor: "Redação, Jornal Giro"
+  url: "https://girosa.com.br/batista-da-comunidade-e-condenado-na-caca-fantasmas-em-osasco/"
+  data: "2020-07-03"
+  consultado: "2026-11-10"
+
+giro-2022-09-19-josias-absolvido:
+  titulo: "Osasco: Justiça absolve vereador Josias da Juco na ação Caça-Fantasmas"
+  autor: "Vanessa Dainesi, Jornal Giro"
+  url: "https://girosa.com.br/osasco-justica-absolve-vereador-josias-da-juco-na-acao-caca-fantasmas/"
+  data: "2022-09-19"
+  consultado: "2026-11-10"
+
+cnn-2026-04-29-livros:
+  titulo: "40 mil livros são recuperados após descarte indevido em Osasco"
+  autor: "Lauryn Amaral e Thomaz Coelho, CNN Brasil"
+  url: "https://www.cnnbrasil.com.br/nacional/sudeste/sp/40-mil-livros-sao-recuperados-apos-descarte-indevido-em-osasco/"
+  data: "2026-04-29"
+  consultado: "2026-11-10"
+
+tce-2024-10-23-pleno-ata:
+  titulo: "Ata da 30ª Sessão Ordinária do Tribunal Pleno, 23 de outubro de 2024 (itens 32 e 33: contas de 2021 da Prefeitura de Osasco)"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/sites/default/files/atas/2024_10_23_pleno_30so.pdf"
+  data: "2024-10-23"
+  consultado: "2026-11-10"
+
+jdro-2025-06-23-contas-lins:
+  titulo: "Com ampla maioria, Câmara de Osasco aprova contas da gestão Rogério Lins"
+  autor: "Jornal Digital da Região Oeste"
+  url: "https://jornaldigitaldaregiaooeste.com.br/com-ampla-maioria-camara-de-osasco-aprova-contas-da-gestao-rogerio-lins/"
+  data: "2025-06-23"
+  consultado: "2026-11-10"
+
+mpsp-2019-10-10-de-paula-condenado:
+  titulo: "Denunciado no âmbito da Operação Caça-Fantasmas, vereador de Osasco é condenado"
+  autor: "Ministério Público do Estado de São Paulo"
+  url: "https://www.mpsp.mp.br/w/denunciado-no-%C3%A2mbito-da-opera%C3%A7%C3%A3o-ca%C3%A7a-fantasmas-vereador-de-osasco-%C3%A9-condenado"
+  data: "2019-10-10"
+  consultado: "2026-11-10"
+
+giro-2021-02-12-sacco-absolvido-tj:
+  titulo: "EXCLUSIVO: TJ absolve André Sacco em processo da Operação Caça-Fantasmas, em Osasco"
+  autor: "Vanessa Dainesi, Jornal Giro"
+  url: "https://girosa.com.br/exclusivo-tj-absolve-andre-sacco-em-processo-da-caca-fantasmas-em-osasco/"
+  data: "2021-02-12"
+  consultado: "2026-11-10"
+
+cpaulista-2021-04-09-toniolo-absolvido:
+  titulo: "Justiça absolve Toniolo na Operação Caça-Fantasmas"
+  autor: "Robson Donizete, Correio Paulista"
+  url: "https://correiopaulista.com/justica-absolve-toniolo-na-operacao-caca-fantasmas/"
+  data: "2021-04-09"
+  consultado: "2026-11-10"
+
+cpaulista-2022-05-18-de-paula-inocentado:
+  titulo: "Ex-vereador de Osasco De Paula é inocentado na Operação Caça-Fantasmas"
+  autor: "Robson Donizete, Correio Paulista"
+  url: "https://correiopaulista.com/ex-vereador-de-osasco-de-paula-e-inocentado-na-operacao-caca-fantasmas/"
+  data: "2022-05-18"
+  consultado: "2026-11-10"
+
+tce-2014-09-11-contas-camara-2011:
+  titulo: "Tribunal julga irregulares contas 2011 do Legislativo de Osasco"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/6524-tribunal-julga-irregulares-contas-2011-do-legislativo-de-osasco"
+  data: "2014-09-11"
+  consultado: "2026-11-11"
+
+tce-2016-03-21-contas-camara-2011-recurso:
+  titulo: "Contas da Câmara de Osasco permanecem desaprovadas no TCESP"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://tce.sp.gov.br/6524-contas-da-camara-de-osasco-permanecem-desaprovadas-no-tcesp"
+  data: "2016-03-21"
+  consultado: "2026-11-11"
+
+tce-2016-06-22-voto-contas-camara-2007:
+  titulo: "Voto no TC-003219/026/07: recurso ordinário contra o julgamento das contas de 2007 da Câmara Municipal de Osasco (Tribunal Pleno, sessão de 22/06/2016)"
+  autor: "Tribunal de Contas do Estado de São Paulo, gabinete da conselheira Cristiana de Castro Moraes"
+  url: "https://tce.sp.gov.br/sites/default/files/noticias/038_-_ccm_-_osasco.pdf"
+  data: "2016-06-22"
+  consultado: "2026-11-11"
+
+tce-2016-07-01-contas-camara-2007:
+  titulo: "Câmara de Osasco continua com contas reprovadas no TCE"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://tce.sp.gov.br/6524-camara-osasco-continua-com-contas-reprovadas-tce"
+  data: "2016-07-01"
+  consultado: "2026-11-11"
+
+tce-2024-06-07-sessoes:
+  titulo: "Sessões de julgamento: confira os resumos das Câmaras e do Pleno dos dias 4 e 5/6"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://tce.sp.gov.br/6524-sessoes-julgamento-confira-resumos-camaras-e-pleno-dias-4-e-56"
+  data: "2024-06-07"
+  consultado: "2026-11-11"
+
+tce-2025-08-01-contas-irregulares:
+  titulo: "Relação de responsáveis por contas anuais julgadas irregulares (trânsito em julgado até 01/08/2025)"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/sites/default/files/portal/contas_irregulares_de_01_01_1900_a_01_08_2025_Contas_Anuais_CPF_anonimizado.pdf"
+  data: "2025-08-01"
+  consultado: "2026-11-11"
+  nota: "Lista publicada pelo Tribunal para a Justiça Eleitoral. Aqui só entram o exercício, o processo e a data do trânsito em julgado das contas da Câmara Municipal de Osasco."
+
+prefeitura-secretarias-2026-11:
+  titulo: "Secretarias"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/secretarias/"
+  consultado: "2026-11-11"
+  nota: "Página com o titular e o adjunto de cada secretaria e órgão da Prefeitura."
+
+iomo-1107:
+  titulo: "Imprensa Oficial do Município de Osasco, nº 1107 (composição das comissões permanentes da Câmara)"
+  autor: "Prefeitura de Osasco"
+  url: "https://osasco.sp.gov.br/wp-content/uploads/2015/02/httposasco.sp_.gov_.brcompsec1atosEd1107.pdf"
+  data: "2015-02-09"
+  consultado: "2026-11-11"
+
+dhbb-celso-giglio:
+  titulo: "GIGLIO, Celso (verbete biográfico)"
+  autor: "Mariana Joffily, Dicionário Histórico-Biográfico Brasileiro, CPDOC/FGV"
+  url: "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/giglio-celso"
+  consultado: "2026-11-11"
+
+tjsp-0025826-02:
+  titulo: "Ação civil pública nº 0025826-02.2008.8.26.0405 (1ª Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=B9Z080JXE0000&processo.foro=405"
+  consultado: "2026-11-11"
+
+tjsp-1016042-03:
+  titulo: "Ação civil de improbidade administrativa nº 1016042-03.2016.8.26.0405 (2ª Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=B90005DD90000&processo.foro=405"
+  consultado: "2026-11-11"
+
+tjsp-1026418-48:
+  titulo: "Ação civil de improbidade administrativa nº 1026418-48.2016.8.26.0405 (2ª Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=B90005Y3M0000&processo.foro=405"
+  consultado: "2026-11-11"
+
+tjsp-1027930-32:
+  titulo: "Ação civil de improbidade administrativa nº 1027930-32.2017.8.26.0405 (1ª Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=B900088E00000&processo.foro=405"
+  consultado: "2026-11-11"
+
+tjsp-1031636-23:
+  titulo: "Ação civil de improbidade administrativa nº 1031636-23.2017.8.26.0405 (1ª Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=B90008GCG0000&processo.foro=405"
+  consultado: "2026-11-11"
+
+tjsp-1009915-15:
+  titulo: "Ação popular nº 1009915-15.2017.8.26.0405 (2ª Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=B90006U1S0000&processo.foro=405"
+  consultado: "2026-11-11"
+
+tjsp-0011068-37:
+  titulo: "Ação penal nº 0011068-37.2016.8.26.0405 (2ª Vara Criminal de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/show.do?processo.codigo=B90004YV40000&processo.foro=405"
+  consultado: "2026-11-11"
+
+tjsp-1003819-81:
+  titulo: "Ação civil de improbidade administrativa nº 1003819-81.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003819-81.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1003819-81.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-1003980-91:
+  titulo: "Ação civil de improbidade administrativa nº 1003980-91.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003980-91.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1003980-91.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-1003992-08:
+  titulo: "Ação civil de improbidade administrativa nº 1003992-08.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003992-08.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1003992-08.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-1004095-15:
+  titulo: "Ação civil de improbidade administrativa nº 1004095-15.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1004095-15.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1004095-15.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-1003948-86:
+  titulo: "Ação civil de improbidade administrativa nº 1003948-86.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003948-86.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1003948-86.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-1003768-70:
+  titulo: "Ação civil de improbidade administrativa nº 1003768-70.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003768-70.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1003768-70.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-1003974-84:
+  titulo: "Ação civil de improbidade administrativa nº 1003974-84.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1003974-84.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1003974-84.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-1004154-03:
+  titulo: "Ação civil de improbidade administrativa nº 1004154-03.2017.8.26.0405 (Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1004154-03.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1004154-03.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-11"
+
+tjsp-2g-0011068-37:
+  titulo: "Apelação criminal nº 0011068-37.2016.8.26.0405 (10ª Câmara de Direito Criminal), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cposg/show.do?processo.codigo=RI0087DHI0000"
+  consultado: "2026-11-11"

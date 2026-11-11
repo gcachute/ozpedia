@@ -46,7 +46,8 @@ export function imagens(): Map<string, Imagem> {
 
 export function imagensDePagina(): Map<string, Imagem> {
   if (cachePaginas) return cachePaginas;
-  const lista = ler("imagens.json").paginas ?? [];
+  // Gráficos feitos pela OZpédia (scripts/gerar-graficos-camara.mjs) só entram onde o Commons não tem imagem.
+  const lista = [...(ler("imagens-proprias.json").paginas ?? []), ...(ler("imagens.json").paginas ?? [])];
   cachePaginas = new Map(lista.map((i) => [i.chave, { ...i, fonteId: `imagem-arquivo-${slug(i.arquivo)}` }]));
   return cachePaginas;
 }

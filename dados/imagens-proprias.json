@@ -1,0 +1,70 @@
+{
+ "paginas": [
+  {
+   "chave": "eleicoes/1996",
+   "arquivo": "Câmara eleita em 1996 (gráfico da OZpédia)",
+   "legenda": "Vereadores eleitos em 1996, por partido, segundo o resultado da apuração no TSE",
+   "autor": "OZpédia, com dados do Tribunal Superior Eleitoral",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://dadosabertos.tse.jus.br/",
+   "data": null,
+   "caminho": "/imagens/proprias/camara-eleita-1996.svg"
+  },
+  {
+   "chave": "legislaturas/1997-2000",
+   "arquivo": "Câmara eleita em 1996 (gráfico da OZpédia)",
+   "legenda": "Vereadores eleitos em 1996, por partido, segundo o resultado da apuração no TSE",
+   "autor": "OZpédia, com dados do Tribunal Superior Eleitoral",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://dadosabertos.tse.jus.br/",
+   "data": null,
+   "caminho": "/imagens/proprias/camara-eleita-1996.svg"
+  },
+  {
+   "chave": "eleicoes/2020",
+   "arquivo": "Câmara eleita em 2020 (gráfico da OZpédia)",
+   "legenda": "Vereadores eleitos em 2020, por partido, segundo o resultado da apuração no TSE",
+   "autor": "OZpédia, com dados do Tribunal Superior Eleitoral",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://dadosabertos.tse.jus.br/",
+   "data": null,
+   "caminho": "/imagens/proprias/camara-eleita-2020.svg"
+  },
+  {
+   "chave": "legislaturas/2021-2024",
+   "arquivo": "Câmara eleita em 2020 (gráfico da OZpédia)",
+   "legenda": "Vereadores eleitos em 2020, por partido, segundo o resultado da apuração no TSE",
+   "autor": "OZpédia, com dados do Tribunal Superior Eleitoral",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://dadosabertos.tse.jus.br/",
+   "data": null,
+   "caminho": "/imagens/proprias/camara-eleita-2020.svg"
+  },
+  {
+   "chave": "eleicoes/2024",
+   "arquivo": "Câmara eleita em 2024 (gráfico da OZpédia)",
+   "legenda": "Vereadores eleitos em 2024, por partido, segundo o resultado da apuração no TSE",
+   "autor": "OZpédia, com dados do Tribunal Superior Eleitoral",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://dadosabertos.tse.jus.br/",
+   "data": null,
+   "caminho": "/imagens/proprias/camara-eleita-2024.svg"
+  },
+  {
+   "chave": "legislaturas/2025-2028",
+   "arquivo": "Câmara eleita em 2024 (gráfico da OZpédia)",
+   "legenda": "Vereadores eleitos em 2024, por partido, segundo o resultado da apuração no TSE",
+   "autor": "OZpédia, com dados do Tribunal Superior Eleitoral",
+   "licenca": "domínio público",
+   "licencaUrl": null,
+   "pagina": "https://dadosabertos.tse.jus.br/",
+   "data": null,
+   "caminho": "/imagens/proprias/camara-eleita-2024.svg"
+  }
+ ]
+}

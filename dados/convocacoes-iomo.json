@@ -1,0 +1,927 @@
+{
+ "fonte": "Imprensa Oficial do Município de Osasco (atos da Presidência da Câmara Municipal)",
+ "url": "https://osasco.sp.gov.br/imprensa-oficial/",
+ "coletadoEm": "2026-11-11",
+ "convocacoes": [
+  {
+   "convocado": "Dionísio Alvarez Mateos Filho",
+   "apelido": null,
+   "titular": "Carlos Aparício Clemente",
+   "motivo": "judicial",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "5/2002",
+   "edicao": {
+    "numero": "251",
+    "data": "2002-11-14",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2002/11/httphomologacao.osasco.sp_.gov_.brcompsec7atosOsasco_1507143041_7-1.pdf"
+   },
+   "pessoaConvocado": "doutor-dionisio-mateos",
+   "pessoaTitular": "clemente",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Manoel Edvan Mané Cerqueira",
+   "apelido": null,
+   "titular": "Reginaldo Oliveira de Almeida",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "2/2006",
+   "edicao": {
+    "numero": "480",
+    "data": "2006-06-08",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo480.pdf"
+   },
+   "pessoaConvocado": "mane",
+   "pessoaTitular": "didi",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Rubens Bastos do Nascimento",
+   "apelido": null,
+   "titular": "Marcos Lopes Martins",
+   "motivo": "renuncia",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "3/2007",
+   "edicao": {
+    "numero": "530",
+    "data": "2007-03-22",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo530.pdf"
+   },
+   "pessoaConvocado": "rubinho-bastos",
+   "pessoaTitular": "marcos-martins",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Juvenil Lopes de Souza",
+   "apelido": null,
+   "titular": "Rogério Lins Wanderlei",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "7/2016",
+   "edicao": {
+    "numero": "1300",
+    "data": "2016-12-02",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1300-1.pdf"
+   },
+   "pessoaConvocado": "souza-lopes",
+   "pessoaTitular": "rogerio-lins",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "João Candal de Lima",
+   "apelido": null,
+   "titular": "Rogério Lins Wanderlei",
+   "motivo": "impedimento",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": "Juvenil Lopes de Souza",
+   "aPartirDe": null,
+   "ato": "8/2016",
+   "edicao": {
+    "numero": "1302",
+    "data": "2016-12-09",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1302-1.pdf"
+   },
+   "pessoaConvocado": "professor-candal",
+   "pessoaTitular": "rogerio-lins",
+   "pessoaImpedido": "souza-lopes"
+  },
+  {
+   "convocado": "Fumio Miazaki",
+   "apelido": null,
+   "titular": "Josias Nascimento de Jesus",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "9/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "miazaki",
+   "pessoaTitular": "josias-da-juco",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Francisca Jenilucia Ribeiro Soares",
+   "apelido": null,
+   "titular": "João Gois Neto",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "10/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "lucia-da-saude",
+   "pessoaTitular": "joao-gois",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Gilson Menek",
+   "apelido": null,
+   "titular": "Jair Assaf",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "11/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "gilsao",
+   "pessoaTitular": "jair-assaf",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Carlos Roberto de Almeida",
+   "apelido": null,
+   "titular": "Antonio Aparecido Toniolo",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "13/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "carlos-roberto",
+   "pessoaTitular": "toniolo",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Mônica de Oliveira Lourenço Veloso",
+   "apelido": null,
+   "titular": "Alex Sandro de Souza Sá",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "14/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "monica-veloso",
+   "pessoaTitular": "alex-da-academia",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Floriza Pinheiro Martins",
+   "apelido": null,
+   "titular": "Andre Sacco Junior",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "15/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "floriza",
+   "pessoaTitular": "dr-andre-sacco",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Wilians Vieira Santos",
+   "apelido": null,
+   "titular": "Andrea Cristina Capriotti Maier",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "16/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "wilians-da-farmacia",
+   "pessoaTitular": "andrea-verginio-capriotti",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Aluisio da Silva Pinheiro",
+   "apelido": null,
+   "titular": "Valdomiro Ventura da Silva",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "17/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "aluisio-pinheiro",
+   "pessoaTitular": "valdomiro-ventura",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Romeu Marchionno",
+   "apelido": null,
+   "titular": "Francisco de Paula Oliveira Leite",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "18/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "romeu-pepino",
+   "pessoaTitular": "de-paula-2012",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Diego Rainho de Almeida",
+   "apelido": null,
+   "titular": "Batista de Sousa Moreira",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "19/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "diego-rainho",
+   "pessoaTitular": "batista-comunidade",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Luiz Carlos Garcia",
+   "apelido": null,
+   "titular": "Olair Prado de Oliveira",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "20/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "luiz-garcia-da-locadora",
+   "pessoaTitular": "maluco-beleza",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Paulo César Dias dos Reis",
+   "apelido": null,
+   "titular": "Rogério Antonio da Silva",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "21/2016",
+   "edicao": {
+    "numero": "1305",
+    "data": "2016-12-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1305-1.pdf"
+   },
+   "pessoaConvocado": "pele-da-candida",
+   "pessoaTitular": "rogerio-silva",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Jackson Luis Luvizotto",
+   "apelido": null,
+   "titular": "Alex Sandro de Souza Sá",
+   "motivo": "impedimento",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": "Mônica de Oliveira Lourenço Veloso",
+   "aPartirDe": null,
+   "ato": "22/2016",
+   "edicao": {
+    "numero": "1306",
+    "data": "2016-12-20",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1306-1.pdf"
+   },
+   "pessoaConvocado": "jackson-luvizotto",
+   "pessoaTitular": "alex-da-academia",
+   "pessoaImpedido": "monica-veloso"
+  },
+  {
+   "convocado": "Nelson Matias da Silva",
+   "apelido": null,
+   "titular": "Valdomiro Ventura da Silva",
+   "motivo": "impedimento",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": "Aluisio da Silva Pinheiro",
+   "aPartirDe": null,
+   "ato": "23/2016",
+   "edicao": {
+    "numero": "1306",
+    "data": "2016-12-20",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2016/12/httposasco.sp_.gov_.brcompsec1atosEd1306-1.pdf"
+   },
+   "pessoaConvocado": "nelsinho",
+   "pessoaTitular": "valdomiro-ventura",
+   "pessoaImpedido": "aluisio-pinheiro"
+  },
+  {
+   "convocado": "Antonio Renato Bonin",
+   "apelido": null,
+   "titular": "Ana Paula Rossi de Almeida Magdesian",
+   "motivo": "cargo",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": "Secretária Municipal da Secretaria de Educação",
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "1/2017",
+   "edicao": {
+    "numero": "1314",
+    "data": "2017-01-13",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2017/01/httposasco.sp_.gov_.brcompsec1atosEd1314.pdf"
+   },
+   "pessoaConvocado": "dr-renato-bonin",
+   "pessoaTitular": "ana-paula-rossi",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Altair Soares",
+   "apelido": "Altair da Padaria",
+   "titular": "Ribamar Antonio da Silva",
+   "motivo": "licenca",
+   "dias": 45,
+   "diasExtenso": "quarenta e cinco",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2018-08-30",
+   "ato": "14/2018",
+   "edicao": {
+    "numero": "1538",
+    "data": "2018-08-29",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2018/08/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1535593036_7.pdf"
+   },
+   "pessoaConvocado": "altair-da-padaria",
+   "pessoaTitular": "ribamar-silva",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Antonio Renato Bonin",
+   "apelido": null,
+   "titular": "Ana Paula Rossi",
+   "motivo": "licenca",
+   "dias": 40,
+   "diasExtenso": "quarenta",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2018-08-30",
+   "ato": "16/2018",
+   "edicao": {
+    "numero": "1538",
+    "data": "2018-08-29",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2018/08/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1535593036_7.pdf"
+   },
+   "pessoaConvocado": "dr-renato-bonin",
+   "pessoaTitular": "ana-paula-rossi",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "José Carlos Ferreira Silva",
+   "apelido": "Zé Carlos Santa Maria",
+   "titular": "Daniel Matias da Silva",
+   "motivo": "licenca",
+   "dias": 45,
+   "diasExtenso": "quarenta e cinco",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2018-08-31",
+   "ato": "12/2018",
+   "edicao": {
+    "numero": "1541",
+    "data": "2018-09-06",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2018/09/httposasco.sp_.gov_.brcompsec7atosOsasco_1536289004_7.pdf"
+   },
+   "pessoaConvocado": "ze-carlos-do-santa-maria",
+   "pessoaTitular": "daniel-matias",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Sebastião Bognar",
+   "apelido": null,
+   "titular": "Reginaldo Oliveira de Almeida",
+   "motivo": "licenca",
+   "dias": 30,
+   "diasExtenso": "trinta",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2018-09-17",
+   "ato": "21/2018",
+   "edicao": {
+    "numero": "1545",
+    "data": "2018-09-17",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2018/09/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1537227971_7.pdf"
+   },
+   "pessoaConvocado": "bognar",
+   "pessoaTitular": "didi",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Silvio Barbosa Lopes Filho",
+   "apelido": null,
+   "titular": "Sebastião Bognar",
+   "motivo": "licenca",
+   "dias": 30,
+   "diasExtenso": "trinta",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2018-09-18",
+   "ato": "24/2018",
+   "edicao": {
+    "numero": "1546",
+    "data": "2018-09-19",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2018/09/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1537406995_7.pdf"
+   },
+   "pessoaConvocado": "silvio-lopes",
+   "pessoaTitular": "bognar",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Nestor Ferreira dos Santos",
+   "apelido": null,
+   "titular": "Sebastião Bognar",
+   "motivo": "licenca",
+   "dias": 30,
+   "diasExtenso": "trinta",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2018-09-20",
+   "ato": "25/2018",
+   "edicao": {
+    "numero": "1546",
+    "data": "2018-09-19",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2018/09/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1537406995_7.pdf"
+   },
+   "pessoaConvocado": "nestor-do-algodao-doce",
+   "pessoaTitular": "bognar",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Délbio Camargo Teruel",
+   "apelido": null,
+   "titular": "Claúdio Henrique da Silva",
+   "motivo": "cargo",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": "Secretário Municipal de Cultura",
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "6/2021",
+   "edicao": {
+    "numero": "1995",
+    "data": "2021-02-22",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2021/02/iomo-1995.pdf"
+   },
+   "pessoaConvocado": "delbio-teruel",
+   "pessoaTitular": "claudio-da-locadora",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Laércio Patrício de Mendonça",
+   "apelido": null,
+   "titular": "Ribamar Antonio da Silva",
+   "motivo": "licenca",
+   "dias": 55,
+   "diasExtenso": "cinquenta e cinco",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2022-08-13",
+   "ato": "5/2022",
+   "edicao": {
+    "numero": "2284",
+    "data": "2022-08-15",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2022/08/iomo-2284.pdf"
+   },
+   "pessoaConvocado": "laercio-mendonca",
+   "pessoaTitular": "ribamar-silva",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Eron Gregório Silveira",
+   "apelido": null,
+   "titular": "Adauto Leonildo de Souza",
+   "motivo": "licenca",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2023-03-03",
+   "ato": "2/2023",
+   "edicao": {
+    "numero": "2405",
+    "data": "2023-03-10",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2023/03/iomo-2405.pdf"
+   },
+   "pessoaConvocado": "eron-silveira",
+   "pessoaTitular": "adauto-to",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Rodrigo Mendes Pascoto",
+   "apelido": null,
+   "titular": "José Rogério Soares dos Santos",
+   "motivo": "renuncia",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "3/2023",
+   "edicao": {
+    "numero": "2408",
+    "data": "2023-03-15",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2023/03/iomo-2408.pdf"
+   },
+   "pessoaConvocado": "rodrigo-gansinho",
+   "pessoaTitular": "rogerio-santos",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Laércio Patrício de Mendonça",
+   "apelido": null,
+   "titular": "Ribamar Antônio da Silva",
+   "motivo": "cargo",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": "Secretário Municipal da Casa Civil",
+   "impedido": null,
+   "aPartirDe": "2023-05-19",
+   "ato": "4/2023",
+   "edicao": {
+    "numero": "2443",
+    "data": "2023-05-19",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2023/05/iomo-2443.pdf"
+   },
+   "pessoaConvocado": "laercio-mendonca",
+   "pessoaTitular": "ribamar-silva",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Eron Gregório Silveira",
+   "apelido": null,
+   "titular": "Adauto Leonildo de Souza",
+   "motivo": "licenca",
+   "dias": 30,
+   "diasExtenso": "trinta",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2024-03-14",
+   "ato": "4/2024",
+   "edicao": {
+    "numero": "2607",
+    "data": "2024-03-13",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2024/03/iomo-2607.pdf"
+   },
+   "pessoaConvocado": "eron-silveira",
+   "pessoaTitular": "adauto-to",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Gilma Maria Ramos da Silva Rossafa",
+   "apelido": null,
+   "titular": "Adauto Leonildo de Souza",
+   "motivo": "impedimento",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": "Eron Gregório Silveira",
+   "aPartirDe": null,
+   "ato": "5/2024",
+   "edicao": {
+    "numero": "2611",
+    "data": "2024-03-20",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2024/03/iomo-2611.pdf"
+   },
+   "pessoaConvocado": "gilma-rossafa",
+   "pessoaTitular": "adauto-to",
+   "pessoaImpedido": "eron-silveira"
+  },
+  {
+   "convocado": "Levi Nantes de Santiago",
+   "apelido": null,
+   "titular": "Adauto Leonildo de Souza",
+   "motivo": "impedimento",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": null,
+   "impedido": "Gilberto Cosimo Peixoto da Silva",
+   "aPartirDe": null,
+   "ato": "8/2024",
+   "edicao": {
+    "numero": "2619",
+    "data": "2024-04-03",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2024/04/iomo-2619.pdf"
+   },
+   "pessoaConvocado": "levi-nantess",
+   "pessoaTitular": "adauto-to",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Claudinei José Simão",
+   "apelido": null,
+   "titular": "Ribamar Antônio da Silva",
+   "motivo": "cargo",
+   "dias": null,
+   "diasExtenso": null,
+   "cargo": "Secretário Municipal da Casa Civil",
+   "impedido": null,
+   "aPartirDe": null,
+   "ato": "9/2024",
+   "edicao": {
+    "numero": "2637",
+    "data": "2024-05-08",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2024/05/iomo-2637.pdf"
+   },
+   "pessoaConvocado": "dinei-simao",
+   "pessoaTitular": "ribamar-silva",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Alexandre de Jesus Capriotti",
+   "apelido": null,
+   "titular": "Ana Paula Rossi de Almeida Magdesian",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2024-05-31",
+   "ato": "10/2024",
+   "edicao": {
+    "numero": "2648",
+    "data": "2024-05-29",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2024/05/iomo-2648.pdf"
+   },
+   "pessoaConvocado": "alexandre-capriotti",
+   "pessoaTitular": "ana-paula-rossi",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "José Nunes dos Santos",
+   "apelido": null,
+   "titular": "Rodrigo Mendes Pascoto",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2024-05-31",
+   "ato": "11/2024",
+   "edicao": {
+    "numero": "2648",
+    "data": "2024-05-29",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2024/05/iomo-2648.pdf"
+   },
+   "pessoaConvocado": "bispo-nunes",
+   "pessoaTitular": "rodrigo-gansinho",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Guilherme Garbis Magdesian",
+   "apelido": null,
+   "titular": "Batista de Sousa Moreira",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2025-05-06",
+   "ato": "6/2025",
+   "edicao": {
+    "numero": "2836",
+    "data": "2025-04-28",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2025/04/iomo-2836.pdf"
+   },
+   "pessoaConvocado": "guiga",
+   "pessoaTitular": "batista-comunidade",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Rodolfo Rodrigues Cara",
+   "apelido": null,
+   "titular": "Francisca Jenilúcia Ribeiro de Andrade",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2025-05-06",
+   "ato": "7/2025",
+   "edicao": {
+    "numero": "2838",
+    "data": "2025-05-05",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2025/05/iomo-2838.pdf"
+   },
+   "pessoaConvocado": "rodolfo-cara",
+   "pessoaTitular": "lucia-da-saude",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "André Luís Alves Pereira",
+   "apelido": null,
+   "titular": "Ralfi Rafael da Silva",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2025-06-02",
+   "ato": "8/2025",
+   "edicao": {
+    "numero": "2853",
+    "data": "2025-06-04",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2025/06/iomo-2853.pdf"
+   },
+   "pessoaConvocado": "andrezinho",
+   "pessoaTitular": "ralfi-silva",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "André Luis Alves Pereira",
+   "apelido": null,
+   "titular": "Sergio Augusto Fontellas dos Santos",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2025-09-02",
+   "ato": "9/2025",
+   "edicao": {
+    "numero": "2894",
+    "data": "2025-09-03",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2025/09/iomo-2894.pdf"
+   },
+   "pessoaConvocado": "andrezinho",
+   "pessoaTitular": "sergio-fontellas",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Helder de Jesus Oliveira",
+   "apelido": null,
+   "titular": "Sergio Augusto Fontellas dos Santos",
+   "motivo": "impedimento",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": "André Luis Alves Pereira",
+   "aPartirDe": "2025-09-02",
+   "ato": "10/2025",
+   "edicao": {
+    "numero": "2894",
+    "data": "2025-09-03",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2025/09/iomo-2894.pdf"
+   },
+   "pessoaConvocado": "helder-oliveira",
+   "pessoaTitular": "sergio-fontellas",
+   "pessoaImpedido": "andrezinho"
+  },
+  {
+   "convocado": "Rodolfo Rodrigues Cara",
+   "apelido": null,
+   "titular": "Francisca Jenilúcia Ribeiro de Andrade",
+   "motivo": "licenca",
+   "dias": 60,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2025-11-05",
+   "ato": "12/2025",
+   "edicao": {
+    "numero": "2924",
+    "data": "2025-11-07",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2025/11/iomo-2924.pdf"
+   },
+   "pessoaConvocado": "rodolfo-cara",
+   "pessoaTitular": "lucia-da-saude",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "José Carlos Ferreira Silva",
+   "apelido": null,
+   "titular": "Pedro Cantagessi Vitoriano",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2026-06-08",
+   "ato": "4/2026",
+   "edicao": {
+    "numero": "3012",
+    "data": "2026-06-03",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2026/06/iomo-3012.pdf"
+   },
+   "pessoaConvocado": "ze-carlos-do-santa-maria",
+   "pessoaTitular": "pedrinho-cantagessi",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Rodrigo Mendes Pascoto",
+   "apelido": null,
+   "titular": "Alexandre de Jesus Capriotti",
+   "motivo": "licenca",
+   "dias": 31,
+   "diasExtenso": "trinta e um",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2026-06-10",
+   "ato": "5/2026",
+   "edicao": {
+    "numero": "3015",
+    "data": "2026-06-10",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2026/06/iomo-3015_alt.pdf"
+   },
+   "pessoaConvocado": "rodrigo-gansinho",
+   "pessoaTitular": "alexandre-capriotti",
+   "pessoaImpedido": null
+  },
+  {
+   "convocado": "Fábio Chirinhan",
+   "apelido": null,
+   "titular": "Paulo José da Silva Júnior",
+   "motivo": "licenca",
+   "dias": 120,
+   "diasExtenso": "cento e vinte",
+   "cargo": null,
+   "impedido": null,
+   "aPartirDe": "2026-06-15",
+   "ato": "6/2026",
+   "edicao": {
+    "numero": "3017",
+    "data": "2026-06-12",
+    "url": "https://osasco.sp.gov.br/wp-content/uploads/2026/06/iomo-3017.pdf"
+   },
+   "pessoaConvocado": "fabio-chirinhan",
+   "pessoaTitular": "pr-paulo-junior",
+   "pessoaImpedido": null
+  }
+ ]
+}

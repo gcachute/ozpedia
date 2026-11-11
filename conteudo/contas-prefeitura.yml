@@ -1,0 +1,139 @@
+# Julgamento das contas anuais da Prefeitura pela Câmara Municipal, pelos decretos legislativos publicados na Imprensa
+# Oficial do Município (IOMO). Cada entrada foi lida no texto da edição indicada.
+# exercicio: ano das contas; resultado: aprovadas | rejeitadas; decreto: número do decreto legislativo;
+# deliberacao: data da votação no plenário, quando o decreto informa; parecerTce: o que o decreto diz do parecer
+# prévio do Tribunal de Contas do Estado, quando diz; edicao: a edição em que o decreto foi publicado.
+# Anos sem entrada: o decreto não foi achado nas edições disponíveis no site da Prefeitura (2011 a 2013 não têm edições).
+
+- exercicio: 2002
+  resultado: aprovadas
+  decreto: "3/2006"
+  deliberacao: "2006-03-14"
+  edicao: { numero: "468", data: "2006-03-23", url: "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo468.pdf" }
+
+- exercicio: 2003
+  resultado: aprovadas
+  decreto: "26/2007"
+  deliberacao: "2007-08-28"
+  edicao: { numero: "556", data: "2007-09-06", url: "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo556.pdf" }
+
+- exercicio: 2004
+  resultado: rejeitadas
+  decreto: "33/2008"
+  deliberacao: "2008-12-19"
+  edicao: { numero: "632", data: "2008-12-23", url: "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo632.pdf" }
+  parecer: { texto: "Parecer do Tribunal de Contas pela rejeição. Segundo o Consultor Jurídico, em março de 2013 a Justiça anulou o Decreto Legislativo nº 32/2011, que rejeitava as contas de 2001 a 2004, e mandou a Câmara decidir de novo.", fontes: [conjur-2013-03-13-contas-giglio] }
+
+- exercicio: 2005
+  resultado: aprovadas
+  fonte: mural-2019-04-29-contas-prefeitos
+  nota: "Segundo a Agência Mural, a Câmara aprovou as oito contas anuais da gestão de 2005 a 2012; o decreto deste ano não foi achado nas edições disponíveis."
+
+- exercicio: 2006
+  resultado: aprovadas
+  fonte: mural-2019-04-29-contas-prefeitos
+  nota: "Segundo a Agência Mural, a Câmara aprovou as oito contas anuais da gestão de 2005 a 2012; o decreto deste ano não foi achado nas edições disponíveis."
+
+- exercicio: 2007
+  resultado: aprovadas
+  decreto: "18/2010"
+  deliberacao: "2010-05-11"
+  edicao: { numero: "717", data: "2010-05-14", url: "https://osasco.sp.gov.br/wp-content/uploads/2022/02/iomo717.pdf" }
+
+- exercicio: 2008
+  resultado: aprovadas
+  fonte: mural-2019-04-29-contas-prefeitos
+  nota: "Segundo a Agência Mural, a Câmara aprovou as oito contas anuais da gestão de 2005 a 2012; o decreto deste ano não foi achado nas edições disponíveis."
+
+- exercicio: 2009
+  resultado: aprovadas
+  fonte: mural-2019-04-29-contas-prefeitos
+  nota: "Segundo a Agência Mural, a Câmara aprovou as oito contas anuais da gestão de 2005 a 2012; o decreto deste ano não foi achado nas edições disponíveis."
+
+- exercicio: 2010
+  resultado: aprovadas
+  fonte: mural-2019-04-29-contas-prefeitos
+  nota: "Segundo a Agência Mural, a Câmara aprovou as oito contas anuais da gestão de 2005 a 2012; o decreto deste ano não foi achado nas edições disponíveis."
+
+- exercicio: 2011
+  resultado: aprovadas
+  decreto: "13/2015"
+  edicao: { numero: "1147", data: "2015-06-13", url: "https://osasco.sp.gov.br/wp-content/uploads/2015/06/httposasco.sp_.gov_.brcompsec1atosEd1147.pdf" }
+
+- exercicio: 2012
+  resultado: aprovadas
+  decreto: "29/2015"
+  edicao: { numero: "1179", data: "2015-10-06", url: "https://osasco.sp.gov.br/wp-content/uploads/2015/10/httposasco.sp_.gov_.brcompsec1atosEd1179.pdf" }
+
+- exercicio: 2013
+  resultado: rejeitadas
+  decreto: "7/2017"
+  deliberacao: "2017-08-01"
+  parecerTce: contrário
+  nota: "O plenário rejeitou o projeto de decreto legislativo que aprovava as contas; com isso prevaleceu o parecer contrário do Tribunal de Contas."
+  edicao: { numero: "1374", data: "2017-08-04", url: "https://osasco.sp.gov.br/wp-content/uploads/2017/08/httphomologacao.osasco.sp_.gov_.brcompsec1atosOsasco_1505133449_1.pdf" }
+
+- exercicio: 2014
+  resultado: rejeitadas
+  decreto: "3/2018"
+  deliberacao: "2018-03-20"
+  nota: "O decreto diz que prevaleceu o parecer prévio do Tribunal de Contas."
+  edicao: { numero: "1470", data: "2018-03-23", url: "https://osasco.sp.gov.br/wp-content/uploads/2018/03/httpwww.osasco.sp_.gov_.brcompsec7atosOsasco_1521854284_7.pdf" }
+
+- exercicio: 2015
+  resultado: rejeitadas
+  decreto: "15/2019"
+  deliberacao: "2019-04-29"
+  parecerTce: contrário
+  nota: "Votação em sessão extraordinária."
+  edicao: { numero: "1656", data: "2019-05-10", url: "https://osasco.sp.gov.br/wp-content/uploads/2019/05/httphomologacao.osasco.sp_.gov_.brcompsec7atosOsasco_1557540605_7.pdf" }
+
+- exercicio: 2016
+  resultado: aprovadas
+  decreto: "9/2020"
+  edicao: { numero: "1872", data: "2020-07-01", url: "https://osasco.sp.gov.br/wp-content/uploads/2020/07/httposasco.sp_.gov_.brcompsec7atosOsasco_1593703010_7.pdf" }
+
+- exercicio: 2017
+  resultado: aprovadas
+  decreto: "5/2021"
+  edicao: { numero: "2070", data: "2021-07-07", url: "https://osasco.sp.gov.br/wp-content/uploads/2021/07/iomo-2070.pdf" }
+  parecer: { texto: "Parecer desfavorável do Tribunal de Contas (aplicação de 21,45% em educação); a Câmara aprovou por 19 votos a 1.", fontes: [girosa-2022-06-06-contas-2017] }
+
+- exercicio: 2018
+  resultado: aprovadas
+  decreto: "58/2022"
+  edicao: { numero: "2359", data: "2022-12-19", url: "https://osasco.sp.gov.br/wp-content/uploads/2022/12/iomo-2359.pdf" }
+
+- exercicio: 2019
+  resultado: aprovadas
+  decreto: "59/2022"
+  edicao: { numero: "2359", data: "2022-12-19", url: "https://osasco.sp.gov.br/wp-content/uploads/2022/12/iomo-2359.pdf" }
+
+- exercicio: 2020
+  resultado: aprovadas
+  decreto: "30/2023"
+  edicao: { numero: "2451", data: "2023-05-31", url: "https://osasco.sp.gov.br/wp-content/uploads/2023/05/iomo-2451.pdf" }
+
+- exercicio: 2021
+  resultado: aprovadas
+  decreto: "35/2025"
+  edicao: { numero: "2858", data: "2025-06-18", url: "https://osasco.sp.gov.br/wp-content/uploads/2025/06/iomo-2858.pdf" }
+  parecer: { texto: "Parecer desfavorável da Segunda Câmara do Tribunal de Contas, publicado em 29 de novembro de 2023; o reexame foi retirado de pauta em 23 de outubro de 2024. Segundo o Jornal Digital da Região Oeste, na votação de 2025 o parecer era favorável, com ressalvas.", fontes: [tce-2024-10-23-pleno-ata, jdro-2025-06-23-contas-lins] }
+
+- exercicio: 2022
+  resultado: aprovadas
+  decreto: "36/2025"
+  edicao: { numero: "2858", data: "2025-06-18", url: "https://osasco.sp.gov.br/wp-content/uploads/2025/06/iomo-2858.pdf" }
+  parecer: { texto: "Parecer desfavorável do Tribunal de Contas; em 12 de março de 2025, o Pleno do Tribunal deu provimento ao pedido de reexame da Prefeitura.", fontes: [tce-2024-03-05-contas-2022, tce-2025-03-12-pleno] }
+
+- exercicio: 2023
+  resultado: aprovadas
+  decreto: "52/2025"
+  edicao: { numero: "2902", data: "2025-09-22", url: "https://osasco.sp.gov.br/wp-content/uploads/2025/09/iomo-2902.pdf" }
+  parecer: { texto: "Parecer favorável do Tribunal de Contas.", fontes: [cpaulista-2025-09-19-contas-2023] }
+
+- exercicio: 2024
+  resultado: aprovadas
+  decreto: "73/2026"
+  edicao: { numero: "3112", data: "2026-10-27", url: "https://osasco.sp.gov.br/wp-content/uploads/2026/10/iomo-3112.pdf" }
+  parecer: { texto: "Parecer favorável do Tribunal de Contas.", fontes: [cpaulista-2026-10-24-contas-2024] }

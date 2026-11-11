@@ -40,5 +40,8 @@ export function markdown(texto: string, refs: Referencias): string {
     renderer: (t) => chamada(refs.cita(t.id)),
   };
   const md = new Marked({ extensions: [wiki, cita], gfm: true });
-  return md.parse(texto, { async: false }) as string;
+  // Tabelas com o mesmo estilo das tabelas geradas, dentro de uma caixa com rolagem lateral no celular.
+  return (md.parse(texto, { async: false }) as string)
+    .replace(/<table>/g, '<div class="overflow-x-auto"><table class="tabela">')
+    .replace(/<\/table>/g, "</table></div>");
 }

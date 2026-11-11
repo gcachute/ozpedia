@@ -255,6 +255,8 @@ export default async function PaginaEleicao({ params }: Props) {
               Fonte: Tribunal Superior Eleitoral, candidaturas
               <Cita n={nCand} /> e votação nominal nas zonas de Osasco.
               <Cita n={nRes} /> Resultado registrado pelo TSE no fim da apuração; mudanças posteriores (posse de suplentes, decisões da Justiça) não aparecem aqui.
+              {ano === 1996 &&
+                " No arquivo de 1996, o campo de nome de urna traz o nome civil; para quem disputou eleições depois, a tabela mostra o nome de urna mais recente."}
             </p>
           </Secao>
         </>

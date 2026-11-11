@@ -4,6 +4,8 @@ import { Artigo, Cita, LinkPagina, NomePessoa, Quadro, Secao, SiglaPartido, Text
 import { escrita } from "@/lib/conteudo";
 import { chavePartido, eleitosCamara, eleicoes, legislaturas, pessoa, pessoaDoNome } from "@/lib/dados";
 import { CAMARA } from "@/lib/camara";
+import { TabelaConvocacoes } from "@/components/convocacoes";
+import { convocacoesEntre } from "@/lib/convocacoes";
 import { Referencias } from "@/lib/fontes";
 import { imagemPagina } from "@/lib/imagens";
 import { markdown } from "@/lib/markdown";
@@ -50,6 +52,7 @@ export default async function PaginaLegislatura({ params }: Props) {
   const anosPresidente = (nome: string) => leg.sessoes.filter((s) => s.mesa.some((m) => m.cargo === "Presidente" && m.nome === nome)).map((s) => s.inicio.slice(0, 4));
   const eleicaoTemPagina = l.ano != null && eleicoes().some((x) => x.ano === l.ano);
   const atual = l.numero === Math.max(...lista.map((x) => x.numero));
+  const convs = convocacoesEntre(leg.inicio, leg.fim);
 
   // Vagas por partido, de quem o TSE registrou como eleito.
   const porPartido = [
@@ -184,6 +187,16 @@ export default async function PaginaLegislatura({ params }: Props) {
           </>
         )}
       </Secao>
+
+      {convs.length > 0 && (
+        <Secao titulo="Suplentes convocados">
+          <p className="mb-3 text-sm text-tinta-suave">
+            Atos da Presidência da Câmara publicados na Imprensa Oficial do Município, com o nome como publicado. Todos os atos encontrados estão em{" "}
+            <LinkPagina caminho="camara/suplentes" />.
+          </p>
+          <TabelaConvocacoes lista={convs} refs={refs} />
+        </Secao>
+      )}
 
       <Secao titulo="Mesa Diretora">
         <div className="overflow-x-auto">

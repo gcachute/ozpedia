@@ -3,10 +3,15 @@ import { notFound } from "next/navigation";
 import { Artigo, Cita, imagemParaQuadro, LinkPagina, Quadro, Secao, SiglaPartido, TextoEscrito, type LinhaQuadro } from "@/components/artigo";
 import { TabelaLeis, TabelaProjetos, TabelaVetos } from "@/components/camara";
 import { CAMARA, leisDe, perfilCamara, projetosDe, vetosDe } from "@/lib/camara";
-import { escrita } from "@/lib/conteudo";
-import { ANOS_MUNICIPAIS, mandatosCamara, chavePartido, emOsasco, partidoDe, pessoa, pessoas, rotuloResultado, siglaExibida, venceu } from "@/lib/dados";
+import { escrita, escritas } from "@/lib/conteudo";
+import { TabelaConvocacoes } from "@/components/convocacoes";
+import { convocacoesDe, licencasDe } from "@/lib/convocacoes";
+import { EXERCERAM, ANOS_MUNICIPAIS, mandatosCamara, chavePartido, emOsasco, partidoDe, pessoa, pessoas, rotuloResultado, siglaExibida, venceu } from "@/lib/dados";
 import { Referencias } from "@/lib/fontes";
 import { sucessaoPrefeitura } from "@/lib/prefeitos";
+import { fonteEdicao, homenagensA, idLeiIomo, leiIomo, leisAssinadasPor } from "@/lib/leis";
+import { anoSancao, FONTE_SANCOES, leisDeAutoriaTodas, textoVeto, vetadosDeAutoria, vetoDe } from "@/lib/sancoes";
+import { Autoria as AutoriaLei } from "@/components/camara";
 import { imagemDe, imagemPagina } from "@/lib/imagens";
 import { comArtigo, instituicao, ordemCargo } from "@/lib/cargos";
 import { markdown } from "@/lib/markdown";
@@ -135,7 +140,10 @@ export default async function PaginaPessoa({ params }: Props) {
   if (venceuPara.length) linhas.push({ rotulo: "Venceu a eleição para", valor: venceuPara, cita: nTse });
   // Mandatos registrados em biografias e documentos (o que os dados do TSE não cobrem), cada um com a fonte.
   const prefeitoNaSucessao = sucessao.some((m) => m.pessoa === id);
-  const escritos = (e?.cab.cargos ?? []).filter((c) => !(prefeitoNaSucessao && c.cargo === "Prefeitura de Osasco")).map((c) => (
+  const viceNaSucessao = sucessao.some((m) => m.vicePessoa === id);
+  const escritos = (e?.cab.cargos ?? [])
+    .filter((c) => !(prefeitoNaSucessao && c.cargo === "Prefeitura de Osasco") && !(viceNaSucessao && c.cargo === "Vice-prefeitura de Osasco"))
+    .map((c) => (
     <span key={c.cargo + (c.eleicao ?? c.periodo)} className="block">
       {c.cargo} ({c.periodo ?? `eleição de ${c.eleicao}`})
       <Cita n={refs.cita(c.fonte)} />
@@ -197,6 +205,23 @@ export default async function PaginaPessoa({ params }: Props) {
   const projetos = projetosDe(id);
   const temCamara = leis.length + vetos.length + projetos.length > 0;
   const nSessoes = temCamara ? refs.cita("camara-sessoes") : 0;
+
+  // ---------- Leis publicadas na Imprensa Oficial do Município ----------
+  const leisAutoria = leisDeAutoriaTodas(id);
+  const vetados = vetadosDeAutoria(id);
+  const nSan = leisAutoria.some((l) => l.fonte === "camara") || vetados.length ? refs.cita(FONTE_SANCOES) : 0;
+  const leisAssinadas = leisAssinadasPor(id);
+  const nIomo = leisAutoria.some((l) => l.fonte === "iomo") || leisAssinadas.length ? refs.cita("iomo-edicoes") : 0;
+  const assinadasPorAno = [...leisAssinadas.reduce((m, l) => m.set(l.data.slice(0, 4), (m.get(l.data.slice(0, 4)) ?? 0) + 1), new Map<string, number>())].sort();
+
+  // ---------- Convocações de suplentes (atos da Presidência da Câmara) ----------
+  const convocado = convocacoesDe(id);
+  const substituido = licencasDe(id);
+  const homenagens = homenagensA(id);
+  // Páginas de fatos que citam a pessoa (link no texto ou na lista de páginas relacionadas).
+  const fatos = escritas("fatos").filter(
+    (f) => f.corpo.includes(`[[pessoas/${id}|`) || f.corpo.includes(`[[pessoas/${id}]]`) || f.cab.relacionados?.includes(`pessoas/${id}`),
+  );
 
   // ---------- Texto ----------
   // Modelo de verbete: abertura e seções escritas primeiro; "Controvérsias" e "Prêmios e honrarias" depois do desempenho eleitoral.
@@ -272,6 +297,20 @@ export default async function PaginaPessoa({ params }: Props) {
               )}
             </p>
           )}
+          {EXERCERAM.filter((x) => x.pessoa === id).map((x) => (
+            <p key={x.legislatura}>
+              Exerceu mandato de vereador na <LinkPagina caminho={`legislaturas/${x.legislatura}`} />, como suplente, com o nome {x.nomes.at(-1)}. {x.nota}
+              <Cita n={x.fontes.map((f) => refs.cita(f))} />
+            </p>
+          ))}
+          {convocado.length > 0 && (
+            <p>
+              {convocado.length === 1 ? "Uma convocação" : `${convocado.length} convocações`} da Presidência da <LinkPagina caminho="camara" /> para assumir a vaga de um
+              titular, como suplente, {convocado.length === 1 ? "foi publicada" : "foram publicadas"} na Imprensa Oficial do Município
+              {convocado.length === 1 ? `, em ${dataPorExtenso(convocado[0].edicao.data)}` : `, a primeira em ${dataPorExtenso(convocado[0].edicao.data)}`}.
+              <Cita n={refs.cita(`iomo-${convocado[0].edicao.numero}`)} />
+            </p>
+          )}
           {temCamara && (
             <p>
               Nas sessões da <LinkPagina caminho="camara" /> realizadas entre {periodo}, {projetos.length === 1 ? "foi lida uma proposição" : `foram lidas ${numero(projetos.length)} proposições`} de sua autoria
@@ -321,6 +360,141 @@ export default async function PaginaPessoa({ params }: Props) {
         </Secao>
       )}
 
+      {(leisAutoria.length > 0 || leisAssinadas.length > 0 || vetados.length > 0) && (
+        <Secao titulo="Leis municipais">
+          {leisAssinadas.length > 0 && (
+            <p className="mb-4">
+              Assinou {numero(leisAssinadas.length)} {leisAssinadas.length === 1 ? "lei publicada" : "leis publicadas"} na Imprensa Oficial do Município, por ano:{" "}
+              {assinadasPorAno.map(([ano, n], i) => (
+                <span key={ano}>
+                  {i > 0 && ", "}
+                  <LinkPagina caminho={`leis/ano/${ano}`}>{ano}</LinkPagina> ({numero(n)})
+                </span>
+              ))}
+              .<Cita n={nIomo} />
+            </p>
+          )}
+          {leisAutoria.length > 0 && (
+            <>
+              <h3 className="mb-2 font-bold">Leis de projetos de sua autoria ({numero(leisAutoria.length)})</h3>
+              <p className="mb-2 text-sm text-tinta-suave">
+                Autoria como publicada na Imprensa Oficial do Município, junto do texto de cada lei; quando a publicação não informa, a da tabela de sanções de
+                leis da Câmara. Leis marcadas com * só aparecem nessa tabela.
+                <Cita n={[nIomo, nSan].filter(Boolean)} />
+              </p>
+              <div className="mb-6 overflow-x-auto">
+                <table className="tabela">
+                  <thead>
+                    <tr>
+                      <th>Lei</th>
+                      <th>Data</th>
+                      <th>Ementa</th>
+                      {leisAutoria.some((l) => l.outros.length > 1) && <th>Autoria</th>}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {leisAutoria.map((l) => (
+                      <tr key={l.id}>
+                        <td className="whitespace-nowrap">
+                          <LinkPagina caminho={`leis/${l.id}`}>{l.lei.replace("Lei nº", "Lei").replace("Lei Complementar nº", "LC")}</LinkPagina>
+                          {!leiIomo(l.id) && "*"}
+                        </td>
+                        <td className="whitespace-nowrap">{l.data ? l.data.split("-").reverse().join("/") : l.ano}</td>
+                        <td>{l.ementa}</td>
+                        {leisAutoria.some((x) => x.outros.length > 1) && (
+                          <td>
+                            <AutoriaLei autores={l.outros} />
+                          </td>
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )}
+          {vetados.length > 0 && (
+            <>
+              <h3 className="mb-2 font-bold">Projetos de sua autoria vetados ({numero(vetados.length)})</h3>
+              <p className="mb-2 text-sm text-tinta-suave">
+                Projetos aprovados pela Câmara que a tabela de sanções de leis registra como vetados pela Prefeitura, sem número de lei.
+                <Cita n={nSan} />
+              </p>
+              <div className="mb-6 overflow-x-auto">
+                <table className="tabela">
+                  <thead>
+                    <tr>
+                      <th>Ano</th>
+                      <th>Projeto</th>
+                      <th>Veto</th>
+                      <th>Assunto</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {vetados.map((v, k) => (
+                      <tr key={k}>
+                        <td>{anoSancao(v) ?? "—"}</td>
+                        <td className="whitespace-nowrap">{v.projeto ? `PL ${v.projeto}` : "—"}</td>
+                        <td>{textoVeto(vetoDe(v)!)}</td>
+                        <td>{v.assunto}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )}
+        </Secao>
+      )}
+
+      {(convocado.length > 0 || substituido.length > 0) && (
+        <Secao titulo="Convocações de suplentes">
+          <p className="mb-3 text-sm text-tinta-suave">
+            Atos da Presidência da Câmara publicados na Imprensa Oficial do Município, com os nomes como publicados. Lista completa em{" "}
+            <LinkPagina caminho="camara/suplentes" />.
+          </p>
+          {convocado.length > 0 && (
+            <>
+              <h3 className="mb-2 font-bold">Convocações para assumir a vaga</h3>
+              <div className="mb-6">
+                <TabelaConvocacoes lista={convocado} refs={refs} />
+              </div>
+            </>
+          )}
+          {substituido.length > 0 && (
+            <>
+              <h3 className="mb-2 font-bold">Suplentes convocados na sua vaga</h3>
+              <TabelaConvocacoes lista={substituido} refs={refs} />
+            </>
+          )}
+        </Secao>
+      )}
+
+      {homenagens.length > 0 && (
+        <Secao titulo="Nome dado a lugares públicos">
+          <ul className="prosa">
+            {homenagens.map((l) => (
+              <li key={l.key}>
+                <LinkPagina caminho={`leis/${idLeiIomo(l)}`}>{l.lei}</LinkPagina>, de {dataPorExtenso(l.data)}: {l.ementa.replace(/\s*Indica[çc][ãa]o.*$/i, "").replace(/[”"]/g, "")}
+                <Cita n={refs.cita(fonteEdicao(l))} />
+              </li>
+            ))}
+          </ul>
+        </Secao>
+      )}
+
+      {fatos.length > 0 && (
+        <Secao titulo="Fatos relacionados">
+          <ul className="prosa">
+            {fatos.map((f) => (
+              <li key={f.id}>
+                <LinkPagina caminho={`fatos/${f.id}`} />
+              </li>
+            ))}
+          </ul>
+        </Secao>
+      )}
+
       {html && !temTse && mandatos.length > 0 && <Secao titulo="Mandatos na Câmara">{resumo}</Secao>}
       {temTse && (
         <Secao titulo="Desempenho eleitoral">
@@ -340,7 +514,15 @@ export default async function PaginaPessoa({ params }: Props) {
               <tbody>
                 {[...cs].reverse().map((c, i) => (
                   <tr key={i}>
-                    <td>{emOsasco(c) && ANOS_MUNICIPAIS.includes(c.ano) ? <LinkPagina caminho={`eleicoes/${c.ano}`}>{c.ano}</LinkPagina> : c.ano}</td>
+                    <td>
+                      {emOsasco(c) && ANOS_MUNICIPAIS.includes(c.ano) ? (
+                        <LinkPagina caminho={`eleicoes/${c.ano}`}>{c.ano}</LinkPagina>
+                      ) : !emOsasco(c) ? (
+                        <LinkPagina caminho="eleicoes/estaduais-e-federais">{c.ano}</LinkPagina>
+                      ) : (
+                        c.ano
+                      )}
+                    </td>
                     <td>
                       {instituicao(c)}
                       <DetalheDisputa ano={c.ano} cargo={c.cargo} numero={c.numero} osasco={emOsasco(c)} />

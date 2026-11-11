@@ -5,6 +5,9 @@ import { ANOS_MUNICIPAIS, chapas, periodoTexto, pessoa } from "@/lib/dados";
 import { Referencias } from "@/lib/fontes";
 import { imagemPagina } from "@/lib/imagens";
 import { TabelaProjetos } from "@/components/camara";
+import { TabelaContas } from "@/components/contas";
+import { contasPrefeitura } from "@/lib/contas";
+import { pessoaDoSecretariado, secretariado } from "@/lib/secretariado";
 import { CAMARA, projetosDoExecutivo } from "@/lib/camara";
 import { dataPorExtenso, numero } from "@/lib/texto";
 
@@ -84,7 +87,9 @@ export default function Prefeitura() {
                   <td>{l.titular}</td>
                   <td>{l.vice}</td>
                   <td>{l.partido}</td>
-                  <td>{l.mandato}</td>
+                  <td>
+                    <LinkPagina caminho={`prefeitura/mandatos/${l.ano + 1}-${l.ano + 4}`}>{l.mandato}</LinkPagina>
+                  </td>
                   <td>
                     <Cita n={l.cita} />
                   </td>
@@ -113,7 +118,9 @@ export default function Prefeitura() {
             <tbody>
               {linhasAntigas.map((a, k) => (
                 <tr key={k}>
-                  <td className="whitespace-nowrap">{a.periodo}</td>
+                  <td className="whitespace-nowrap">
+                    <LinkPagina caminho={`prefeitura/mandatos/${(a.periodo.match(/\d{4}/g) ?? []).join("-")}`}>{a.periodo}</LinkPagina>
+                  </td>
                   <td>
                     {a.nome}
                     {a.nota && <span className="block text-sm text-tinta-suave">{a.nota}</span>}
@@ -136,6 +143,52 @@ export default function Prefeitura() {
         </p>
       </Secao>
 
+      <Secao titulo="Secretariado">
+        <p className="mb-3">
+          Titulares e adjuntos das secretarias e órgãos da Prefeitura publicados no site da Prefeitura, consultado em {dataPorExtenso(secretariado().consultado)}.
+          <Cita n={refs.cita(secretariado().fonte)} />
+        </p>
+        <div className="overflow-x-auto">
+          <table className="tabela">
+            <thead>
+              <tr>
+                <th>Órgão</th>
+                <th>Titular</th>
+                <th>Adjunto</th>
+              </tr>
+            </thead>
+            <tbody>
+              {secretariado().orgaos.map((o) => {
+                const nome = (n?: string) => {
+                  if (!n) return "—";
+                  const id = pessoaDoSecretariado(n);
+                  return id && pessoa(id) ? <NomePessoa id={id} nome={n} /> : n;
+                };
+                return (
+                  <tr key={o.orgao}>
+                    <td>{o.orgao}</td>
+                    <td>
+                      {nome(o.titular)}
+                      {o.nota ? ` (${o.nota})` : ""}
+                    </td>
+                    <td>{nome(o.adjunto)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </Secao>
+      <Secao titulo="Contas anuais julgadas pela Câmara">
+        <p className="mb-3">
+          As contas de cada ano da Prefeitura recebem um parecer prévio do Tribunal de Contas do Estado e são julgadas pela <LinkPagina caminho="camara" />, que
+          publica o resultado num decreto legislativo. Decretos achados nas edições da Imprensa Oficial do Município disponíveis no site da Prefeitura:
+        </p>
+        <TabelaContas contas={[...contasPrefeitura()].reverse()} refs={refs} />
+        <p className="mt-2 text-sm text-tinta-suave">
+          Nos anos sem número de decreto, o decreto não foi achado nas edições disponíveis (o site da Prefeitura não tem edições de 2011 a 2013 e tem poucas de 2009 e 2010), e o resultado vem da fonte indicada. O parecer do Tribunal de Contas aparece quando o decreto ou outra fonte o informa.
+        </p>
+      </Secao>
       <Secao titulo="Projetos enviados à Câmara, legislatura 2025–2028">
         <p className="mb-3">
           Nas sessões realizadas entre {dataPorExtenso(CAMARA.periodo.inicio)} e {dataPorExtenso(CAMARA.periodo.fim)}, foram lidos {numero(executivo.length)} projetos

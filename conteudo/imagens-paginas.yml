@@ -169,3 +169,17 @@
 - chave: pessoas
   arquivo: "Osasco 2017 01.jpg"
   legenda: "Osasco em 2017"
+# Logotipos acrescentados em 10/11/2026.
+- { chave: partidos/republicanos, arquivo: "Republicanos (Brazil) wordmark.svg", legenda: "Logotipo do Republicanos" }
+- { chave: partidos/pps, arquivo: "Logomarca do Partido Popular Socialista.png", legenda: "Logotipo do PPS, usado de 1992 a 2019" }
+- { chave: partidos/pfl, arquivo: "Partido da Frente Liberal logo (1985-2005).svg", legenda: "Logotipo do PFL, usado de 1985 a 2005" }
+- { chave: partidos/pmdb, arquivo: "Partido do Movimento Democrático Brasileiro logo (2000–2017).svg", legenda: "Logotipo do PMDB, usado de 2000 a 2017" }
+- { chave: partidos/ppb, arquivo: "Logotipo do Partido Progressista Brasileiro (1995).svg", legenda: "Logotipo do PPB, usado de 1995 a 2003" }
+- { chave: partidos/prp, arquivo: "Partido Republicano Progressista logo.png", legenda: "Logotipo do PRP" }
+- { chave: partidos/ptc, arquivo: "Ptc-logo.png", legenda: "Logotipo do PTC" }
+- { chave: partidos/dc, arquivo: "Christian Democracy (Brazil) logo.png", legenda: "Logotipo do DC (Democracia Cristã)" }
+- { chave: partidos/pan, arquivo: "Logotipo do Partido dos Aposentados da Nação.png", legenda: "Logotipo do PAN" }
+- { chave: partidos/pl-antigo, arquivo: "Partido Liberal (Brazil) logo (1985–2004).svg", legenda: "Logotipo do PL, usado de 1985 a 2004" }
+- { chave: partidos/prb, arquivo: "Logomarca do Partido Republicano Brasileiro (2005–2012).png", legenda: "Logotipo do PRB, usado de 2005 a 2012" }
+- { chave: partidos/psdc, arquivo: "Bandeira do Partido Social Democrata Cristão.svg", legenda: "Bandeira do PSDC" }
+- { chave: partidos/pst, arquivo: "Partido Social Trabalhista (1988).png", legenda: "Logotipo do PST em 1988" }

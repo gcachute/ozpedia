@@ -5,6 +5,11 @@ import { load as lerYaml } from "js-yaml";
 import tse from "../../dados/tse.json";
 import { CAMARA, nomeSessao } from "./camara";
 import { fontesDeImagens } from "./imagens";
+import { dadosLeis, edicoesUsadas } from "./leis";
+import { edicoesConvocacoes } from "./convocacoes";
+import { contasPrefeitura } from "./contas";
+import { edicoesDecretos } from "./decretos";
+import { dadosSancoes, FONTE_SANCOES } from "./sancoes";
 
 export type Fonte = {
   id: string;
@@ -144,6 +149,32 @@ function geradas(): Fonte[] {
       url: v.perfilOficial,
       consultado: CAMARA.coletadoEm,
     });
+  lista.push({
+    id: "iomo-edicoes",
+    titulo: "Imprensa Oficial do Município de Osasco: edições de 2002 a 2026",
+    autor: "Prefeitura de Osasco",
+    url: "https://osasco.sp.gov.br/imprensa-oficial/",
+    consultado: dadosLeis().coletadoEm || undefined,
+    nota: "As leis foram lidas no texto de cada edição: número, data, ementa, projeto de origem, autoria e quem assinou. Os atos de convocação de suplentes da Câmara, também.",
+  });
+  lista.push({
+    id: FONTE_SANCOES,
+    titulo: "Sanções de Leis (tabela de autógrafos, leis e vetos, de 1996 em diante)",
+    autor: "Câmara Municipal de Osasco",
+    url: dadosSancoes().url,
+    consultado: dadosSancoes().coletadoEm || undefined,
+    nota: "Uma linha por projeto aprovado e enviado à Prefeitura: autor, número e data da lei e veto. Inclui as páginas por ano de 2017 em diante e a de leis complementares.",
+  });
+  // Imprensa Oficial do Município: uma fonte por edição em que uma lei foi publicada.
+  for (const e of new Map([...edicoesUsadas(), ...edicoesConvocacoes(), ...contasPrefeitura().flatMap((c) => (c.edicao ? [c.edicao] : [])), ...edicoesDecretos()].map((e) => [e.numero, e])).values())
+    lista.push({
+      id: `iomo-${e.numero}`,
+      titulo: `Imprensa Oficial do Município de Osasco, nº ${e.numero}`,
+      autor: "Prefeitura de Osasco",
+      url: e.url,
+      data: e.data,
+      consultado: dadosLeis().coletadoEm,
+    });
   // Imagens: cada uma é citada na legenda, como na Wikipédia.
   for (const { id, img: i } of fontesDeImagens())
     lista.push({
@@ -162,7 +193,8 @@ export function fontes(): Map<string, Fonte> {
   const escritas = lerYaml(readFileSync(path.join(process.cwd(), "conteudo", "fontes.yml"), "utf8")) as Record<string, Omit<Fonte, "id">>;
   todas = new Map();
   for (const [id, f] of Object.entries(escritas ?? {})) todas.set(id, { id, ...f, consultado: f.consultado ? String(f.consultado) : undefined, data: f.data ? String(f.data) : undefined });
-  for (const f of geradas()) todas.set(f.id, f);
+  // As edições do Diário Oficial descritas à mão em fontes.yml ficam com a descrição de lá.
+  for (const f of geradas()) if (!(f.id.startsWith("iomo-") && todas.has(f.id))) todas.set(f.id, f);
   return todas;
 }
 

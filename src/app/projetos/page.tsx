@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Artigo, Cita, LinkPagina, Secao, imagemParaQuadro, Quadro } from "@/components/artigo";
 import { Filtro } from "@/components/filtro";
 import { Autoria, LinkSessao } from "@/components/camara";
-import { CAMARA, nomeProjeto, TIPOS_PROJETO } from "@/lib/camara";
+import { CAMARA, idLei, leiDoProjeto, nomeProjeto, TIPOS_PROJETO } from "@/lib/camara";
 import { pessoa } from "@/lib/dados";
 import { Referencias } from "@/lib/fontes";
 import { imagemPagina } from "@/lib/imagens";
@@ -44,6 +44,11 @@ export default function Projetos() {
                 <tr key={p.key} data-busca={`${nomeProjeto(p)} ${p.autores.map((a) => pessoa(a)?.nome ?? "").join(" ")} ${p.autorTexto ?? ""} ${p.ementa}`}>
                   <td className="whitespace-nowrap" title={TIPOS_PROJETO[p.tipo] ?? p.tipo}>
                     {nomeProjeto(p)}
+                    {leiDoProjeto(p) && (
+                      <span className="block text-sm">
+                        virou <LinkPagina caminho={`leis/${idLei(leiDoProjeto(p)!)}`}>{leiDoProjeto(p)!.lei.replace("Lei nº", "Lei")}</LinkPagina>
+                      </span>
+                    )}
                   </td>
                   <td>
                     <Autoria autores={p.autores} autorTexto={p.autorTexto} />
