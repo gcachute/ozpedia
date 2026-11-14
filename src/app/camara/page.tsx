@@ -136,6 +136,17 @@ export default function Camara() {
               Osasco, referente a 2020, 2021, 2022, 2023, foi julgada irregular, com aplicação de multa&rdquo;.
               <Cita n={refs.cita("tce-2024-06-07-sessoes")} />
             </li>
+            <li>
+              <strong>2021:</strong> julgadas irregulares pela Segunda Câmara do Tribunal, em acórdão publicado em 8 de abril de 2024, com multa de 300 Ufesps ao
+              presidente da Câmara à época, <NomePessoa id="ribamar-silva" nome="Ribamar Antônio da Silva" />. Em 11 de fevereiro de 2026, o Tribunal Pleno negou o
+              recurso dele.
+              <Cita n={refs.cita("tce-2026-02-11-pleno")} />
+            </li>
+            <li>
+              <strong>2022:</strong> julgadas irregulares pela Segunda Câmara do Tribunal, em acórdão publicado em 4 de setembro de 2025, com multa de 160 Ufesps a{" "}
+              <NomePessoa id="ribamar-silva" nome="Ribamar Antônio da Silva" />. Em 5 de novembro de 2025, o Tribunal Pleno negou o recurso dele.
+              <Cita n={refs.cita("tce-2025-11-05-pleno")} />
+            </li>
           </ul>
         </div>
       </Secao>

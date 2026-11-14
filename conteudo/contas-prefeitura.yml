@@ -118,7 +118,7 @@
   resultado: aprovadas
   decreto: "35/2025"
   edicao: { numero: "2858", data: "2025-06-18", url: "https://osasco.sp.gov.br/wp-content/uploads/2025/06/iomo-2858.pdf" }
-  parecer: { texto: "Parecer desfavorável da Segunda Câmara do Tribunal de Contas, publicado em 29 de novembro de 2023; o reexame foi retirado de pauta em 23 de outubro de 2024. Segundo o Jornal Digital da Região Oeste, na votação de 2025 o parecer era favorável, com ressalvas.", fontes: [tce-2024-10-23-pleno-ata, jdro-2025-06-23-contas-lins] }
+  parecer: { texto: "Parecer desfavorável da Segunda Câmara do Tribunal de Contas, publicado em 29 de novembro de 2023; em 27 de novembro de 2024, o Pleno do Tribunal deu provimento aos pedidos de reexame da Prefeitura e de Rogério Lins, com um voto vencido. Segundo o Jornal Digital da Região Oeste, na votação de 2025 o parecer era favorável, com ressalvas.", fontes: [tce-2024-10-23-pleno-ata, tce-2024-11-27-pleno, jdro-2025-06-23-contas-lins] }
 
 - exercicio: 2022
   resultado: aprovadas

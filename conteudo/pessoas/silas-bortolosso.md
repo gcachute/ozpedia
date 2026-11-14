@@ -30,15 +30,15 @@ Segundo o Diário da Região, construiu o Centro de Atenção ao Envelhecimento 
 
 ### Educação e transporte
 
-A Lei nº 3.431, de 15 de julho de 1998, regulamentou o transporte escolar: a atividade passou a depender de registro anual, com exigências para motoristas e veículos, sob fiscalização do Departamento Municipal de Trânsito.[@lei-osasco-3431-1998] A Lei nº 3.481, de 28 de maio de 1999, autorizou o fechamento de ruas residenciais sem saída ao tráfego de quem não mora nelas.[@iomo-476]
+A Lei nº 3.431, de 15 de julho de 1998, regulamentou o transporte escolar: a atividade passou a depender de registro anual, com exigências para motoristas e veículos, sob fiscalização do Departamento Municipal de Trânsito.[@lei-osasco-3431-1998] A Lei nº 3.481, de 28 de maio de 1999, autorizou o fechamento de ruas residenciais sem saída ao tráfego de quem não mora nelas.[@iomo-476] Pela tabela de sanções de leis da Câmara, a [[leis/lei-3384|Lei nº 3.384]], de 23 de outubro de 1997, tratou da municipalização do ensino, e a [[leis/lei-3396|Lei nº 3.396]], de 19 de janeiro de 1998, do ensino fundamental municipal, ambas de projetos da Prefeitura.[@camara-sancoes]
 
 ### Segurança pública
 
-Em março de 1999, o prefeito anunciou a interdição da Cadeia Pública de Osasco, na Vila Pestana, por falta de segurança no prédio, para impedir a entrada de novos presos: a cadeia tinha 366 presos para 108 vagas; o delegado seccional disse que a polícia não tinha para onde levá-los.[@flondrina-1999-03-03-cadeia]
+Em março de 1999, o prefeito anunciou a interdição da Cadeia Pública de Osasco, na Vila Pestana, por falta de segurança no prédio, para impedir a entrada de novos presos: a cadeia tinha 366 presos para 108 vagas; o delegado seccional disse que a polícia não tinha para onde levá-los.[@flondrina-1999-03-03-cadeia] A [[leis/lei-3372|Lei nº 3.372]], de 11 de setembro de 1997, de projeto da Prefeitura, autorizou a locação de imóvel ao 3º Distrito Policial, no Rochdale.[@camara-sancoes]
 
 ### Saúde
 
-Segundo o Diário da Região, manteve os serviços de saúde apesar do baixo repasse do SUS, e a saúde de Osasco recebeu um prêmio da Fundação Abrinq.[@diario-regiao-prefeitos]
+Segundo o Diário da Região, manteve os serviços de saúde apesar do baixo repasse do SUS, e a saúde de Osasco recebeu um prêmio da Fundação Abrinq.[@diario-regiao-prefeitos] A [[leis/lei-3493|Lei nº 3.493]], de 16 de julho de 1999, de projeto da Prefeitura, tratou de convênio com a Faculdade de Saúde da Universidade de São Paulo, segundo a tabela de sanções de leis da Câmara.[@camara-sancoes]
 
 ### Finanças
 

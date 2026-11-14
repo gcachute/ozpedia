@@ -188,6 +188,9 @@ export default function Prefeitura() {
         <p className="mt-2 text-sm text-tinta-suave">
           Nos anos sem número de decreto, o decreto não foi achado nas edições disponíveis (o site da Prefeitura não tem edições de 2011 a 2013 e tem poucas de 2009 e 2010), e o resultado vem da fonte indicada. O parecer do Tribunal de Contas aparece quando o decreto ou outra fonte o informa.
         </p>
+        <p className="mt-2">
+          Contratos, repasses e contas julgados pelo Tribunal de Contas do Estado desde 2020 estão em <LinkPagina caminho="prefeitura/tribunal-de-contas" />.
+        </p>
       </Secao>
       <Secao titulo="Projetos enviados à Câmara, legislatura 2025–2028">
         <p className="mb-3">

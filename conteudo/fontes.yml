@@ -2420,3 +2420,49 @@ tjsp-2g-0011068-37:
   autor: "Tribunal de Justiça de São Paulo, e-SAJ"
   url: "https://esaj.tjsp.jus.br/cposg/show.do?processo.codigo=RI0087DHI0000"
   consultado: "2026-11-11"
+
+tjsp-2g-1003819-81:
+  titulo: "Apelação cível nº 1003819-81.2017.8.26.0405 (9ª Câmara de Direito Público), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cposg/show.do?processo.codigo=RI0099KW70000"
+  consultado: "2026-11-13"
+
+tjsp-1008225-48:
+  titulo: "Ação civil de improbidade administrativa nº 1008225-48.2017.8.26.0405 (1ª Vara da Fazenda Pública de Osasco), consulta processual"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=1008225-48.2017&foroNumeroUnificado=0405&dadosConsulta.valorConsultaNuUnificado=1008225-48.2017.8.26.0405&dadosConsulta.tipoNuProcesso=UNIFICADO"
+  consultado: "2026-11-13"
+
+tjsp-2g-1008225-48:
+  titulo: "Apelação cível nº 1008225-48.2017.8.26.0405, consulta processual de 2º grau"
+  autor: "Tribunal de Justiça de São Paulo, e-SAJ"
+  url: "https://esaj.tjsp.jus.br/cposg/search.do?cbPesquisa=NUMPROC&tipoNuProcesso=UNIFICADO&numeroDigitoAnoUnificado=1008225-48.2017&foroNumeroUnificado=0405&dePesquisaNuUnificado=1008225-48.2017.8.26.0405"
+  consultado: "2026-11-13"
+
+tce-2026-02-11-pleno:
+  titulo: "Resultado da 2ª sessão ordinária do Tribunal Pleno de 11 de fevereiro de 2026 (item 30: contas de 2021 da Câmara Municipal de Osasco)"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/sites/default/files/noticias/20260211_Pleno.pdf"
+  data: "2026-02-11"
+  consultado: "2026-11-13"
+
+tce-2026-03-11-pleno:
+  titulo: "Resultado da 4ª sessão ordinária do Tribunal Pleno de 11 de março de 2026 (itens 48 a 50: contrato da Prefeitura de Osasco com a Era Técnica)"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/sites/default/files/noticias/20260311_Pleno.pdf"
+  data: "2026-03-11"
+  consultado: "2026-11-13"
+
+tce-2024-11-27-pleno:
+  titulo: "Resultado da sessão do Tribunal Pleno de 27 de novembro de 2024 (itens 61 e 62: contas de 2021 da Prefeitura de Osasco)"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/sites/default/files/noticias/20241127_Pleno.pdf"
+  data: "2024-11-27"
+  consultado: "2026-11-13"
+
+tce-2025-11-05-pleno:
+  titulo: "Resultado da sessão do Tribunal Pleno de 5 de novembro de 2025 (item 29: contas de 2022 da Câmara Municipal de Osasco)"
+  autor: "Tribunal de Contas do Estado de São Paulo"
+  url: "https://www.tce.sp.gov.br/sites/default/files/noticias/20251105_Pleno.pdf"
+  data: "2025-11-05"
+  consultado: "2026-11-13"

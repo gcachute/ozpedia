@@ -9,6 +9,7 @@ import { dadosLeis, edicoesUsadas } from "./leis";
 import { edicoesConvocacoes } from "./convocacoes";
 import { contasPrefeitura } from "./contas";
 import { edicoesDecretos } from "./decretos";
+import { dadosTce, sessoesTce, urlTce } from "./tce";
 import { dadosSancoes, FONTE_SANCOES } from "./sancoes";
 
 export type Fonte = {
@@ -175,6 +176,27 @@ function geradas(): Fonte[] {
       data: e.data,
       consultado: dadosLeis().coletadoEm,
     });
+  // Tribunal de Contas do Estado: uma fonte por sessão com julgamento de órgão de Osasco.
+  lista.push({
+    id: "tce-sessoes",
+    titulo: "Resultados das sessões de julgamento do Tribunal Pleno, da Primeira Câmara e da Segunda Câmara",
+    autor: "Tribunal de Contas do Estado de São Paulo",
+    url: "https://www.tce.sp.gov.br/",
+    consultado: dadosTce().coletadoEm,
+    nota: "Um arquivo por sessão, com o assunto e o resultado de cada processo.",
+  });
+  const ORGAO_TCE: Record<string, string> = { Pleno: "do Tribunal Pleno", PrimeiraCamara: "da Primeira Câmara", SegundaCamara: "da Segunda Câmara" };
+  for (const j of sessoesTce()) {
+    const [d, o] = j.arquivo.split("_");
+    lista.push({
+      id: `tce-sessao-${j.arquivo}`,
+      titulo: `Resultado da sessão ${ORGAO_TCE[o] ?? o} de ${d.slice(6)}/${d.slice(4, 6)}/${d.slice(0, 4)}`,
+      autor: "Tribunal de Contas do Estado de São Paulo",
+      url: urlTce(j.arquivo),
+      data: j.data,
+      consultado: dadosTce().coletadoEm,
+    });
+  }
   // Imagens: cada uma é citada na legenda, como na Wikipédia.
   for (const { id, img: i } of fontesDeImagens())
     lista.push({

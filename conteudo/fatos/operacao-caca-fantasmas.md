@@ -58,7 +58,7 @@ Ações civis de improbidade administrativa do Ministério Público, ajuizadas e
 
 | Vereador | Processo | Situação |
 |---|---|---|
-| Alex da Academia | 1003819-81.2017 | Julgada improcedente em 24 de novembro de 2025, com o levantamento dos bloqueios de bens; em grau de recurso. O Ministério Público apontava dano de R$ 1.789.228,34.[@tjsp-1003819-81] |
+| Alex da Academia | 1003819-81.2017 | Julgada improcedente em 24 de novembro de 2025, com o levantamento dos bloqueios de bens. Em 12 de agosto de 2026, a 9ª Câmara de Direito Público do Tribunal de Justiça anulou a sentença e mandou reabrir a instrução, com perícia contábil. O Ministério Público aponta dano de R$ 1.789.228,34.[@tjsp-1003819-81][@tjsp-2g-1003819-81] |
 | Valdomiro Ventura | 1003980-91.2017 | Julgada parcialmente procedente em 6 de maio de 2026: perda da função pública, suspensão dos direitos políticos por 12 anos, multa civil igual ao dano (R$ 1.677.395,10) e proibição de contratar com o poder público por 12 anos; em grau de recurso.[@tjsp-1003980-91] |
 | De Paula | 1003974-84.2017 | Em instrução (saneamento em 27 de abril de 2026). O Ministério Público aponta prejuízo de R$ 1.433.886,45, de 2013 a 2016.[@tjsp-1003974-84] |
 | Batista Comunidade | 1003768-70.2017 | Em instrução (saneamento em 22 de julho de 2026).[@tjsp-1003768-70] |

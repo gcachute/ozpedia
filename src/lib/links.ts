@@ -55,6 +55,7 @@ export function titulo(caminho: string): string | null {
       if (id === "suplentes") return "Suplentes convocados na Câmara Municipal";
       return id ? null : "Câmara Municipal de Osasco";
     case "prefeitura": {
+      if (id === "tribunal-de-contas") return "Julgamentos do Tribunal de Contas";
       if (id === "mandatos") {
         const m = mandato(extra);
         return m ? tituloMandato(m) : null;
@@ -88,6 +89,7 @@ export function todasAsPaginas(): Pagina[] {
   lista.push({ caminho: "camara", titulo: "Câmara Municipal de Osasco", tipo: "Instituição" });
   lista.push({ caminho: "camara/suplentes", titulo: "Suplentes convocados na Câmara Municipal", tipo: "Lista" });
   lista.push({ caminho: "prefeitura", titulo: "Prefeitura de Osasco", tipo: "Instituição" });
+  lista.push({ caminho: "prefeitura/tribunal-de-contas", titulo: "Julgamentos do Tribunal de Contas", tipo: "Lista" });
   for (const m of mandatos()) lista.push({ caminho: `prefeitura/mandatos/${m.id}`, titulo: tituloMandato(m), tipo: "Mandato" });
   return lista;
 }
