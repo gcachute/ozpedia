@@ -1,0 +1,39 @@
+{
+ "fonte": "Sites oficiais dos partidos (cópias guardadas pelo Internet Archive)",
+ "coletadoEm": "2026-11-15",
+ "paginas": [
+  {
+   "chave": "partidos/pdt",
+   "arquivo": "Logotipo do PDT no site oficial do partido",
+   "legenda": "Logotipo do PDT",
+   "autor": "Partido Democrático Trabalhista",
+   "licenca": "",
+   "licencaUrl": null,
+   "pagina": "https://web.archive.org/web/20261017154139/https://pdt.org.br/",
+   "data": "2026-10-17",
+   "caminho": "/imagens/partidos/pdt.png"
+  },
+  {
+   "chave": "partidos/ptdob",
+   "arquivo": "Logotipo do PTdoB no site oficial do partido",
+   "legenda": "Logotipo do PTdoB em 2015",
+   "autor": "Partido Trabalhista do Brasil",
+   "licenca": "",
+   "licencaUrl": null,
+   "pagina": "https://web.archive.org/web/20151105002250/http://www.ptdob.org.br/",
+   "data": "2015-11-05",
+   "caminho": "/imagens/partidos/ptdob.png"
+  },
+  {
+   "chave": "partidos/ptn",
+   "arquivo": "Logotipo do PTN no site oficial do partido",
+   "legenda": "Logotipo do PTN em 2016 (em branco no original; fundo escuro posto pela OZpédia)",
+   "autor": "Partido Trabalhista Nacional",
+   "licenca": "",
+   "licencaUrl": null,
+   "pagina": "https://web.archive.org/web/20160318130811/http://www.ptn.org.br/2013/",
+   "data": "2016-03-18",
+   "caminho": "/imagens/partidos/ptn.png"
+  }
+ ]
+}

@@ -64,7 +64,7 @@ export default async function PaginaMandato({ params }: Props) {
   if (leis.length) linhas.push({ rotulo: "Leis publicadas", valor: numero(leis.length), cita: nIo });
 
   return (
-    <Artigo tipo="Mandato na Prefeitura" titulo={tituloMandato(m)} refs={refs} quadro={<Quadro titulo={tituloMandato(m)} linhas={linhas} imagem={imagemQ} />}>
+    <Artigo tipo="Mandato na Prefeitura" titulo={tituloMandato(m)} refs={refs} poucaInformacao={leis.length + decs.length + contas.length === 0} quadro={<Quadro titulo={tituloMandato(m)} linhas={linhas} imagem={imagemQ} />}>
       <p className="prosa">
         Mandato de {nome(m.pessoa, m.nome)} na <LinkPagina caminho="prefeitura" />, de {dataPorExtenso(m.inicio)} a {dataPorExtenso(m.fim)}
         {m.viceNome ? (

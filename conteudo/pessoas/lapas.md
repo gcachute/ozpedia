@@ -60,7 +60,7 @@ Leis sancionadas por ele criaram o Conselho e o Fundo Municipal de Promoção da
 
 ### Cultura
 
-Os dois CEUs das Artes da cidade, no Jardim Bonança e no Jardim 1º de Maio, foram entregues na sua gestão.[@mural-2024-10-02-gestao-lins]
+Os dois CEUs das Artes da cidade, no Jardim Bonança e no Jardim 1º de Maio, foram entregues na sua gestão.[@mural-2024-10-02-gestao-lins] A [[leis/lei-4707|Lei nº 4.707]], de 11 de setembro de 2015, de projeto da Prefeitura, instituiu o Plano Municipal de Cultura de Osasco, segundo a tabela de sanções de leis da Câmara.[@camara-sancoes] Em janeiro de 2016, sancionou a [[leis/lei-4736|Lei nº 4.736]], de autoria do vereador [[pessoas/batista-comunidade|Batista Comunidade]], que criou a Semana do Hip Hop.[@iomo-1205]
 
 ### Urbanismo: o novo Paço Municipal
 
@@ -68,7 +68,7 @@ A construção do novo Paço Municipal e da nova sede da Câmara, no Bonfim, pro
 
 ### Finanças
 
-Em 21 de maio de 2015, sancionou leis complementares sobre a alíquota do ISS de serviços cartorários e sobre a outorga e gestão de concessões de serviços públicos.[@iomo-1142]
+Em 21 de maio de 2015, sancionou leis complementares sobre a alíquota do ISS de serviços cartorários e sobre a outorga e gestão de concessões de serviços públicos.[@iomo-1142] Leis de projetos da Prefeitura aprovaram o Plano Plurianual de 2014 a 2017 ([[leis/lei-4599|Lei nº 4.599]], de 30 de setembro de 2013) e autorizaram um financiamento do BNDES ([[leis/lei-4625|Lei nº 4.625]], de 6 de março de 2014).[@camara-sancoes] A [[leis/lei-4680|Lei nº 4.680]], de 12 de fevereiro de 2015, autorizou operação de crédito de até R$ 61,5 milhões com a Caixa Econômica Federal, no PAC – Pacto da Mobilidade, com as receitas de repasses constitucionais como garantia.[@iomo-1109]
 
 ## Controvérsias
 

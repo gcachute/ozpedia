@@ -14,8 +14,9 @@ import { anoSancao, FONTE_SANCOES, leisDeAutoriaTodas, textoVeto, vetadosDeAutor
 import { Autoria as AutoriaLei } from "@/components/camara";
 import { imagemDe, imagemPagina } from "@/lib/imagens";
 import { comArtigo, instituicao, ordemCargo } from "@/lib/cargos";
+import { fonteTce, julgamentosTcePessoa } from "@/lib/tce";
 import { markdown } from "@/lib/markdown";
-import { dataPorExtenso, listaE, nomeProprio, numero, slugify } from "@/lib/texto";
+import { dataCurta, dataPorExtenso, listaE, nomeProprio, numero, slugify } from "@/lib/texto";
 import { campanha2024, detalhe, lugar, minusculas, reais, semPrefixo, siglasDaComposicao } from "@/lib/detalhes";
 
 type Props = { params: Promise<{ id: string }> };
@@ -218,6 +219,9 @@ export default async function PaginaPessoa({ params }: Props) {
   const convocado = convocacoesDe(id);
   const substituido = licencasDe(id);
   const homenagens = homenagensA(id);
+  // ---------- Julgamentos do Tribunal de Contas em que aparece como responsável ou parte ----------
+  const tce = julgamentosTcePessoa(id);
+  const tcePorAno = [...tce.reduce((m, j) => m.set(j.data.slice(0, 4), (m.get(j.data.slice(0, 4)) ?? 0) + 1), new Map<string, number>())].sort();
   // Páginas de fatos que citam a pessoa (link no texto ou na lista de páginas relacionadas).
   const fatos = escritas("fatos").filter(
     (f) => f.corpo.includes(`[[pessoas/${id}|`) || f.corpo.includes(`[[pessoas/${id}]]`) || f.cab.relacionados?.includes(`pessoas/${id}`),
@@ -230,6 +234,10 @@ export default async function PaginaPessoa({ params }: Props) {
   const corpoFim = e?.corpo && corte >= 0 ? e.corpo.slice(corte) : "";
   const html = corpoInicio.trim() ? markdown(corpoInicio, refs) : null;
   const anos = [...new Set(cs.map((c) => c.ano))];
+  // Marca "Poucas informações": sem texto escrito (ou com texto curto) e sem nenhum registro além das candidaturas e dos mandatos.
+  const registros =
+    leis.length + vetos.length + projetos.length + leisAutoria.length + vetados.length + leisAssinadas.length + tce.length + homenagens.length + fatos.length;
+  const poucaInformacao = (e?.corpo?.trim().length ?? 0) < 1000 && registros === 0;
   const siglas = [...new Set(porPartido.map((x) => { const pt = partidoDe(x.sigla, x.ano); return pt ? siglaExibida(pt) : x.sigla; }))];
   const derrotas = cs.filter((c) => !venceu(c)).length;
   const periodo = `${dataPorExtenso(CAMARA.periodo.inicio)} e ${dataPorExtenso(CAMARA.periodo.fim)}`;
@@ -326,7 +334,7 @@ export default async function PaginaPessoa({ params }: Props) {
   );
 
   return (
-    <Artigo tipo="Pessoa" titulo={p.nome} refs={refs} quadro={<Quadro titulo={p.nome} linhas={linhas} imagem={imagemQuadro} />}>
+    <Artigo tipo="Pessoa" titulo={p.nome} refs={refs} poucaInformacao={poucaInformacao} quadro={<Quadro titulo={p.nome} linhas={linhas} imagem={imagemQuadro} />}>
       {html ? <TextoEscrito html={html} /> : resumo}
 
       {temCamara && (
@@ -466,6 +474,43 @@ export default async function PaginaPessoa({ params }: Props) {
               <h3 className="mb-2 font-bold">Suplentes convocados na sua vaga</h3>
               <TabelaConvocacoes lista={substituido} refs={refs} />
             </>
+          )}
+        </Secao>
+      )}
+
+      {tce.length > 0 && (
+        <Secao titulo="Julgamentos do Tribunal de Contas">
+          <p className="mb-3">
+            {tce.length === 1 ? "Um julgamento" : `${numero(tce.length)} julgamentos`} do Tribunal de Contas do Estado, de {tcePorAno[0][0]} a {tcePorAno.at(-1)![0]}, em
+            que aparece como responsável ou parte, segundo os resultados publicados das sessões
+            {tce.length > 15 ? <>: {listaE(tcePorAno.map(([a, n]) => `${n} em ${a}`))}</> : null}. Lista completa, com os demais órgãos de Osasco, em{" "}
+            <LinkPagina caminho="prefeitura/tribunal-de-contas" />.
+            <Cita n={refs.cita("tce-sessoes")} />
+          </p>
+          {tce.length <= 15 && (
+            <div className="overflow-x-auto">
+              <table className="tabela">
+                <thead>
+                  <tr>
+                    <th>Data</th>
+                    <th>Assunto</th>
+                    <th>Resultado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {tce.map((j, k) => (
+                    <tr key={`${j.arquivo}-${j.processo}-${k}`}>
+                      <td className="whitespace-nowrap align-top">{dataCurta(j.data)}</td>
+                      <td className="align-top text-sm">{j.assunto}.</td>
+                      <td className="align-top text-sm">
+                        {j.resultado}.
+                        <Cita n={refs.cita(fonteTce(j))} />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           )}
         </Secao>
       )}

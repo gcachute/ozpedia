@@ -54,6 +54,14 @@ Reformou 30 unidades de saúde, implantou o parto humanizado na Maternidade Amad
 
 O Samu começou a funcionar em Osasco em outubro de 2005, em parceria com o governo federal, com base no Pronto-Socorro da Vila Pestana e bases nos bairros; em 2010, fez 17.215 atendimentos de urgência.[@osascoagora-2011-07-13-samu] O Centro de Parto Humanizado da Maternidade Amador Aguiar começou em novembro de 2007; em 2009, a maternidade fazia cerca de 600 partos por mês.[@osascoagora-2009-03-26-maternidade] Até novembro de 2010, foram construídas UBSs no D'Ávila, no Jardim Aliança e no Km 18, e começou a do Parque Palmares, demanda do Orçamento Participativo.[@osascoagora-2010-11-09-ubs-palmares] Em 10 de novembro de 2005, sancionou a [[leis/lei-3969|Lei nº 3.969]], sobre a participação da sociedade civil no Sistema Municipal de Saúde e o Conselho Municipal de Saúde.[@iomo-448] Em janeiro de 2008, a [[leis/lei-4197|Lei nº 4.197]] autorizou a doação de um terreno a uma empresa imobiliária, tendo como contrapartida a construção de uma unidade básica de saúde.[@iomo-575]
 
+### Assistência social e direitos
+
+Em dezembro de 2005, leis de projetos da Prefeitura transformaram os Centros de Cidadania em Centros de Referência de Assistência Social ([[leis/lei-3972|Lei nº 3.972]], de 19 de dezembro), alteraram o Programa Municipal de Renda Mínima ([[leis/lei-3989|Lei nº 3.989]], de 27 de dezembro) e criaram o Centro de Referência da Mulher Vítima de Violência ([[leis/lei-3990|Lei nº 3.990]], de 27 de dezembro).[@iomo-454][@iomo-455] A [[leis/lei-4017|Lei nº 4.017]], de 23 de março de 2006, mandou priorizar a mulher como beneficiária dos programas de habitação de interesse social.[@iomo-468]
+
+### Cultura
+
+Sancionou leis de vereadores que criaram o Festival de Bandas e Fanfarras de Osasco ([[leis/lei-4146|Lei nº 4.146]], de 14 de setembro de 2007, de [[pessoas/sonia-rainho|Sônia Rainho]]) e o Programa Cinema Popular ([[leis/lei-4169|Lei nº 4.169]], de 29 de novembro de 2007, de [[pessoas/rubinho-bastos|Rubinho Bastos]]).[@iomo-558][@iomo-568] Em 2010, a [[leis/lei-4402|Lei nº 4.402]], de projeto da Prefeitura, criou o Conselho Municipal de Defesa e Preservação do Patrimônio Histórico, Artístico e Cultural (Codepa).[@iomo-704]
+
 ### Participação popular
 
 Obras como o CEU Zilda Arns e a UPA da Vila Menck vieram de demandas das plenárias do Orçamento Participativo.[@tudoemum-2010-03-03-ceu-zilda-arns][@osascoagora-2012-12-19-upa-menck] Em 19 de fevereiro de 2012, lançou o projeto "Osasco 50 anos", de planejamento da cidade para as décadas seguintes.[@cpaulista-2020-02-13-emidio]

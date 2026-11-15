@@ -68,4 +68,4 @@ A Biblioteca Pública Monteiro Lobato estava fechada desde 2020, com reforma ini
 
 ### Guarda Civil Municipal
 
-Em março de 2026, um vídeo mostrou agentes da Ronda Ostensiva Municipal agredindo uma mulher no Jardim Santa Tereza; a Prefeitura afastou os guardas das ruas e abriu sindicância.[@sbt-2026-03-30-gcm]
+Em março de 2026, um vídeo mostrou agentes da Ronda Ostensiva Municipal agredindo uma mulher no Jardim Santa Tereza; Em 27 de novembro de 2025, a [[leis/lei-complementar-454|Lei Complementar nº 454]], de projeto da Prefeitura, fixou em R$ 48,67 por hora, até 80 horas por mês, o Abono de Atividade Complementar da Guarda Civil Municipal.[@iomo-2932] a Prefeitura afastou os guardas das ruas e abriu sindicância.[@sbt-2026-03-30-gcm]

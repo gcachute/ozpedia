@@ -1,7 +1,8 @@
 // Imagens das páginas.
 // Pessoas: Wikimedia Commons (scripts/importar-imagens.mjs, dados/imagens.json) e, para quem não tem foto lá, fotos de
 // candidatura do Portal de Dados Abertos do TSE (scripts/importar-fotos-tse.mjs, dados/imagens-tse.json).
-// Demais páginas: Wikimedia Commons, escolhidas em conteudo/imagens-paginas.yml (campo "paginas" de dados/imagens.json).
+// Demais páginas: Wikimedia Commons, escolhidas em conteudo/imagens-paginas.yml (campo "paginas" de dados/imagens.json),
+// e logotipos de partido tirados dos sites oficiais (dados/imagens-externas.json).
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 
@@ -47,7 +48,8 @@ export function imagens(): Map<string, Imagem> {
 export function imagensDePagina(): Map<string, Imagem> {
   if (cachePaginas) return cachePaginas;
   // Gráficos feitos pela OZpédia (scripts/gerar-graficos-camara.mjs) só entram onde o Commons não tem imagem.
-  const lista = [...(ler("imagens-proprias.json").paginas ?? []), ...(ler("imagens.json").paginas ?? [])];
+  // Logotipos tirados dos sites oficiais dos partidos (dados/imagens-externas.json) entram por último e valem sobre os demais.
+  const lista = [...(ler("imagens-proprias.json").paginas ?? []), ...(ler("imagens.json").paginas ?? []), ...(ler("imagens-externas.json").paginas ?? [])];
   cachePaginas = new Map(lista.map((i) => [i.chave, { ...i, fonteId: `imagem-arquivo-${slug(i.arquivo)}` }]));
   return cachePaginas;
 }

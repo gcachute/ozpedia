@@ -70,7 +70,8 @@ export default function Sobre() {
           <strong>Imagens:</strong> só imagens de uso livre: as do Wikimedia Commons, o acervo de imagens usado pela Wikipédia, e as fotos de
           candidatura publicadas pelo Tribunal Superior Eleitoral no seu portal de dados abertos (licença CC BY 4.0). Cada imagem tem legenda e
           uma referência com o autor, a licença e o endereço do arquivo. Quem não tem foto de uso livre aparece com a imagem da legislatura ou da
-          eleição de que participou; partido sem logotipo de uso livre aparece com a foto da urna eletrônica.
+          eleição de que participou. Os logotipos de partido que não estão no Wikimedia Commons vêm do site oficial do próprio partido (ou da cópia
+          dele guardada pelo Internet Archive), com o endereço na referência; partido sem logotipo achado aparece com a foto da urna eletrônica.
         </li>
       </ul>
       <h2>Como ler</h2>
@@ -95,6 +96,19 @@ export default function Sobre() {
         <li>
           Partido que mudou de nome aparece com a sigla usada naquela eleição; a página do partido mostra para onde ele foi.
         </li>
+      </ul>
+      <h2 id="poucas-informacoes">Poucas informações</h2>
+      <p>
+        A marca &ldquo;Poucas informações&rdquo; aparece no alto das páginas sobre as quais pouco foi encontrado nas fontes consultadas. A página continua
+        mostrando o que foi achado, com a fonte de cada dado. A marca sai quando aparecem mais fontes.
+      </p>
+      <ul>
+        <li>
+          Pessoas: quando não há texto escrito, ou ele é curto, e não aparece nenhuma lei, projeto, julgamento do Tribunal de Contas, nome de lugar público
+          ou fato ligado à pessoa. Ficam só os dados das candidaturas ou dos mandatos.
+        </li>
+        <li>Partidos: quando não foi achado logotipo nem há texto escrito sobre o partido.</li>
+        <li>Mandatos na Prefeitura: quando não foram achadas leis, decretos nem contas do período.</li>
       </ul>
       <h2>O arquivo está em construção</h2>
       <p>

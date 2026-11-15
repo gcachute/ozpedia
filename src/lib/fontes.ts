@@ -202,7 +202,9 @@ function geradas(): Fonte[] {
     lista.push({
       id,
       titulo: `Arquivo: ${i.arquivo}`,
-      autor: `${i.autor}; licença ${i.licenca}${i.pagina.includes("commons.wikimedia.org") ? "; via Wikimedia Commons" : ""}`,
+      autor: i.licenca
+        ? `${i.autor}; licença ${i.licenca}${i.pagina.includes("commons.wikimedia.org") ? "; via Wikimedia Commons" : ""}`
+        : `${i.autor}; site oficial do partido${i.pagina.includes("web.archive.org") ? ", cópia guardada pelo Internet Archive" : ""}`,
       url: i.pagina,
       data: i.data ?? undefined,
     });

@@ -129,8 +129,11 @@ export default async function PaginaPartido({ params }: Props) {
   const anosPrefeitura = porAno.filter((a) => a.prefeitura.some((c) => c.cargo === "Prefeito")).map((a) => a.ano).sort();
   const anosVitoriaPrefeitura = porAno.filter((a) => a.prefeitura.some((c) => c.cargo === "Prefeito" && c.resultado === "Eleito")).map((a) => a.ano).sort();
 
+  // Marca "Poucas informações": sem logotipo achado e sem texto escrito.
+  const poucaInformacao = !imagemPagina(`partidos/${id}`) && !html;
+
   return (
-    <Artigo tipo="Partido" titulo={sigla} subtitulo={p.nome && p.nome.toUpperCase() !== sigla.toUpperCase() ? p.nome : undefined} refs={refs} quadro={<Quadro titulo={sigla} linhas={linhas} imagem={imagemQ} />}>
+    <Artigo tipo="Partido" titulo={sigla} subtitulo={p.nome && p.nome.toUpperCase() !== sigla.toUpperCase() ? p.nome : undefined} refs={refs} poucaInformacao={poucaInformacao} quadro={<Quadro titulo={sigla} linhas={linhas} imagem={imagemQ} />}>
       {(
         <div className="prosa">
           <p>

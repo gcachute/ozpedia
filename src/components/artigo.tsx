@@ -92,6 +92,7 @@ export function Artigo({
   subtitulo,
   quadro,
   refs,
+  poucaInformacao,
   children,
 }: {
   tipo: string;
@@ -99,13 +100,30 @@ export function Artigo({
   subtitulo?: React.ReactNode;
   quadro?: React.ReactNode;
   refs: Referencias;
+  /** Pouco foi encontrado sobre o assunto: a página mostra a marca "Poucas informações". */
+  poucaInformacao?: boolean;
   children: React.ReactNode;
 }) {
   return (
     <article>
-      <p className="text-sm text-tinta-suave">{tipo}</p>
+      <p className="text-sm text-tinta-suave">
+        {tipo}
+        {poucaInformacao && (
+          <Link
+            href="/sobre/#poucas-informacoes"
+            className="ml-2 inline-block rounded-md border border-fio bg-fundo-suave px-2 py-0.5 text-xs font-semibold text-tinta-suave no-underline hover:text-tinta"
+          >
+            Poucas informações
+          </Link>
+        )}
+      </p>
       <h1 className="titulo mb-1 text-4xl leading-tight sm:text-5xl">{titulo}</h1>
       {subtitulo && <p className="mb-6 text-tinta-suave">{subtitulo}</p>}
+      {poucaInformacao && (
+        <p className="mt-3 border-l-4 border-fio bg-fundo-suave px-3 py-2 text-sm text-tinta-suave">
+          Não foi encontrada muita informação sobre este assunto nas fontes consultadas. A página traz o que foi achado, com a fonte de cada dado.
+        </p>
+      )}
       <div className="mt-6 flow-root">
         {quadro}
         {children}

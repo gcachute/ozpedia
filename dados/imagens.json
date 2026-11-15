@@ -1,6 +1,6 @@
 {
  "fonte": "Wikimedia Commons",
- "coletadoEm": "2026-11-11",
+ "coletadoEm": "2026-11-14",
  "imagens": [
   {
    "pessoa": "agora-e-com-elas-zelia-lucas",
@@ -903,18 +903,6 @@
    "miniatura": "https://upload.wikimedia.org/wikipedia/commons/d/dd/PCO29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "data": "1997-11-30",
    "caminho": "/imagens/commons/pco29.jpg"
-  },
-  {
-   "chave": "partidos/pdt",
-   "arquivo": "PDT logo 2026 (cropped).png",
-   "legenda": "Logotipo do PDT",
-   "autor": "Partido Democrático Trabalhista",
-   "licenca": "domínio público",
-   "licencaUrl": null,
-   "pagina": "https://commons.wikimedia.org/wiki/File:PDT_logo_2026_(cropped).png",
-   "miniatura": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/PDT_logo_2026_%28cropped%29.png/500px-PDT_logo_2026_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "data": "2026-05-04",
-   "caminho": "/imagens/commons/pdt-logo-2026-cropped.png"
   },
   {
    "chave": "partidos/pgt",

@@ -56,7 +56,7 @@ Em 4 de abril de 2019, sancionou o Plano de Carreira e Remuneração do Magisté
 
 ### Cultura
 
-A Fábrica de Cultura de Osasco, programa do governo do estado, foi inaugurada em junho de 2022 no Rochdale, num prédio que antes tinha sido anunciado como UBS.[@mural-2022-07-27-fabrica-cultura][@mural-2024-10-02-gestao-lins] Os dois CEUs das Artes prometidos não foram construídos.[@mural-2024-10-02-gestao-lins]
+A Fábrica de Cultura de Osasco, programa do governo do estado, foi inaugurada em junho de 2022 no Rochdale, num prédio que antes tinha sido anunciado como UBS.[@mural-2022-07-27-fabrica-cultura][@mural-2024-10-02-gestao-lins] Os dois CEUs das Artes prometidos não foram construídos.[@mural-2024-10-02-gestao-lins] Leis de projetos da Prefeitura permitiram qualificar entidades sem fins lucrativos como organizações sociais nas áreas de cultura e de esportes ([[leis/lei-4912|Lei nº 4.912]], de 17 de setembro de 2018), reestruturaram a Secretaria de Cultura ([[leis/lei-complementar-369|Lei Complementar nº 369]], de 13 de setembro de 2019), alteraram a lei do Conselho Municipal de Política Cultural e do Fundo Municipal de Apoio à Cultura ([[leis/lei-5079|Lei nº 5.079]], de 28 de agosto de 2020) e criaram o Programa Empresa Amiga do Esporte e Cultura, por indicação do vereador [[pessoas/carmonio-bastos|Carmônio Bastos]] ([[leis/lei-5214|Lei nº 5.214]], de 28 de dezembro de 2022).[@iomo-1546][@iomo-1720][@iomo-1902][@iomo-2365]
 
 ### Segurança
 

@@ -138,7 +138,7 @@
 - { chave: partidos/pcb, arquivo: "PCB logo.svg", legenda: "Logotipo do PCB" }
 - { chave: partidos/pcdob, arquivo: "PCdoB logo.svg", legenda: "Logotipo do PCdoB" }
 - { chave: partidos/pco, arquivo: "PCO29.jpg", legenda: "Logotipo do PCO" }
-- { chave: partidos/pdt, arquivo: "PDT logo 2026 (cropped).png", legenda: "Logotipo do PDT" }
+# PDT, PTdoB e PTN: logotipos tirados dos sites oficiais dos partidos, em dados/imagens-externas.json.
 - { chave: partidos/pgt, arquivo: "Partido PGT logo.png", legenda: "Logotipo do PGT" }
 - { chave: partidos/phs, arquivo: "Logo - Partido Humanista da Solidariedade.png", legenda: "Logotipo do PHS" }
 - { chave: partidos/pl, arquivo: "Partido Liberal (Brazil) logo.svg", legenda: "Logotipo do PL" }
