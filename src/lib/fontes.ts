@@ -11,6 +11,7 @@ import { contasPrefeitura } from "./contas";
 import { edicoesDecretos } from "./decretos";
 import { dadosTce, sessoesTce, urlTce } from "./tce";
 import { dadosSancoes, FONTE_SANCOES } from "./sancoes";
+import { dadosAlesp, dadosCamaraFederal, FONTE_ALESP_COMISSOES, FONTE_ALESP_PROPOSITURAS, FONTE_ALESP_VERBA, fonteCota, fonteFederal } from "./deputados";
 
 export type Fonte = {
   id: string;
@@ -197,6 +198,51 @@ function geradas(): Fonte[] {
       consultado: dadosTce().coletadoEm,
     });
   }
+  // Câmara dos Deputados e Assembleia Legislativa: dados abertos de cada deputado ligado a Osasco.
+  const fed = dadosCamaraFederal();
+  for (const d of fed.deputados) {
+    lista.push({
+      id: fonteFederal(d),
+      titulo: `${d.nome}: mandatos, comissões e outros órgãos, proposições de autoria e frentes parlamentares`,
+      autor: "Câmara dos Deputados, Dados Abertos",
+      url: `https://www.camara.leg.br/deputados/${d.id}`,
+      consultado: fed.coletadoEm,
+      nota: "Lido nos dados abertos da Câmara (https://dadosabertos.camara.leg.br): histórico do mandato, comissões e outros órgãos, frentes parlamentares e proposições em que aparece entre os autores, ano a ano.",
+    });
+    lista.push({
+      id: fonteCota(d),
+      titulo: `${d.nome}: despesas da Cota para o Exercício da Atividade Parlamentar`,
+      autor: "Câmara dos Deputados, Dados Abertos",
+      url: "https://www.camara.leg.br/transparencia/gastos-parlamentares",
+      consultado: fed.coletadoEm,
+      nota: "Soma, por ano e por tipo de despesa, do valor de cada documento menos a parte não reembolsada (glosa). A Câmara publica a cota desde 2008.",
+    });
+  }
+  const est = dadosAlesp();
+  lista.push({
+    id: FONTE_ALESP_PROPOSITURAS,
+    titulo: "Proposituras e autores das proposituras (arquivos proposituras e autores)",
+    autor: "Assembleia Legislativa do Estado de São Paulo, Dados Abertos",
+    url: "https://dadosabertos.al.sp.gov.br/dataset/proposituras",
+    consultado: est.coletadoEm,
+    nota: "Tipo, número, ano, data de publicação e ementa de cada propositura, com quem a assina como autor. O arquivo de autores está em https://dadosabertos.al.sp.gov.br/dataset/autores.",
+  });
+  lista.push({
+    id: FONTE_ALESP_VERBA,
+    titulo: "Despesas de gabinete dos deputados (arquivo despesas)",
+    autor: "Assembleia Legislativa do Estado de São Paulo, Dados Abertos",
+    url: "https://dadosabertos.al.sp.gov.br/dataset/despesas-de-gabinete",
+    consultado: est.coletadoEm,
+    nota: "Soma, por ano e por tipo de despesa, dos valores declarados de verba de gabinete. A Assembleia publica desde 2002.",
+  });
+  lista.push({
+    id: FONTE_ALESP_COMISSOES,
+    titulo: "Membros das comissões permanentes e comissões permanentes (arquivos membros-comissoes e comissoes_permanentes)",
+    autor: "Assembleia Legislativa do Estado de São Paulo, Dados Abertos",
+    url: "https://dadosabertos.al.sp.gov.br/dataset/membros-de-comissoes-permanentes",
+    consultado: est.coletadoEm,
+    nota: "Só a composição atual das comissões.",
+  });
   // Imagens: cada uma é citada na legenda, como na Wikipédia.
   for (const { id, img: i } of fontesDeImagens())
     lista.push({

@@ -1,6 +1,7 @@
 // Modelo do arquivo: pessoas, partidos, eleições e legislaturas, juntando os dados do TSE (dados/) com as páginas
 // escritas à mão (conteudo/). Tudo é calculado na hora de montar o site.
 import tse from "../../dados/tse.json";
+import { dadosAlesp, dadosCamaraFederal } from "./deputados";
 import partidosTse from "../../dados/partidos-tse.json";
 import registro from "../../dados/partidos-tse-registro.json";
 import { escrita, escritas } from "./conteudo";
@@ -215,8 +216,10 @@ const naCamara = new Set([
   ...pessoasConvocadas(),
   ...EXERCERAM.map((e) => e.pessoa),
 ]);
+// Quem disputou eleição em Osasco e exerceu mandato de deputado (Câmara dos Deputados ou Assembleia) também tem página.
+const deputados = new Set([...dadosCamaraFederal().deputados, ...dadosAlesp().deputados].map((d) => d.pessoa));
 const temPagina = (p: PessoaTse) =>
-  !!p.urna && (naCamara.has(p.id) || p.candidaturas.some((c) => emOsasco(c) && (venceu(c) || c.cargo !== "Vereador")));
+  !!p.urna && (naCamara.has(p.id) || deputados.has(p.id) || p.candidaturas.some((c) => emOsasco(c) && (venceu(c) || c.cargo !== "Vereador")));
 
 let _pessoas: Map<string, Pessoa> | null = null;
 export function pessoas(): Map<string, Pessoa> {

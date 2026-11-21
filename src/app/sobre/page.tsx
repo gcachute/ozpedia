@@ -63,6 +63,15 @@ export default function Sobre() {
           titular.
         </li>
         <li>
+          <strong>Deputados federais e estaduais:</strong> para quem disputou eleição em Osasco ou governou a cidade e exerceu mandato na Câmara dos
+          Deputados ou na Assembleia Legislativa de São Paulo, os dados abertos de cada casa. Da Câmara dos Deputados: legislaturas, posses, licenças e
+          renúncias, comissões e outros órgãos, proposições em que a pessoa consta entre os autores, frentes parlamentares e a cota parlamentar (publicada
+          desde 2008). Da Assembleia: proposituras de autoria (projetos, indicações, moções, requerimentos), a verba de gabinete (publicada desde 2002) e
+          a composição atual das comissões permanentes. Os projetos e propostas são listados um a um; os demais tipos entram na contagem e, quando a ementa
+          cita Osasco, na lista do que cita Osasco. Os gastos aparecem somados por ano e por tipo de despesa, sem o nome de quem recebeu. A Câmara dos
+          Deputados registra pouco antes de 1999 (as comissões aparecem de 1999 em diante), e a Assembleia não publica as datas dos mandatos.
+        </li>
+        <li>
           <strong>O que vem antes de 1996 e os textos das páginas:</strong> escritos à mão, frase a frase, com documentos oficiais, leis, publicações e
           jornais citados como fonte.
         </li>

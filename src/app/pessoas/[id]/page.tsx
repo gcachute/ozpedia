@@ -15,6 +15,8 @@ import { Autoria as AutoriaLei } from "@/components/camara";
 import { imagemDe, imagemPagina } from "@/lib/imagens";
 import { comArtigo, instituicao, ordemCargo } from "@/lib/cargos";
 import { fonteTce, julgamentosTcePessoa } from "@/lib/tce";
+import { deputadoEstadual, deputadoFederal } from "@/lib/deputados";
+import { NaAssembleia, NaCamaraDosDeputados } from "@/components/deputados";
 import { markdown } from "@/lib/markdown";
 import { dataCurta, dataPorExtenso, listaE, nomeProprio, numero, slugify } from "@/lib/texto";
 import { campanha2024, detalhe, lugar, minusculas, reais, semPrefixo, siglasDaComposicao } from "@/lib/detalhes";
@@ -221,6 +223,9 @@ export default async function PaginaPessoa({ params }: Props) {
   const homenagens = homenagensA(id);
   // ---------- Julgamentos do Tribunal de Contas em que aparece como responsável ou parte ----------
   const tce = julgamentosTcePessoa(id);
+  // ---------- Câmara dos Deputados e Assembleia Legislativa (dados abertos de cada casa) ----------
+  const depFederal = deputadoFederal(id);
+  const depEstadual = deputadoEstadual(id);
   const tcePorAno = [...tce.reduce((m, j) => m.set(j.data.slice(0, 4), (m.get(j.data.slice(0, 4)) ?? 0) + 1), new Map<string, number>())].sort();
   // Páginas de fatos que citam a pessoa (link no texto ou na lista de páginas relacionadas).
   const fatos = escritas("fatos").filter(
@@ -236,7 +241,7 @@ export default async function PaginaPessoa({ params }: Props) {
   const anos = [...new Set(cs.map((c) => c.ano))];
   // Marca "Poucas informações": sem texto escrito (ou com texto curto) e sem nenhum registro além das candidaturas e dos mandatos.
   const registros =
-    leis.length + vetos.length + projetos.length + leisAutoria.length + vetados.length + leisAssinadas.length + tce.length + homenagens.length + fatos.length;
+    leis.length + vetos.length + projetos.length + leisAutoria.length + vetados.length + leisAssinadas.length + tce.length + homenagens.length + fatos.length + (depFederal ? 1 : 0) + (depEstadual ? 1 : 0);
   const poucaInformacao = (e?.corpo?.trim().length ?? 0) < 1000 && registros === 0;
   const siglas = [...new Set(porPartido.map((x) => { const pt = partidoDe(x.sigla, x.ano); return pt ? siglaExibida(pt) : x.sigla; }))];
   const derrotas = cs.filter((c) => !venceu(c)).length;
@@ -477,6 +482,9 @@ export default async function PaginaPessoa({ params }: Props) {
           )}
         </Secao>
       )}
+
+      {depEstadual && <NaAssembleia d={depEstadual} refs={refs} />}
+      {depFederal && <NaCamaraDosDeputados d={depFederal} refs={refs} />}
 
       {tce.length > 0 && (
         <Secao titulo="Julgamentos do Tribunal de Contas">

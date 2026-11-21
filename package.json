@@ -14,7 +14,9 @@
     "importar:convocacoes": "node scripts/importar-convocacoes-iomo.mjs",
     "importar:sancoes": "node scripts/importar-sancoes-camara.mjs",
     "gerar:graficos": "node scripts/gerar-graficos-camara.mjs",
-    "importar:decretos": "node scripts/importar-decretos-iomo.mjs"
+    "importar:decretos": "node scripts/importar-decretos-iomo.mjs",
+    "importar:deputados": "node scripts/importar-deputados-camara.mjs",
+    "importar:alesp": "node --max-old-space-size=4096 scripts/importar-deputados-alesp.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
